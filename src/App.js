@@ -127,7 +127,24 @@ class App extends Component {
     frDisciplinarian: "Other",
     frDisciplinarianOtherDesc: "Grandmother",
     frAgreeDiscipline: "Yes",
-    frDisciplineTechniques: "Tough love"
+    frDisciplineTechniques: "Tough love",
+    mdhPlannedPregnancy: "Yes",
+    mdhDrCare: "Yes",
+    mdhTotalPregnancies: "2",
+    mdhPregnancyDifficultConception: true,
+    mdhPregnancyToxemia: true,
+    mdhPregnancyWeightGain: true,
+    mdhPregnancyVomiting: true,
+    mdhPregnancyGermanMeasels: true,
+    mdhPregnancySwelling: true,
+    mdhPregnancyEmotional: true,
+    mdhPregnancyVaginalBleeding: true,
+    mdhPregnancyFlu: true,
+    mdhPregnancyAnemia: true,
+    mdhPregnancyBloodPressure: true,
+    mdhPregnancyInjury: true,
+    mdhOtherComplication: true,
+    mdhOtherComplicationDescription: "Lots of frosted cake"
   };
 
   //Whenever the input changes, update the destructured state parameter matching the input's name
