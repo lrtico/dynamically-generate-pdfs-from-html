@@ -89,7 +89,114 @@ module.exports = ({
   frDisciplinarian,
   frDisciplinarianOtherDesc,
   frAgreeDiscipline,
-  frDisciplineTechniques
+  frDisciplineTechniques,
+  mdhPlannedPregnancy,
+  mdhDrCare,
+  mdhTotalPregnancies,
+  mdhPregnancyDifficultConception,
+  mdhPregnancyToxemia,
+  mdhPregnancyWeightGain,
+  mdhPregnancyVomiting,
+  mdhPregnancyGermanMeasels,
+  mdhPregnancySwelling,
+  mdhPregnancyEmotional,
+  mdhPregnancyVaginalBleeding,
+  mdhPregnancyFlu,
+  mdhPregnancyAnemia,
+  mdhPregnancyBloodPressure,
+  mdhPregnancyInjury,
+  mdhOtherComplication,
+  mdhOtherComplicationDescription,
+  mdhMothersAge,
+  mdhFathersAge,
+  mdhMothersAgeFirstChild,
+  mdhHospitalBirth,
+  mdhBirthLocation,
+  mdhPregnancyLength,
+  mdhBirthWeight,
+  mdhLaborLength,
+  mdhApgarScore,
+  mdhBirthConditionChild,
+  mdhBirthConditionMother,
+  mdhForceps,
+  mdhBreech,
+  mdhInduced,
+  mdhCeasarean,
+  mdhDeliveryComplications,
+  mdhIncubator,
+  mdhJaundiced,
+  mdhBreathingProblems,
+  mdhSupplementalOxygen,
+  mdhAnesthesia,
+  mdhMotherLengthHospital,
+  mdhChildLengthHospital,
+  mdhTurnOverMonths,
+  mdhTurnOverYear,
+  mdhWalkDownStairsMonths,
+  mdhWalkDownStairsYear,
+  mdhSitAloneMonths,
+  mdhSitAloneYear,
+  mdhAttractedSoundMonths,
+  mdhAttractedSoundYear,
+  mdhCrawlMonths,
+  mdhCrawlYear,
+  mdhUnderstandWordsMonths,
+  mdhUnderstandWordsYear,
+  mdhStandAloneMonths,
+  mdhStandAloneYear,
+  mdhSpeakFirstWordsMonths,
+  mdhSpeakFirstWordsYear,
+  mdhWalkAloneMonths,
+  mdhWalkAloneYear,
+  mdhSpeakSentencesMonths,
+  mdhSpeakSentencesYear,
+  mdhWalkUpStairsMonths,
+  mdhWalkUpStairsYear,
+  mdhBreastFed,
+  mdhBreastFedWeaned,
+  mdhBottleFed,
+  mdhBottleFedWeaned,
+  mdhToiletTrainedDay,
+  mdhToiletTrainedNight,
+  mdhBedWetting,
+  mdhBedWettingStop,
+  mdhBedSoiling,
+  mdhBedSoilingStop,
+  mdhBedWettingMedicalReasons,
+  mdhBedWettingMedicalReasonsDescription,
+  mdhWalkingDifficulty,
+  mdhWalkingDifficultyDescription,
+  mdhUnclearSpeech,
+  mdhUnclearSpeechDescription,
+  mdhFeedingProblem,
+  mdhFeedingProblemDescription,
+  mdhUnderweightProblem,
+  mdhUnderweightProblemDescription,
+  mdhOverweightProblem,
+  mdhOverweightProblemDescription,
+  mdhColic,
+  mdhColicDescription,
+  mdhSleepProblem,
+  mdhSleepProblemDescription,
+  mdhEatingProblem,
+  mdhEatingProblemDescription,
+  mdhLearningRideBike,
+  mdhLearningRideBikeDescription,
+  mdhLearningSkip,
+  mdhLearningSkipDescription,
+  mdhLearningThrowCatch,
+  mdhLearningThrowCatchDescription,
+  mdhMotorSkillsFirstFour,
+  mdhMotorSkillsFirstFourDescription,
+  mdhTemperTantrum,
+  mdhTemperTantrumDescription,
+  mdhNoThriveFirstFour,
+  mdhNoThriveFirstFourDescription,
+  mdhSeparationAnxiety,
+  mdhSeparationAnxietyDescription,
+  mdhExcessiveCrying,
+  mdhExcessiveCryingDescription,
+  mdhChangeWritingHand
 }) => {
   return `
     <!doctype html>
@@ -192,8 +299,9 @@ module.exports = ({
               .pdf-t main section ul {
                 flex: 1 1 100%;
                 margin: 0;
-                padding: 0 0 0 12px;
                 list-style: none;
+                padding: 0 0 0 12px;
+                width: 100%;
               }
               .pdf-t main section ul li {
                 font-size: 10pt;
@@ -201,10 +309,14 @@ module.exports = ({
                 line-height: 12pt;
                 margin-bottom: 6pt;
                 margin-left: 0.125in;
+                margin-right: 0;
                 position: relative;
+                width: 100%;
               }
               .pdf-t main section ul li p {
                 font-size: 10pt;
+                margin-left: 0;
+                margin-right: 0;
               }
               .pdf-t main section ul li em {
                 font-weight: 400;
@@ -1009,6 +1121,595 @@ module.exports = ({
                 </tr>
               </table>
             </section>
+
+            <section>
+              <h2>Medical & Development History</h2>
+              <h3>Pregnancy</h3>
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <div>
+                      <p>Was this child a planned pregnancy? <span>${mdhPlannedPregnancy}</span></p>
+                      <p>Was the mother under doctor’s care? <span>${mdhDrCare}</span></p>
+                      <p>The number of previous pregnancies/miscarriages? <span>${mdhTotalPregnancies}</span></p>
+                      <p>Complications that occurred during pregnancy:</p>
+                      <ul>
+                        ${
+                          mdhPregnancyDifficultConception === true
+                            ? `<li>Difficulty in conception</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancyToxemia === true ? `<li>Toxemia</li>` : ""
+                        }
+                        ${
+                          mdhPregnancyWeightGain === true
+                            ? `<li>Abnormal weight gain</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancyVomiting === true
+                            ? `<li>Excessive vomiting</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancyGermanMeasels === true
+                            ? `<li>German measels</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancySwelling === true
+                            ? `<li>Excessive swelling</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancyEmotional === true
+                            ? `<li>Emotional problems</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancyVaginalBleeding === true
+                            ? `<li>Vaginal bleeding</li>`
+                            : ""
+                        }
+                        ${mdhPregnancyFlu === true ? `<li>Flu</li>` : ""}
+                        ${mdhPregnancyAnemia === true ? `<li>Anemia</li>` : ""}
+                        ${
+                          mdhPregnancyBloodPressure === true
+                            ? `<li>High blood pressure</li>`
+                            : ""
+                        }
+                        ${
+                          mdhPregnancyInjury === true
+                            ? `<li>Maternal injury</li>`
+                            : ""
+                        }
+                        ${
+                          mdhOtherComplication === true
+                            ? `<li>${mdhOtherComplicationDescription}</li>`
+                            : ""
+                        }
+                      </ul>
+                      
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </section>
+
+            <section>
+              <h3>Birth</h3>
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <div>
+                      <p>At this child’s birth, what was the mother’s age? <span>${mdhMothersAge}</span></p>
+                      <p>Father’s? <span>${mdhFathersAge}</span></p>
+                      <p>Mother’s age at birth of first child: <span>${mdhMothersAgeFirstChild}</span></p>
+                      <p>Was this child born in a hospital? <span>${mdhHospitalBirth}</span></p>
+                      ${
+                        mdhHospitalBirth === "No"
+                          ? `<p>Was this child born in a hospital? <span>${mdhBirthLocation}</span></p>`
+                          : ""
+                      }
+                      <p>Length of pregnancy: <span>${mdhPregnancyLength}</span></p>
+                      <p>Birth weight: <span>${mdhBirthWeight}</span></p>
+                      <p>Length of labor: <span>${mdhLaborLength}</span></p>
+                      <p>Apgar score: <span>${mdhApgarScore}</span></p>
+                      <p>Child’s condition at birth: <span>${mdhBirthConditionChild}</span></p>  
+                      <p>Mother’s condition at birth: <span>${mdhBirthConditionMother}</span></p>  
+                      <p>Complications that occurred during birth:</p>
+                      <ul>
+                        ${mdhForceps === true ? `<li>Forceps</li>` : ""}
+                        ${mdhBreech === true ? `<li>Breech</li>` : ""}
+                        ${mdhInduced === true ? `<li>Induced</li>` : ""}
+                        ${mdhCeasarean === true ? `<li>Ceasarean</li>` : ""}
+                      </ul>
+                      <p>Other deliver complications: <span>${mdhDeliveryComplications}</span></p>  
+                      <p>Incubator: <span>${mdhIncubator}</span></p>  
+                      <p>Jaundiced: <span>${mdhJaundiced}</span></p>  
+                      <p>Breathing problems right after birth? <span>${mdhBreathingProblems}</span></p>  
+                      <p>Supplemental oxygen? <span>${mdhSupplementalOxygen}</span></p>  
+                      <p>Was anesthesia used during delivery? If so, what kind? <span>${mdhAnesthesia}</span></p>  
+                      <p>Mother's length of hospital stay? <span>${mdhMotherLengthHospital}</span></p>  
+                      <p>Child's length of hospital stay? <span>${mdhChildLengthHospital}</span></p>  
+                    </div>
+                    
+                  </td>
+                </tr>
+              </table>
+            </section>
+
+            <section>
+              <h2>Development</h2>
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <div>
+                      <p>At what age did this child first do the following?</p>  
+                      <ul>
+                        ${
+                          mdhTurnOverMonths !== null || mdhTurnOverYear !== null
+                            ? `<li><p>Turn over:<em> ${
+                                mdhTurnOverMonths !== null
+                                  ? `<span>${mdhTurnOverMonths} ${
+                                      mdhTurnOverMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhTurnOverYear !== null
+                                  ? ` <span>${mdhTurnOverYear} ${
+                                      mdhTurnOverYear === "1" ? `year` : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhWalkDownStairsMonths !== null ||
+                          mdhWalkDownStairsYear !== null
+                            ? `<li><p>Walk down stairs:<em> ${
+                                mdhWalkDownStairsMonths !== null
+                                  ? `<span>${mdhWalkDownStairsMonths} ${
+                                      mdhWalkDownStairsMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhWalkDownStairsYear !== null
+                                  ? ` <span>${mdhWalkDownStairsYear} ${
+                                      mdhWalkDownStairsYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhSitAloneMonths !== null || mdhSitAloneYear !== null
+                            ? `<li><p>Sit alone:<em> ${
+                                mdhSitAloneMonths !== null
+                                  ? `<span>${mdhSitAloneMonths} ${
+                                      mdhSitAloneMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhSitAloneYear !== null
+                                  ? ` <span>${mdhSitAloneYear} ${
+                                      mdhSitAloneYear === "1" ? `year` : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhAttractedSoundMonths !== null ||
+                          mdhAttractedSoundYear !== null
+                            ? `<li><p>Show interest in or attraction to sound:<em> ${
+                                mdhAttractedSoundMonths !== null
+                                  ? `<span>${mdhAttractedSoundMonths} ${
+                                      mdhAttractedSoundMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhAttractedSoundYear !== null
+                                  ? ` <span>${mdhAttractedSoundYear} ${
+                                      mdhAttractedSoundYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhCrawlMonths !== null || mdhCrawlYear !== null
+                            ? `<li><p>Crawl:<em> ${
+                                mdhCrawlMonths !== null
+                                  ? `<span>${mdhCrawlMonths} ${
+                                      mdhCrawlMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhCrawlYear !== null
+                                  ? ` <span>${mdhCrawlYear} ${
+                                      mdhCrawlYear === "1" ? `year` : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhUnderstandWordsMonths !== null ||
+                          mdhUnderstandWordsYear !== null
+                            ? `<li><p>Understand first words:<em> ${
+                                mdhUnderstandWordsMonths !== null
+                                  ? `<span>${mdhUnderstandWordsMonths} ${
+                                      mdhUnderstandWordsMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhUnderstandWordsYear !== null
+                                  ? ` <span>${mdhUnderstandWordsYear} ${
+                                      mdhUnderstandWordsYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhStandAloneMonths !== null ||
+                          mdhStandAloneYear !== null
+                            ? `<li><p>Stand alone:<em> ${
+                                mdhStandAloneMonths !== null
+                                  ? `<span>${mdhStandAloneMonths} ${
+                                      mdhStandAloneMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhStandAloneYear !== null
+                                  ? ` <span>${mdhStandAloneYear} ${
+                                      mdhStandAloneYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhSpeakFirstWordsMonths !== null ||
+                          mdhSpeakFirstWordsYear !== null
+                            ? `<li><p>Speak first words:<em> ${
+                                mdhSpeakFirstWordsMonths !== null
+                                  ? `<span>${mdhSpeakFirstWordsMonths} ${
+                                      mdhSpeakFirstWordsMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhSpeakFirstWordsYear !== null
+                                  ? ` <span>${mdhSpeakFirstWordsYear} ${
+                                      mdhSpeakFirstWordsYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhWalkAloneMonths !== null ||
+                          mdhWalkAloneYear !== null
+                            ? `<li><p>Walk alone:<em> ${
+                                mdhWalkAloneMonths !== null
+                                  ? `<span>${mdhWalkAloneMonths} ${
+                                      mdhWalkAloneMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhWalkAloneYear !== null
+                                  ? ` <span>${mdhWalkAloneYear} ${
+                                      mdhWalkAloneYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhSpeakSentencesMonths !== null ||
+                          mdhSpeakSentencesYear !== null
+                            ? `<li><p>Speak in sentences:<em> ${
+                                mdhSpeakSentencesMonths !== null
+                                  ? `<span>${mdhSpeakSentencesMonths} ${
+                                      mdhSpeakSentencesMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhSpeakSentencesYear !== null
+                                  ? ` <span>${mdhSpeakSentencesYear} ${
+                                      mdhSpeakSentencesYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                        ${
+                          mdhWalkUpStairsMonths !== null ||
+                          mdhWalkUpStairsYear !== null
+                            ? `<li><p>Walk up stairs:<em> ${
+                                mdhWalkUpStairsMonths !== null
+                                  ? `<span>${mdhWalkUpStairsMonths} ${
+                                      mdhWalkUpStairsMonths === "1"
+                                        ? `month`
+                                        : `months`
+                                    }</span>`
+                                  : ""
+                              } ${
+                                mdhWalkUpStairsYear !== null
+                                  ? ` <span>${mdhWalkUpStairsYear} ${
+                                      mdhWalkUpStairsYear === "1"
+                                        ? `year`
+                                        : `years`
+                                    }</span>`
+                                  : ""
+                              }</em></p></li>`
+                            : ""
+                        }
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </section>
+
+            <section>
+              <h3>Early Years</h3>
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <div>
+                      <p>Was this child breast-fed? <span>${mdhBreastFed}</span></p>
+                      <p>When weaned? <span>${mdhBreastFedWeaned}</span></p>
+                      <p>Was this child bottle-fed? <span>${mdhBottleFed}</span></p>
+                      <p>When weaned? <span>${mdhBottleFedWeaned}</span></p>
+                      <p>When was this child toilet trained?</p>
+                      <ul>
+                      ${
+                        mdhToiletTrainedDay !== null
+                          ? `<li><p>Days: <span>${mdhToiletTrainedDay}</span></p></li>`
+                          : ""
+                      }
+                      ${
+                        mdhToiletTrainedNight !== null
+                          ? `<li><p>Nights: <span>${mdhToiletTrainedNight}</span></p></li>`
+                          : ""
+                      }
+                      </ul>
+                      <p>Did bed-wetting occur after toilet training? <span>${mdhBedWetting}</span></p>  
+                      ${
+                        mdhBedWetting === "Yes"
+                          ? `
+                              <p>If yes, until what age? <span>${mdhBedWettingStop}</span></p>
+                            `
+                          : ""
+                      }
+                      <p>Did bed-soiling occur? <span>${mdhBedSoiling}</span></p>  
+                      ${
+                        mdhBedSoiling === "Yes"
+                          ? `
+                              <p>If yes, until what age? <span>${mdhBedSoilingStop}</span></p>
+                            `
+                          : ""
+                      }
+                      <p>Were there medical reasons for bed-wetting or bed-soiling? <span>${mdhBedWettingMedicalReasons}</span></p>  
+                      ${
+                        mdhBedWettingMedicalReasons === "Yes"
+                          ? `
+                              <p>If yes, please describe: <span>${mdhBedWettingMedicalReasonsDescription}</span></p>
+                            `
+                          : ""
+                      }
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </section>
+
+            ${
+              mdhWalkingDifficulty === true
+                ? `<section>
+                  <h3>Developmental</h3>
+                  <table cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                        <div>
+                          <p>${diName} experienced the following problems:</p>  
+                          <ul>
+                            ${
+                              mdhWalkingDifficulty === true
+                                ? `<li><p>Walking difficulty${
+                                    mdhWalkingDifficultyDescription !== null
+                                      ? `: <span>${mdhWalkingDifficultyDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhUnclearSpeech === true
+                                ? `<li><p>Unclear speech${
+                                    mdhUnclearSpeechDescription !== null
+                                      ? `: <span>${mdhUnclearSpeechDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhFeedingProblem === true
+                                ? `<li><p>Feeding problem${
+                                    mdhFeedingProblemDescription !== null
+                                      ? `: <span>${mdhFeedingProblemDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhUnderweightProblem === true
+                                ? `<li><p>Underweight problem${
+                                    mdhUnderweightProblemDescription !== null
+                                      ? `: <span>${mdhUnderweightProblemDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhOverweightProblem === true
+                                ? `<li><p>Overweight problem${
+                                    mdhOverweightProblemDescription !== null
+                                      ? `: <span>${mdhOverweightProblemDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhColic === true
+                                ? `<li><p>Colic${
+                                    mdhColicDescription !== null
+                                      ? `: <span>${mdhColicDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhSleepProblem === true
+                                ? `<li><p>Sleep problem${
+                                    mdhSleepProblemDescription !== null
+                                      ? `: <span>${mdhSleepProblemDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhEatingProblem === true
+                                ? `<li><p>Eating problem${
+                                    mdhEatingProblemDescription !== null
+                                      ? `: <span>${mdhEatingProblemDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhLearningRideBike === true
+                                ? `<li><p>Difficulty learning to ride a bike${
+                                    mdhLearningRideBikeDescription !== null
+                                      ? `: <span>${mdhLearningRideBikeDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhLearningSkip === true
+                                ? `<li><p>Difficulty learning how to skip${
+                                    mdhLearningSkipDescription !== null
+                                      ? `: <span>${mdhLearningSkipDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhLearningThrowCatch === true
+                                ? `<li><p>Difficulty learning to throw or catch${
+                                    mdhLearningThrowCatchDescription !== null
+                                      ? `: <span>${mdhLearningThrowCatchDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhMotorSkillsFirstFour === true
+                                ? `<li><p>Motor skills${
+                                    mdhMotorSkillsFirstFourDescription !== null
+                                      ? `: <span>${mdhMotorSkillsFirstFourDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhTemperTantrum === true
+                                ? `<li><p>Temper tantrums${
+                                    mdhTemperTantrumDescription !== null
+                                      ? `: <span>${mdhTemperTantrumDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhNoThriveFirstFour === true
+                                ? `<li><p>Failure to thrive${
+                                    mdhNoThriveFirstFourDescription !== null
+                                      ? `: <span>${mdhNoThriveFirstFourDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhSeparationAnxiety === true
+                                ? `<li><p>Separating from parents${
+                                    mdhSeparationAnxietyDescription !== null
+                                      ? `: <span>${mdhSeparationAnxietyDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                            ${
+                              mdhExcessiveCrying === true
+                                ? `<li><p>Excessive crying${
+                                    mdhExcessiveCryingDescription !== null
+                                      ? `: <span>${mdhExcessiveCryingDescription}</span></p></li>`
+                                      : ""
+                                  }`
+                                : ""
+                            }
+                          </ul>
+                          ${
+                            mdhChangeWritingHand !== null
+                              ? `<p>Has this child ever been forced to change writing hand? <span>${mdhChangeWritingHand}</span></p>`
+                              : ""
+                          }
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </section>`
+                : ""
+            }
+            
+
           </main>
          </body>
       </html>
