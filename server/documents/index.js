@@ -475,6 +475,80 @@ module.exports = ({
   Rorschach,
   TSCC,
   t59EarlyYearsCore,
+  t1SimilaritiesScore,
+  t2VocabularyScore,
+  t3InformationScore,
+  t4ComprehensionScore,
+  t5BlockDesignScore,
+  t6VocabularyScore,
+  t14CodingScore,
+  t15SymbolSearchScore,
+  t16CancellationScore,
+  t7MatrixReasoningScore,
+  t8FigureWeightsScore,
+  t9PictureConceptsScore,
+  t10ArithmeticScore,
+  t11DigitSpanScore,
+  t12PictureSpanScore,
+  t13LetterNumberSequencingScore,
+  t73NamingSpeedLiteracyScore,
+  t74NamingSpeedQualityScore,
+  t77RecognitionSymbolTranslationScore,
+  t75ImmediateSymbolTranslationScore,
+  t76DelayedSymbolTranslationScore,
+  t30NelsonDennyStandardScore,
+  t30NelsonDennyPercentile,
+  t30NelsonDennyGradeEquivalent,
+  t31NelsonDennyStandardScore,
+  t31NelsonDennyPercentile,
+  t31NelsonDennyGradeEquivalent,
+  t46QikCptAccuracyIndex,
+  t46QikCptSustainedAttention,
+  t46QikCptImpulseControl,
+  t46QikCptPerformanceIndex,
+  t46QikCptSpeedOfResponse,
+  t46QikCptConsistencyOfResponse,
+  t78InconsistencyScaleScore,
+  t79NegativityScaleScore,
+  t82InhibitScore,
+  t83ShiftScore,
+  t84EmotionalControlScore,
+  t85InitiateScore,
+  t86WorkingMemoryScore,
+  t87PlanOrganizeScore,
+  t88OrganizationOfMaterialsScore,
+  t89MonitorScore,
+  t90InhibitScore,
+  t91ShiftScore,
+  t92EmotionalControlScore,
+  t93InitiateScore,
+  t94WorkingMemoryScore,
+  t95PlanOrganizeScore,
+  t96OrganizationOfMaterialsScore,
+  t97MonitorScore,
+  t98RelatingToPeopleScore,
+  t99ImitationScore,
+  t100EmotionalResponseScore,
+  t101BodyUseScore,
+  t102ObjectUseScore,
+  t103AdaptionToChangeScore,
+  t104VisualResponseScore,
+  t105ListeningResponseScore,
+  t106TasteSmellAndTouchResponseAndUseSctore,
+  t107FearOrNervousnessScore,
+  t108VerbalCommunicationScore,
+  t109NonverbalCommunicationScore,
+  t110ActivityLevelScore,
+  t111LevelAndConsistencyOfIntellectualRestponseScore,
+  t112GeneralImpressionsScore,
+  t113SocialEmotionalUnderstandingScore,
+  t114EmotionalExpressionAndRegulationOfEmtotionsScore,
+  t115RelatingToPeopleScore,
+  t116BodyUseScore,
+  t117ObjectUseInPlayScore,
+  t118VisualResponseScore,
+  t119ListeningResponseScore,
+  t646AdaptationToChangeRestrictedInterestsScore,
   t120InattentionScore,
   t121HyperactivityImpulsivityScore,
   t122LearningProblemsScore,
@@ -528,6 +602,84 @@ module.exports = ({
   t169PositiveImpressionScore,
   t170NegativeImpressionScore,
   t171InconsistencyIndexScore,
+  t172PictorialAnalogiesScore,
+  t173GeometricAnalogiesScore,
+  t174PictorialCategoriesScore,
+  t175GeometricCategoriesScore,
+  t176PictorialSequencesScore,
+  t177GeometricSequencesScore,
+  t178PictorialScaleScore,
+  t179GeometricScaleScore,
+  t180FullScaleScore,
+  t181VerbalComprehensionScore,
+  t182PictureSimilaritiesScore,
+  t183NamingVocabularyScore,
+  t184RecallOfObjectsImmediateScore,
+  t185PatternConstructionScore,
+  t186MatricesScore,
+  t187RecallOfObjectsDelayedScore,
+  t188CopyingScore,
+  t189RecallOfDesignsScore,
+  t190WordDefinitionsScore,
+  t191RecallOfObjectsImmediateScore,
+  t192PatternConstructionScore,
+  t193MatricesScore,
+  t194RecallOfObjectsDelayedScore,
+  t195VerbalSimilaritiesScore,
+  t196SequentialAndQuantitativeReasoningScore,
+  t197RecallOfDigitsForwardScore,
+  t198RecognitionOfPicturesScore,
+  t199EarlyNumberConceptsScore,
+  t200MatchingLetterLikeFormsScore,
+  t201RecallOfSequentialOrderScore,
+  t202SpeedOfInformationProcessingScore,
+  t203RecallOfDigitsBackwardScore,
+  t204PhonologicalProcessingScore,
+  t205RapidNamingScore,
+  t206TrailMakingTestScore,
+  t207VerbalFluencyTestScore,
+  t208DesignFluencyTestScore,
+  t209ColorWordInterferenceTestScore,
+  t210SortingTestScore,
+  t211TwentyQuestionsTestScore,
+  t212WordContextTestScore,
+  t213TowerTestScore,
+  t214ProverbTestScore,
+  t215RestrictiveRepetitiveBehaviorsScore,
+  t216SocialInteractionScore,
+  t217SocialCommunicationScore,
+  t218EmotionalResponsesScore,
+  t219CognitiveStyleScore,
+  t220MaladaptiveSpeechScore,
+  t221ListLearningScore,
+  t222StoryMemoryScore,
+  t223FigureCopyScore,
+  t224LineOrientationScore,
+  t225PictureNamingScore,
+  t226SemanticFluencyScore,
+  t227DigitSpanScore,
+  t228CodingScore,
+  t229ListRecallScore,
+  t230ListRecognitionScore,
+  t231StoryRecallScore,
+  t232FigureRecallScore,
+  t233ReceptiveScore,
+  t234ExpressiveScore,
+  t235WrittenScore,
+  t236PersonalScore,
+  t237DomesticScore,
+  t238CommunityScore,
+  t239InterpersonalRelationshipsScore,
+  t240PlayAndLeisureTimeScore,
+  t241CopingSkillsScore,
+  t242GrossScore,
+  t243FineScore,
+  t244MaladaptiveBehaviorIndexScore,
+  t245MaladaptiveBehaviorCriticalItemsScore,
+  t246SimilaritiesScore,
+  t247VocabularyScore,
+  t248BlockDesignScore,
+  t249MatrixReasoningScore,
   t250ListeningComprehensionGradesPk12Score,
   t251EarlyReadingSkillsGradesPk3Score,
   t252ReadingComprehensionGrades112Score,
@@ -544,14 +696,362 @@ module.exports = ({
   t263MathFluencyAdditionScore,
   t264MathFluencySubtractionScore,
   t265MathFluencyMultiplicationScore,
-  t4WiatiiiSummaryAbilities,
-  t4WiatiiiSummaryChallenges,
-  t30NelsonDennyStandardScore,
-  t30NelsonDennyPercentile,
-  t30NelsonDennyGradeEquivalent,
-  t31NelsonDennyStandardScore,
-  t31NelsonDennyPercentile,
-  t31NelsonDennyGradeEquivalent,
+  t266StoryMemoryScore,
+  t267VerbalLearningScore,
+  t268DesignMemoryScore,
+  t269PictureMemoryScore,
+  t270FingerWindowsScore,
+  t271NumberLetterScore,
+  t272SentenceMemoryScore,
+  t273SoundSymbolScore,
+  t274VerbalWorkingMemoryScore,
+  t275SymbolicWorkingMemoryScore,
+  t276StoryMemoryDelayRecallScore,
+  t277VerbalLearningDelayRecallScore,
+  t278SoundSymbolDelayRecallScore,
+  t279StoryMemoryRecognitionScore,
+  t280VerbalLearningRecognitionScore,
+  t281DesignMemoryRecognitionScore,
+  t282PictureMemoryRecognitionScore,
+  t283FIndexScore,
+  t284LIndexScore,
+  t285VIndexScore,
+  t286AlcoholAbuseScore,
+  t288AttentionProblemsScore,
+  t289AttitudeToSchoolScore,
+  t287AnxietyScore,
+  t290AttitudeToTeachersScore,
+  t291AtypicalityScore,
+  t292DepressionScore,
+  t293HyperactivityScore,
+  t294LocusOfControlScore,
+  t295SchoolMaladjustmentScore,
+  t298SocialStressScore,
+  t296SensationSeekingScore,
+  t297SenseOfInadequacyScore,
+  t299SomatizationScore,
+  t300InterpersonalRelationsScore,
+  t301RelationsWithParentsScore,
+  t302SelfEsteemScore,
+  t303SelfRelianceScore,
+  t304AngerControlScore,
+  t305EgoStrengthScore,
+  t306ManiaScore,
+  t307TestAnxietyScore,
+  t308AttitudeToSchoolScore,
+  t309AttitudeToTeachersScore,
+  t310AtypicalityScore,
+  t311LocusOfControlScore,
+  t312SocialStressScore,
+  t313AnxietyScore,
+  t314DepressionScore,
+  t315SenseOfInadequacyScore,
+  t316AttentionProblemsScore,
+  t317HyperactivityScore,
+  t318SocialStressScore,
+  t319AnxietyScore,
+  t320DepressionScore,
+  t323SelfRelianceScore,
+  t321SenseOfInadequacyScore,
+  t322SelfEsteemScore,
+  t662SocialStressScore,
+  t664AnxietyScore,
+  t665DepressionScore,
+  t666SenseOfInadequacyScore,
+  t667SelfEsteemScore,
+  t668SelfRelianceScore,
+  t324InterpersonalRelationsScore,
+  t325RelationsWithParentsScore,
+  t327SelfRelianceScore,
+  t326SelfEsteemScore,
+  t328AttitudeToSchoolScore,
+  t329AttitudeToTeachersScore,
+  t330SensationSeekingScore,
+  t331AtypicalityScore,
+  t332LocusOfControlScore,
+  t333SocialStressScore,
+  t334AnxietyScore,
+  t335DepressionScore,
+  t336SenseOfInadequacyScore,
+  t337SomatizationScore,
+  t338AttentionProblemsScore,
+  t339HyperactivityScore,
+  t340SocialStressScore,
+  t341AnxietyScore,
+  t342DepressionScore,
+  t345SelfRelianceScore,
+  t343SenseOfInadequacyScore,
+  t344SelfEsteemScore,
+  t346InterpersonalRelationsScore,
+  t347RelationsWithParentsScore,
+  t349SelfRelianceScore,
+  t348SelfEsteemScore,
+  t350AtypicalityScore,
+  t351LocusOfControlScore,
+  t352SocialStressScore,
+  t353AnxietyScore,
+  t354DepressionScore,
+  t355SenseOfInadequacyScore,
+  t356SomatizationScore,
+  t357AttentionProblemsScore,
+  t358HyperactivityScore,
+  t359SocialStressScore,
+  t360AnxietyScore,
+  t361DepressionScore,
+  t364SelfRelianceScore,
+  t362SenseOfInadequacyScore,
+  t363SelfEsteemScore,
+  t365InterpersonalRelationsScore,
+  t366RelationsWithParentsScore,
+  t368SelfRelianceScore,
+  t367SelfEsteemScore,
+  t369FIndexScore,
+  t370AggressionScore,
+  t372AttentionProblemsScore,
+  t371AnxietyScore,
+  t373AtypicalityScore,
+  t374ConductProblemsScore,
+  t375DepressionScore,
+  t376HyperactivityScore,
+  t377LearningProblemsScore,
+  t378SomatizationScore,
+  t379WithdrawalScore,
+  t380ActivitiesOfDailyLivingScore,
+  t381AdaptabilityScore,
+  t382FunctionalCommunicationScore,
+  t383LeadershipScore,
+  t384SocialSkillsScore,
+  t385StudySkillsScore,
+  t386AngerControlScore,
+  t387BullyingScore,
+  t388DevelopmentalSocialDisordersScore,
+  t389EmotionalSelfControlScore,
+  t390ExecutiveFunctioningScore,
+  t391NegativeEmotionalityScore,
+  t392ResiliencyScore,
+  t393HyperactivityScore,
+  t394AggressionScore,
+  t395AnxietyScore,
+  t396DepressionScore,
+  t397SomatizationScore,
+  t398AdaptabilityScore,
+  t399SocialSkillsScore,
+  t400FunctionalCommunicationScore,
+  t401HyperactivityScore,
+  t402AggressionScore,
+  t403DepressionScore,
+  t404AttentionProblemsScore,
+  t406WithdrawalScore,
+  t405AtypicalityScore,
+  t407HyperactivityScore,
+  t408AggressionScore,
+  t409ConductProblemsScore,
+  t410AnxietyScore,
+  t411DepressionScore,
+  t412SomatizationScore,
+  t413LearningProblemsScore,
+  t414AttentionProblemsScore,
+  t415AdaptabilityScore,
+  t416SocialSkillsScore,
+  t417FunctionalCommunicationScore,
+  t418LeadershipScore,
+  t419StudySkillsScore,
+  t420HyperactivityScore,
+  t421AggressionScore,
+  t422DepressionScore,
+  t423AttentionProblemsScore,
+  t425WithdrawalScore,
+  t424AtypicalityScore,
+  t426HyperactivityScore,
+  t427AggressionScore,
+  t428AnxietyScore,
+  t429DepressionScore,
+  t430SomatizationScore,
+  t431AdaptabilityScore,
+  t432SocialSkillsScore,
+  t433FunctionalCommunicationScore,
+  t434ActivitiesOfDailyLivingScore,
+  t435HyperactivityScore,
+  t436AggressionScore,
+  t437DepressionScore,
+  t438AttentionProblemsScore,
+  t439AtypicalityScore,
+  t440WithdrawalScore,
+  t441HyperactivityScore,
+  t442AggressionScore,
+  t443ConductProblemsScore,
+  t444AnxietyScore,
+  t445DepressionScore,
+  t446SomatizationScore,
+  t447AdaptabilityScore,
+  t448SocialSkillsScore,
+  t449FunctionalCommunicationScore,
+  t450ActivitiesOfDailyLivingScore,
+  t451HyperactivityScore,
+  t452AggressionScore,
+  t453DepressionScore,
+  t454AttentionProblemsScore,
+  t455AtypicalityScore,
+  t456WithdrawalScore,
+  t459InformationScore,
+  t457SimilaritiesScore,
+  t458VocabularyScore,
+  t460ComprehensionScore,
+  t461BlockDesignScore,
+  t462MatrixReasoningScore,
+  t463VisualPuzzlesScore,
+  t464FigureWeightsScore,
+  t465PictureCompletionScore,
+  t466DigitSpanScore,
+  t467ArithmeticScore,
+  t468LetterNumberSequencingScore,
+  t469CodingScore,
+  t470SymbolSearchScore,
+  t471CancellationScore,
+  t472PoorAchievementAndMemoryScore,
+  t473InadequateAbilitiesScore,
+  t474LearningProblemsScore,
+  t475BrashnessScore,
+  t476DistractibilityAndOveractivityScore,
+  t477ImpulsivityScore,
+  t478AntisocialBehaviorScore,
+  t479DyscontrolScore,
+  t480NoncomplianceScore,
+  t481ParentChildConflictScore,
+  t482ParentMaladjustmentScore,
+  t483MaritalDiscordScore,
+  t484FeelingsOfAlienationScore,
+  t485HallucinationsAndDelusionsScore,
+  t486PsychosomaticSyndromeScore,
+  t487MuscularTensionAndAnxietyScore,
+  t488PreoccupationWithDiseaseScore,
+  t489FearAndWorryScore,
+  t490DepressionScore,
+  t491SleepDisturbanceScore,
+  t492SocialIntroversionScore,
+  t493IsolationScore,
+  t494LimitedPeerStatusScore,
+  t495ConflictWithPeersScore,
+  t496Schizoid1Score,
+  t497Avoidant2aScore,
+  t498Depressive2bScore,
+  t499Dependent3Score,
+  t500Histrionic4Score,
+  t501Narcissistic5Score,
+  t502Antisocial6aScore,
+  t503SadisticAggressive6bScore,
+  t504Compulsive7Score,
+  t505NegativisticPassiveAggressive8aScore,
+  t506MasochisticSelfDefeating8bScore,
+  t507SchizotypalSScore,
+  t508borderlineCScore,
+  t509ParanoidPScore,
+  t510AnxietyAScore,
+  t511SomatoformHScore,
+  t512bipolarManicNScore,
+  t513DysthymiaDScore,
+  t514AlcoholDependencebScore,
+  t515DrugDependenceTScore,
+  t516PostTraumaticStressDisorderRScore,
+  t517ThoughtDisorderSsScore,
+  t518MajorDepressionCcScore,
+  t519DelusionalDisorderPpScore,
+  t520DisclosureXScore,
+  t521DesirabilityYScore,
+  t522DebasementZScore,
+  t523InvalidityVScore,
+  t524InconsistencyWScore,
+  t525HypochondriasisHsScore,
+  t526DepressionDScore,
+  t527HysteriaHyScore,
+  t528PsychopathicDeviatePdScore,
+  t529MasculinityFemininityMfScore,
+  t530ParanoiaPaScore,
+  t531PsychastheniaPtScore,
+  t532SchizophreniaScScore,
+  t533HypomaniaMaScore,
+  t534SocialIntroversionSiScore,
+  t535LieLScore,
+  t536FScore,
+  t537BackFFbScore,
+  t538KScore,
+  t539HypochondriasisHsScore,
+  t540DepressionDScore,
+  t541HysteriaHyScore,
+  t542PsychopathicDeviatePdScore,
+  t543MasculinityFemininityMfScore,
+  t544ParanoiaPaScore,
+  t545PsychastheniaPtScore,
+  t546SchizophreniaScScore,
+  t547HypomaniaMaScore,
+  t548SocialIntroversionSiScore,
+  t549CnsScore,
+  t550VrinScore,
+  t551TrinScore,
+  t552FScore,
+  t553F1Score,
+  t554F2Score,
+  t555LScore,
+  t556KScore,
+  t557AnimalSortingAsScore,
+  t558AuditoryAttentionAaAndResponseSetRsScore,
+  t559ClocksClScore,
+  t560DesignFluencyDfScore,
+  t561InhibitionInScore,
+  t562StatueStScore,
+  t563BodyPartNamingBpnAndIdentificationBpiScore,
+  t564ComprehensionOfInstructionsCiScore,
+  t565OromotorSequencesOsScore,
+  t566PhonologicalProcessingPhScore,
+  t567RepetitionNonsenseWordsRnScore,
+  t568SpeededNamingSnScore,
+  t569WordGenerationWgScore,
+  t571ListMemoryLmListMemoryDelayedLmdScore,
+  t572MemoryForDesignsMdMemoryForDesignsDelayedMddScore,
+  t573MemoryForFacesMfMemoryForFacesDelayedMfdScore,
+  t574MemoryForNamesMnMemoryForNamesDelayedMndScore,
+  t575NarrativeMemoryNmScore,
+  t576SentenceRepetitionSrScore,
+  t577WordListInterferenceWiScore,
+  t578FingertipTappingFtScore,
+  t579ImitatingHandPositionsIhScore,
+  t580ManualMotorSequencesMmScore,
+  t581VisuomotorPrecisionVpScore,
+  t582AffectRecognitionArScore,
+  t583TheoryOfMindTmScore,
+  t584ArrowsAwScore,
+  t585BlockConstructionBcScore,
+  t586DesignCopyingDcScore,
+  t587GeometricPuzzlesGpScore,
+  t588PicturePuzzlesPpScore,
+  t589RouteFindingRfScore,
+  t590DrawingScore,
+  t591MatchingScore,
+  t592PegboardScore,
+  t593VocabularyScore,
+  t594GeneralInformationScore,
+  t595NumberSeriesScore,
+  t596ConceptFormationScore,
+  t597AnalysisSynthesisScore,
+  t598VerbalAttentionScore,
+  t599NumbersReversedScore,
+  t600ObjectNumberSequencingScore,
+  t601PairCancellationScore,
+  t645LetterPatternMatchingScore,
+  t602PhonologicalProcessingScore,
+  t603NonWordRepetitionScore,
+  t604RecallScore,
+  t605VisualAuditoryLearningScore,
+  t606VisualizationScore,
+  t607PictureRecognitionScore,
+  t608UnderresponseUndScore,
+  t609HyperresponseHypScore,
+  t610AnxietyAnxScore,
+  t611DepressionDepScore,
+  t612AngerAngScore,
+  t613PosttraumaticStressPtsScore,
+  t614DissociationDisScore,
+  t615SexualConcernsScScore,
   t616LetterWordIdentificationScore,
   t617WordAttackScore,
   t618PassageComprehensionScore,
@@ -573,29 +1073,390 @@ module.exports = ({
   t634HumanitiesScore,
   t635WordAttackScore,
   t636SpellingOfSoundsScore,
-  t78InconsistencyScaleScore,
-  t79NegativityScaleScore,
-  t82InhibitScore,
-  t83ShiftScore,
-  t84EmotionalControlScore,
-  t85InitiateScore,
-  t86WorkingMemoryScore,
-  t87PlanOrganizeScore,
-  t88OrganizationOfMaterialsScore,
-  t89MonitorScore,
-  t90InhibitScore,
-  t91ShiftScore,
-  t92EmotionalControlScore,
-  t93InitiateScore,
-  t94WorkingMemoryScore,
-  t95PlanOrganizeScore,
-  t96OrganizationOfMaterialsScore,
-  t97MonitorScore,
-  testSelectedReducer
+  t637BriefCognitiveStatusExamScore,
+  t638LogicalMemoryScore,
+  t639VerbalPairedAssociatesScore,
+  t640DesignsScore,
+  t641VisualReproductionScore,
+  t642SpatialAdditionScore,
+  t643SymbolSpanScore,
+  t647SimilaritiesScore,
+  t648VocabularyScore,
+  t649InformationScore,
+  t650ComprehensionScore,
+  t653BlockDesignScore,
+  t654ObjectAssemblyScore,
+  t657BugSearchScore,
+  t658CancellationScore,
+  t659AnimalCodingScore,
+  t651MatrixReasoningScore,
+  t652PictureConceptsScore,
+  t655PictureMemoryScore,
+  t656ZooLocationsScore,
+  t660ReceptiveVocabularyScore,
+  t661PictureNamingScore,
+  t110PoorAchievementAndMemoryPercentileRank,
+  t110InadequateAbilitiesPercentileRank,
+  t110LearningProblemsPercentileRank,
+  t111BrashnessPercentileRank,
+  t111DistractibilityAndOveractivityPercentileRank,
+  t111ImpulsivityPercentileRank,
+  t112AntisocialBehaviorPercentileRank,
+  t112DyscontrolPercentileRank,
+  t112NoncompliancePercentileRank,
+  t113ParentChildConflictPercentileRank,
+  t113ParentMaladjustmentPercentileRank,
+  t113MaritalDiscordPercentileRank,
+  t114FeelingsOfAlienationPercentileRank,
+  t114HallucinationsAndDelusionsPercentileRank,
+  t115PsychosomaticSyndromePercentileRank,
+  t115MuscularTensionAndAnxietyPercentileRank,
+  t115PreoccupationWithDiseasePercentileRank,
+  t116FearAndWorryPercentileRank,
+  t116DepressionPercentileRank,
+  t116SleepDisturbancePercentileRank,
+  t117SocialIntroversionPercentileRank,
+  t117IsolationPercentileRank,
+  t118LimitedPeerStatusPercentileRank,
+  t118ConflictWithPeersPercentileRank,
+  t33Gort5Percentile,
+  t33Gort5AgeLevelEquivalency,
+  t33Gort5GradeLevelEquivalency,
+  t34Gort5Percentile,
+  t34Gort5AgeLevelEquivalency,
+  t34Gort5GradeLevelEquivalency,
+  t35Gort5Percentile,
+  t35Gort5AgeLevelEquivalency,
+  t35Gort5GradeLevelEquivalency,
+  t36Gort5Percentile,
+  t36Gort5AgeLevelEquivalency,
+  t36Gort5GradeLevelEquivalency,
+  t57WasiiiVerbalComprehensionConsistent,
+  t57WasiiiVerbalComprehensionInconsistent,
+  t57WasiiiVerbalComprehensionFreehandPerformance,
+  t57WasiiiVerbalComprehensionCompositeScore,
+  t57WasiiiVerbalComprehensionCompositePercentile,
+  t57WasiiiVerbalComprehensionCompositeRange,
+  t58WasiiiPerceptualReasoningConsistent,
+  t58WasiiiPerceptualReasoningInconsistent,
+  t58WasiiiPerceptualReasoningCompositeScore,
+  t58WasiiiPerceptualReasoningCompositePercentile,
+  t58WasiiiPerceptualReasoningCompositeRange,
+  t106WaisivVerbalComprehensionConsistent,
+  t106WaisivVerbalComprehensionCompositeScore,
+  t106WaisivVerbalComprehensionCompositePercentile,
+  t106WaisivVerbalComprehensionCompositeRange,
+  t107WaisivPerceptualReasoningConsistent,
+  t107WaisivPerceptualReasoningCompositeScore,
+  t107WaisivPerceptualReasoningCompositePercentile,
+  t107WaisivPerceptualReasoningCompositeRange,
+  t108WaisivWorkingMemoryConsistent,
+  t108WaisivWorkingMemoryCompositeScore,
+  t108WaisivWorkingMemoryCompositePercentile,
+  t108WaisivWorkingMemoryCompositeRange,
+  t109WaisvProcessingSpeedConsistent,
+  t109WaisvProcessingSpeedCompositeScore,
+  t109WaisvProcessingSpeedCompositePercentile,
+  t109WaisvProcessingSpeedCompositeRange,
+  t134WjivCogComprehensionKnowledgeGcConsistent,
+  t134WjivCogComprehensionKnowledgeGcCompositeScore,
+  t134WjivCogComprehensionKnowledgeGcCompositePercentile,
+  t134WjivCogComprehensionKnowledgeGcCompositeRange,
+  t135WjivCogFluidReasoningGfConsistent,
+  t135WjivCogFluidReasoningGfCompositeScore,
+  t135WjivCogFluidReasoningGfCompositePercentile,
+  t135WjivCogFluidReasoningGfCompositeRange,
+  t136WjivCogShortTermWorkingMemoryGwmConsistent,
+  t136WjivCogShortTermWorkingMemoryGwmCompositeScore,
+  t136WjivCogShortTermWorkingMemoryGwmCompositePercentile,
+  t136WjivCogShortTermWorkingMemoryGwmCompositeRange,
+  t137WjivCogCognitiveProcessingSpeedGsConsistent,
+  t137WjivCogCognitiveProcessingSpeedGsCompositeScore,
+  t137WjivCogCognitiveProcessingSpeedGsCompositePercentile,
+  t137WjivCogCognitiveProcessingSpeedGsCompositeRange,
+  t138WjivCogAuditoryProcessingSpeedGaConsistent,
+  t138WjivCogAuditoryProcessingSpeedGaCompositeScore,
+  t138WjivCogAuditoryProcessingSpeedGaCompositePercentile,
+  t138WjivCogAuditoryProcessingSpeedGaCompositeRange,
+  t139WjivCogLongTermRetrievalGlrConsistent,
+  t139WjivCogLongTermRetrievalGlrCompositeScore,
+  t139WjivCogLongTermRetrievalGlrCompositePercentile,
+  t139WjivCogLongTermRetrievalGlrCompositeRange,
+  t140WjivCogVisualProcessingGvConsistent,
+  t140WjivCogVisualProcessingGvCompositeScore,
+  t140WjivCogVisualProcessingGvCompositePercentile,
+  t140WjivCogVisualProcessingGvCompositeRange,
+  t1IfFsiqIsMeaningful,
+  t2IfFsiqIsNotMeaningful,
+  t3IfFsiqIsMeaningful,
+  t4IfFsiqIsNotMeaningful,
+  t5IfFsiqIsMeaningful,
+  t6IfFsiqIsNotMeaningful,
+  t9IfFsiqIsMeaningful,
+  t2WiscvGaiRange,
+  t2WiscvGaiPercentile,
+  t6WaisivGaiRange,
+  t6WaisivGaiPercentile,
+  t7IfGiaIsMeaningful,
+  t7WjivCogFsiqRank,
+  t7WjivCogFsiqScore,
+  t7WjivCogFsiqPercentile,
+  t9WppsiivGaiRange,
+  t9WppsiivGaiPercentile,
+  t1WiscvFsiqScore,
+  t1WiscvFsiqPercentile,
+  t1WiscvFsiqRank,
+  t3WasiiiFsiqScore,
+  t3WasiiiFsiqPercentile,
+  t3WasiiiFsiqRank,
+  t5WaisivFsiqScore,
+  t5WaisivFsiqPercentile,
+  t5WaisivFsiqRank,
+  t9WppsiivFsiqScore,
+  t9WppsiivFsiqPercentile,
+  t9WppsiivFsiqRank,
+  t10DasIIGcaRange,
+  t10DasIIGcaScore,
+  t10DasIIGcaPercentile,
+  t10DasIISncRange,
+  t10DasIISncScore,
+  t10DasIISncPercentile,
+  t2DasIISummaryAbilities,
+  t2DasIISummaryChallenges,
+  t3WasiiiSummaryAbilities,
+  t3WasiiiSummaryChallenges,
+  t4WiatiiiSummaryAbilities,
+  t4WiatiiiSummaryChallenges,
+  t5WaisivSummaryAbilities,
+  t5WaisivSummaryChallenges,
+  t6WjivCogSummaryAbilities,
+  t6WjivCogSummaryChallenges,
+  t9WppsiivSummaryAbilities,
+  t9WppsiivSummaryChallenges,
+  testSelectedReducer,
+  relevantBackgroundHistory,
+  resultsCurrentAssessment,
+  summaryCurrentSituation,
+  dsmCodes,
+  eduCodeIntellectualDisabilityId,
+  eduCodeHardOfHearingHh,
+  eduCodeDeafnessDeafHearingImpairmentHi,
+  eduCodeSpeechOrLanguageImpairmentSli,
+  eduCodeVisualImpairmentVi,
+  eduCodeEmotionalDisturbanceEd,
+  eduCodeOrthopedicImpairmentOi,
+  eduCodeOtherHealthImpairmentOhi,
+  eduCodeEstablishedMedicalDisabilityEmd,
+  eduCodeSpecificLearningDisabilitySld,
+  eduCodeDeafBlindnessDb,
+  eduCodeMultipleDisabilitiesMd,
+  eduCodeAutismAut,
+  eduCodeTraumaticBrainInjuryTbi,
+  recommendations,
+  recommendationAdhd,
+  recommendationAutism,
+  recommendationDementia,
+  recommendationDysthymia,
+  recommendationLearningDisabilityMathematics,
+  recommendationLearningDisabilityReading,
+  recommendationNeurocognitiveDisorder,
+  recommendationVisualProcessingChildrenAdults,
+  recommendationVisualProcessingChildren,
+  recommendationLearningDisabilityWritingChildrenAdults,
+  recommendationLearningDisabilityWritingChildren,
+  recommendationAuditoryProcessingWeaknessChildrenAdults,
+  recommendationAuditoryProcessingWeaknessChildren,
+  adhdRecommendationsFreehand,
 }) => {
   const subtestVal = id => {
     let val;
     switch (id) {
+      case 1:
+        val = t1SimilaritiesScore;
+        break;
+      case 2:
+        val = t2VocabularyScore;
+        break;
+      case 3:
+        val = t3InformationScore;
+        break;
+      case 4:
+        val = t4ComprehensionScore;
+        break;
+      case 5:
+        val = t5BlockDesignScore;
+        break;
+      case 6:
+        val = t6VocabularyScore;
+        break;
+      case 7:
+        val = t7MatrixReasoningScore;
+        break;
+      case 8:
+        val = t8FigureWeightsScore;
+        break;
+      case 9:
+        val = t9PictureConceptsScore;
+        break;
+      case 10:
+        val = t10ArithmeticScore;
+        break;
+      case 11:
+        val = t11DigitSpanScore;
+        break;
+      case 12:
+        val = t12PictureSpanScore;
+        break;
+      case 13:
+        val = t13LetterNumberSequencingScore;
+        break;
+      case 14:
+        val = t14CodingScore;
+        break;
+      case 15:
+        val = t15SymbolSearchScore;
+        break;
+      case 16:
+        val = t16CancellationScore;
+        break;
+      case 73:
+        val = t73NamingSpeedLiteracyScore;
+        break;
+      case 74:
+        val = t74NamingSpeedQualityScore;
+        break;
+      case 75:
+        val = t75ImmediateSymbolTranslationScore;
+        break;
+      case 76:
+        val = t76DelayedSymbolTranslationScore;
+        break;
+      case 77:
+        val = t77RecognitionSymbolTranslationScore;
+        break;
+      case 78:
+        val = t78InconsistencyScaleScore;
+        break;
+      case 79:
+        val = t79NegativityScaleScore;
+        break;
+      case 82:
+        val = t82InhibitScore;
+        break;
+      case 83:
+        val = t83ShiftScore;
+        break;
+      case 84:
+        val = t84EmotionalControlScore;
+        break;
+      case 85:
+        val = t85InitiateScore;
+        break;
+      case 86:
+        val = t86WorkingMemoryScore;
+        break;
+      case 87:
+        val = t87PlanOrganizeScore;
+        break;
+      case 88:
+        val = t88OrganizationOfMaterialsScore;
+        break;
+      case 89:
+        val = t89MonitorScore;
+        break;
+      case 90:
+        val = t90InhibitScore;
+        break;
+      case 91:
+        val = t91ShiftScore;
+        break;
+      case 92:
+        val = t92EmotionalControlScore;
+        break;
+      case 93:
+        val = t93InitiateScore;
+        break;
+      case 94:
+        val = t94WorkingMemoryScore;
+        break;
+      case 95:
+        val = t95PlanOrganizeScore;
+        break;
+      case 96:
+        val = t96OrganizationOfMaterialsScore;
+        break;
+      case 97:
+        val = t97MonitorScore;
+        break;
+      case 98:
+        val = t98RelatingToPeopleScore;
+        break;
+      case 99:
+        val = t99ImitationScore;
+        break;
+      case 100:
+        val = t100EmotionalResponseScore;
+        break;
+      case 101:
+        val = t101BodyUseScore;
+        break;
+      case 102:
+        val = t102ObjectUseScore;
+        break;
+      case 103:
+        val = t103AdaptionToChangeScore;
+        break;
+      case 104:
+        val = t104VisualResponseScore;
+        break;
+      case 105:
+        val = t105ListeningResponseScore;
+        break;
+      case 106:
+        val = t106TasteSmellAndTouchResponseAndUseSctore;
+        break;
+      case 107:
+        val = t107FearOrNervousnessScore;
+        break;
+      case 108:
+        val = t108VerbalCommunicationScore;
+        break;
+      case 109:
+        val = t109NonverbalCommunicationScore;
+        break;
+      case 110:
+        val = t110ActivityLevelScore;
+        break;
+      case 111:
+        val = t111LevelAndConsistencyOfIntellectualRestponseScore;
+        break;
+      case 112:
+        val = t112GeneralImpressionsScore;
+        break;
+      case 113:
+        val = t113SocialEmotionalUnderstandingScore;
+        break;
+      case 114:
+        val = t114EmotionalExpressionAndRegulationOfEmtotionsScore;
+        break;
+      case 115:
+        val = t115RelatingToPeopleScore;
+        break;
+      case 116:
+        val = t116BodyUseScore;
+        break;
+      case 117:
+        val = t117ObjectUseInPlayScore;
+        break;
+      case 118:
+        val = t118VisualResponseScore;
+        break;
+      case 119:
+        val = t119ListeningResponseScore;
+        break;
+      case 646:
+        val = t646AdaptationToChangeRestrictedInterestsScore;
+        break;
       case 120:
         val = t120InattentionScore;
         break;
@@ -755,6 +1616,240 @@ module.exports = ({
       case 171:
         val = t171InconsistencyIndexScore;
         break;
+      case 172:
+        val = t172PictorialAnalogiesScore;
+        break;
+      case 173:
+        val = t173GeometricAnalogiesScore;
+        break;
+      case 174:
+        val = t174PictorialCategoriesScore;
+        break;
+      case 175:
+        val = t175GeometricCategoriesScore;
+        break;
+      case 176:
+        val = t176PictorialSequencesScore;
+        break;
+      case 177:
+        val = t177GeometricSequencesScore;
+        break;
+      case 178:
+        val = t178PictorialScaleScore;
+        break;
+      case 179:
+        val = t179GeometricScaleScore;
+        break;
+      case 180:
+        val = t180FullScaleScore;
+        break;
+      case 181:
+        val = t181VerbalComprehensionScore;
+        break;
+      case 182:
+        val = t182PictureSimilaritiesScore;
+        break;
+      case 183:
+        val = t183NamingVocabularyScore;
+        break;
+      case 184:
+        val = t184RecallOfObjectsImmediateScore;
+        break;
+      case 185:
+        val = t185PatternConstructionScore;
+        break;
+      case 186:
+        val = t186MatricesScore;
+        break;
+      case 187:
+        val = t187RecallOfObjectsDelayedScore;
+        break;
+      case 188:
+        val = t188CopyingScore;
+        break;
+      case 189:
+        val = t189RecallOfDesignsScore;
+        break;
+      case 190:
+        val = t190WordDefinitionsScore;
+        break;
+      case 191:
+        val = t191RecallOfObjectsImmediateScore;
+        break;
+      case 192:
+        val = t192PatternConstructionScore;
+        break;
+      case 193:
+        val = t193MatricesScore;
+        break;
+      case 194:
+        val = t194RecallOfObjectsDelayedScore;
+        break;
+      case 195:
+        val = t195VerbalSimilaritiesScore;
+        break;
+      case 196:
+        val = t196SequentialAndQuantitativeReasoningScore;
+        break;
+      case 197:
+        val = t197RecallOfDigitsForwardScore;
+        break;
+      case 198:
+        val = t198RecognitionOfPicturesScore;
+        break;
+      case 199:
+        val = t199EarlyNumberConceptsScore;
+        break;
+      case 200:
+        val = t200MatchingLetterLikeFormsScore;
+        break;
+      case 201:
+        val = t201RecallOfSequentialOrderScore;
+        break;
+      case 202:
+        val = t202SpeedOfInformationProcessingScore;
+        break;
+      case 203:
+        val = t203RecallOfDigitsBackwardScore;
+        break;
+      case 204:
+        val = t204PhonologicalProcessingScore;
+        break;
+      case 205:
+        val = t205RapidNamingScore;
+        break;
+      case 206:
+        val = t206TrailMakingTestScore;
+        break;
+      case 207:
+        val = t207VerbalFluencyTestScore;
+        break;
+      case 208:
+        val = t208DesignFluencyTestScore;
+        break;
+      case 209:
+        val = t209ColorWordInterferenceTestScore;
+        break;
+      case 210:
+        val = t210SortingTestScore;
+        break;
+      case 211:
+        val = t211TwentyQuestionsTestScore;
+        break;
+      case 212:
+        val = t212WordContextTestScore;
+        break;
+      case 213:
+        val = t213TowerTestScore;
+        break;
+      case 214:
+        val = t214ProverbTestScore;
+        break;
+      case 215:
+        val = t215RestrictiveRepetitiveBehaviorsScore;
+        break;
+      case 216:
+        val = t216SocialInteractionScore;
+        break;
+      case 217:
+        val = t217SocialCommunicationScore;
+        break;
+      case 218:
+        val = t218EmotionalResponsesScore;
+        break;
+      case 219:
+        val = t219CognitiveStyleScore;
+        break;
+      case 220:
+        val = t220MaladaptiveSpeechScore;
+        break;
+      case 221:
+        val = t221ListLearningScore;
+        break;
+      case 222:
+        val = t222StoryMemoryScore;
+        break;
+      case 223:
+        val = t223FigureCopyScore;
+        break;
+      case 224:
+        val = t224LineOrientationScore;
+        break;
+      case 225:
+        val = t225PictureNamingScore;
+        break;
+      case 226:
+        val = t226SemanticFluencyScore;
+        break;
+      case 227:
+        val = t227DigitSpanScore;
+        break;
+      case 228:
+        val = t228CodingScore;
+        break;
+      case 229:
+        val = t229ListRecallScore;
+        break;
+      case 230:
+        val = t230ListRecognitionScore;
+        break;
+      case 231:
+        val = t231StoryRecallScore;
+        break;
+      case 232:
+        val = t232FigureRecallScore;
+        break;
+      case 233:
+        val = t233ReceptiveScore;
+        break;
+      case 234:
+        val = t234ExpressiveScore;
+        break;
+      case 235:
+        val = t235WrittenScore;
+        break;
+      case 236:
+        val = t236PersonalScore;
+        break;
+      case 237:
+        val = t237DomesticScore;
+        break;
+      case 238:
+        val = t238CommunityScore;
+        break;
+      case 239:
+        val = t239InterpersonalRelationshipsScore;
+        break;
+      case 240:
+        val = t240PlayAndLeisureTimeScore;
+        break;
+      case 241:
+        val = t241CopingSkillsScore;
+        break;
+      case 242:
+        val = t242GrossScore;
+        break;
+      case 243:
+        val = t243FineScore;
+        break;
+      case 244:
+        val = t244MaladaptiveBehaviorIndexScore;
+        break;
+      case 245:
+        val = t245MaladaptiveBehaviorCriticalItemsScore;
+        break;
+      case 246:
+        val = t246SimilaritiesScore;
+        break;
+      case 247:
+        val = t247VocabularyScore;
+        break;
+      case 248:
+        val = t248BlockDesignScore;
+        break;
+      case 249:
+        val = t249MatrixReasoningScore;
+        break;
       case 250:
         val = t250ListeningComprehensionGradesPk12Score;
         break;
@@ -802,6 +1897,1057 @@ module.exports = ({
         break;
       case 265:
         val = t265MathFluencyMultiplicationScore;
+        break;
+      case 266:
+        val = t266StoryMemoryScore;
+        break;
+      case 267:
+        val = t267VerbalLearningScore;
+        break;
+      case 268:
+        val = t268DesignMemoryScore;
+        break;
+      case 269:
+        val = t269PictureMemoryScore;
+        break;
+      case 270:
+        val = t270FingerWindowsScore;
+        break;
+      case 271:
+        val = t271NumberLetterScore;
+        break;
+      case 272:
+        val = t272SentenceMemoryScore;
+        break;
+      case 273:
+        val = t273SoundSymbolScore;
+        break;
+      case 274:
+        val = t274VerbalWorkingMemoryScore;
+        break;
+      case 275:
+        val = t275SymbolicWorkingMemoryScore;
+        break;
+      case 276:
+        val = t276StoryMemoryDelayRecallScore;
+        break;
+      case 277:
+        val = t277VerbalLearningDelayRecallScore;
+        break;
+      case 278:
+        val = t278SoundSymbolDelayRecallScore;
+        break;
+      case 279:
+        val = t279StoryMemoryRecognitionScore;
+        break;
+      case 280:
+        val = t280VerbalLearningRecognitionScore;
+        break;
+      case 281:
+        val = t281DesignMemoryRecognitionScore;
+        break;
+      case 282:
+        val = t282PictureMemoryRecognitionScore;
+        break;
+      case 283:
+        val = t283FIndexScore;
+        break;
+      case 284:
+        val = t284LIndexScore;
+        break;
+      case 285:
+        val = t285VIndexScore;
+        break;
+      case 286:
+        val = t286AlcoholAbuseScore;
+        break;
+      case 287:
+        val = t287AnxietyScore;
+        break;
+      case 288:
+        val = t288AttentionProblemsScore;
+        break;
+      case 289:
+        val = t289AttitudeToSchoolScore;
+        break;
+      case 290:
+        val = t290AttitudeToTeachersScore;
+        break;
+      case 291:
+        val = t291AtypicalityScore;
+        break;
+      case 292:
+        val = t292DepressionScore;
+        break;
+      case 293:
+        val = t293HyperactivityScore;
+        break;
+      case 294:
+        val = t294LocusOfControlScore;
+        break;
+      case 295:
+        val = t295SchoolMaladjustmentScore;
+        break;
+      case 296:
+        val = t296SensationSeekingScore;
+        break;
+      case 297:
+        val = t297SenseOfInadequacyScore;
+        break;
+      case 298:
+        val = t298SocialStressScore;
+        break;
+      case 299:
+        val = t299SomatizationScore;
+        break;
+      case 300:
+        val = t300InterpersonalRelationsScore;
+        break;
+      case 301:
+        val = t301RelationsWithParentsScore;
+        break;
+      case 302:
+        val = t302SelfEsteemScore;
+        break;
+      case 303:
+        val = t303SelfRelianceScore;
+        break;
+      case 304:
+        val = t304AngerControlScore;
+        break;
+      case 305:
+        val = t305EgoStrengthScore;
+        break;
+      case 306:
+        val = t306ManiaScore;
+        break;
+      case 307:
+        val = t307TestAnxietyScore;
+        break;
+      case 308:
+        val = t308AttitudeToSchoolScore;
+        break;
+      case 309:
+        val = t309AttitudeToTeachersScore;
+        break;
+      case 310:
+        val = t310AtypicalityScore;
+        break;
+      case 311:
+        val = t311LocusOfControlScore;
+        break;
+      case 312:
+        val = t312SocialStressScore;
+        break;
+      case 313:
+        val = t313AnxietyScore;
+        break;
+      case 314:
+        val = t314DepressionScore;
+        break;
+      case 315:
+        val = t315SenseOfInadequacyScore;
+        break;
+      case 316:
+        val = t316AttentionProblemsScore;
+        break;
+      case 317:
+        val = t317HyperactivityScore;
+        break;
+      case 318:
+        val = t318SocialStressScore;
+        break;
+      case 319:
+        val = t319AnxietyScore;
+        break;
+      case 320:
+        val = t320DepressionScore;
+        break;
+      case 321:
+        val = t321SenseOfInadequacyScore;
+        break;
+      case 322:
+        val = t322SelfEsteemScore;
+        break;
+      case 323:
+        val = t323SelfRelianceScore;
+        break;
+      case 324:
+        val = t324InterpersonalRelationsScore;
+        break;
+      case 325:
+        val = t325RelationsWithParentsScore;
+        break;
+      case 326:
+        val = t326SelfEsteemScore;
+        break;
+      case 327:
+        val = t327SelfRelianceScore;
+        break;
+      case 328:
+        val = t328AttitudeToSchoolScore;
+        break;
+      case 329:
+        val = t329AttitudeToTeachersScore;
+        break;
+      case 330:
+        val = t330SensationSeekingScore;
+        break;
+      case 331:
+        val = t331AtypicalityScore;
+        break;
+      case 332:
+        val = t332LocusOfControlScore;
+        break;
+      case 333:
+        val = t333SocialStressScore;
+        break;
+      case 334:
+        val = t334AnxietyScore;
+        break;
+      case 335:
+        val = t335DepressionScore;
+        break;
+      case 336:
+        val = t336SenseOfInadequacyScore;
+        break;
+      case 337:
+        val = t337SomatizationScore;
+        break;
+      case 338:
+        val = t338AttentionProblemsScore;
+        break;
+      case 339:
+        val = t339HyperactivityScore;
+        break;
+      case 340:
+        val = t340SocialStressScore;
+        break;
+      case 341:
+        val = t341AnxietyScore;
+        break;
+      case 342:
+        val = t342DepressionScore;
+        break;
+      case 343:
+        val = t343SenseOfInadequacyScore;
+        break;
+      case 344:
+        val = t344SelfEsteemScore;
+        break;
+      case 345:
+        val = t345SelfRelianceScore;
+        break;
+      case 346:
+        val = t346InterpersonalRelationsScore;
+        break;
+      case 347:
+        val = t347RelationsWithParentsScore;
+        break;
+      case 348:
+        val = t348SelfEsteemScore;
+        break;
+      case 349:
+        val = t349SelfRelianceScore;
+        break;
+      case 350:
+        val = t350AtypicalityScore;
+        break;
+      case 351:
+        val = t351LocusOfControlScore;
+        break;
+      case 352:
+        val = t352SocialStressScore;
+        break;
+      case 353:
+        val = t353AnxietyScore;
+        break;
+      case 354:
+        val = t354DepressionScore;
+        break;
+      case 355:
+        val = t355SenseOfInadequacyScore;
+        break;
+      case 356:
+        val = t356SomatizationScore;
+        break;
+      case 357:
+        val = t357AttentionProblemsScore;
+        break;
+      case 358:
+        val = t358HyperactivityScore;
+        break;
+      case 359:
+        val = t359SocialStressScore;
+        break;
+      case 360:
+        val = t360AnxietyScore;
+        break;
+      case 361:
+        val = t361DepressionScore;
+        break;
+      case 362:
+        val = t362SenseOfInadequacyScore;
+        break;
+      case 363:
+        val = t363SelfEsteemScore;
+        break;
+      case 364:
+        val = t364SelfRelianceScore;
+        break;
+      case 365:
+        val = t365InterpersonalRelationsScore;
+        break;
+      case 366:
+        val = t366RelationsWithParentsScore;
+        break;
+      case 367:
+        val = t367SelfEsteemScore;
+        break;
+      case 368:
+        val = t368SelfRelianceScore;
+        break;
+      case 369:
+        val = t369FIndexScore;
+        break;
+      case 370:
+        val = t370AggressionScore;
+        break;
+      case 371:
+        val = t371AnxietyScore;
+        break;
+      case 372:
+        val = t372AttentionProblemsScore;
+        break;
+      case 373:
+        val = t373AtypicalityScore;
+        break;
+      case 374:
+        val = t374ConductProblemsScore;
+        break;
+      case 375:
+        val = t375DepressionScore;
+        break;
+      case 376:
+        val = t376HyperactivityScore;
+        break;
+      case 377:
+        val = t377LearningProblemsScore;
+        break;
+      case 378:
+        val = t378SomatizationScore;
+        break;
+      case 379:
+        val = t379WithdrawalScore;
+        break;
+      case 380:
+        val = t380ActivitiesOfDailyLivingScore;
+        break;
+      case 381:
+        val = t381AdaptabilityScore;
+        break;
+      case 382:
+        val = t382FunctionalCommunicationScore;
+        break;
+      case 383:
+        val = t383LeadershipScore;
+        break;
+      case 384:
+        val = t384SocialSkillsScore;
+        break;
+      case 385:
+        val = t385StudySkillsScore;
+        break;
+      case 386:
+        val = t386AngerControlScore;
+        break;
+      case 387:
+        val = t387BullyingScore;
+        break;
+      case 388:
+        val = t388DevelopmentalSocialDisordersScore;
+        break;
+      case 389:
+        val = t389EmotionalSelfControlScore;
+        break;
+      case 390:
+        val = t390ExecutiveFunctioningScore;
+        break;
+      case 391:
+        val = t391NegativeEmotionalityScore;
+        break;
+      case 392:
+        val = t392ResiliencyScore;
+        break;
+      case 393:
+        val = t393HyperactivityScore;
+        break;
+      case 394:
+        val = t394AggressionScore;
+        break;
+      case 395:
+        val = t395AnxietyScore;
+        break;
+      case 396:
+        val = t396DepressionScore;
+        break;
+      case 397:
+        val = t397SomatizationScore;
+        break;
+      case 398:
+        val = t398AdaptabilityScore;
+        break;
+      case 399:
+        val = t399SocialSkillsScore;
+        break;
+      case 400:
+        val = t400FunctionalCommunicationScore;
+        break;
+      case 401:
+        val = t401HyperactivityScore;
+        break;
+      case 402:
+        val = t402AggressionScore;
+        break;
+      case 403:
+        val = t403DepressionScore;
+        break;
+      case 404:
+        val = t404AttentionProblemsScore;
+        break;
+      case 405:
+        val = t405AtypicalityScore;
+        break;
+      case 406:
+        val = t406WithdrawalScore;
+        break;
+      case 407:
+        val = t407HyperactivityScore;
+        break;
+      case 408:
+        val = t408AggressionScore;
+        break;
+      case 409:
+        val = t409ConductProblemsScore;
+        break;
+      case 410:
+        val = t410AnxietyScore;
+        break;
+      case 411:
+        val = t411DepressionScore;
+        break;
+      case 412:
+        val = t412SomatizationScore;
+        break;
+      case 413:
+        val = t413LearningProblemsScore;
+        break;
+      case 414:
+        val = t414AttentionProblemsScore;
+        break;
+      case 415:
+        val = t415AdaptabilityScore;
+        break;
+      case 416:
+        val = t416SocialSkillsScore;
+        break;
+      case 417:
+        val = t417FunctionalCommunicationScore;
+        break;
+      case 418:
+        val = t418LeadershipScore;
+        break;
+      case 419:
+        val = t419StudySkillsScore;
+        break;
+      case 420:
+        val = t420HyperactivityScore;
+        break;
+      case 421:
+        val = t421AggressionScore;
+        break;
+      case 422:
+        val = t422DepressionScore;
+        break;
+      case 423:
+        val = t423AttentionProblemsScore;
+        break;
+      case 424:
+        val = t424AtypicalityScore;
+        break;
+      case 425:
+        val = t425WithdrawalScore;
+        break;
+      case 426:
+        val = t426HyperactivityScore;
+        break;
+      case 427:
+        val = t427AggressionScore;
+        break;
+      case 428:
+        val = t428AnxietyScore;
+        break;
+      case 429:
+        val = t429DepressionScore;
+        break;
+      case 430:
+        val = t430SomatizationScore;
+        break;
+      case 431:
+        val = t431AdaptabilityScore;
+        break;
+      case 432:
+        val = t432SocialSkillsScore;
+        break;
+      case 433:
+        val = t433FunctionalCommunicationScore;
+        break;
+      case 434:
+        val = t434ActivitiesOfDailyLivingScore;
+        break;
+      case 435:
+        val = t435HyperactivityScore;
+        break;
+      case 436:
+        val = t436AggressionScore;
+        break;
+      case 437:
+        val = t437DepressionScore;
+        break;
+      case 438:
+        val = t438AttentionProblemsScore;
+        break;
+      case 439:
+        val = t439AtypicalityScore;
+        break;
+      case 440:
+        val = t440WithdrawalScore;
+        break;
+      case 441:
+        val = t441HyperactivityScore;
+        break;
+      case 442:
+        val = t442AggressionScore;
+        break;
+      case 443:
+        val = t443ConductProblemsScore;
+        break;
+      case 444:
+        val = t444AnxietyScore;
+        break;
+      case 445:
+        val = t445DepressionScore;
+        break;
+      case 446:
+        val = t446SomatizationScore;
+        break;
+      case 447:
+        val = t447AdaptabilityScore;
+        break;
+      case 448:
+        val = t448SocialSkillsScore;
+        break;
+      case 449:
+        val = t449FunctionalCommunicationScore;
+        break;
+      case 450:
+        val = t450ActivitiesOfDailyLivingScore;
+        break;
+      case 451:
+        val = t451HyperactivityScore;
+        break;
+      case 452:
+        val = t452AggressionScore;
+        break;
+      case 453:
+        val = t453DepressionScore;
+        break;
+      case 454:
+        val = t454AttentionProblemsScore;
+        break;
+      case 455:
+        val = t455AtypicalityScore;
+        break;
+      case 456:
+        val = t456WithdrawalScore;
+        break;
+      case 457:
+        val = t457SimilaritiesScore;
+        break;
+      case 458:
+        val = t458VocabularyScore;
+        break;
+      case 459:
+        val = t459InformationScore;
+        break;
+      case 460:
+        val = t460ComprehensionScore;
+        break;
+      case 461:
+        val = t461BlockDesignScore;
+        break;
+      case 462:
+        val = t462MatrixReasoningScore;
+        break;
+      case 463:
+        val = t463VisualPuzzlesScore;
+        break;
+      case 464:
+        val = t464FigureWeightsScore;
+        break;
+      case 465:
+        val = t465PictureCompletionScore;
+        break;
+      case 466:
+        val = t466DigitSpanScore;
+        break;
+      case 467:
+        val = t467ArithmeticScore;
+        break;
+      case 468:
+        val = t468LetterNumberSequencingScore;
+        break;
+      case 469:
+        val = t469CodingScore;
+        break;
+      case 470:
+        val = t470SymbolSearchScore;
+        break;
+      case 471:
+        val = t471CancellationScore;
+        break;
+      case 472:
+        val = t472PoorAchievementAndMemoryScore;
+        break;
+      case 473:
+        val = t473InadequateAbilitiesScore;
+        break;
+      case 474:
+        val = t474LearningProblemsScore;
+        break;
+      case 475:
+        val = t475BrashnessScore;
+        break;
+      case 476:
+        val = t476DistractibilityAndOveractivityScore;
+        break;
+      case 477:
+        val = t477ImpulsivityScore;
+        break;
+      case 478:
+        val = t478AntisocialBehaviorScore;
+        break;
+      case 479:
+        val = t479DyscontrolScore;
+        break;
+      case 480:
+        val = t480NoncomplianceScore;
+        break;
+      case 481:
+        val = t481ParentChildConflictScore;
+        break;
+      case 482:
+        val = t482ParentMaladjustmentScore;
+        break;
+      case 483:
+        val = t483MaritalDiscordScore;
+        break;
+      case 484:
+        val = t484FeelingsOfAlienationScore;
+        break;
+      case 485:
+        val = t485HallucinationsAndDelusionsScore;
+        break;
+      case 486:
+        val = t486PsychosomaticSyndromeScore;
+        break;
+      case 487:
+        val = t487MuscularTensionAndAnxietyScore;
+        break;
+      case 488:
+        val = t488PreoccupationWithDiseaseScore;
+        break;
+      case 489:
+        val = t489FearAndWorryScore;
+        break;
+      case 490:
+        val = t490DepressionScore;
+        break;
+      case 491:
+        val = t491SleepDisturbanceScore;
+        break;
+      case 492:
+        val = t492SocialIntroversionScore;
+        break;
+      case 493:
+        val = t493IsolationScore;
+        break;
+      case 494:
+        val = t494LimitedPeerStatusScore;
+        break;
+      case 495:
+        val = t495ConflictWithPeersScore;
+        break;
+      case 496:
+        val = t496Schizoid1Score;
+        break;
+      case 497:
+        val = t497Avoidant2aScore;
+        break;
+      case 498:
+        val = t498Depressive2bScore;
+        break;
+      case 499:
+        val = t499Dependent3Score;
+        break;
+      case 500:
+        val = t500Histrionic4Score;
+        break;
+      case 501:
+        val = t501Narcissistic5Score;
+        break;
+      case 502:
+        val = t502Antisocial6aScore;
+        break;
+      case 503:
+        val = t503SadisticAggressive6bScore;
+        break;
+      case 504:
+        val = t504Compulsive7Score;
+        break;
+      case 505:
+        val = t505NegativisticPassiveAggressive8aScore;
+        break;
+      case 506:
+        val = t506MasochisticSelfDefeating8bScore;
+        break;
+      case 507:
+        val = t507SchizotypalSScore;
+        break;
+      case 508:
+        val = t508borderlineCScore;
+        break;
+      case 509:
+        val = t509ParanoidPScore;
+        break;
+      case 510:
+        val = t510AnxietyAScore;
+        break;
+      case 511:
+        val = t511SomatoformHScore;
+        break;
+      case 512:
+        val = t512bipolarManicNScore;
+        break;
+      case 513:
+        val = t513DysthymiaDScore;
+        break;
+      case 514:
+        val = t514AlcoholDependencebScore;
+        break;
+      case 515:
+        val = t515DrugDependenceTScore;
+        break;
+      case 516:
+        val = t516PostTraumaticStressDisorderRScore;
+        break;
+      case 517:
+        val = t517ThoughtDisorderSsScore;
+        break;
+      case 518:
+        val = t518MajorDepressionCcScore;
+        break;
+      case 519:
+        val = t519DelusionalDisorderPpScore;
+        break;
+      case 520:
+        val = t520DisclosureXScore;
+        break;
+      case 521:
+        val = t521DesirabilityYScore;
+        break;
+      case 522:
+        val = t522DebasementZScore;
+        break;
+      case 523:
+        val = t523InvalidityVScore;
+        break;
+      case 524:
+        val = t524InconsistencyWScore;
+        break;
+      case 525:
+        val = t525HypochondriasisHsScore;
+        break;
+      case 526:
+        val = t526DepressionDScore;
+        break;
+      case 527:
+        val = t527HysteriaHyScore;
+        break;
+      case 528:
+        val = t528PsychopathicDeviatePdScore;
+        break;
+      case 529:
+        val = t529MasculinityFemininityMfScore;
+        break;
+      case 530:
+        val = t530ParanoiaPaScore;
+        break;
+      case 531:
+        val = t531PsychastheniaPtScore;
+        break;
+      case 532:
+        val = t532SchizophreniaScScore;
+        break;
+      case 533:
+        val = t533HypomaniaMaScore;
+        break;
+      case 534:
+        val = t534SocialIntroversionSiScore;
+        break;
+      case 535:
+        val = t535LieLScore;
+        break;
+      case 536:
+        val = t536FScore;
+        break;
+      case 537:
+        val = t537BackFFbScore;
+        break;
+      case 538:
+        val = t538KScore;
+        break;
+      case 539:
+        val = t539HypochondriasisHsScore;
+        break;
+      case 540:
+        val = t540DepressionDScore;
+        break;
+      case 541:
+        val = t541HysteriaHyScore;
+        break;
+      case 542:
+        val = t542PsychopathicDeviatePdScore;
+        break;
+      case 543:
+        val = t543MasculinityFemininityMfScore;
+        break;
+      case 544:
+        val = t544ParanoiaPaScore;
+        break;
+      case 545:
+        val = t545PsychastheniaPtScore;
+        break;
+      case 546:
+        val = t546SchizophreniaScScore;
+        break;
+      case 547:
+        val = t547HypomaniaMaScore;
+        break;
+      case 548:
+        val = t548SocialIntroversionSiScore;
+        break;
+      case 549:
+        val = t549CnsScore;
+        break;
+      case 550:
+        val = t550VrinScore;
+        break;
+      case 551:
+        val = t551TrinScore;
+        break;
+      case 552:
+        val = t552FScore;
+        break;
+      case 553:
+        val = t553F1Score;
+        break;
+      case 554:
+        val = t554F2Score;
+        break;
+      case 555:
+        val = t555LScore;
+        break;
+      case 556:
+        val = t556KScore;
+        break;
+      case 557:
+        val = t557AnimalSortingAsScore;
+        break;
+      case 558:
+        val = t558AuditoryAttentionAaAndResponseSetRsScore;
+        break;
+      case 559:
+        val = t559ClocksClScore;
+        break;
+      case 560:
+        val = t560DesignFluencyDfScore;
+        break;
+      case 561:
+        val = t561InhibitionInScore;
+        break;
+      case 562:
+        val = t562StatueStScore;
+        break;
+      case 563:
+        val = t563BodyPartNamingBpnAndIdentificationBpiScore;
+        fd;
+        break;
+      case 564:
+        val = t564ComprehensionOfInstructionsCiScore;
+        break;
+      case 565:
+        val = t565OromotorSequencesOsScore;
+        break;
+      case 566:
+        val = t566PhonologicalProcessingPhScore;
+        break;
+      case 567:
+        val = t567RepetitionNonsenseWordsRnScore;
+        break;
+      case 568:
+        val = t568SpeededNamingSnScore;
+        break;
+      case 569:
+        val = t569WordGenerationWgScore;
+        break;
+      case 571:
+        val = t571ListMemoryLmListMemoryDelayedLmdScore;
+        break;
+      case 572:
+        val = t572MemoryForDesignsMdMemoryForDesignsDelayedMddScore;
+        break;
+      case 573:
+        val = t573MemoryForFacesMfMemoryForFacesDelayedMfdScore;
+        break;
+      case 574:
+        val = t574MemoryForNamesMnMemoryForNamesDelayedMndScore;
+        break;
+      case 575:
+        val = t575NarrativeMemoryNmScore;
+        break;
+      case 576:
+        val = t576SentenceRepetitionSrScore;
+        break;
+      case 577:
+        val = t577WordListInterferenceWiScore;
+        break;
+      case 578:
+        val = t578FingertipTappingFtScore;
+        break;
+      case 579:
+        val = t579ImitatingHandPositionsIhScore;
+        break;
+      case 580:
+        val = t580ManualMotorSequencesMmScore;
+        break;
+      case 581:
+        val = t581VisuomotorPrecisionVpScore;
+        break;
+      case 582:
+        val = t582AffectRecognitionArScore;
+        break;
+      case 583:
+        val = t583TheoryOfMindTmScore;
+        break;
+      case 584:
+        val = t584ArrowsAwScore;
+        break;
+      case 585:
+        val = t585BlockConstructionBcScore;
+        break;
+      case 586:
+        val = t586DesignCopyingDcScore;
+        break;
+      case 587:
+        val = t587GeometricPuzzlesGpScore;
+        break;
+      case 588:
+        val = t588PicturePuzzlesPpScore;
+        break;
+      case 589:
+        val = t589RouteFindingRfScore;
+        break;
+      case 590:
+        val = t590DrawingScore;
+        break;
+      case 591:
+        val = t591MatchingScore;
+        break;
+      case 592:
+        val = t592PegboardScore;
+        break;
+      case 593:
+        val = t593VocabularyScore;
+        break;
+      case 594:
+        val = t594GeneralInformationScore;
+        break;
+      case 595:
+        val = t595NumberSeriesScore;
+        break;
+      case 596:
+        val = t596ConceptFormationScore;
+        break;
+      case 597:
+        val = t597AnalysisSynthesisScore;
+        break;
+      case 598:
+        val = t598VerbalAttentionScore;
+        break;
+      case 599:
+        val = t599NumbersReversedScore;
+        break;
+      case 600:
+        val = t600ObjectNumberSequencingScore;
+        break;
+      case 601:
+        val = t601PairCancellationScore;
+        break;
+      case 645:
+        val = t645LetterPatternMatchingScore;
+        break;
+      case 602:
+        val = t602PhonologicalProcessingScore;
+        break;
+      case 603:
+        val = t603NonWordRepetitionScore;
+        break;
+      case 604:
+        val = t604RecallScore;
+        break;
+      case 605:
+        val = t605VisualAuditoryLearningScore;
+        break;
+      case 606:
+        val = t606VisualizationScore;
+        break;
+      case 607:
+        val = t607PictureRecognitionScore;
+        break;
+      case 608:
+        val = t608UnderresponseUndScore;
+        break;
+      case 609:
+        val = t609HyperresponseHypScore;
+        break;
+      case 610:
+        val = t610AnxietyAnxScore;
+        break;
+      case 611:
+        val = t611DepressionDepScore;
+        break;
+      case 612:
+        val = t612AngerAngScore;
+        break;
+      case 613:
+        val = t613PosttraumaticStressPtsScore;
+        break;
+      case 614:
+        val = t614DissociationDisScore;
+        break;
+      case 615:
+        val = t615SexualConcernsScScore;
         break;
       case 616:
         val = t616LetterWordIdentificationScore;
@@ -866,60 +3012,174 @@ module.exports = ({
       case 636:
         val = t636SpellingOfSoundsScore;
         break;
-      case 78:
-        val = t78InconsistencyScaleScore;
+      case 637:
+        val = t637BriefCognitiveStatusExamScore;
         break;
-      case 79:
-        val = t79NegativityScaleScore;
+      case 638:
+        val = t638LogicalMemoryScore;
         break;
-      case 82:
-        val = t82InhibitScore;
+      case 639:
+        val = t639VerbalPairedAssociatesScore;
         break;
-      case 83:
-        val = t83ShiftScore;
+      case 640:
+        val = t640DesignsScore;
         break;
-      case 84:
-        val = t84EmotionalControlScore;
+      case 641:
+        val = t641VisualReproductionScore;
         break;
-      case 85:
-        val = t85InitiateScore;
+      case 642:
+        val = t642SpatialAdditionScore;
         break;
-      case 86:
-        val = t86WorkingMemoryScore;
+      case 643:
+        val = t643SymbolSpanScore;
         break;
-      case 87:
-        val = t87PlanOrganizeScore;
+      case 647:
+        val = t647SimilaritiesScore;
         break;
-      case 88:
-        val = t88OrganizationOfMaterialsScore;
+      case 648:
+        val = t648VocabularyScore;
         break;
-      case 89:
-        val = t89MonitorScore;
+      case 649:
+        val = t649InformationScore;
         break;
-      case 90:
-        val = t90InhibitScore;
+      case 650:
+        val = t650ComprehensionScore;
         break;
-      case 91:
-        val = t91ShiftScore;
+      case 651:
+        val = t651MatrixReasoningScore;
         break;
-      case 92:
-        val = t92EmotionalControlScore;
+      case 652:
+        val = t652PictureConceptsScore;
         break;
-      case 93:
-        val = t93InitiateScore;
+      case 653:
+        val = t653BlockDesignScore;
         break;
-      case 94:
-        val = t94WorkingMemoryScore;
+      case 654:
+        val = t654ObjectAssemblyScore;
         break;
-      case 95:
-        val = t95PlanOrganizeScore;
+      case 655:
+        val = t655PictureMemoryScore;
         break;
-      case 96:
-        val = t96OrganizationOfMaterialsScore;
+      case 656:
+        val = t656ZooLocationsScore;
         break;
-      case 97:
-        val = t97MonitorScore;
+      case 657:
+        val = t657BugSearchScore;
         break;
+      case 658:
+        val = t658CancellationScore;
+        break;
+      case 659:
+        val = t659AnimalCodingScore;
+        break;
+      case 660:
+        val = t660ReceptiveVocabularyScore;
+        break;
+      case 661:
+        val = t661PictureNamingScore;
+        break;
+      case 662:
+        val = t662SocialStressScore;
+        break;
+      case 663:
+        val = "";
+        break;
+      case 664:
+        val = t664AnxietyScore;
+        break;
+      case 665:
+        val = t665DepressionScore;
+        break;
+      case 666:
+        val = t666SenseOfInadequacyScore;
+        break;
+      case 667:
+        val = t667SelfEsteemScore;
+        break;
+      case 668:
+        val = t668SelfRelianceScore;
+        break;
+    }
+    return val;
+  };
+
+  const subTestDescriptionColVal = id => {
+    let val;
+    switch (id) {
+      case 472:
+        val = t110PoorAchievementAndMemoryPercentileRank;
+        break;
+      case 473:
+        val = t110InadequateAbilitiesPercentileRank;
+        break;
+      case 474:
+        val = t110LearningProblemsPercentileRank;
+        break;
+      case 475:
+        val = t111BrashnessPercentileRank;
+        break;
+      case 476:
+        val = t111DistractibilityAndOveractivityPercentileRank;
+        break;
+      case 477:
+        val = t111ImpulsivityPercentileRank;
+        break;
+      case 478:
+        val = t112AntisocialBehaviorPercentileRank;
+        break;
+      case 479:
+        val = t112DyscontrolPercentileRank;
+        break;
+      case 480:
+        val = t112NoncompliancePercentileRank;
+        break;
+      case 481:
+        val = t113ParentChildConflictPercentileRank;
+        break;
+      case 482:
+        val = t113ParentMaladjustmentPercentileRank;
+        break;
+      case 483:
+        val = t113MaritalDiscordPercentileRank;
+        break;
+      case 484:
+        val = t114FeelingsOfAlienationPercentileRank;
+        break;
+      case 485:
+        val = t114HallucinationsAndDelusionsPercentileRank;
+        break;
+      case 486:
+        val = t115PsychosomaticSyndromePercentileRank;
+        break;
+      case 487:
+        val = t115MuscularTensionAndAnxietyPercentileRank;
+        break;
+      case 488:
+        val = t115PreoccupationWithDiseasePercentileRank;
+        break;
+      case 489:
+        val = t116FearAndWorryPercentileRank;
+        break;
+      case 490:
+        val = t116DepressionPercentileRank;
+        break;
+      case 491:
+        val = t116SleepDisturbancePercentileRank;
+        break;
+      case 492:
+        val = t117SocialIntroversionPercentileRank;
+        break;
+      case 493:
+        val = t117IsolationPercentileRank;
+        break;
+      case 494:
+        val = t118LimitedPeerStatusPercentileRank;
+        break;
+      case 495:
+        val = t118ConflictWithPeersPercentileRank;
+        break;
+      default:
+        val = "";
     }
     return val;
   };
@@ -932,6 +3192,9 @@ module.exports = ({
         break;
       case 31:
         val = t31NelsonDennyStandardScore;
+        break;
+      case 46:
+        val = t46QikCptAccuracyIndex;
         break;
       default:
         val = "";
@@ -948,6 +3211,21 @@ module.exports = ({
       case 31:
         val = t31NelsonDennyStandardScore;
         break;
+      case 33:
+        val = t33Gort5Percentile;
+        break;
+      case 34:
+        val = t34Gort5Percentile;
+        break;
+      case 35:
+        val = t35Gort5Percentile;
+        break;
+      case 36:
+        val = t36Gort5Percentile;
+        break;
+      case 46:
+        val = t46QikCptSustainedAttention;
+        break;
       default:
         val = "";
     }
@@ -963,6 +3241,21 @@ module.exports = ({
       case 31:
         val = t31NelsonDennyPercentile;
         break;
+      case 33:
+        val = t33Gort5AgeLevelEquivalency;
+        break;
+      case 34:
+        val = t34Gort5AgeLevelEquivalency;
+        break;
+      case 35:
+        val = t35Gort5AgeLevelEquivalency;
+        break;
+      case 36:
+        val = t36Gort5AgeLevelEquivalency;
+        break;
+      case 46:
+        val = t46QikCptImpulseControl;
+        break;
       default:
         val = "";
     }
@@ -977,6 +3270,429 @@ module.exports = ({
         break;
       case 31:
         val = t31NelsonDennyGradeEquivalent;
+        break;
+      case 33:
+        val = t33Gort5GradeLevelEquivalency;
+        break;
+      case 34:
+        val = t34Gort5GradeLevelEquivalency;
+        break;
+      case 35:
+        val = t35Gort5GradeLevelEquivalency;
+        break;
+      case 36:
+        val = t36Gort5GradeLevelEquivalency;
+        break;
+      case 46:
+        val = t46QikCptPerformanceIndex;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const testScoringTableScoresCol5Val = id => {
+    let val;
+    switch (id) {
+      case 46:
+        val = t46QikCptSpeedOfResponse;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const testScoringTableScoresCol6Val = id => {
+    let val;
+    switch (id) {
+      case 46:
+        val = t46QikCptConsistencyOfResponse;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const gaiRange = id => {
+    let val;
+    switch (id) {
+      case 2:
+        val = t2WiscvGaiRange;
+        break;
+      case 6:
+        val = t6WaisivGaiRange;
+        break;
+      case 9:
+        val = t9WppsiivGaiRange;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const gaiPercentile = id => {
+    let val;
+    switch (id) {
+      case 2:
+        val = t2WiscvGaiPercentile;
+        break;
+      case 6:
+        val = t6WaisivGaiPercentile;
+        break;
+      case 9:
+        val = t9WppsiivGaiPercentile;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const gcaRange = id => {
+    let val;
+    switch (id) {
+      case 10:
+        val = t10DasIIGcaRange;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const gcaScore = id => {
+    let val;
+    switch (id) {
+      case 10:
+        val = t10DasIIGcaScore;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const gcaPercentile = id => {
+    let val;
+    switch (id) {
+      case 10:
+        val = t10DasIIGcaPercentile;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const sncRange = id => {
+    let val;
+    switch (id) {
+      case 10:
+        val = t10DasIISncRange;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const sncScore = id => {
+    let val;
+    switch (id) {
+      case 10:
+        val = t10DasIISncScore;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const sncPercentile = id => {
+    let val;
+    switch (id) {
+      case 10:
+        val = t10DasIISncPercentile;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const indexConditionVal = id => {
+    let val;
+    switch (id) {
+      case 1:
+        val = `${
+          t1IfFsiqIsMeaningful === true
+            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t1WiscvFsiqScore} (${t1WiscvFsiqPercentile} percentile), which falls within in the  ${t1WiscvFsiqRank} range when compared to ${
+                diGender === "Boy" ? "his" : "her"
+              } same-aged peers.`
+            : `Overall, ${diName} demonstrated an inconsistent performance on the WISC-V. As a result, ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the five Composite areas that constitute ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score (FSIQ). Therefore, in order to better understand ${
+                diGender === "Boy" ? "his" : "her"
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+        }`;
+        break;
+      case 3:
+        val = `${
+          t57WasiiiVerbalComprehensionConsistent === true
+            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t57WasiiiVerbalComprehensionCompositeScore} (${t57WasiiiVerbalComprehensionCompositePercentile} percentile), which falls within in the ${t57WasiiiVerbalComprehensionCompositeRange} range of functioning.`
+            : `Overall, ${diName} demonstrated an inconsistent performance on the WASI-II. As a result, ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between subtests that constitute ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score (FSIQ). Therefore, in order to better understand ${
+                diGender === "Boy" ? "his" : "her"
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+        }`;
+        break;
+      case 5:
+        val = `${
+          t5IfFsiqIsMeaningful === true
+            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t5WaisivFsiqScore} (${t5WaisivFsiqPercentile} percentile), which falls within in the ${t5WaisivFsiqRank} range of functioning.`
+            : `Overall, ${diName} emonstrated an inconsistent performance on the WAIS-IV. As a result, ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the four Composite areas that constitute ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score (FSIQ). Therefore, in order to better understand ${
+                diGender === "Boy" ? "his" : "her"
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+        }`;
+        break;
+      case 7:
+        val = `${
+          t7IfGiaIsMeaningful === true
+            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t7WjivCogFsiqScore} (${t7WjivCogFsiqPercentile} percentile), which falls within in the ${t7WjivCogFsiqRank} range of functioning.`
+            : `Overall, ${diName} demonstrated an inconsistent performance on the WJ-IV. As a result, ${
+                diGender === "Boy" ? "his" : "her"
+              } GIA score cannot be interpreted meaningfully due to the significant discrepancies between the seven clusters. Therefore, in order to better understand ${
+                diGender === "Boy" ? "his" : "her"
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+        }`;
+        break;
+      case 9:
+        val = `${
+          t9IfFsiqIsMeaningful === true
+            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t9WppsiivFsiqScore} (${t9WppsiivFsiqPercentile} percentile), which falls within in the ${t9WppsiivFsiqRank} range of functioning.`
+            : `Overall, ${diName} demonstrated an inconsistent performance on the WPPSI-IV. As a result, ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the five Composite areas that constitute ${
+                diGender === "Boy" ? "his" : "her"
+              } Full-Scale score (FSIQ). Therefore, in order to better understand ${
+                diGender === "Boy" ? "his" : "her"
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+        }`;
+        break;
+      default:
+        val = "default";
+    }
+    return val;
+  };
+
+  const parentScaleDescVal = id => {
+    let val;
+    switch (id) {
+      case 57:
+        val = `${diName} demonstrated a relatively ${
+          t57WasiiiVerbalComprehensionConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Verbal Comprehension Index (VCI). Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a VCI Composite score of ${t57WasiiiVerbalComprehensionCompositeScore}, (${t57WasiiiVerbalComprehensionCompositePercentile} percentile), which is in the ${t57WasiiiVerbalComprehensionCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The VCI measured ${diName}'s verbal reasoning, knowledge and conceptualization.`;
+        break;
+      case 58:
+        val = `${diName} demonstrated a relatively ${
+          t58WasiiiPerceptualReasoningConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Fluid Reasoning Index (FRI). This index emphasizes visual-perceptual and visual-spatial reasoning, as well as conceptual reasoning and construction abilities requiring visual-perceptual integration. Specifically, ${diName} received a FRI Composite score of ${t58WasiiiPerceptualReasoningCompositeScore} (${t58WasiiiPerceptualReasoningCompositePercentile} percentile) which fell within the ${t58WasiiiPerceptualReasoningCompositeRange} range of functioning.`;
+        break;
+      case 106:
+        val = `${diName} demonstrated a relatively ${
+          t106WaisivVerbalComprehensionConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Verbal Comprehension Index (VCI). Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a VCI Composite score of ${t106WaisivVerbalComprehensionCompositeScore}, (${t106WaisivVerbalComprehensionCompositePercentile} percentile), which is in the ${t106WaisivVerbalComprehensionCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The VCI measured ${diName}'s verbal reasoning, knowledge and conceptualization.`;
+        break;
+      case 107:
+        val = `${diName} demonstrated a relatively ${
+          t107WaisivPerceptualReasoningConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Fluid Reasoning Index (FRI). This index emphasizes visual-perceptual and visual-spatial reasoning, as well as conceptual reasoning and construction abilities requiring visual-perceptual integration. Specifically, ${diName} received a FRI Composite score of ${t107WaisivPerceptualReasoningCompositeScore} (${t107WaisivPerceptualReasoningCompositePercentile} percentile) which fell within the ${t107WaisivPerceptualReasoningCompositeRange} range of functioning.`;
+        break;
+      case 108:
+        val = `${diName} demonstrated a relatively ${
+          t108WaisivWorkingMemoryConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } Tasks within the Working Memory Index (WMI) measure attention, concentration, and working memory for both verbal and visual material. ${diName} received a WMI Composite score of ${t108WaisivWorkingMemoryCompositeScore} (${t108WaisivWorkingMemoryCompositePercentile} percentile) which fell within the ${t108WaisivWorkingMemoryCompositeRange} range compared to ${
+          diGender === "Boy" ? `his` : `her`
+        } peers.`;
+        break;
+      case 109:
+        val = `${diName} demonstrated a relatively ${
+          t109WaisvProcessingSpeedConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } The Processing Speed domain measured ${diName}'s speed of mental and graphomotor processing, as well as their ability to efficiently scan and process visual information. ${diName} received a PSI Composite score of ${t109WaisvProcessingSpeedCompositeScore} (${t109WaisvProcessingSpeedCompositePercentile} percentile) which fell within the ${t109WaisvProcessingSpeedCompositeRange} range of functioning.`;
+        break;
+      case 127:
+        val = `The Minnesota Multiphasic Personality Inventory-A (MMPI-A) contains eight validity scales used to describe the extent of the individual’s cooperation with the assessment. It can indicate whether the individual wanted to call attention to his or her symptoms or, conversely, if he or she was inclined to deny problems.`;
+        break;
+      case 134:
+        val = `Comprehension-Knowledge (Gc) is a composite score that provides a estimate of crystalized intelligence or verbal ability, which is defined as a store of acquired knowledge that reflects the breadth and depth of knowledge of a culture. Comprehension-Knowledge (Gc) is composed of two tests Oral Vocabulary and General Information.<p>${diName} demonstrated a relatively ${
+          t134WjivCogComprehensionKnowledgeGcConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Comprehension-Knowledge (Gc) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Gc score of ${t134WjivCogComprehensionKnowledgeGcCompositeScore} (${t134WjivCogComprehensionKnowledgeGcCompositePercentile} percentile) which fell within the ${t134WjivCogComprehensionKnowledgeGcCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The Gc cluster measured ${diName}'s breadth and depth of knowledge and skills, including verbal communication and reasoning ability.</p>`;
+        break;
+      case 135:
+        val = `Fluid Reasoning (Gf) is a composite score that provides an estimate of ability to reason, form concepts, and solve problems using unfamiliar information or novel procedures. Fluid reason requires deliberate and flexible control of attention to solve on the spot problems.<p>${diName} demonstrated a relatively ${
+          t135WjivCogFluidReasoningGfConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Fluid Reasoning (Gf) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Gf score of ${t135WjivCogFluidReasoningGfCompositeScore} (${t135WjivCogFluidReasoningGfCompositePercentile} percentile) which fell within the ${t135WjivCogFluidReasoningGfCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The Gf cluster measured ${diName}'s ability to reason, form concepts and solve problems using unfamiliar information or novel procedures.</p>`;
+        break;
+      case 136:
+        val = `Short-Term Working Memory (Gwm) is a composite score that provides an estimate of ability to apprehend and hold information in immediate awareness and then use or manipulate it to carry out a goal.<p>${diName} demonstrated a relatively ${
+          t136WjivCogShortTermWorkingMemoryGwmConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Short-Term Working Memory (Gwm) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Gwm score of ${t136WjivCogShortTermWorkingMemoryGwmCompositeScore} (${t136WjivCogShortTermWorkingMemoryGwmCompositePercentile} percentile) which fell within the ${t136WjivCogShortTermWorkingMemoryGwmCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The Gwm cluster measured ${diName}'s ability to apprehend and hold information in immediate awareness and then use or manipulate it.</p>`;
+        break;
+      case 137:
+        val = `Cognitive Processing Speed (Gs) cluster is a composite score that provides an estimate of ability to quickly perform both simple and complex cognitive tasks, particularly when measured under pressure to sustain controlled attention and concentration.<p>${diName} demonstrated a relatively ${
+          t137WjivCogCognitiveProcessingSpeedGsConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Cognitive Processing Speed (Gs) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Gs score of ${t137WjivCogCognitiveProcessingSpeedGsCompositeScore} (${t137WjivCogCognitiveProcessingSpeedGsCompositePercentile} percentile) which fell within the ${t137WjivCogCognitiveProcessingSpeedGsCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The Gs cluster measured ${diName}'s ability to quickly perform both simple and complex cognitive tasks, particularly when measured under pressure to sustain controlled attention and concentration.</p>`;
+        break;
+      case 138:
+        val = `Auditory Processing Speed (Ga): ${diName} demonstrated a relatively ${
+          t138WjivCogAuditoryProcessingSpeedGaConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Auditory Processing Speed (Ga) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Ga score of ${t138WjivCogAuditoryProcessingSpeedGaCompositeScore} (${t138WjivCogAuditoryProcessingSpeedGaCompositePercentile} percentile) which fell within the ${t138WjivCogAuditoryProcessingSpeedGaCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The Ga cluster measured ${diName}'s ability to encode, synthesize, and discriminate auditory stimuli, including the ability to employ auditory information in task performance.`;
+        break;
+      case 139:
+        val = `${diName} demonstrated a relatively ${
+          t139WjivCogLongTermRetrievalGlrConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Long-Term Retrieval (Glr) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Glr score of ${t139WjivCogLongTermRetrievalGlrCompositeScore} (${t139WjivCogLongTermRetrievalGlrCompositePercentile} percentile) which fell within the ${t139WjivCogLongTermRetrievalGlrCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age. The Glr cluster measured ${diName}'s ability to store information and fluently retrieve it later in the process of thinking.`;
+        break;
+      case 140:
+        val = `${diName} demonstrated a relatively ${
+          t140WjivCogVisualProcessingGvConsistent === true
+            ? "consistent"
+            : "inconsistent"
+        } performance on the subtests within the Visual Processing (Gv) cluster. Specifically, ${
+          diGender === "Boy" ? `he` : `she`
+        } received a Gv score of ${t140WjivCogVisualProcessingGvCompositeScore} (${t140WjivCogVisualProcessingGvCompositePercentile} percentile) which fell within the ${t140WjivCogVisualProcessingGvCompositeRange} range of functioning compared to other individuals (his/her) age. The Gv cluster measured ${diName}'s ability to perceive, analyze, synthesize and think with visual patterns, including the ability to store and recall visual representations.`;
+        break;
+      case 142:
+        val = `TSCC has two validity scales: one that taps a child’s tendency to deny any symptomatology and one that indexes a tendency to overrespond to symptom items. <ul><li><b>Underresponse (UND) &#10142;</b> The UND scale reflects the extent to which the respondent denied behaviors, thoughts, or feelings that most others would report at some nonzero level.</li><li><b>Hyperresponse (HYP) &#10142;</b> Is when the child indiscriminately endorses the highest frequency point for many or all symptom items.</li></ul>`;
+        break;
+      case 143:
+        val = `The clinical scales of the TSCC measure the extent to which the child endorses six different types of potentially trauma-related symptoms. Five of the six scales (all but PTS) are nonoverlapping at the item level. Two of these clinical scales (DIS and SC) also contain scorable subscales, based upon principle components analyses and scale content.<ul><li><b>Anxiety (ANX) &#10142;</b> Scores on the Anxiety (ANX) scale reflect the extent to which the child is experiencing generalized anxiety, hyperarousal, and worry, as well as specific fears of men or women, of the dark, and of being killed. Also tapped by this scale are episodes of free-floating anxiety and fears of impeding danger.</li><li><b>Depression (DEP) &#10142;</b> The Depression (DEP) scale taps feelings of sadness, unhappiness, and loneliness; episodes of tearfulness; and depressive cognitions such as guilt and self-denigration.</li>  <li><b>Anger (ANG)  &#10142;</b> Scores on the Anger (ANG) scale indicate the extent of angry thoughts, feelings, and behaviors reported by the child.</li>  <li><b>Posttraumatic Stress &#10142;</b> The Posttraumatic Stress (PTS) scale consists of items reflecting classic posttraumatic symptoms.</li><li><b>Dissociation (DIS) &#10142;</b> The Dissociation (DIS) scale measures the extent to which the child experiences mild-to-moderate dissociative symptomatology.</li>  <li><b>Sexual Concerns (SC) &#10142;</b> The Sexual Concerns (SC) scale measures sexual distress and preoccupation.</li></ul>`;
+        break;
+      case 160:
+        val = `The Minnesota Personality Inventory-A is a self-report instrument designed to aid in the assessment of a wide range of clinical conditions.`;
+        break;
+      default:
+        val = "default";
+    }
+    return val;
+  };
+
+  const summaryAbilities = id => {
+    let val;
+    switch (id) {
+      case 2:
+        val = t2DasIISummaryAbilities;
+        break;
+      case 3:
+        val = t3WasiiiSummaryAbilities;
+        break;
+      case 4:
+        val = t4WiatiiiSummaryAbilities;
+        break;
+      case 5:
+        val = t5WaisivSummaryAbilities;
+        break;
+      case 6:
+        val = t6WjivCogSummaryAbilities;
+        break;
+      case 9:
+        val = t9WppsiivSummaryAbilities;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const summaryChallenges = id => {
+    let val;
+    switch (id) {
+      case 2:
+        val = t2DasIISummaryChallenges;
+        break;
+      case 3:
+        val = t3WasiiiSummaryChallenges;
+        break;
+      case 4:
+        val = t4WiatiiiSummaryChallenges;
+        break;
+      case 5:
+        val = t5WaisivSummaryChallenges;
+        break;
+      case 6:
+        val = t6WjivCogSummaryChallenges;
+        break;
+      case 9:
+        val = t9WppsiivSummaryChallenges;
         break;
       default:
         val = "";
@@ -1127,19 +3843,22 @@ module.exports = ({
                 top: 3px;
                 left: -0.1875in;
               }
-              .pdf-t main section > table {
+              .pdf-t main section table {
                 width: 100%;
                 line-height: inherit;
                 text-align: left;
+                vertical-align: top;
                 }
-              .pdf-t main section > table td {
+              .pdf-t main section table td {
                 vertical-align: top;
               }
-              .pdf-t main section > table div p {
+              .pdf-t main section table div p,
+              .pdf-t main section div p {
                 color: #007cb3;
                 font-style: italic;
               }
-              .pdf-t main section > table div p span {
+              .pdf-t main section table div p span,
+              .pdf-t main section div p span {
                 color: black;
                 font-style: normal;
               }
@@ -1267,7 +3986,7 @@ module.exports = ({
                 color: #464646;
                 display: inline-block;
                 font-family: "Lato", "Montserrat", sans-serif;
-                font-size: 14pt;
+                font-size: 12pt;
                 margin-bottom: 0.125in !important;
                 margin-top: 0;
                 text-transform: capitalize;
@@ -1279,17 +3998,18 @@ module.exports = ({
                 margin: 36px 0 9px;
                 text-transform: uppercase;
               }
-              .pdf-t main section .test__table h5 {
+              .pdf-t main section .test-table h5 {
                 color: #777;
                 font-family: "Montserrat", sans-serif;
                 font-size: 12pt;
                 margin: 36px 0 9px;
                 text-transform: uppercase;
               }
-              .pdf-t main section .domain__test h5 .lowercase {
+              .pdf-t main section .domain__test h5 .lowercase,
+              .pdf-t main section .domain__test h5 > span {
                 text-transform: none;
               }
-              .pdf-t main section .domain__test h6 ~ h5 {
+              .pdf-t main section .domain__test h6 + h5 {
                 margin: 9px 0;
               }
               .pdf-t main section .domain__test h6 {
@@ -1311,7 +4031,7 @@ module.exports = ({
                 text-transform: capitalize;
               }
               .pdf-t main section .domain__test h5 ~ h6 {
-                margin-top: 36px;
+                margin-top: 18px;
               }
               .pdf-t main section .domain__test span.h7 {
                 color: #464646;
@@ -4636,7 +7356,7 @@ module.exports = ({
                     <h2>Test Results</h2>
                     <p>Consistent with common medical practice, ability levels are described statistically. It is important to be aware that mild deficits from a statistical standpoint may interfere significantly with daily functioning. Percentiles are used to describe how many people out of 100 this individual would score above. For example, at the 50th percentile (exactly Average), ${diName} would score higher than 50 out of 100 people.</p>
                     <p>The following table is presented below to further describe the statistical classifications, unless otherwise specified (e.g., BASC-3, BRIEF-2, Vineland-3). </p>
-                    <p>Please refer to the table below for the numerical results of John’ performance on all of the measures, as well as his classification level.</p>
+                    <p>Please refer to the table below for the numerical results of ${diName}'s performance on all of the measures, as well as his classification level.</p>
                     <p>Note for interpretation of test results: these test results are to be interpreted only within the context of this report. They are not to be interpreted independent of this report.</p>
                     <table class="test-table">
                       <tr class="table__row table__header">
@@ -4710,15 +7430,81 @@ module.exports = ({
                         <h4>${t.Name}</h4>
                         <span class="h7">&nbsp;${t.Abbreviation}</span>
                     </div>
-                    <p>${t.Descriptions}</p>
+                    <p>${t.Descriptions.replace("(Client)", `${diName}`)}</p>
                   </div>
-                ${
-                  t.ParentScaleTitles.length > 0
-                    ? t.ParentScaleTitles.map(
-                        t => `
+                  ${
+                    t.TestIndexes.length > 0
+                      ? t.TestIndexes.map(
+                          t =>
+                            `<div class="domain__test">
+                          ${
+                            t.IndexName === "General Ability Index"
+                              ? `<div className="test__list">
+                                <h5>${t.IndexName}</h5>
+                                <p>${t.IndexDescription}
+                                  ${t.HasInput &&
+                                    `<span>
+                                    ${diName}'s GAI places ${
+                                      diGender === "Boy" ? `him` : `her`
+                                    } in the ${gaiRange(
+                                      t.Id
+                                    )} range and at the ${gaiPercentile(
+                                      t.Id
+                                    )} percentile.
+                                    </span>`}
+                                </p>
+                              </div>`
+                              : t.IndexName === "General Conceptual Ability"
+                              ? `<div>
+                                  <h5>${t.IndexName}</h5>
+                                  <div className="test__list">
+                                    ${diName}'s GCA score on the DAS-II places ${
+                                  diGender === "Boy" ? `him` : `her`
+                                } in
+                                    the ${gcaRange(
+                                      t.Id
+                                    )} range DAS-II GCA score of ${gcaScore(
+                                  t.Id
+                                )}, 
+                                    ${gcaPercentile(t.Id)} percentile while ${
+                                  diGender === "Boy" ? `his` : `her`
+                                } Special Nonverbal Composite SNC
+                                    score placed in the ${sncRange(
+                                      t.Id
+                                    )} range DAS-II SNC score of ${sncScore(
+                                  t.Id
+                                )}, ${sncPercentile(t.Id)} percentile.
+                                  </div>
+                                </div>`
+                              : `<div>
+                                <h5>${t.IndexName}</h5>
+                                <p>${t.IndexDescription}</p>
+                              </div>`
+                          }
+                          ${
+                            t.IndexConditions.length > 0
+                              ? `<p>${indexConditionVal(
+                                  t.IndexConditions[0].Id
+                                )}</p>`
+                              : ""
+                          }
+                          </div>`
+                        ).join("")
+                      : ""
+                  }
+                  ${
+                    t.ParentScaleTitles.length > 0
+                      ? t.ParentScaleTitles.map(
+                          t => `
                           <div class="domain__test">
                             <h5>${t.ParentScaleName}</h5>
-                          </div>
+                          ${
+                            t.ParentScaleDescription !== null
+                              ? `<p>
+                                  ${parentScaleDescVal(t.Id)}
+                                </p>`
+                              : ""
+                          }
                           <table class="test-table">
                             <tr class="table__row table__header">
                               <th style="width:25%">${
@@ -4737,12 +7523,133 @@ module.exports = ({
                                   <td>${t.Name}</td>
                                   <td><strong>${subtestVal(t.Id)}</strong></td>
                                   <td>
-                                    <div>${t.Description}</div>
+                                    <div>${
+                                      t.Description === null
+                                        ? subTestDescriptionColVal(t.Id)
+                                        : t.Description
+                                    }</div>
                                   </td>
                                 </tr>`
                             ).join("")}
                           </table>
-                        `
+                        </div>`
+                        ).join("")
+                      : ""
+                  }
+                ${
+                  t.SubTests.length > 0
+                    ? `<table class="test-table">
+                      <tr class="table__row table__header">
+                        <th style="width:25%">${
+                          testSelectedReducer[i].SubTestType
+                        }</th>
+                        <th style="width:15%">${
+                          testSelectedReducer[i].ScoreType
+                        }</th>
+                        <th style="width:60%">${
+                          testSelectedReducer[i].DescriptionType
+                        }</th>
+                      </tr>
+                      ${t.SubTests.map(
+                        t =>
+                          `<tr class="table__row">
+                          <td>${t.Name}</td>
+                          <td><strong>${subtestVal(t.Id)}</strong></td>
+                          <td>
+                            <div>${t.Description}</div>
+                          </td>
+                        </tr>`
+                      ).join("")}
+                    </table>`
+                    : ""
+                }
+                ${
+                  t.ParentGroupScales.length > 0
+                    ? t.ParentGroupScales.map(
+                        t => `<div class="domain__test">
+                        <h5>${t.ParentGroupScaleName}</h5>
+                        ${
+                          t.ParentScaleTitles.length > 0
+                            ? t.ParentScaleTitles.map(
+                                t => `
+                                <div class="domain__test">
+                                  <h5>${t.ParentScaleName}</h5>
+                                </div>
+                                <table class="test-table">
+                                  <tr class="table__row table__header">
+                                    <th style="width:25%">${
+                                      testSelectedReducer[i].SubTestType
+                                    }</th>
+                                    <th style="width:15%">${
+                                      testSelectedReducer[i].ScoreType
+                                    }</th>
+                                    <th style="width:60%">${
+                                      testSelectedReducer[i].DescriptionType
+                                    }</th>
+                                  </tr>
+                                  ${t.SubTests.map(
+                                    t =>
+                                      `<tr class="table__row">
+                                        <td>${t.Name}</td>
+                                        <td><strong>${subtestVal(
+                                          t.Id
+                                        )}</strong></td>
+                                        <td>
+                                          <div>${t.Description}</div>
+                                        </td>
+                                      </tr>`
+                                  ).join("")}
+                                </table>
+                              `
+                              ).join("")
+                            : ""
+                        }
+                        ${
+                          t.ParentGroupSubScales.length > 0
+                            ? t.ParentGroupSubScales.map(
+                                t =>
+                                  `<div class="domain__test">
+                                  <h6>${t.ParentGroupSubScaleName}</h6>
+                                  ${t.ParentScaleTitles.map(
+                                    t => `
+                                      <h5>${t.ParentScaleName}</h5>
+                                      ${
+                                        t.ParentScaleDescription !== null
+                                          ? `<p>${t.ParentScaleDescription}</p>`
+                                          : ""
+                                      }
+                                      <table class="test-table">
+                                        <tr class="table__row table__header">
+                                          <th style="width:25%">${
+                                            testSelectedReducer[i].SubTestType
+                                          }</th>
+                                          <th style="width:15%">${
+                                            testSelectedReducer[i].ScoreType
+                                          }</th>
+                                          <th style="width:60%">${
+                                            testSelectedReducer[i]
+                                              .DescriptionType
+                                          }</th>
+                                        </tr>
+                                        ${t.SubTests.map(
+                                          t =>
+                                            `<tr class="table__row">
+                                              <td>${t.Name}</td>
+                                              <td><strong>${subtestVal(
+                                                t.Id
+                                              )}</strong></td>
+                                              <td>
+                                                <div>${t.Description}</div>
+                                              </td>
+                                            </tr>`
+                                        ).join("")}
+                                      </table>`
+                                  ).join("")}
+                                </div>`
+                              ).join("")
+                            : ""
+                        }
+                      </div>`
                       ).join("")
                     : ""
                 }
@@ -4751,13 +7658,15 @@ module.exports = ({
                     ? t.ParentGroupSubScales.map(
                         t =>
                           `<div class="domain__test">
-                          <h5>${t.ParentGroupSubScaleName}</h5>
+                          <h6>${t.ParentGroupSubScaleName}</h6>
                           ${t.ParentScaleTitles.map(
                             t => `
-                              <div>
-                                <h6 className="h7">${t.ParentScaleName}</h6>
-                              </div>
-                              <p>${t.ParentScaleDescription}</p>
+                              <h5>${t.ParentScaleName}</h5>
+                              ${
+                                t.ParentScaleDescription !== null
+                                  ? `<p>${t.ParentScaleDescription}</p>`
+                                  : ""
+                              }
                               <table class="test-table">
                                 <tr class="table__row table__header">
                                   <th style="width:25%">${
@@ -4789,13 +7698,67 @@ module.exports = ({
                     : ""
                 }
                 ${
+                  t.TestModules.length > 0
+                    ? t.TestModules.map(
+                        t =>
+                          `<div class="domain__test">
+                        <h5>${t.Name}</h5>
+                        <p>${t.Descriptions}</p>
+                        ${t.ParentGroupScales.map(
+                          t =>
+                            `<div>
+                            <div className="test-table-heading">
+                              <h6>${t.ParentGroupScaleName} </h6>
+                            </div>
+                            ${t.ParentScaleTitles.map(
+                              t =>
+                                `<h5>${t.ParentScaleName}</h5>
+                                ${
+                                  t.ParentScaleDescription !== null
+                                    ? `<p>${t.ParentScaleDescription}</p>`
+                                    : ""
+                                }
+                                <table class="test-table">
+                                  <tr class="table__row table__header">
+                                    <th style="width:25%">${
+                                      testSelectedReducer[i].SubTestType
+                                    }</th>
+                                    <th style="width:15%">${
+                                      testSelectedReducer[i].ScoreType
+                                    }</th>
+                                    <th style="width:60%">${
+                                      testSelectedReducer[i].DescriptionType
+                                    }</th>
+                                  </tr>
+                                  ${t.SubTests.map(
+                                    t =>
+                                      `<tr class="table__row">
+                                      <td>${t.Name}</td>
+                                      <td><strong>${subtestVal(
+                                        t.Id
+                                      )}</strong></td>
+                                      <td>
+                                        <div>${t.Description}</div>
+                                      </td>
+                                    </tr>`
+                                  ).join("")}
+                                </table>`
+                            ).join("")}
+                            </div>`
+                        ).join("")}
+                        </div>`
+                      ).join("")
+                    : ""
+                }
+                ${
                   t.TestScoringTableDetails !== null
                     ? t.TestScoringTableDetails.map(
                         t =>
                           `<div class="test-table test-table--fourCols">
-                          <h6>${
-                            t.Description !== null ? t.Description : ""
-                          }</h6>
+                          <h5 class="test-table__name">${
+                            t.Name !== null ? t.Name : ""
+                          }</h5>
+                          <p>${t.Description !== null ? t.Description : ""}</p>
                           ${
                             t.ScoreHeader === null
                               ? ""
@@ -4877,14 +7840,18 @@ module.exports = ({
                                 t.Col5 === null
                                   ? ""
                                   : t.Col5 === "<Field>"
-                                  ? `<td>Variable t.Col5</td>`
+                                  ? `<td>${testScoringTableScoresCol5Val(
+                                      t.Id
+                                    )}</td>`
                                   : `<td>${t.Col5}</td>`
                               }
                               ${
                                 t.Col6 === null
                                   ? ""
                                   : t.Col6 === "<Field>"
-                                  ? `<td>Variable t.Col6</td>`
+                                  ? `<td>${testScoringTableScoresCol6Val(
+                                      t.Id
+                                    )}</td>`
                                   : `<td>${t.Col6}</td>`
                               }
                             </tr>`
@@ -4905,21 +7872,31 @@ module.exports = ({
                                 ${
                                   testSelectedReducer[0].Abbreviation
                                 } provided a
-                                snapshot into (his/her) various cognitive
-                                abilities and strengths. (He/She) demonstrated
-                                well-developed ${t4WiatiiiSummaryAbilities}.
+                                snapshot into ${
+                                  diGender === "Boy" ? `his` : `her`
+                                } various cognitive
+                                abilities and strengths. ${
+                                  diGender === "Boy" ? `He` : `She`
+                                } demonstrated
+                                well-developed ${summaryAbilities(t.Id)}.
                               </span>
                             </p>
                             <p className="test__list">
                               <span>
-                                However, (he/she) also evidenced relative
-                                challenges with ${t4WiatiiiSummaryChallenges}.
+                                However, ${
+                                  diGender === "Boy" ? `he` : `she`
+                                } also evidenced relative
+                                challenges with ${summaryChallenges(t.Id)}.
                               </span>
                             </p>
                             <p>
                               These challenges should continue to be monitored and
-                              evaluated so as to help (him/her) continue to
-                              perform at (his/her) best.
+                              evaluated so as to help ${
+                                diGender === "Boy" ? `him` : `her`
+                              } continue to
+                              perform at ${
+                                diGender === "Boy" ? `his` : `her`
+                              } best.
                             </p>
                           </div>`
                       ).join("")
@@ -4928,7 +7905,273 @@ module.exports = ({
               </section>`
               )
               .join("")}
-        
+
+              <section>
+              ${
+                diName !== null ||
+                diAge !== null ||
+                reasonReferral1 !== null ||
+                reasonReferral2 !== null ||
+                reasonReferral3 !== null ||
+                relevantBackgroundHistory !== null ||
+                resultsCurrentAssessment !== null ||
+                summaryCurrentSituation !== null
+                  ? `<h2>Summary of Findings</h2>`
+                  : ""
+              }
+
+              ${
+                diName !== undefined || diAge !== undefined
+                  ? `<ul>
+                      <li>
+                        <p><em>Patient's name: </em><span>${diName}</span></p>
+                      </li>
+                      <li>
+                        <p><em>Patient's age: </em><span>${diAge}</span></p>
+                      </li>
+                    </ul>`
+                  : ""
+              }
+
+              ${
+                reasonReferral1 !== undefined ||
+                reasonReferral2 !== undefined ||
+                reasonReferral3 !== undefined
+                  ? `<h3>Reasons for Referral</h3>
+                      <ul>
+                          <li>
+                            <p>${reasonReferral1}</p>
+                          </li>
+                          <li>
+                            <p>${reasonReferral2}</p>
+                          </li>
+                          <li>
+                            <p>${reasonReferral3}</p>
+                          </li>
+                      </ul>`
+                  : ""
+              }
+
+              ${
+                relevantBackgroundHistory !== null
+                  ? `<h3>Relevant Background History</h3>
+                    <div>
+                      <p><span>${relevantBackgroundHistory}</span></p>
+                    </div>`
+                  : ""
+              }
+
+              ${
+                resultsCurrentAssessment !== null
+                  ? `<h3>Results of Current Assessment</h3>
+                    <div>
+                      <p><span>${resultsCurrentAssessment}</span></p>
+                    </div>`
+                  : ""
+              }
+
+              ${
+                summaryCurrentSituation !== null
+                  ? `<h3>Overall summary of current situation</h3>
+                    <div>
+                      <p><span>${summaryCurrentSituation}</span></p>
+                    </div>`
+                  : ""
+              }
+              </section>
+
+              <section>
+              ${
+                dsmCodes.length > 0 || 
+                eduCodeIntellectualDisabilityId === true ||
+                eduCodeHardOfHearingHh === true ||
+                eduCodeDeafnessDeafHearingImpairmentHi === true ||
+                eduCodeSpeechOrLanguageImpairmentSli === true ||
+                eduCodeVisualImpairmentVi === true ||
+                eduCodeEmotionalDisturbanceEd === true ||
+                eduCodeOrthopedicImpairmentOi === true ||
+                eduCodeOtherHealthImpairmentOhi === true ||
+                eduCodeEstablishedMedicalDisabilityEmd === true ||
+                eduCodeSpecificLearningDisabilitySld === true ||
+                eduCodeDeafBlindnessDb === true ||
+                eduCodeMultipleDisabilitiesMd === true ||
+                eduCodeAutismAut === true || 
+                eduCodeTraumaticBrainInjuryTbi === true 
+                  ? `<h2>Diagnostic considerations</h2>`
+                  : ""
+              }
+              
+              ${
+                dsmCodes.length > 0
+                ? 
+                  `<h3>DSM-5 diagnosis (ICD-10)</h3>
+                    <ul>
+                      ${
+                        dsmCodes.map(code => 
+                        `<li>
+                            <p><span>${code.codeValue}</span></p>
+                        </li>`
+                        ).join("")
+                      }
+                    </ul>`
+                : ""
+              }
+
+              ${
+                eduCodeIntellectualDisabilityId === true ||
+                eduCodeHardOfHearingHh === true ||
+                eduCodeDeafnessDeafHearingImpairmentHi === true ||
+                eduCodeSpeechOrLanguageImpairmentSli === true ||
+                eduCodeVisualImpairmentVi === true ||
+                eduCodeEmotionalDisturbanceEd === true ||
+                eduCodeOrthopedicImpairmentOi === true ||
+                eduCodeOtherHealthImpairmentOhi === true ||
+                eduCodeEstablishedMedicalDisabilityEmd === true ||
+                eduCodeSpecificLearningDisabilitySld === true ||
+                eduCodeDeafBlindnessDb === true ||
+                eduCodeMultipleDisabilitiesMd === true ||
+                eduCodeAutismAut === true ||
+                eduCodeTraumaticBrainInjuryTbi === true
+                ? `<h3>Educational classification</h3>
+                  <div>
+                    ${
+                      eduCodeIntellectualDisabilityId === true
+                        ? `<p>Intellectual Disability (ID) <span>Intellectual Disability means significantly subaverage general intellectual functioning, existing concurrently with deficits in adaptive behavior, and manifested during the developmental period, that adversely affects a child's educational performance. (34 Code of Federal Regulations (CFR), Sec. 300.8(c)(6)).</span></p>`
+                        : ""
+                    }
+                    
+                    ${
+                      eduCodeHardOfHearingHh === true
+                        ? `<p>Hard of hearing (HH) <span>Hard of Hearing means hearing, impairment, whether permanent or fluctuating, that adversely affects a child's educational performance, but that is not included under the definition of deaf in this section.</span></p>`
+                        : ""
+                    }
+                    
+                    ${
+                      eduCodeDeafnessDeafHearingImpairmentHi === true 
+                        ? `<p>Deafness (DEAF)/Hearing impairment (HI) <span>Deafness means a hearing impairment that is so severe that the child is impaired in processing linguistic information through learning, with or without amplification, which adversely affects educational performance. (34 CFR Sec. 300.8(c)(3) Hearing Impairment is a federal category of disability, which includes both hard of hearing and deaf individuals as defined above.</span></p>`
+                        : ""
+                    }
+          
+                    ${
+                      eduCodeSpeechOrLanguageImpairmentSli === true
+                        ? `<p>Speech or language impairment (SLI) <span>Speech or Language Impairment means a communication disorder such as stuttering, impaired articulation, language impairment, or a voice impairment, that adversely affects a child's educational performance. (34 CFR Sec. 300.8(c)(11)).</span></p>`
+                        : "" 
+                    }
+          
+                    ${
+                      eduCodeVisualImpairmentVi === true
+                        ? `<p>Visual impairment (VI) <span>Visually Impaired, including blindness means impairment in vision that, even with correction, adversely affects a child's educational performance. The term includes both partially seeing and blind children. (34 CFR Sec. 300.8(c)(13)).</span></p>`
+                        : ""
+                    }
+          
+                    ${
+                      eduCodeEmotionalDisturbanceEd === true
+                        ? `<p>Emotional disturbance (ED) <span>Emotional Disturbance means a condition exhibiting one or more of the following characteristics, over a long period of time and to a marked degree, that adversely affects educational performance: (A) An inability to learn which cannot be explained by intellectual, sensory, or health factors; (B) An inability to build or maintain satisfactory interpersonal relationships with peers and teachers; (C) Inappropriate types of behavior or feeling under normal circumstances; (D) A general pervasive mood of unhappiness or depression; or (E) A tendency to develop physical symptoms or fears associated with personal or school problems. The term (ED) includes schizophrenia. The term does not apply to children who are socially maladjusted, unless it is determined that they have an emotional disturbance. (34 CFR Sec. 300.8(c)(4)).</span></p>`
+                        : ""
+                    }
+                                
+                    ${
+                      eduCodeOrthopedicImpairmentOi === true
+                        ? `<p>Orthopedic impairment (OI) <span>Orthopedic Impairment means a severe orthopedic impairment that adversely affects a child's educational performance. The term includes impairments caused by congenital anomaly (e.g., clubfoot, absence of some member, etc.), impairments caused by disease (e.g., poliomyelitis, bone tuberculosis, etc.), and impairments from other causes (e.g., cerebral palsy, amputations, and fractures or burns which cause contractures). (34 CFR Sec. 300.8(b)(6 Sec. 300.8(c)(8)).</span></p>`
+                        : ""
+                    }
+                                
+                    ${
+                      eduCodeOtherHealthImpairmentOhi === true
+                        ? `<p>Other health impairment (OHI) <span>Other Health Impairment means having limited strength, vitality or alertness, due to chronic or acute health problems such as a heart condition, tuberculosis, rheumatic fever, nephritis, asthma, sickle cell anemia, hemophilia, epilepsy, lead poisoning, leukemia, or diabetes, which adversely affects a child's educational performance. (34 CFR Part 300.8 (c) (9)).</span></p>`
+                        : ""
+                    }
+          
+                    ${
+                      eduCodeEstablishedMedicalDisabilityEmd === true
+                        ? `<p>Established medical disability (EMD) <span>A disabling medical condition or congenital syndrome that the individualized education program (IEP) team determines has a high predictability of requiring special education and services. (CA Ed Code, Section 56441.11(d)) (Note: This eligibility category is only applicable for children ages 3-5).</span></p>`
+                        : ""
+                    }
+          
+                    ${
+                      eduCodeSpecificLearningDisabilitySld === true
+                        ? `<p>Specific learning disability (SLD) <span>Specific Learning Disability means a disorder in one or more of the basic psychological processes involved in understanding or using language, spoken or written, that may manifest itself in an imperfect ability to listen, think, speak, read, write, spell, or to do mathematical calculations, including such conditions as perceptual disabilities, brain injury, minimal brain dysfunction, dyslexia, and developmental aphasia. The term does not include learning problems that are primarily the result of visual, hearing, or motor handicaps, of mental retardation, of emotional disturbance or of environmental, cultural, or economic disadvantage. (34 CFR Sec. 300.8(c)(10)).</span></p>`
+                        : ""
+                    }
+          
+                    ${
+                      eduCodeDeafBlindnessDb === true
+                        ? `<p>DeafBlindness (DB) <span>DeafBlindness means concomitant hearing and visual impairments, the combination of which causes such severe communication and other developmental and educational needs that they cannot be accommodated in special education programs solely for children with deafness or children with blindness. (34 CFR Sec. 300.8(c)(2)).</span></p>`
+                        : ""
+                    }
+                    
+                    ${
+                      eduCodeMultipleDisabilitiesMd === true
+                        ? `<p>Multiple disabilities (MD) <span>Multiple Disabilities means concomitant impairments (such as mental retardationBlindness, mental retardationOrthopedic impairment, etc.,) the combination of which causes such severe educational needs that they cannot be accommodated in special education programs solely for one of the impairments. The term does not include deafBlind children. (34 CFR Sec. 300.8(c)(7)).</span></p>`
+                        : ""
+                    }
+                    
+                    ${eduCodeAutismAut === true
+                      ? `<p>Autism (AUT) <span>Autism means a developmental disability significantly affecting verbal and nonVerbal communication and social interaction, generally evident before age three, which adversely affects educational performance. Other characteristics often associated with autism include, engagement in repetitive activities and stereotyped movements, resistance to environmental change or change in daily routines, and unusual responses to sensory experiences. The term does not does not apply if a child's educational performance is adversely affected primarily because the child has an emotional disturbance. A child who manifests characteristics of autism after age three, that child could be diagnosed as having autism if the criteria in the above paragraph are satisfied. (34 CFR Sec. 300.8(c)(1)).</span></p>`
+                      : ""
+                    }
+                    
+                    ${eduCodeTraumaticBrainInjuryTbi === true
+                      ? `<p>Traumatic brain injury (TBI) <span>Traumatic Brain Injury means an acquired injury to the brain caused by an external physical force, resulting in total or partial functional disability or psychosocial impairment, which adversely affects educational performance. The term applies to both open or closed head injuries resulting in impairments in one or more areas, such as cognition; language; memory; attention; reasoning; abstract thinking; judgment; problemSolving; sensory, perceptual and motor abilities; psychosocial behavior; physical functions; information processing; and speech. The term does not include brain injuries that are congenital or degenerative, nor brain injuries induced by birth trauma. (34 CFR Sec. 300.8(c)(12)).</span></p>`
+                      : ""
+                    }
+                  </div>`
+                : ""
+              }
+              </section>
+
+              ${
+                recommendationAdhd === true ||
+                recommendationAutism === true ||
+                recommendationDementia === true ||
+                recommendationDysthymia === true ||
+                recommendationLearningDisabilityMathematics === true ||
+                recommendationLearningDisabilityReading === true ||
+                recommendationNeurocognitiveDisorder === true ||
+                recommendationVisualProcessingChildrenAdults === true ||
+                recommendationVisualProcessingChildren === true ||
+                recommendationLearningDisabilityWritingChildrenAdults === true ||
+                recommendationLearningDisabilityWritingChildren === true ||
+                recommendationAuditoryProcessingWeaknessChildrenAdults === true ||
+                recommendationAuditoryProcessingWeaknessChildren === true
+                  ? `<section class="li-not-bold recommendations">
+                      <h2>Recommendations</h2>
+                      <p>
+                        Based on the current testing results, recommendations to support ${diName}’s needs and strengths are as follows:
+                      </p>
+                      ${
+                        recommendations.map(r =>
+                          r.selected === true ?
+                            `<div className="recommendations">
+                              <h3>${r.name}</h3>
+                              <ul>
+                              ${
+                                r.recommendation.map(item =>
+                                  `<li>${item.text.replace(/CLIENT NAME/g, `${diName}`)}</li>
+                                  ${
+                                    item.subtext.length > 0
+                                    ? item.subtext.map(r =>
+                                      `<ul>
+                                        <li>${r.text.replace(/CLIENT NAME/g, `${diName}`)}</li>
+                                      </ul>`
+                                      ).join("")
+                                    : ""
+                                  }`
+                                ).join("")
+                              }
+                              </ul>
+                              ${
+                                adhdRecommendationsFreehand !== undefined
+                                ? `<p>Additional ADHD recommendations: <span>${adhdRecommendationsFreehand}</span></p>`
+                                : ""
+                              }
+                            </div>`
+                          : ""
+                        ).join("")
+                      }
+                    </section>`
+                  : ""
+              }
           </main>
         </body>
       </html>
