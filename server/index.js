@@ -5,16 +5,16 @@ const pdf = require("html-pdf");
 const cors = require("cors");
 
 //Pass the data on to the HTML template
-const pdfTemplate = require("./documents");
+const pdfTemplate = require("./documents/");
 
 //initialize the app and set up the port
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 //set up middleware
 app.use(cors());
+app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 //POST request - PDF generation and fetching of data
 //post method requires a route and callback function which has request and response parameters passed to it
