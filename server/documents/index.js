@@ -33,6 +33,12 @@ module.exports = ({
     wizardForm33Disabled,
     wizardForm34Disabled,
     wizardForm35Disabled,
+    wizardForm36Disabled,
+    wizardForm37Disabled,
+    wizardForm38Disabled,
+    wizardForm39Disabled,
+    wizardForm40Disabled,
+    wizardForm41Disabled,
     wizardForm42Disabled,
     wizardForm43Disabled,
     wizardForm44Disabled,
@@ -289,11 +295,11 @@ module.exports = ({
     mdPoorPosture,
     mdOtherMuscleProblems,
     mdFrequentRashes,
-    mdBruisesEasily,
+    mdBruises,
     mdSores,
-    mdSevereAcne,
-    mdItchySkin,
-    mdSeizuresConvulsions,
+    mdAcne,
+    mdItchy,
+    mdSeizures,
     mdSpeechDefects,
     mdAccidentProne,
     mdNailBiter,
@@ -302,7 +308,7 @@ module.exports = ({
     mdTwitches,
     mdBangsHead,
     mdRocks,
-    mdBowelMovements,
+    mdBowelMovement,
     mdNeurologicalMeds,
     mdNeurologicalMedsDate,
     mdNeurologicalMedsKind,
@@ -479,6 +485,7 @@ module.exports = ({
     WPPSIIV,
     WRAML2,
     GORT5,
+    TOMM,
     WMSIV,
     WRAVMA,
     BeeryVMI,
@@ -1001,46 +1008,46 @@ module.exports = ({
     t546SchizophreniaScScore,
     t547HypomaniaMaScore,
     t548SocialIntroversionSiScore,
-    t549CnsScore,
-    t550VrinScore,
-    t551TrinScore,
+    t549CNSScore,
+    t550VRINScore,
+    t551TRINScore,
     t552FScore,
     t553F1Score,
     t554F2Score,
     t555LScore,
     t556KScore,
-    t557AnimalSortingAsScore,
-    t558AuditoryAttentionAaAndResponseSetRsScore,
-    t559ClocksClScore,
-    t560DesignFluencyDfScore,
-    t561InhibitionInScore,
-    t562StatueStScore,
-    t563BodyPartNamingBpnAndIdentificationBpiScore,
-    t564ComprehensionOfInstructionsCiScore,
-    t565OromotorSequencesOsScore,
-    t566PhonologicalProcessingPhScore,
-    t567RepetitionNonsenseWordsRnScore,
-    t568SpeededNamingSnScore,
-    t569WordGenerationWgScore,
-    t571ListMemoryLmListMemoryDelayedLmdScore,
-    t572MemoryForDesignsMdMemoryForDesignsDelayedMddScore,
-    t573MemoryForFacesMfMemoryForFacesDelayedMfdScore,
-    t574MemoryForNamesMnMemoryForNamesDelayedMndScore,
-    t575NarrativeMemoryNmScore,
-    t576SentenceRepetitionSrScore,
-    t577WordListInterferenceWiScore,
-    t578FingertipTappingFtScore,
-    t579ImitatingHandPositionsIhScore,
-    t580ManualMotorSequencesMmScore,
-    t581VisuomotorPrecisionVpScore,
-    t582AffectRecognitionArScore,
-    t583TheoryOfMindTmScore,
-    t584ArrowsAwScore,
-    t585BlockConstructionBcScore,
-    t586DesignCopyingDcScore,
-    t587GeometricPuzzlesGpScore,
-    t588PicturePuzzlesPpScore,
-    t589RouteFindingRfScore,
+    t557AnimalSortingASScore,
+    t558AuditoryAttentionAAAndResponseSetRSScore,
+    t559ClocksCLScore,
+    t560DesignFluencyDFScore,
+    t561InhibitionINScore,
+    t562StatueSTScore,
+    t563BodyPartNamingBPNAndIdentificationBPIScore,
+    t564ComprehensionOfInstructionsCIScore,
+    t565OromotorSequencesOSScore,
+    t566PhonologicalProcessingPHScore,
+    t567RepetitionNonsenseWordsRNScore,
+    t568SpeededNamingSNScore,
+    t569WordGenerationWGScore,
+    t571ListMemoryLMListMemoryDelayedLMDScore,
+    t572MemoryForDesignsMDMemoryForDesignsDelayedMDDScore,
+    t573MemoryForFacesMFMemoryForFacesDelayedMFDScore,
+    t574MemoryForNamesMNMemoryForNamesDelayedMNDScore,
+    t575NarrativeMemoryNMScore,
+    t576SentenceRepetitionSRScore,
+    t577WordListInterferenceWIScore,
+    t578FingertipTappingFTScore,
+    t579ImitatingHandPositionsIHScore,
+    t580ManualMotorSequencesMMScore,
+    t581VisuomotorPrecisionVPScore,
+    t582AffectRecognitionARScore,
+    t583TheoryOfMindTMScore,
+    t584ArrowsAWScore,
+    t585BlockConstructionBCScore,
+    t586DesignCopyingDCScore,
+    t587GeometricPuzzlesGPScore,
+    t588PicturePuzzlesPPScore,
+    t589RouteFindingRFScore,
     t590DrawingScore,
     t591MatchingScore,
     t592PegboardScore,
@@ -1060,14 +1067,14 @@ module.exports = ({
     t605VisualAuditoryLearningScore,
     t606VisualizationScore,
     t607PictureRecognitionScore,
-    t608UnderresponseUndScore,
-    t609HyperresponseHypScore,
-    t610AnxietyAnxScore,
-    t611DepressionDepScore,
-    t612AngerAngScore,
-    t613PosttraumaticStressPtsScore,
-    t614DissociationDisScore,
-    t615SexualConcernsScScore,
+    t608UnderresponseUNDScore,
+    t609HyperresponseHYPScore,
+    t610AnxietyANXScore,
+    t611DepressionDEPScore,
+    t612AngerANGScore,
+    t613PosttraumaticStressPTSScore,
+    t614DissociationDISScore,
+    t615SexualConcernsSCScore,
     t616LetterWordIdentificationScore,
     t617WordAttackScore,
     t618PassageComprehensionScore,
@@ -1112,6 +1119,63 @@ module.exports = ({
     t656ZooLocationsScore,
     t660ReceptiveVocabularyScore,
     t661PictureNamingScore,
+    t669BeeryMotorIntegrationVMIScore,
+    t670BeeryVisualPerceptionScore,
+    t671BeeryMotorCoordinationScore,
+    t672ListeningComprehensionGradesPk12Score,
+    t673OralExpressionGradesPk12Score,
+    t674EarlyReadingSkillsGradesPk3Score,
+    t675ReadingComprehensionGrades112Score,
+    t676WordReadingGrades112Score,
+    t677PseudowordDecodingGrades112Score,
+    t678OralReadingFluencyGrades112Score,
+    t679SpellingGradesK12Score,
+    t680AlphabetWritingFluencyGradesPk3Score,
+    t681SentenceCompositionGrades112Score,
+    t682EssayCompositionGrades312Score,
+    t683NumericalOperationsGradesK12Score,
+    t684MathProblemSolvingGradesPk12Score,
+    t685MathFluencyAdditionScore,
+    t686MathFluencySubtractionScore,
+    t687MathFluencyMultiplicationScore,
+    t688VocabularyScore,
+    t689ComprehensionScore,
+    t690ReadingRateScore,
+    t698VisualScanningScore,
+    t699NumberSequencingScore,
+    t700LetterSequencingScore,
+    t701CombinedNumberAndLetterSequencingScore,
+    t702NumberLetterSwitchingScore,
+    t703MotorSpeedScore,
+    t704LetterFluencyScore,
+    t705CategoryFluencyScore,
+    t706CategorySwitchingScore,
+    t707FilledDotsScore,
+    t708EmptyDotsOnlyScore,
+    t709SwitchingScore,
+    t710ColorNamingScore,
+    t711WordReadingScore,
+    t712InhibitionScore,
+    t713InhibitionSwitchingScore,
+    t714FreeSortingScore,
+    t715SortRecognitionScore,
+    t716Item1Score,
+    t717Item2Score,
+    t718Item3Score,
+    t719Item4Score,
+    t720Item1Score,
+    t721Item2Score,
+    t722Item1TwoDisksScore,
+    t723Item2TwoDisksScore,
+    t724Item3TwoDisksScore,
+    t725Item4ThreeDisksScore,
+    t726Item5ThreeDisksScore,
+    t727Item6FourDisksScore,
+    t728Item7FourDisksScore,
+    t729Item8FiveDisksScore,
+    t730Item9FiveDisksScore,
+    t731FreeInquiryScore,
+    t732MultipleChoiceScore,
     t733RateScore,
     t734AccuracyScore,
     t735FluencyScore,
@@ -1198,49 +1262,59 @@ module.exports = ({
     t58WasiiiPerceptualReasoningCompositePercentile,
     t58WasiiiPerceptualReasoningCompositeRange,
     t106WaisivVerbalComprehensionConsistent,
-    t106WaisIvVerbalComprehensionCompositeScore,
-    t106WaisIvVerbalComprehensionCompositePercentile,
-    t106WaisIvVerbalComprehensionCompositeRange,
-    t107WaisIvPerceptualReasoningConsistent,
-    t107WaisIvPerceptualReasoningCompositeScore,
-    t107WaisIvPerceptualReasoningCompositePercentile,
-    t107WaisIvPerceptualReasoningCompositeRange,
-    t108WaisIvWorkingMemoryConsistent,
-    t108WaisIvWorkingMemoryCompositeScore,
-    t108WaisIvWorkingMemoryCompositePercentile,
-    t108WaisIvWorkingMemoryCompositeRange,
-    t109WaisIvProcessingSpeedConsistent,
-    t109WaisIvProcessingSpeedCompositeScore,
-    t109WaisIvProcessingSpeedCompositePercentile,
-    t109WaisIvProcessingSpeedCompositeRange,
-    t134WjIvCogComprehensionKnowledgeGcConsistent,
-    t134WjIvCogComprehensionKnowledgeGcCompositeScore,
-    t134WjIvCogComprehensionKnowledgeGcCompositePercentile,
-    t134WjIvCogComprehensionKnowledgeGcCompositeRange,
-    t135WjIvCogFluidReasoningGfConsistent,
-    t135WjIvCogFluidReasoningGfCompositeScore,
-    t135WjIvCogFluidReasoningGfCompositePercentile,
-    t135WjIvCogFluidReasoningGfCompositeRange,
-    t136WjIvCogShortTermWorkingMemoryGwmConsistent,
-    t136WjIvCogShortTermWorkingMemoryGwmCompositeScore,
-    t136WjIvCogShortTermWorkingMemoryGwmCompositePercentile,
-    t136WjIvCogShortTermWorkingMemoryGwmCompositeRange,
-    t137WjIvCogCognitiveProcessingSpeedGsConsistent,
-    t137WjIvCogCognitiveProcessingSpeedGsCompositeScore,
-    t137WjIvCogCognitiveProcessingSpeedGsCompositePercentile,
-    t137WjIvCogCognitiveProcessingSpeedGsCompositeRange,
-    t138WjIvCogAuditoryProcessingSpeedGaConsistent,
-    t138WjIvCogAuditoryProcessingSpeedGaCompositeScore,
-    t138WjIvCogAuditoryProcessingSpeedGaCompositePercentile,
-    t138WjIvCogAuditoryProcessingSpeedGaCompositeRange,
-    t139WjIvCogLongTermRetrievalGlrConsistent,
-    t139WjIvCogLongTermRetrievalGlrCompositeScore,
-    t139WjIvCogLongTermRetrievalGlrCompositePercentile,
-    t139WjIvCogLongTermRetrievalGlrCompositeRange,
-    t140WjIvCogVisualProcessingGvConsistent,
-    t140WjIvCogVisualProcessingGvCompositeScore,
-    t140WjIvCogVisualProcessingGvCompositePercentile,
-    t140WjIvCogVisualProcessingGvCompositeRange,
+    t106WaisivVerbalComprehensionInconsistent,
+    t106WaisivVerbalComprehensionFreehandPerformance,
+    t106WaisivVerbalComprehensionCompositeScore,
+    t106WaisivVerbalComprehensionCompositePercentile,
+    t106WaisivVerbalComprehensionCompositeRange,
+    t107WaisivPerceptualReasoningConsistent,
+    t107WaisivPerceptualReasoningInconsistent,
+    t107WaisivPerceptualReasoningFreehandPerformance,
+    t107WaisivPerceptualReasoningCompositeScore,
+    t107WaisivPerceptualReasoningCompositePercentile,
+    t107WaisivPerceptualReasoningCompositeRange,
+    t108WaisivWorkingMemoryConsistent,
+    t108WaisivWorkingMemoryInconsistent,
+    t108WaisivWorkingMemoryFreehandPerformance,
+    t108WaisivWorkingMemoryCompositeScore,
+    t108WaisivWorkingMemoryCompositePercentile,
+    t108WaisivWorkingMemoryCompositeRange,
+    t109WaisivProcessingSpeedConsistent,
+    t109WaisivProcessingSpeedInconsistent,
+    t109WaisivProcessingSpeedFreehandPerformance,
+    t109WaisivProcessingSpeedCompositeScore,
+    t109WaisivProcessingSpeedCompositePercentile,
+    t109WaisivProcessingSpeedCompositeRange,
+    t134WjivCogComprehensionKnowledgeGcConsistent,
+    t134WjivcogComprehensionKnowledgeGcInconsistent,
+    t134WjivcogComprehensionKnowledgeGcFreehandPerformance,
+    t134WjivCogComprehensionKnowledgeGcCompositeScore,
+    t134WjivCogComprehensionKnowledgeGcCompositePercentile,
+    t134WjivCogComprehensionKnowledgeGcCompositeRange,
+    t135WjivCogFluidReasoningGfConsistent,
+    t135WjivCogFluidReasoningGfCompositeScore,
+    t135WjivCogFluidReasoningGfCompositePercentile,
+    t135WjivCogFluidReasoningGfCompositeRange,
+    t136WjivCogShortTermWorkingMemoryGwmConsistent,
+    t136WjivCogShortTermWorkingMemoryGwmCompositeScore,
+    t136WjivCogShortTermWorkingMemoryGwmCompositePercentile,
+    t136WjivCogShortTermWorkingMemoryGwmCompositeRange,
+    t137WjivCogCognitiveProcessingSpeedGsConsistent,
+    t137WjivCogCognitiveProcessingSpeedGsCompositeScore,
+    t137WjivCogCognitiveProcessingSpeedGsCompositePercentile,
+    t137WjivCogCognitiveProcessingSpeedGsCompositeRange,
+    t138WjivCogAuditoryProcessingSpeedGaConsistent,
+    t138WjivCogAuditoryProcessingSpeedGaCompositeScore,
+    t138WjivCogAuditoryProcessingSpeedGaCompositePercentile,
+    t138WjivCogAuditoryProcessingSpeedGaCompositeRange,
+    t139WjivCogLongTermRetrievalGlrConsistent,
+    t139WjivCogLongTermRetrievalGlrCompositeScore,
+    t139WjivCogLongTermRetrievalGlrCompositePercentile,
+    t139WjivCogLongTermRetrievalGlrCompositeRange,
+    t140WjivCogVisualProcessingGvConsistent,
+    t140WjivCogVisualProcessingGvCompositeScore,
+    t140WjivCogVisualProcessingGvCompositePercentile,
+    t140WjivCogVisualProcessingGvCompositeRange,
     t153WppsiIvVerbalComprehensionCompositeScore,
     t153WppsiIvVerbalComprehensionCompositePercentile,
     t153WppsiIvVerbalComprehensionCompositeRange,
@@ -1278,36 +1352,61 @@ module.exports = ({
     t9WppsiivFsiqScore,
     t9WppsiivFsiqPercentile,
     t9WppsiivFsiqRank,
+    t2WiscvGaiCompositeScore,
     t2WiscvGaiRange,
     t2WiscvGaiPercentile,
+    t6WaisivGaiCompositeScore,
     t6WaisivGaiRange,
     t6WaisivGaiPercentile,
     t7IfGiaIsMeaningful,
     t9WppsiivGaiRange,
     t9WppsiivGaiPercentile,
-    t10DasIiGcaScore,
-    t10DasIiGcaRange,
-    t10DasIiGcaPercentile,
-    t10DasIiSncScore,
-    t10DasIiSncRange,
-    t10DasIiSncPercentile,
-    t1WiscVVerbalComprehensionIndexVciCompositeScore,
-    t1WiscVVerbalComprehensionIndexVciCompositePercentile,
-    t1WiscVVerbalComprehensionIndexVciCompositeRange,
-    t2WiscVVisualSpatialIndexVsiCompositeScore,
-    t2WiscVVisualSpatialIndexVsiCompositePercentile,
-    t2WiscVVisualSpatialIndexVsiCompositeRange,
-    t3WiscVFluidReasoningIndexFriCompositeScore,
-    t3WiscVFluidReasoningIndexFriCompositePercentile,
-    t3WiscVFluidReasoningIndexFriCompositeRange,
-    t4WiscVWorkingMemoryIndexWmiCompositeScore,
-    t4WiscVWorkingMemoryIndexWmiCompositePercentile,
-    t4WiscVWorkingMemoryIndexWmiCompositeRange,
-    t5WiscVProcessingSpeedIndexPsiCompositeScore,
-    t5WiscVProcessingSpeedIndexPsiCompositePercentile,
-    t5WiscVProcessingSpeedIndexPsiCompositeRange,
-    t2DasIiSummaryAbilities,
-    t2DasIiSummaryChallenges,
+    t10DasiiGcaScore,
+    t10DasiiGcaRange,
+    t10DasiiGcaPercentile,
+    t10DasiiSncScore,
+    t10DasiiSncRange,
+    t10DasiiSncPercentile,
+    t1WiscvVerbalComprehensionIndexVci,
+    t1WiscvVerbalComprehensionIndexVciInconsistent,
+    t1WiscvVerbalComprehensionIndexVciConsistent,
+    t1WiscvVerbalComprehensionIndexVciFreehandPerformance,
+    t1WiscvVerbalComprehensionIndexVciCompositeScore,
+    t1WiscvVerbalComprehensionIndexVciCompositePercentile,
+    t1WiscvVerbalComprehensionIndexVciCompositeRange,
+    t2WiscvVisualSpatialIndexVsi,
+    t2WiscvVisualSpatialIndexVsiInconsistent,
+    t2WiscvVisualSpatialIndexVsiConsistent,
+    t2WiscvVisualSpatialIndexVsiFreehandPerformance,
+    t2WiscvVisualSpatialIndexVsiCompositeScore,
+    t2WiscvVisualSpatialIndexVsiCompositePercentile,
+    t2WiscvVisualSpatialIndexVsiCompositeRange,
+    t3WiscvFluidReasoningIndexFri,
+    t3WiscvFluidReasoningIndexFriInconsistent,
+    t3WiscvFluidReasoningIndexFriConsistent,
+    t3WiscvFluidReasoningIndexFriFreehandPerformance,
+    t3WiscvFluidReasoningIndexFriCompositeScore,
+    t3WiscvFluidReasoningIndexFriCompositePercentile,
+    t3WiscvFluidReasoningIndexFriCompositeRange,
+    t4WiscvWorkingMemoryIndexWmi,
+    t4WiscvWorkingMemoryIndexWmiInconsistent,
+    t4WiscvWorkingMemoryIndexWmiConsistent,
+    t4WiscvWorkingMemoryIndexWmiFreehandPerformance,
+    t4WiscvWorkingMemoryIndexWmiCompositeScore,
+    t4WiscvWorkingMemoryIndexWmiCompositePercentile,
+    t4WiscvWorkingMemoryIndexWmiCompositeRange,
+    t5WiscvProcessingSpeedIndexPsi,
+    t5WiscvProcessingSpeedIndexPsiInconsistent,
+    t5WiscvProcessingSpeedIndexPsiConsistent,
+    t5WiscvProcessingSpeedIndexPsiFreehandPerformance,
+    t5WiscvProcessingSpeedIndexPsiCompositeScore,
+    t5WiscvProcessingSpeedIndexPsiCompositePercentile,
+    t5WiscvProcessingSpeedIndexPsiCompositeRange,
+    t17WiscvComplimentarySubtests,
+    t1WiscvSummaryAbilities,
+    t1WiscvSummaryChallenges,
+    t2DasiiSummaryAbilities,
+    t2DasiiSummaryChallenges,
     t3WasiiiSummaryAbilities,
     t3WasiiiSummaryChallenges,
     t4WiatiiiSummaryAbilities,
@@ -1316,1118 +1415,1152 @@ module.exports = ({
     t5WaisivSummaryChallenges,
     t6WjivCogSummaryAbilities,
     t6WjivCogSummaryChallenges,
+    t7BeeryvmiSummaryAbilities,
+    t7BeeryvmiSummaryChallenges,
     t9WppsiivSummaryAbilities,
-    t9WppsiivSummaryChallenges
+    t9WppsiivSummaryChallenges,
+
+    relevantBackgroundHistory,
+    resultsCurrentAssessment,
+    summaryCurrentSituation,
+    dsmCodes,
+    eduCodeIntellectualDisabilityId,
+    eduCodeHardOfHearingHh,
+    eduCodeDeafnessDeafHearingImpairmentHi,
+    eduCodeSpeechOrLanguageImpairmentSli,
+    eduCodeVisualImpairmentVi,
+    eduCodeEmotionalDisturbanceEd,
+    eduCodeOrthopedicImpairmentOi,
+    eduCodeOtherHealthImpairmentOhi,
+    eduCodeEstablishedMedicalDisabilityEmd,
+    eduCodeSpecificLearningDisabilitySld,
+    eduCodeDeafBlindnessDb,
+    eduCodeMultipleDisabilitiesMd,
+    eduCodeAutismAut,
+    eduCodeTraumaticBrainInjuryTbi,
+    recommendations,
+    recommendationAdhd,
+    recommendationAutism,
+    recommendationDementia,
+    recommendationDysthymia,
+    recommendationLearningDisabilityMathematics,
+    recommendationLearningDisabilityReading,
+    recommendationNeurocognitiveDisorder,
+    recommendationVisualProcessingChildrenAdults,
+    recommendationVisualProcessingChildren,
+    recommendationLearningDisabilityWritingChildrenAdults,
+    recommendationLearningDisabilityWritingChildren,
+    recommendationAuditoryProcessingWeaknessChildrenAdults,
+    recommendationAuditoryProcessingWeaknessChildren,
+    adhdRecommendationsFreehand,
+
+    t1AppendixWiscvSimilaritiesRank,
+    t1AppendixWiscvSimilaritiesRange,
+    t2AppendixWiscvVocabularyRank,
+    t2AppendixWiscvVocabularyRange,
+    t3AppendixWiscvInformationRank,
+    t3AppendixWiscvInformationRange,
+    t4AppendixWiscvComprehensionRank,
+    t4AppendixWiscvComprehensionRange,
+    t5AppendixWiscvBlockDesignRank,
+    t5AppendixWiscvBlockDesignRange,
+    t6AppendixWiscvVocabularyRank,
+    t6AppendixWiscvVocabularyRange,
+    t7AppendixWiscvMatrixReasoningRank,
+    t7AppendixWiscvMatrixReasoningRange,
+    t8AppendixWiscvFigureWeightsRank,
+    t8AppendixWiscvFigureWeightsRange,
+    t9AppendixWiscvPictureConceptsRank,
+    t9AppendixWiscvPictureConceptsRange,
+    t10AppendixWiscvArithmeticRank,
+    t10AppendixWiscvArithmeticRange,
+    t11AppendixWiscvDigitSpanRank,
+    t11AppendixWiscvDigitSpanRange,
+    t12AppendixWiscvPictureSpanRank,
+    t12AppendixWiscvPictureSpanRange,
+    t13AppendixWiscvLetterNumberSequencingRank,
+    t13AppendixWiscvLetterNumberSequencingRange,
+    t14AppendixWiscvCodingRank,
+    t14AppendixWiscvCodingRange,
+    t15AppendixWiscvSymbolSearchRank,
+    t15AppendixWiscvSymbolSearchRange,
+    t16AppendixWiscvCancellationRank,
+    t16AppendixWiscvCancellationRange,
+    t46AppendixQikCptAccuracyIndexRank,
+    t46AppendixQikCptAccuracyIndexRange,
+    t47AppendixQikCptSustainedAttentionRank,
+    t47AppendixQikCptSustainedAttentionRange,
+    t48AppendixQikCptImpulseControlRank,
+    t48AppendixQikCptImpulseControlRange,
+    t49AppendixQikCptPerformanceIndexRank,
+    t49AppendixQikCptPerformanceIndexRange,
+    t50AppendixQikCptSpeedOfResponseRank,
+    t50AppendixQikCptSpeedOfResponseRange,
+    t51AppendixQikCptConsistencyOfResponseRank,
+    t51AppendixQikCptConsistencyOfResponseRange,
+    t73AppendixWiscvNamingSpeedLiteracyRank,
+    t73AppendixWiscvNamingSpeedLiteracyRange,
+    t74AppendixWiscvNamingSpeedQualityRank,
+    t74AppendixWiscvNamingSpeedQualityRange,
+    t75AppendixWiscvImmediateSymbolTranslationRank,
+    t75AppendixWiscvImmediateSymbolTranslationRange,
+    t76AppendixWiscvDelayedSymbolTranslationRank,
+    t76AppendixWiscvDelayedSymbolTranslationRange,
+    t77AppendixWiscvRecognitionSymbolTranslationRank,
+    t77AppendixWiscvRecognitionSymbolTranslationRange,
+    t78AppendixBriefInconsistencyScaleRank,
+    t78AppendixBriefInconsistencyScaleRange,
+    t79AppendixBriefNegativityScaleRank,
+    t79AppendixBriefNegativityScaleRange,
+    t82AppendixBriefInhibitRank,
+    t82AppendixBriefInhibitRange,
+    t83AppendixBriefShiftRank,
+    t83AppendixBriefShiftRange,
+    t84AppendixBriefEmotionalControlRank,
+    t84AppendixBriefEmotionalControlRange,
+    t85AppendixBriefInitiateRank,
+    t85AppendixBriefInitiateRange,
+    t86AppendixBriefWorkingMemoryRank,
+    t86AppendixBriefWorkingMemoryRange,
+    t87AppendixBriefPlanOrganizeRank,
+    t87AppendixBriefPlanOrganizeRange,
+    t88AppendixBriefOrganizationOfMaterialsRank,
+    t88AppendixBriefOrganizationOfMaterialsRange,
+    t89AppendixBriefMonitorRank,
+    t89AppendixBriefMonitorRange,
+    t90AppendixBriefInhibitRank,
+    t90AppendixBriefInhibitRange,
+    t91AppendixBriefShiftRank,
+    t91AppendixBriefShiftRange,
+    t92AppendixBriefEmotionalControlRank,
+    t92AppendixBriefEmotionalControlRange,
+    t93AppendixBriefInitiateRank,
+    t93AppendixBriefInitiateRange,
+    t94AppendixBriefWorkingMemoryRank,
+    t94AppendixBriefWorkingMemoryRange,
+    t95AppendixBriefPlanOrganizeRank,
+    t95AppendixBriefPlanOrganizeRange,
+    t96AppendixBriefOrganizationOfMaterialsRank,
+    t96AppendixBriefOrganizationOfMaterialsRange,
+    t97AppendixBriefMonitorRank,
+    t97AppendixBriefMonitorRange,
+    t120AppendixConners3InattentionRank,
+    t120AppendixConners3InattentionRange,
+    t121AppendixConners3HyperactivityImpulsivityRank,
+    t121AppendixConners3HyperactivityImpulsivityRange,
+    t122AppendixConners3LearningProblemsRank,
+    t122AppendixConners3LearningProblemsRange,
+    t123AppendixConners3ExecutiveFunctioningRank,
+    t123AppendixConners3ExecutiveFunctioningRange,
+    t124AppendixConners3DefianceAggressionRank,
+    t124AppendixConners3DefianceAggressionRange,
+    t125AppendixConners3PeerRelationsRank,
+    t125AppendixConners3PeerRelationsRange,
+    t126AppendixConners3AdhdInattentiveRank,
+    t126AppendixConners3AdhdInattentiveRange,
+    t128AppendixConners3ConductDisorderRank,
+    t128AppendixConners3ConductDisorderRange,
+    t129AppendixConners3OppositionalDefiantDisorderRank,
+    t129AppendixConners3OppositionalDefiantDisorderRange,
+    t127AppendixConners3AdhdHyperactiveImpulsiveRank,
+    t127AppendixConners3AdhdHyperactiveImpulsiveRange,
+    t130AppendixConners3Conners3AdhdIndexRank,
+    t130AppendixConners3Conners3AdhdIndexRange,
+    t131AppendixConners3Conners3GlobalIndexRank,
+    t131AppendixConners3Conners3GlobalIndexRange,
+    t132AppendixConners3AnxietyRank,
+    t132AppendixConners3AnxietyRange,
+    t133AppendixConners3DepressionRank,
+    t133AppendixConners3DepressionRange,
+    t134AppendixConners3SevereConductRank,
+    t134AppendixConners3SevereConductRange,
+    t135AppendixConners3PositiveImpressionRank,
+    t135AppendixConners3PositiveImpressionRange,
+    t136AppendixConners3NegativeImpressionRank,
+    t136AppendixConners3NegativeImpressionRange,
+    t137AppendixConners3InconsistencyIndexRank,
+    t137AppendixConners3InconsistencyIndexRange,
+    t138AppendixConners3InattentionRank,
+    t138AppendixConners3InattentionRange,
+    t139AppendixConners3HyperactivityImpulsivityRank,
+    t139AppendixConners3HyperactivityImpulsivityRange,
+    t141AppendixConners3LearningProblemsRank,
+    t141AppendixConners3LearningProblemsRange,
+    t142AppendixConners3ExecutiveFunctioningRank,
+    t142AppendixConners3ExecutiveFunctioningRange,
+    t143AppendixConners3DefianceAggressionRank,
+    t143AppendixConners3DefianceAggressionRange,
+    t144AppendixConners3PeerRelationsRank,
+    t144AppendixConners3PeerRelationsRange,
+    t145AppendixConners3AdhdInattentiveRank,
+    t145AppendixConners3AdhdInattentiveRange,
+    t146AppendixConners3AdhdHyperactiveImpulsiveRank,
+    t146AppendixConners3AdhdHyperactiveImpulsiveRange,
+    t147AppendixConners3ConductDisorderRank,
+    t147AppendixConners3ConductDisorderRange,
+    t148AppendixConners3OppositionalDefiantDisorderRank,
+    t148AppendixConners3OppositionalDefiantDisorderRange,
+    t149AppendixConners3Conners3AdhdIndexRank,
+    t149AppendixConners3Conners3AdhdIndexRange,
+    t150AppendixConners3Conners3GlobalIndexRank,
+    t150AppendixConners3Conners3GlobalIndexRange,
+    t151AppendixConners3AnxietyRank,
+    t151AppendixConners3AnxietyRange,
+    t152AppendixConners3DepressionRank,
+    t152AppendixConners3DepressionRange,
+    t153AppendixConners3SevereConductRank,
+    t153AppendixConners3SevereConductRange,
+    t154AppendixConners3PositiveImpressionRank,
+    t154AppendixConners3PositiveImpressionRange,
+    t155AppendixConners3NegativeImpressionRank,
+    t155AppendixConners3NegativeImpressionRange,
+    t156AppendixConners3InconsistencyIndexRank,
+    t156AppendixConners3InconsistencyIndexRange,
+    t158AppendixConners3HyperactivityImpulsivityRank,
+    t158AppendixConners3HyperactivityImpulsivityRange,
+    t157AppendixConners3InattentionRank,
+    t157AppendixConners3InattentionRange,
+    t159AppendixConners3LearningProblemsRank,
+    t159AppendixConners3LearningProblemsRange,
+    t160AppendixConners3DefianceAggressionRank,
+    t160AppendixConners3DefianceAggressionRange,
+    t161AppendixConners3FamilyRelationsRank,
+    t161AppendixConners3FamilyRelationsRange,
+    t162AppendixConners3AdhdInattentiveRank,
+    t162AppendixConners3AdhdInattentiveRange,
+    t163AppendixConners3AdhdHyperactiveImpulsiveRank,
+    t163AppendixConners3AdhdHyperactiveImpulsiveRange,
+    t164AppendixConners3ConductDisorderRank,
+    t164AppendixConners3ConductDisorderRange,
+    t165AppendixConners3OppositionalDefiantDisorderRank,
+    t165AppendixConners3OppositionalDefiantDisorderRange,
+    t166AppendixConners3Conners3AdhdIndexRank,
+    t166AppendixConners3Conners3AdhdIndexRange,
+    t283AppendixBasc3FIndexRank,
+    t283AppendixBasc3FIndexRange,
+    t284AppendixBasc3LIndexRank,
+    t284AppendixBasc3LIndexRange,
+    t285AppendixBasc3VIndexRank,
+    t285AppendixBasc3VIndexRange,
+    t286AppendixBasc3AlcoholAbuseRank,
+    t286AppendixBasc3AlcoholAbuseRange,
+    t287AppendixBasc3AnxietyRank,
+    t287AppendixBasc3AnxietyRange,
+    t288AppendixBasc3AttentionProblemsRank,
+    t288AppendixBasc3AttentionProblemsRange,
+    t289AppendixBasc3AttitudeToSchoolRank,
+    t289AppendixBasc3AttitudeToSchoolRange,
+    t290AppendixBasc3AttitudeToTeachersRank,
+    t290AppendixBasc3AttitudeToTeachersRange,
+    t291AppendixBasc3AtypicalityRank,
+    t291AppendixBasc3AtypicalityRange,
+    t292AppendixBasc3DepressionRank,
+    t292AppendixBasc3DepressionRange,
+    t293AppendixBasc3HyperactivityRank,
+    t293AppendixBasc3HyperactivityRange,
+    t294AppendixBasc3LocusOfControlRank,
+    t294AppendixBasc3LocusOfControlRange,
+    t295AppendixBasc3SchoolMaladjustmentRank,
+    t295AppendixBasc3SchoolMaladjustmentRange,
+    t296AppendixBasc3SensationSeekingRank,
+    t296AppendixBasc3SensationSeekingRange,
+    t297AppendixBasc3SenseOfInadequacyRank,
+    t297AppendixBasc3SenseOfInadequacyRange,
+    t298AppendixBasc3SocialStressRank,
+    t298AppendixBasc3SocialStressRange,
+    t299AppendixBasc3SomatizationRank,
+    t299AppendixBasc3SomatizationRange,
+    t300AppendixBasc3InterpersonalRelationsRank,
+    t300AppendixBasc3InterpersonalRelationsRange,
+    t301AppendixBasc3RelationsWithParentsRank,
+    t301AppendixBasc3RelationsWithParentsRange,
+    t302AppendixBasc3SelfEsteemRank,
+    t302AppendixBasc3SelfEsteemRange,
+    t303AppendixBasc3SelfRelianceRank,
+    t303AppendixBasc3SelfRelianceRange,
+    t304AppendixBasc3AngerControlRank,
+    t304AppendixBasc3AngerControlRange,
+    t305AppendixBasc3EgoStrengthRank,
+    t305AppendixBasc3EgoStrengthRange,
+    t306AppendixBasc3ManiaRank,
+    t306AppendixBasc3ManiaRange,
+    t307AppendixBasc3TestAnxietyRank,
+    t307AppendixBasc3TestAnxietyRange,
+    t308AppendixBasc3AttitudeToSchoolRank,
+    t308AppendixBasc3AttitudeToSchoolRange,
+    t309AppendixBasc3AttitudeToTeachersRank,
+    t309AppendixBasc3AttitudeToTeachersRange,
+    t310AppendixBasc3AtypicalityRank,
+    t310AppendixBasc3AtypicalityRange,
+    t311AppendixBasc3LocusOfControlRank,
+    t311AppendixBasc3LocusOfControlRange,
+    t312AppendixBasc3SocialStressRank,
+    t312AppendixBasc3SocialStressRange,
+    t313AppendixBasc3AnxietyRank,
+    t313AppendixBasc3AnxietyRange,
+    t314AppendixBasc3DepressionRank,
+    t314AppendixBasc3DepressionRange,
+    t315AppendixBasc3SenseOfInadequacyRank,
+    t315AppendixBasc3SenseOfInadequacyRange,
+    t316AppendixBasc3AttentionProblemsRank,
+    t316AppendixBasc3AttentionProblemsRange,
+    t317AppendixBasc3HyperactivityRank,
+    t317AppendixBasc3HyperactivityRange,
+    t662AppendixBasc3SocialStressRank,
+    t662AppendixBasc3SocialStressRange,
+    t664AppendixBasc3AnxietyRank,
+    t664AppendixBasc3AnxietyRange,
+    t665AppendixBasc3DepressionRank,
+    t665AppendixBasc3DepressionRange,
+    t666AppendixBasc3SenseOfInadequacyRank,
+    t666AppendixBasc3SenseOfInadequacyRange,
+    t667AppendixBasc3SelfEsteemRank,
+    t667AppendixBasc3SelfEsteemRange,
+    t668AppendixBasc3SelfRelianceRank,
+    t668AppendixBasc3SelfRelianceRange,
+    t324AppendixBasc3InterpersonalRelationsRank,
+    t324AppendixBasc3InterpersonalRelationsRange,
+    t325AppendixBasc3RelationsWithParentsRank,
+    t325AppendixBasc3RelationsWithParentsRange,
+    t326AppendixBasc3SelfEsteemRank,
+    t326AppendixBasc3SelfEsteemRange,
+    t327AppendixBasc3SelfRelianceRank,
+    t327AppendixBasc3SelfRelianceRange,
+    t328AppendixBasc3AttitudeToSchoolRank,
+    t328AppendixBasc3AttitudeToSchoolRange,
+    t329AppendixBasc3AttitudeToTeachersRank,
+    t329AppendixBasc3AttitudeToTeachersRange,
+    t330AppendixBasc3SensationSeekingRank,
+    t330AppendixBasc3SensationSeekingRange,
+    t331AppendixBasc3AtypicalityRank,
+    t331AppendixBasc3AtypicalityRange,
+    t332AppendixBasc3LocusOfControlRank,
+    t332AppendixBasc3LocusOfControlRange,
+    t333AppendixBasc3SocialStressRank,
+    t333AppendixBasc3SocialStressRange,
+    t334AppendixBasc3AnxietyRank,
+    t334AppendixBasc3AnxietyRange,
+    t335AppendixBasc3DepressionRank,
+    t335AppendixBasc3DepressionRange,
+    t336AppendixBasc3SenseOfInadequacyRank,
+    t336AppendixBasc3SenseOfInadequacyRange,
+    t337AppendixBasc3SomatizationRank,
+    t337AppendixBasc3SomatizationRange,
+    t338AppendixBasc3AttentionProblemsRank,
+    t338AppendixBasc3AttentionProblemsRange,
+    t339AppendixBasc3HyperactivityRank,
+    t339AppendixBasc3HyperactivityRange,
+    t340AppendixBasc3SocialStressRank,
+    t340AppendixBasc3SocialStressRange,
+    t341AppendixBasc3AnxietyRank,
+    t341AppendixBasc3AnxietyRange,
+    t342AppendixBasc3DepressionRank,
+    t342AppendixBasc3DepressionRange,
+    t343AppendixBasc3SenseOfInadequacyRank,
+    t343AppendixBasc3SenseOfInadequacyRange,
+    t344AppendixBasc3SelfEsteemRank,
+    t344AppendixBasc3SelfEsteemRange,
+    t345AppendixBasc3SelfRelianceRank,
+    t345AppendixBasc3SelfRelianceRange,
+    t346AppendixBasc3InterpersonalRelationsRank,
+    t346AppendixBasc3InterpersonalRelationsRange,
+    t347AppendixBasc3RelationsWithParentsRank,
+    t347AppendixBasc3RelationsWithParentsRange,
+    t348AppendixBasc3SelfEsteemRank,
+    t348AppendixBasc3SelfEsteemRange,
+    t349AppendixBasc3SelfRelianceRank,
+    t349AppendixBasc3SelfRelianceRange,
+    t350AppendixBasc3AtypicalityRank,
+    t350AppendixBasc3AtypicalityRange,
+    t351AppendixBasc3LocusOfControlRank,
+    t351AppendixBasc3LocusOfControlRange,
+    t352AppendixBasc3SocialStressRank,
+    t352AppendixBasc3SocialStressRange,
+    t353AppendixBasc3AnxietyRank,
+    t353AppendixBasc3AnxietyRange,
+    t354AppendixBasc3DepressionRank,
+    t354AppendixBasc3DepressionRange,
+    t355AppendixBasc3SenseOfInadequacyRank,
+    t355AppendixBasc3SenseOfInadequacyRange,
+    t356AppendixBasc3SomatizationRank,
+    t356AppendixBasc3SomatizationRange,
+    t357AppendixBasc3AttentionProblemsRank,
+    t357AppendixBasc3AttentionProblemsRange,
+    t358AppendixBasc3HyperactivityRank,
+    t358AppendixBasc3HyperactivityRange,
+    t359AppendixBasc3SocialStressRank,
+    t359AppendixBasc3SocialStressRange,
+    t360AppendixBasc3AnxietyRank,
+    t360AppendixBasc3AnxietyRange,
+    t361AppendixBasc3DepressionRank,
+    t361AppendixBasc3DepressionRange,
+    t362AppendixBasc3SenseOfInadequacyRank,
+    t362AppendixBasc3SenseOfInadequacyRange,
+    t363AppendixBasc3SelfEsteemRank,
+    t363AppendixBasc3SelfEsteemRange,
+    t364AppendixBasc3SelfRelianceRank,
+    t364AppendixBasc3SelfRelianceRange,
+    t365AppendixBasc3InterpersonalRelationsRank,
+    t365AppendixBasc3InterpersonalRelationsRange,
+    t366AppendixBasc3RelationsWithParentsRank,
+    t366AppendixBasc3RelationsWithParentsRange,
+    t367AppendixBasc3SelfEsteemRank,
+    t367AppendixBasc3SelfEsteemRange,
+    t368AppendixBasc3SelfRelianceRank,
+    t368AppendixBasc3SelfRelianceRange,
+    t369AppendixBasc3FIndexRank,
+    t369AppendixBasc3FIndexRange,
+    t370AppendixBasc3AggressionRank,
+    t370AppendixBasc3AggressionRange,
+    t371AppendixBasc3AnxietyRank,
+    t371AppendixBasc3AnxietyRange,
+    t372AppendixBasc3AttentionProblemsRank,
+    t372AppendixBasc3AttentionProblemsRange,
+    t373AppendixBasc3AtypicalityRank,
+    t373AppendixBasc3AtypicalityRange,
+    t374AppendixBasc3ConductProblemsRank,
+    t374AppendixBasc3ConductProblemsRange,
+    t375AppendixBasc3DepressionRank,
+    t375AppendixBasc3DepressionRange,
+    t376AppendixBasc3HyperactivityRank,
+    t376AppendixBasc3HyperactivityRange,
+    t377AppendixBasc3LearningProblemsRank,
+    t377AppendixBasc3LearningProblemsRange,
+    t378AppendixBasc3SomatizationRank,
+    t378AppendixBasc3SomatizationRange,
+    t379AppendixBasc3WithdrawalRank,
+    t379AppendixBasc3WithdrawalRange,
+    t380AppendixBasc3ActivitiesOfDailyLivingRank,
+    t380AppendixBasc3ActivitiesOfDailyLivingRange,
+    t381AppendixBasc3AdaptabilityRank,
+    t381AppendixBasc3AdaptabilityRange,
+    t382AppendixBasc3FunctionalCommunicationRank,
+    t382AppendixBasc3FunctionalCommunicationRange,
+    t383AppendixBasc3LeadershipRank,
+    t383AppendixBasc3LeadershipRange,
+    t384AppendixBasc3SocialSkillsRank,
+    t384AppendixBasc3SocialSkillsRange,
+    t385AppendixBasc3StudySkillsRank,
+    t385AppendixBasc3StudySkillsRange,
+    t386AppendixBasc3AngerControlRank,
+    t386AppendixBasc3AngerControlRange,
+    t387AppendixBasc3BullyingRank,
+    t387AppendixBasc3BullyingRange,
+    t388AppendixBasc3DevelopmentalSocialDisordersRank,
+    t388AppendixBasc3DevelopmentalSocialDisordersRange,
+    t389AppendixBasc3EmotionalSelfControlRank,
+    t389AppendixBasc3EmotionalSelfControlRange,
+    t390AppendixBasc3ExecutiveFunctioningRank,
+    t390AppendixBasc3ExecutiveFunctioningRange,
+    t391AppendixBasc3NegativeEmotionalityRank,
+    t391AppendixBasc3NegativeEmotionalityRange,
+    t392AppendixBasc3ResiliencyRank,
+    t392AppendixBasc3ResiliencyRange,
+    t393AppendixBasc3HyperactivityRank,
+    t393AppendixBasc3HyperactivityRange,
+    t394AppendixBasc3AggressionRank,
+    t394AppendixBasc3AggressionRange,
+    t395AppendixBasc3AnxietyRank,
+    t395AppendixBasc3AnxietyRange,
+    t396AppendixBasc3DepressionRank,
+    t396AppendixBasc3DepressionRange,
+    t397AppendixBasc3SomatizationRank,
+    t397AppendixBasc3SomatizationRange,
+    t398AppendixBasc3AdaptabilityRank,
+    t398AppendixBasc3AdaptabilityRange,
+    t399AppendixBasc3SocialSkillsRank,
+    t399AppendixBasc3SocialSkillsRange,
+    t400AppendixBasc3FunctionalCommunicationRank,
+    t400AppendixBasc3FunctionalCommunicationRange,
+    t401AppendixBasc3HyperactivityRank,
+    t401AppendixBasc3HyperactivityRange,
+    t402AppendixBasc3AggressionRank,
+    t402AppendixBasc3AggressionRange,
+    t403AppendixBasc3DepressionRank,
+    t403AppendixBasc3DepressionRange,
+    t404AppendixBasc3AttentionProblemsRank,
+    t404AppendixBasc3AttentionProblemsRange,
+    t405AppendixBasc3AtypicalityRank,
+    t405AppendixBasc3AtypicalityRange,
+    t406AppendixBasc3WithdrawalRank,
+    t406AppendixBasc3WithdrawalRange,
+    t407AppendixBasc3HyperactivityRank,
+    t407AppendixBasc3HyperactivityRange,
+    t408AppendixBasc3AggressionRank,
+    t408AppendixBasc3AggressionRange,
+    t409AppendixBasc3ConductProblemsRank,
+    t409AppendixBasc3ConductProblemsRange,
+    t410AppendixBasc3AnxietyRank,
+    t410AppendixBasc3AnxietyRange,
+    t411AppendixBasc3DepressionRank,
+    t411AppendixBasc3DepressionRange,
+    t412AppendixBasc3SomatizationRank,
+    t412AppendixBasc3SomatizationRange,
+    t413AppendixBasc3LearningProblemsRank,
+    t413AppendixBasc3LearningProblemsRange,
+    t414AppendixBasc3AttentionProblemsRank,
+    t414AppendixBasc3AttentionProblemsRange,
+    t415AppendixBasc3AdaptabilityRank,
+    t415AppendixBasc3AdaptabilityRange,
+    t416AppendixBasc3SocialSkillsRank,
+    t416AppendixBasc3SocialSkillsRange,
+    t417AppendixBasc3FunctionalCommunicationRank,
+    t417AppendixBasc3FunctionalCommunicationRange,
+    t418AppendixBasc3LeadershipRank,
+    t418AppendixBasc3LeadershipRange,
+    t419AppendixBasc3StudySkillsRank,
+    t419AppendixBasc3StudySkillsRange,
+    t420AppendixBasc3HyperactivityRank,
+    t420AppendixBasc3HyperactivityRange,
+    t421AppendixBasc3AggressionRank,
+    t421AppendixBasc3AggressionRange,
+    t422AppendixBasc3DepressionRank,
+    t422AppendixBasc3DepressionRange,
+    t423AppendixBasc3AttentionProblemsRank,
+    t423AppendixBasc3AttentionProblemsRange,
+    t424AppendixBasc3AtypicalityRank,
+    t424AppendixBasc3AtypicalityRange,
+    t425AppendixBasc3WithdrawalRank,
+    t425AppendixBasc3WithdrawalRange,
+    t426AppendixBasc3HyperactivityRank,
+    t426AppendixBasc3HyperactivityRange,
+    t427AppendixBasc3AggressionRank,
+    t427AppendixBasc3AggressionRange,
+    t428AppendixBasc3AnxietyRank,
+    t428AppendixBasc3AnxietyRange,
+    t429AppendixBasc3DepressionRank,
+    t429AppendixBasc3DepressionRange,
+    t430AppendixBasc3SomatizationRank,
+    t430AppendixBasc3SomatizationRange,
+    t431AppendixBasc3AdaptabilityRank,
+    t431AppendixBasc3AdaptabilityRange,
+    t432AppendixBasc3SocialSkillsRank,
+    t432AppendixBasc3SocialSkillsRange,
+    t433AppendixBasc3FunctionalCommunicationRank,
+    t433AppendixBasc3FunctionalCommunicationRange,
+    t434AppendixBasc3ActivitiesOfDailyLivingRank,
+    t434AppendixBasc3ActivitiesOfDailyLivingRange,
+    t435AppendixBasc3HyperactivityRank,
+    t435AppendixBasc3HyperactivityRange,
+    t436AppendixBasc3AggressionRank,
+    t436AppendixBasc3AggressionRange,
+    t437AppendixBasc3DepressionRank,
+    t437AppendixBasc3DepressionRange,
+    t438AppendixBasc3AttentionProblemsRank,
+    t438AppendixBasc3AttentionProblemsRange,
+    t439AppendixBasc3AtypicalityRank,
+    t439AppendixBasc3AtypicalityRange,
+    t440AppendixBasc3WithdrawalRank,
+    t440AppendixBasc3WithdrawalRange,
+    t441AppendixBasc3HyperactivityRank,
+    t441AppendixBasc3HyperactivityRange,
+    t442AppendixBasc3AggressionRank,
+    t442AppendixBasc3AggressionRange,
+    t443AppendixBasc3ConductProblemsRank,
+    t443AppendixBasc3ConductProblemsRange,
+    t444AppendixBasc3AnxietyRank,
+    t444AppendixBasc3AnxietyRange,
+    t445AppendixBasc3DepressionRank,
+    t445AppendixBasc3DepressionRange,
+    t446AppendixBasc3SomatizationRank,
+    t446AppendixBasc3SomatizationRange,
+    t447AppendixBasc3AdaptabilityRank,
+    t447AppendixBasc3AdaptabilityRange,
+    t448AppendixBasc3SocialSkillsRank,
+    t448AppendixBasc3SocialSkillsRange,
+    t449AppendixBasc3FunctionalCommunicationRank,
+    t449AppendixBasc3FunctionalCommunicationRange,
+    t450AppendixBasc3ActivitiesOfDailyLivingRank,
+    t450AppendixBasc3ActivitiesOfDailyLivingRange,
+    t451AppendixBasc3HyperactivityRank,
+    t451AppendixBasc3HyperactivityRange,
+    t452AppendixBasc3AggressionRank,
+    t452AppendixBasc3AggressionRange,
+    t453AppendixBasc3DepressionRank,
+    t453AppendixBasc3DepressionRange,
+    t454AppendixBasc3AttentionProblemsRank,
+    t454AppendixBasc3AttentionProblemsRange,
+    t455AppendixBasc3AtypicalityRank,
+    t455AppendixBasc3AtypicalityRange,
+    t456AppendixBasc3WithdrawalRank,
+    t456AppendixBasc3WithdrawalRange,
+    t457AppendixWaisivSimilaritiesRank,
+    t457AppendixWaisivSimilaritiesRange,
+    t458AppendixWaisivVocabularyRank,
+    t458AppendixWaisivVocabularyRange,
+    t459AppendixWaisivInformationRank,
+    t459AppendixWaisivInformationRange,
+    t460AppendixWaisivComprehensionRank,
+    t460AppendixWaisivComprehensionRange,
+    t461AppendixWaisivBlockDesignRank,
+    t461AppendixWaisivBlockDesignRange,
+    t462AppendixWaisivMatrixReasoningRank,
+    t462AppendixWaisivMatrixReasoningRange,
+    t463AppendixWaisivVisualPuzzlesRank,
+    t463AppendixWaisivVisualPuzzlesRange,
+    t464AppendixWaisivFigureWeightsRank,
+    t464AppendixWaisivFigureWeightsRange,
+    t465AppendixWaisivPictureCompletionRank,
+    t465AppendixWaisivPictureCompletionRange,
+    t466AppendixWaisivDigitSpanRank,
+    t466AppendixWaisivDigitSpanRange,
+    t467AppendixWaisivArithmeticRank,
+    t467AppendixWaisivArithmeticRange,
+    t468AppendixWaisivLetterNumberSequencingRank,
+    t468AppendixWaisivLetterNumberSequencingRange,
+    t469AppendixWaisivCodingRank,
+    t469AppendixWaisivCodingRange,
+    t470AppendixWaisivSymbolSearchRank,
+    t470AppendixWaisivSymbolSearchRange,
+    t471AppendixWaisivCancellationRank,
+    t471AppendixWaisivCancellationRange,
+    t557AppendixNepsyiiAnimalSortingAsRank,
+    t557AppendixNepsyiiAnimalSortingAsRange,
+    t558AppendixNepsyiiAuditoryAttentionAaAndResponseSetRsRank,
+    t558AppendixNepsyiiAuditoryAttentionAaAndResponseSetRsRange,
+    t559AppendixNepsyiiClocksClRank,
+    t559AppendixNepsyiiClocksClRange,
+    t560AppendixNepsyiiDesignFluencyDfRank,
+    t560AppendixNepsyiiDesignFluencyDfRange,
+    t561AppendixNepsyiiInhibitionInRank,
+    t561AppendixNepsyiiInhibitionInRange,
+    t562AppendixNepsyiiStatueStRank,
+    t562AppendixNepsyiiStatueStRange,
+    t563AppendixNepsyiiBodyPartNamingBpnAndIdentificationBpiRank,
+    t563AppendixNepsyiiBodyPartNamingBpnAndIdentificationBpiRange,
+    t564AppendixNepsyiiComprehensionOfInstructionsCiRank,
+    t564AppendixNepsyiiComprehensionOfInstructionsCiRange,
+    t565AppendixNepsyiiOromotorSequencesOsRank,
+    t565AppendixNepsyiiOromotorSequencesOsRange,
+    t566AppendixNepsyiiPhonologicalProcessingPhRank,
+    t566AppendixNepsyiiPhonologicalProcessingPhRange,
+    t567AppendixNepsyiiRepetitionNonsenseWordsRnRank,
+    t567AppendixNepsyiiRepetitionNonsenseWordsRnRange,
+    t568AppendixNepsyiiSpeededNamingSnRank,
+    t568AppendixNepsyiiSpeededNamingSnRange,
+    t569AppendixNepsyiiWordGenerationWgRank,
+    t569AppendixNepsyiiWordGenerationWgRange,
+    t571AppendixNepsyiiListMemoryLmListMemoryDelayedLmdRank,
+    t571AppendixNepsyiiListMemoryLmListMemoryDelayedLmdRange,
+    t572AppendixNepsyiiMemoryForDesignsMdMemoryForDesignsDelayedMddRank,
+    t572AppendixNepsyiiMemoryForDesignsMdMemoryForDesignsDelayedMddRange,
+    t573AppendixNepsyiiMemoryForFacesMfMemoryForFacesDelayedMfdRank,
+    t573AppendixNepsyiiMemoryForFacesMfMemoryForFacesDelayedMfdRange,
+    t574AppendixNepsyiiMemoryForNamesMnMemoryForNamesDelayedMndRank,
+    t574AppendixNepsyiiMemoryForNamesMnMemoryForNamesDelayedMndRange,
+    t575AppendixNepsyiiNarrativeMemoryNmRank,
+    t575AppendixNepsyiiNarrativeMemoryNmRange,
+    t576AppendixNepsyiiSentenceRepetitionSrRank,
+    t576AppendixNepsyiiSentenceRepetitionSrRange,
+    t577AppendixNepsyiiWordListInterferenceWiRank,
+    t577AppendixNepsyiiWordListInterferenceWiRange,
+    t578AppendixNepsyiiFingertipTappingFtRank,
+    t578AppendixNepsyiiFingertipTappingFtRange,
+    t579AppendixNepsyiiImitatingHandPositionsIhRank,
+    t579AppendixNepsyiiImitatingHandPositionsIhRange,
+    t580AppendixNepsyiiManualMotorSequencesMmRank,
+    t580AppendixNepsyiiManualMotorSequencesMmRange,
+    t581AppendixNepsyiiVisuomotorPrecisionVpRank,
+    t581AppendixNepsyiiVisuomotorPrecisionVpRange,
+    t582AppendixNepsyiiAffectRecognitionArRank,
+    t582AppendixNepsyiiAffectRecognitionArRange,
+    t583AppendixNepsyiiTheoryOfMindTmRank,
+    t583AppendixNepsyiiTheoryOfMindTmRange,
+    t584AppendixNepsyiiArrowsAwRank,
+    t584AppendixNepsyiiArrowsAwRange,
+    t585AppendixNepsyiiBlockConstructionBcRank,
+    t585AppendixNepsyiiBlockConstructionBcRange,
+    t586AppendixNepsyiiDesignCopyingDcRank,
+    t586AppendixNepsyiiDesignCopyingDcRange,
+    t587AppendixNepsyiiGeometricPuzzlesGpRank,
+    t587AppendixNepsyiiGeometricPuzzlesGpRange,
+    t588AppendixNepsyiiPicturePuzzlesPpRank,
+    t588AppendixNepsyiiPicturePuzzlesPpRange,
+    t589AppendixNepsyiiRouteFindingRfRank,
+    t589AppendixNepsyiiRouteFindingRfRange,
+    t593AppendixWjIvCogVocabularyRank,
+    t593AppendixWjIvCogVocabularyRange,
+    t594AppendixWjIvCogGeneralInformationRank,
+    t594AppendixWjIvCogGeneralInformationRange,
+    t595AppendixWjIvCogNumberSeriesRank,
+    t595AppendixWjIvCogNumberSeriesRange,
+    t596AppendixWjIvCogConceptFormationRank,
+    t596AppendixWjIvCogConceptFormationRange,
+    t597AppendixWjIvCogAnalysisSynthesisRank,
+    t597AppendixWjIvCogAnalysisSynthesisRange,
+    t598AppendixWjIvCogVerbalAttentionRank,
+    t598AppendixWjIvCogVerbalAttentionRange,
+    t599AppendixWjIvCogNumbersReversedRank,
+    t599AppendixWjIvCogNumbersReversedRange,
+    t600AppendixWjIvCogObjectNumberSequencingRank,
+    t600AppendixWjIvCogObjectNumberSequencingRange,
+    t645AppendixWjIvCogLetterPatternMatchingRank,
+    t645AppendixWjIvCogLetterPatternMatchingRange,
+    t601AppendixWjIvCogPairCancellationRank,
+    t601AppendixWjIvCogPairCancellationRange,
+    t602AppendixWjIvCogPhonologicalProcessingRank,
+    t602AppendixWjIvCogPhonologicalProcessingRange,
+    t603AppendixWjIvCogNonWordRepetitionRank,
+    t603AppendixWjIvCogNonWordRepetitionRange,
+    t604AppendixWjIvCogRecallRank,
+    t604AppendixWjIvCogRecallRange,
+    t605AppendixWjIvCogVisualAuditoryLearningRank,
+    t605AppendixWjIvCogVisualAuditoryLearningRange,
+    t606AppendixWjIvCogVisualizationRank,
+    t606AppendixWjIvCogVisualizationRange,
+    t607AppendixWjIvCogPictureRecognitionRank,
+    t607AppendixWjIvCogPictureRecognitionRange,
+    t644AppendixConners3AnxietyRank,
+    t644AppendixConners3AnxietyRange,
+    t167AppendixConners3DepressionRank,
+    t167AppendixConners3DepressionRange,
+    t168AppendixConners3SevereConductRank,
+    t168AppendixConners3SevereConductRange,
+    t169AppendixConners3PositiveImpressionRank,
+    t169AppendixConners3PositiveImpressionRange,
+    t170AppendixConners3NegativeImpressionRank,
+    t170AppendixConners3NegativeImpressionRange,
+    t171AppendixConners3InconsistencyIndexRank,
+    t171AppendixConners3InconsistencyIndexRange,
+    t172AppendixCtoni2PictorialAnalogiesRank,
+    t172AppendixCtoni2PictorialAnalogiesRange,
+    t173AppendixCtoni2GeometricAnalogiesRank,
+    t173AppendixCtoni2GeometricAnalogiesRange,
+    t174AppendixCtoni2PictorialCategoriesRank,
+    t174AppendixCtoni2PictorialCategoriesRange,
+    t175AppendixCtoni2GeometricCategoriesRank,
+    t175AppendixCtoni2GeometricCategoriesRange,
+    t177AppendixCtoni2GeometricSequencesRank,
+    t177AppendixCtoni2GeometricSequencesRange,
+    t176AppendixCtoni2PictorialSequencesRank,
+    t176AppendixCtoni2PictorialSequencesRange,
+    t178AppendixCtoni2PictorialScaleRank,
+    t178AppendixCtoni2PictorialScaleRange,
+    t179AppendixCtoni2GeometricScaleRank,
+    t179AppendixCtoni2GeometricScaleRange,
+    t180AppendixCtoni2FullScaleRank,
+    t180AppendixCtoni2FullScaleRange,
+    t221AppendixRbansListLearningRank,
+    t221AppendixRbansListLearningRange,
+    t222AppendixRbansStoryMemoryRank,
+    t222AppendixRbansStoryMemoryRange,
+    t223AppendixRbansFigureCopyRank,
+    t223AppendixRbansFigureCopyRange,
+    t224AppendixRbansLineOrientationRank,
+    t224AppendixRbansLineOrientationRange,
+    t225AppendixRbansPictureNamingRank,
+    t225AppendixRbansPictureNamingRange,
+    t226AppendixRbansSemanticFluencyRank,
+    t226AppendixRbansSemanticFluencyRange,
+    t227AppendixRbansDigitSpanRank,
+    t227AppendixRbansDigitSpanRange,
+    t228AppendixRbansCodingRank,
+    t228AppendixRbansCodingRange,
+    t229AppendixRbansListRecallRank,
+    t229AppendixRbansListRecallRange,
+    t230AppendixRbansListRecognitionRank,
+    t230AppendixRbansListRecognitionRange,
+    t231AppendixRbansStoryRecallRank,
+    t231AppendixRbansStoryRecallRange,
+    t232AppendixRbansFigureRecallRank,
+    t232AppendixRbansFigureRecallRange,
+    t233AppendixVinelandiiReceptiveRank,
+    t233AppendixVinelandiiReceptiveRange,
+    t234AppendixVinelandiiExpressiveRank,
+    t234AppendixVinelandiiExpressiveRange,
+    t235AppendixVinelandiiWrittenRank,
+    t235AppendixVinelandiiWrittenRange,
+    t236AppendixVinelandiiPersonalRank,
+    t236AppendixVinelandiiPersonalRange,
+    t237AppendixVinelandiiDomesticRank,
+    t237AppendixVinelandiiDomesticRange,
+    t238AppendixVinelandiiCommunityRank,
+    t238AppendixVinelandiiCommunityRange,
+    t239AppendixVinelandiiInterpersonalRelationshipsRank,
+    t239AppendixVinelandiiInterpersonalRelationshipsRange,
+    t240AppendixVinelandiiPlayAndLeisureTimeRank,
+    t240AppendixVinelandiiPlayAndLeisureTimeRange,
+    t241AppendixVinelandiiCopingSkillsRank,
+    t241AppendixVinelandiiCopingSkillsRange,
+    t242AppendixVinelandiiGrossRank,
+    t242AppendixVinelandiiGrossRange,
+    t243AppendixVinelandiiFineRank,
+    t243AppendixVinelandiiFineRange,
+    t244AppendixVinelandiiMaladaptiveBehaviorIndexRank,
+    t244AppendixVinelandiiMaladaptiveBehaviorIndexRange,
+    t245AppendixVinelandiiMaladaptiveBehaviorCriticalItemsRank,
+    t245AppendixVinelandiiMaladaptiveBehaviorCriticalItemsRange,
+    t246AppendixWasiiiSimilaritiesRank,
+    t246AppendixWasiiiSimilaritiesRange,
+    t247AppendixWasiiiVocabularyRank,
+    t247AppendixWasiiiVocabularyRange,
+    t248AppendixWasiiiBlockDesignRank,
+    t248AppendixWasiiiBlockDesignRange,
+    t249AppendixWasiiiMatrixReasoningRank,
+    t249AppendixWasiiiMatrixReasoningRange,
+    t266AppendixWraml2StoryMemoryRank,
+    t266AppendixWraml2StoryMemoryRange,
+    t267AppendixWraml2VerbalLearningRank,
+    t267AppendixWraml2VerbalLearningRange,
+    t268AppendixWraml2DesignMemoryRank,
+    t268AppendixWraml2DesignMemoryRange,
+    t269AppendixWraml2PictureMemoryRank,
+    t269AppendixWraml2PictureMemoryRange,
+    t270AppendixWraml2FingerWindowsRank,
+    t270AppendixWraml2FingerWindowsRange,
+    t271AppendixWraml2NumberLetterRank,
+    t271AppendixWraml2NumberLetterRange,
+    t272AppendixWraml2SentenceMemoryRank,
+    t272AppendixWraml2SentenceMemoryRange,
+    t273AppendixWraml2SoundSymbolRank,
+    t273AppendixWraml2SoundSymbolRange,
+    t274AppendixWraml2VerbalWorkingMemoryRank,
+    t274AppendixWraml2VerbalWorkingMemoryRange,
+    t275AppendixWraml2SymbolicWorkingMemoryRank,
+    t275AppendixWraml2SymbolicWorkingMemoryRange,
+    t276AppendixWraml2StoryMemoryDelayRecallRank,
+    t276AppendixWraml2StoryMemoryDelayRecallRange,
+    t277AppendixWraml2VerbalLearningDelayRecallRank,
+    t277AppendixWraml2VerbalLearningDelayRecallRange,
+    t278AppendixWraml2SoundSymbolDelayRecallRank,
+    t278AppendixWraml2SoundSymbolDelayRecallRange,
+    t279AppendixWraml2StoryMemoryRecognitionRank,
+    t279AppendixWraml2StoryMemoryRecognitionRange,
+    t280AppendixWraml2VerbalLearningRecognitionRank,
+    t280AppendixWraml2VerbalLearningRecognitionRange,
+    t281AppendixWraml2DesignMemoryRecognitionRank,
+    t281AppendixWraml2DesignMemoryRecognitionRange,
+    t282AppendixWraml2PictureMemoryRecognitionRank,
+    t282AppendixWraml2PictureMemoryRecognitionRange,
+    rbansTotalScaleScore,
+    rbansTotalScaleScoreScaledScore,
+    rbansTotalScaleScorePercentileRank,
+    rbansTotalScaleScoreRange,
+    t472AppendixPiyPoorAchievementAndMemoryRank,
+    t473AppendixPiyInadequateAbilitiesRank,
+    t474AppendixPiyLearningProblemsRank,
+    t475AppendixPiyBrashnessRank,
+    t476AppendixPiyDistractibilityAndOveractivityRank,
+    t477AppendixPiyImpulsivityRank,
+    t478AppendixPiyAntisocialBehaviorRank,
+    t479AppendixPiyDyscontrolRank,
+    t480AppendixPiyNoncomplianceRank,
+    t481AppendixPiyParentChildConflictRank,
+    t482AppendixPiyParentMaladjustmentRank,
+    t483AppendixPiyMaritalDiscordRank,
+    t484AppendixPiyFeelingsOfAlienationRank,
+    t485AppendixPiyHallucinationsAndDelusionsRank,
+    t486AppendixPiyPsychosomaticSyndromeRank,
+    t487AppendixPiyMuscularTensionAndAnxietyRank,
+    t488AppendixPiyPreoccupationWithDiseaseRank,
+    t489AppendixPiyFearAndWorryRank,
+    t490AppendixPiyDepressionRank,
+    t491AppendixPiySleepDisturbanceRank,
+    t492AppendixPiySocialIntroversionRank,
+    t493AppendixPiyIsolationRank,
+    t494AppendixPiyLimitedPeerStatusRank,
+    t495AppendixPiyConflictWithPeersRank,
+    t525AppendixMmpi2HypochondriasisHsRange,
+    t526AppendixMmpi2DepressionDRange,
+    t527AppendixMmpi2HysteriaHyRange,
+    t528AppendixMmpi2PsychopathicDeviatePdRange,
+    t529AppendixMmpi2MasculinityfemininityMfRange,
+    t530AppendixMmpi2ParanoiaPaRange,
+    t531AppendixMmpi2PsychastheniaPtRange,
+    t532AppendixMmpi2SchizophreniaScRange,
+    t533AppendixMmpi2HypomaniaMaRange,
+    t534AppendixMmpi2SocialIntroversionSiRange,
+    t535AppendixMmpi2LieLRange,
+    t536AppendixMmpi2FRange,
+    t537AppendixMmpi2BackFFbRange,
+    t538AppendixMmpi2KRange,
+    t539AppendixMmpiaHypochondriasisHsRange,
+    t540AppendixMmpiaDepressionDRange,
+    t541AppendixMmpiaHysteriaHyRange,
+    t542AppendixMmpiaPsychopathicDeviatePdRange,
+    t543AppendixMmpiaMasculinityfemininityMfRange,
+    t544AppendixMmpiaParanoiaPaRange,
+    t545AppendixMmpiaPsychastheniaPtRange,
+    t546AppendixMmpiaSchizophreniaScRange,
+    t547AppendixMmpiaHypomaniaMaRange,
+    t548AppendixMmpiaSocialIntroversionSiRange,
+    t549AppendixMmpiaCnsRange,
+    t550AppendixMmpiaVrinRange,
+    t551AppendixMmpiaTrinRange,
+    t552AppendixMmpiaFRange,
+    t553AppendixMmpiaF1Range,
+    t554AppendixMmpiaF2Range,
+    t555AppendixMmpiaLRange,
+    t556AppendixMmpiaKRange,
+    t608AppendixTsccUnderresponseUndRange,
+    t609AppendixTsccHyperresponseHypRange,
+    t610AppendixTsccAnxietyAnxRange,
+    t611AppendixTsccDepressionDepRange,
+    t612AppendixTsccAngerAngRange,
+    t613AppendixTsccPosttraumaticStressPtsRange,
+    t614AppendixTsccDissociationDisRange,
+    t615AppendixTsccSexualConcernsScRange,
+    t616AppendixWjivachLetterWordIdentificationRank,
+    t616AppendixWjivachLetterWordIdentificationRange,
+    t617AppendixWjivachWordAttackRank,
+    t617AppendixWjivachWordAttackRange,
+    t618AppendixWjivachPassageComprehensionRank,
+    t618AppendixWjivachPassageComprehensionRange,
+    t619AppendixWjivachReadingRecallRank,
+    t619AppendixWjivachReadingRecallRange,
+    t620AppendixWjivachReadingVocabularyRank,
+    t620AppendixWjivachReadingVocabularyRange,
+    t621AppendixWjivachCalculationRank,
+    t621AppendixWjivachCalculationRange,
+    t622AppendixWjivachMathFactFluencyRank,
+    t622AppendixWjivachMathFactFluencyRange,
+    t623AppendixWjivachAppliedProblemsRank,
+    t623AppendixWjivachAppliedProblemsRange,
+    t624AppendixWjivachNumberMatricesRank,
+    t624AppendixWjivachNumberMatricesRange,
+    t625AppendixWjivachWritingSamplesRank,
+    t625AppendixWjivachWritingSamplesRange,
+    t626AppendixWjivachSentenceWritingFluencyRank,
+    t626AppendixWjivachSentenceWritingFluencyRange,
+    t627AppendixWjivachOralReadingRank,
+    t627AppendixWjivachOralReadingRange,
+    t628AppendixWjivachSentenceReadingFluencyRank,
+    t628AppendixWjivachSentenceReadingFluencyRange,
+    t629AppendixWjivachSpellingRank,
+    t629AppendixWjivachSpellingRange,
+    t630AppendixWjivachSoundAwarenessRank,
+    t630AppendixWjivachSoundAwarenessRange,
+    t630AppendixWjivachSpellingOfSoundsRank,
+    t630AppendixWjivachSpellingOfSoundsRange,
+    t631AppendixWjivachEditingRank,
+    t631AppendixWjivachEditingRange,
+    t632AppendixWjivachScienceRank,
+    t632AppendixWjivachScienceRange,
+    t633AppendixWjivachSocialStudiesRank,
+    t633AppendixWjivachSocialStudiesRange,
+    t634AppendixWjivachHumanitiesRank,
+    t634AppendixWjivachHumanitiesRange,
+    t635AppendixWjivachWordAttackRank,
+    t635AppendixWjivachWordAttackRange,
+    t636AppendixWjivachSpellingOfSoundsRank,
+    t636AppendixWjivachSpellingOfSoundsRange,
+    t648AppendixWppsiIvVocabularyRank,
+    t648AppendixWppsiIvVocabularyRange,
+    t649AppendixWppsiIvInformationRank,
+    t649AppendixWppsiIvInformationRange,
+    t650AppendixWppsiIvComprehensionRank,
+    t650AppendixWppsiIvComprehensionRange,
+    t653AppendixWppsiIvBlockDesignRank,
+    t653AppendixWppsiIvBlockDesignRange,
+    t654AppendixWppsiIvObjectAssemblyRank,
+    t654AppendixWppsiIvObjectAssemblyRange,
+    t657AppendixWppsiIvBugSearchRank,
+    t657AppendixWppsiIvBugSearchRange,
+    t658AppendixWppsiIvCancellationRank,
+    t658AppendixWppsiIvCancellationRange,
+    t659AppendixWppsiIvAnimalCodingRank,
+    t659AppendixWppsiIvAnimalCodingRange,
+    t651AppendixWppsiIvMatrixReasoningRank,
+    t651AppendixWppsiIvMatrixReasoningRange,
+    t652AppendixWppsiIvPictureConceptsRank,
+    t652AppendixWppsiIvPictureConceptsRange,
+    t655AppendixWppsiIvPictureMemoryRank,
+    t655AppendixWppsiIvPictureMemoryRange,
+    t656AppendixWppsiIvZooLocationsRank,
+    t656AppendixWppsiIvZooLocationsRange,
+    t669AppendixBeeryvmiBeeryMotorIntegrationVmiRank,
+    t669AppendixBeeryvmiBeeryMotorIntegrationVmiRange,
+    t670AppendixBeeryvmiBeeryVisualPerceptionRank,
+    t670AppendixBeeryvmiBeeryVisualPerceptionRange,
+    t671AppendixBeeryvmiBeeryMotorCoordinationRank,
+    t671AppendixBeeryvmiBeeryMotorCoordinationRange,
+    t672AppendixWiatiiiListeningComprehensionGradesPk12Rank,
+    t672AppendixWiatiiiListeningComprehensionGradesPk12GradeEquivalent,
+    t672AppendixWiatiiiListeningComprehensionGradesPk12Range,
+    t673AppendixWiatiiiOralExpressionGradesPk12Rank,
+    t673AppendixWiatiiiOralExpressionGradesPk12GradeEquivalent,
+    t673AppendixWiatiiiOralExpressionGradesPk12Range,
+    t674AppendixWiatiiiEarlyReadingSkillsGradesPk3Rank,
+    t674AppendixWiatiiiEarlyReadingSkillsGradesPk3GradeEquivalent,
+    t674AppendixWiatiiiEarlyReadingSkillsGradesPk3Range,
+    t675AppendixWiatiiiReadingComprehensionGrades112Rank,
+    t675AppendixWiatiiiReadingComprehensionGrades112GradeEquivalent,
+    t675AppendixWiatiiiReadingComprehensionGrades112Range,
+    t676AppendixWiatiiiWordReadingGrades112Rank,
+    t676AppendixWiatiiiWordReadingGrades112GradeEquivalent,
+    t676AppendixWiatiiiWordReadingGrades112Range,
+    t677AppendixWiatiiiPseudowordDecodingGrades112Rank,
+    t677AppendixWiatiiiPseudowordDecodingGrades112GradeEquivalent,
+    t677AppendixWiatiiiPseudowordDecodingGrades112Range,
+    t678AppendixWiatiiiOralReadingFluencyGrades112Rank,
+    t678AppendixWiatiiiOralReadingFluencyGrades112GradeEquivalent,
+    t678AppendixWiatiiiOralReadingFluencyGrades112Range,
+    t679AppendixWiatiiiSpellingGradesK12Rank,
+    t679AppendixWiatiiiSpellingGradesK12GradeEquivalent,
+    t679AppendixWiatiiiSpellingGradesK12Range,
+    t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3Rank,
+    t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3GradeEquivalent,
+    t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3Range,
+    t681AppendixWiatiiiSentenceCompositionGrades112Rank,
+    t681AppendixWiatiiiSentenceCompositionGrades112GradeEquivalent,
+    t681AppendixWiatiiiSentenceCompositionGrades112Range,
+    t682AppendixWiatiiiEssayCompositionGrades312Rank,
+    t682AppendixWiatiiiEssayCompositionGrades312GradeEquivalent,
+    t682AppendixWiatiiiEssayCompositionGrades312Range,
+    t683AppendixWiatiiiNumericalOperationsGradesK12Rank,
+    t683AppendixWiatiiiNumericalOperationsGradesK12GradeEquivalent,
+    t683AppendixWiatiiiNumericalOperationsGradesK12Range,
+    t684AppendixWiatiiiMathProblemSolvingGradesPk12Rank,
+    t684AppendixWiatiiiMathProblemSolvingGradesPk12GradeEquivalent,
+    t684AppendixWiatiiiMathProblemSolvingGradesPk12Range,
+    t685AppendixWiatiiiMathFluencyAdditionRank,
+    t685AppendixWiatiiiMathFluencyAdditionGradeEquivalent,
+    t685AppendixWiatiiiMathFluencyAdditionRange,
+    t686AppendixWiatiiiMathFluencySubtractionRank,
+    t686AppendixWiatiiiMathFluencySubtractionGradeEquivalent,
+    t686AppendixWiatiiiMathFluencySubtractionRange,
+    t687AppendixWiatiiiMathFluencyMultiplicationRank,
+    t687AppendixWiatiiiMathFluencyMultiplicationGradeEquivalent,
+    t687AppendixWiatiiiMathFluencyMultiplicationRange,
+    t688AppendixNelsonDennyVocabularyRank,
+    t688AppendixNelsonDennyVocabularyRange,
+    t689AppendixNelsonDennyComprehensionRank,
+    t689AppendixNelsonDennyComprehensionRange,
+    t690AppendixNelsonDennyReadingRateRank,
+    t690AppendixNelsonDennyReadingRateRange,
+    t698AppendixDkefsVisualScanningRange,
+    t699AppendixDkefsNumberSequencingRange,
+    t700AppendixDkefsLetterSequencingRange,
+    t701AppendixDkefsCombinedNumberAndLetterSequencingRange,
+    t702AppendixDkefsNumberLetterSwitchingRange,
+    t703AppendixDkefsMotorSpeedRange,
+    t704AppendixDkefsLetterFluencyRange,
+    t705AppendixDkefsCategoryFluencyRange,
+    t706AppendixDkefsCategorySwitchingRange,
+    t707AppendixDkefsFilledDotsRange,
+    t708AppendixDkefsEmptyDotsOnlyRange,
+    t709AppendixDkefsSwitchingRange,
+    t710AppendixDkefsColorNamingRange,
+    t711AppendixDkefsWordReadingRange,
+    t712AppendixDkefsInhibitionRange,
+    t713AppendixDkefsInhibitionswitchingRange,
+    t714AppendixDkefsFreeSortingRange,
+    t715AppendixDkefsSortRecognitionRange,
+    t716AppendixDkefsItem1Range,
+    t717AppendixDkefsItem2Range,
+    t718AppendixDkefsItem3Range,
+    t719AppendixDkefsItem4Range,
+    t720AppendixDkefsItem1Range,
+    t721AppendixDkefsItem2Range,
+    t722AppendixDkefsItem1TwoDisksRange,
+    t723AppendixDkefsItem2TwoDisksRange,
+    t724AppendixDkefsItem3TwoDisksRange,
+    t725AppendixDkefsItem4ThreeDisksRange,
+    t726AppendixDkefsItem5ThreeDisksRange,
+    t727AppendixDkefsItem6FourDisksRange,
+    t728AppendixDkefsItem7FourDisksRange,
+    t729AppendixDkefsItem8FiveDisksRange,
+    t730AppendixDkefsItem9FiveDisksRange,
+    t731AppendixDkefsFreeInquiryRange,
+    t732AppendixDkefsMultipleChoiceRange,
+    t733AppendixGort5RateRank,
+    t733AppendixGort5RateRange,
+    t734AppendixGort5AccuracyRank,
+    t734AppendixGort5AccuracyRange,
+    t735AppendixGort5FluencyRank,
+    t735AppendixGort5FluencyRange,
+    t736AppendixGort5ComprehensionRank,
+    t736AppendixGort5ComprehensionRange,
+    t737AppendixTommTrail1Rank,
+    t737AppendixTommTrail1Range,
+    t738AppendixTommTrial2Rank,
+    t738AppendixTommTrial2Range,
+    t739AppendixTommRetentionTrialRank,
+    t739AppendixTommRetentionTrialRange,
+    t743AppendixDasiiVerbalComprehensionRank,
+    t743AppendixDasiiVerbalComprehensionRange,
+    t744AppendixDasiiPictureSimilaritiesRank,
+    t744AppendixDasiiPictureSimilaritiesRange,
+    t745AppendixDasiiNamingVocabularyRank,
+    t745AppendixDasiiNamingVocabularyRange,
+    t746AppendixDasiiPatternConstructionRank,
+    t746AppendixDasiiPatternConstructionRange,
+    t747AppendixDasiiMatricesRank,
+    t747AppendixDasiiMatricesRange,
+    t748AppendixDasiiCopyingRank,
+    t748AppendixDasiiCopyingRange,
+    t749AppendixDasiiRecallOfObjectsImmediateRank,
+    t749AppendixDasiiRecallOfObjectsImmediateRange,
+    t750AppendixDasiiRecallOfObjectsDelayedRank,
+    t750AppendixDasiiRecallOfObjectsDelayedRange,
+    t751AppendixDasiiRecallOfDigitsForwardRank,
+    t751AppendixDasiiRecallOfDigitsForwardRange,
+    t752AppendixDasiiRecognitionOfPicturesRank,
+    t752AppendixDasiiRecognitionOfPicturesRange,
+    t753AppendixDasiiEarlyNumberConceptsRank,
+    t753AppendixDasiiEarlyNumberConceptsRange,
+    t754AppendixDasiiMatchingLetterLikeFormsRank,
+    t754AppendixDasiiMatchingLetterLikeFormsRange,
+    t755AppendixDasiiRecallOfSequentialOrderRank,
+    t755AppendixDasiiRecallOfSequentialOrderRange,
+    t756AppendixDasiiSpeedOfInformationProcessingRank,
+    t756AppendixDasiiSpeedOfInformationProcessingRange,
+    t757AppendixDasiiRecallOfDigitsBackwardRank,
+    t757AppendixDasiiRecallOfDigitsBackwardRange,
+    t758AppendixDasiiPhonologicalProcessingRank,
+    t758AppendixDasiiPhonologicalProcessingRange,
+    t759AppendixDasiiRapidNamingRank,
+    t759AppendixDasiiRapidNamingRange,
+    t760AppendixDasiiRecallOfDesignsRank,
+    t760AppendixDasiiRecallOfDesignsRange,
+    t761AppendixDasiiWordDefinitionsRank,
+    t761AppendixDasiiWordDefinitionsRange,
+    t762AppendixDasiiPatternConstructionRank,
+    t762AppendixDasiiPatternConstructionRange,
+    t763AppendixDasiiMatricesRank,
+    t763AppendixDasiiMatricesRange,
+    t764AppendixDasiiVerbalSimilaritiesRank,
+    t764AppendixDasiiVerbalSimilaritiesRange,
+    t765AppendixDasiiSequentialAndQuantitativeReasoningRank,
+    t765AppendixDasiiSequentialAndQuantitativeReasoningRange,
+    t766AppendixDasiiRecallOfObjectsImmediateRank,
+    t766AppendixDasiiRecallOfObjectsImmediateRange,
+    t767AppendixDasiiRecallOfObjectsDelayedRank,
+    t767AppendixDasiiRecallOfObjectsDelayedRange,
+    t768AppendixDasiiRecallOfDigitsForwardRank,
+    t768AppendixDasiiRecallOfDigitsForwardRange,
+    t769AppendixDasiiRecognitionOfPicturesRank,
+    t769AppendixDasiiRecognitionOfPicturesRange,
+    t770AppendixDasiiRecallOfSequentialOrderRank,
+    t770AppendixDasiiRecallOfSequentialOrderRange,
+    t771AppendixDasiiSpeedOfInformationProcessingRank,
+    t771AppendixDasiiSpeedOfInformationProcessingRange,
+    t772AppendixDasiiRecallOfDigitsBackwardRank,
+    t772AppendixDasiiRecallOfDigitsBackwardRange,
+    t773AppendixDasiiPhonologicalProcessingRank,
+    t773AppendixDasiiPhonologicalProcessingRange,
+    t18AppendixGort5ORIRank,
+    t18AppendixGort5ORIGradeEquivalent,
+    t18ORIScore,
+    t169AppendixDkefsVerbalFluencySummaryOfScoresRange,
+    t169AppendixDkefsVerbalFluencySummaryOfScoresScore,
+    t170AppendixDkefsDesignFluencySummaryOfScoresScore,
+    t170AppendixDkefsDesignFluencySummaryOfScoresRange,
+    t171AppendixDkefsColorWordInterferenceTestSummaryOfScoresScore,
+    t171AppendixDkefsColorWordInterferenceTestSummaryOfScoresRange,
+    t172AppendixDkefsSortingTestSummaryOfScoresRange,
+    t172AppendixDkefsSortingTestSummaryOfScoresScore,
+    t173AppendixDkefsTwentyQuestionsSummaryOfScoresScore,
+    t173AppendixDkefsTwentyQuestionsSummaryOfScoresRange,
+    t174AppendixDkefsWordContextTestSummaryOfScoresScore,
+    t174AppendixDkefsWordContextTestSummaryOfScoresRange,
+    t175AppendixDkefsTowerTestSummaryOfScoresRange,
+    t175AppendixDkefsTowerTestSummaryOfScoresScore,
+    t176AppendixDkefsProverbTestSummaryOfScoresRange,
+    t176AppendixDkefsProverbTestSummaryOfScoresScore
   },
   testSelectedReducer,
-  relevantBackgroundHistory,
-  resultsCurrentAssessment,
-  summaryCurrentSituation,
-  dsmCodes,
-  eduCodeIntellectualDisabilityId,
-  eduCodeHardOfHearingHh,
-  eduCodeDeafnessDeafHearingImpairmentHi,
-  eduCodeSpeechOrLanguageImpairmentSli,
-  eduCodeVisualImpairmentVi,
-  eduCodeEmotionalDisturbanceEd,
-  eduCodeOrthopedicImpairmentOi,
-  eduCodeOtherHealthImpairmentOhi,
-  eduCodeEstablishedMedicalDisabilityEmd,
-  eduCodeSpecificLearningDisabilitySld,
-  eduCodeDeafBlindnessDb,
-  eduCodeMultipleDisabilitiesMd,
-  eduCodeAutismAut,
-  eduCodeTraumaticBrainInjuryTbi,
-  recommendations,
-  recommendationAdhd,
-  recommendationAutism,
-  recommendationDementia,
-  recommendationDysthymia,
-  recommendationLearningDisabilityMathematics,
-  recommendationLearningDisabilityReading,
-  recommendationNeurocognitiveDisorder,
-  recommendationVisualProcessingChildrenAdults,
-  recommendationVisualProcessingChildren,
-  recommendationLearningDisabilityWritingChildrenAdults,
-  recommendationLearningDisabilityWritingChildren,
-  recommendationAuditoryProcessingWeaknessChildrenAdults,
-  recommendationAuditoryProcessingWeaknessChildren,
-  adhdRecommendationsFreehand,
-  appendixReducer,
-  t1AppendixWiscVSimilaritiesRank,
-  t1AppendixWiscVSimilaritiesRange,
-  t2AppendixWiscVVocabularyRank,
-  t2AppendixWiscVVocabularyRange,
-  t3AppendixWiscVInformationRank,
-  t3AppendixWiscVInformationRange,
-  t4AppendixWiscVComprehensionRank,
-  t4AppendixWiscVComprehensionRange,
-  t5AppendixWiscVBlockDesignRank,
-  t5AppendixWiscVBlockDesignRange,
-  t6AppendixWiscVVocabularyRank,
-  t6AppendixWiscVVocabularyRange,
-  t7AppendixWiscVMatrixReasoningRank,
-  t7AppendixWiscVMatrixReasoningRange,
-  t8AppendixWiscVFigureWeightsRank,
-  t8AppendixWiscVFigureWeightsRange,
-  t9AppendixWiscVPictureConceptsRank,
-  t9AppendixWiscVPictureConceptsRange,
-  t10AppendixWiscVArithmeticRank,
-  t10AppendixWiscVArithmeticRange,
-  t11AppendixWiscVDigitSpanRank,
-  t11AppendixWiscVDigitSpanRange,
-  t12AppendixWiscVPictureSpanRank,
-  t12AppendixWiscVPictureSpanRange,
-  t13AppendixWiscVLetterNumberSequencingRank,
-  t13AppendixWiscVLetterNumberSequencingRange,
-  t14AppendixWiscVCodingRank,
-  t14AppendixWiscVCodingRange,
-  t15AppendixWiscVSymbolSearchRank,
-  t15AppendixWiscVSymbolSearchRange,
-  t16AppendixWiscVCancellationRank,
-  t16AppendixWiscVCancellationRange,
-  t46AppendixQikCptAccuracyIndexRank,
-  t46AppendixQikCptAccuracyIndexRange,
-  t47AppendixQikCptSustainedAttentionRank,
-  t47AppendixQikCptSustainedAttentionRange,
-  t48AppendixQikCptImpulseControlRank,
-  t48AppendixQikCptImpulseControlRange,
-  t49AppendixQikCptPerformanceIndexRank,
-  t49AppendixQikCptPerformanceIndexRange,
-  t50AppendixQikCptSpeedOfResponseRank,
-  t50AppendixQikCptSpeedOfResponseRange,
-  t51AppendixQikCptConsistencyOfResponseRank,
-  t51AppendixQikCptConsistencyOfResponseRange,
-  t73AppendixWiscVNamingSpeedLiteracyRank,
-  t73AppendixWiscVNamingSpeedLiteracyRange,
-  t74AppendixWiscVNamingSpeedQualityRank,
-  t74AppendixWiscVNamingSpeedQualityRange,
-  t75AppendixWiscVImmediateSymbolTranslationRank,
-  t75AppendixWiscVImmediateSymbolTranslationRange,
-  t76AppendixWiscVDelayedSymbolTranslationRank,
-  t76AppendixWiscVDelayedSymbolTranslationRange,
-  t77AppendixWiscVRecognitionSymbolTranslationRank,
-  t77AppendixWiscVRecognitionSymbolTranslationRange,
-  t78AppendixBriefInconsistencyScaleRank,
-  t78AppendixBriefInconsistencyScaleRange,
-  t79AppendixBriefNegativityScaleRank,
-  t79AppendixBriefNegativityScaleRange,
-  t82AppendixBriefInhibitRank,
-  t82AppendixBriefInhibitRange,
-  t83AppendixBriefShiftRank,
-  t83AppendixBriefShiftRange,
-  t84AppendixBriefEmotionalControlRank,
-  t84AppendixBriefEmotionalControlRange,
-  t85AppendixBriefInitiateRank,
-  t85AppendixBriefInitiateRange,
-  t86AppendixBriefWorkingMemoryRank,
-  t86AppendixBriefWorkingMemoryRange,
-  t87AppendixBriefPlanOrganizeRank,
-  t87AppendixBriefPlanOrganizeRange,
-  t88AppendixBriefOrganizationOfMaterialsRank,
-  t88AppendixBriefOrganizationOfMaterialsRange,
-  t89AppendixBriefMonitorRank,
-  t89AppendixBriefMonitorRange,
-  t90AppendixBriefInhibitRank,
-  t90AppendixBriefInhibitRange,
-  t91AppendixBriefShiftRank,
-  t91AppendixBriefShiftRange,
-  t92AppendixBriefEmotionalControlRank,
-  t92AppendixBriefEmotionalControlRange,
-  t93AppendixBriefInitiateRank,
-  t93AppendixBriefInitiateRange,
-  t94AppendixBriefWorkingMemoryRank,
-  t94AppendixBriefWorkingMemoryRange,
-  t95AppendixBriefPlanOrganizeRank,
-  t95AppendixBriefPlanOrganizeRange,
-  t96AppendixBriefOrganizationOfMaterialsRank,
-  t96AppendixBriefOrganizationOfMaterialsRange,
-  t97AppendixBriefMonitorRank,
-  t97AppendixBriefMonitorRange,
-  t120AppendixConners3InattentionRank,
-  t120AppendixConners3InattentionRange,
-  t121AppendixConners3HyperactivityImpulsivityRank,
-  t121AppendixConners3HyperactivityImpulsivityRange,
-  t122AppendixConners3LearningProblemsRank,
-  t122AppendixConners3LearningProblemsRange,
-  t123AppendixConners3ExecutiveFunctioningRank,
-  t123AppendixConners3ExecutiveFunctioningRange,
-  t124AppendixConners3DefianceAggressionRank,
-  t124AppendixConners3DefianceAggressionRange,
-  t125AppendixConners3PeerRelationsRank,
-  t125AppendixConners3PeerRelationsRange,
-  t126AppendixConners3AdhdInattentiveRank,
-  t126AppendixConners3AdhdInattentiveRange,
-  t128AppendixConners3ConductDisorderRank,
-  t128AppendixConners3ConductDisorderRange,
-  t129AppendixConners3OppositionalDefiantDisorderRank,
-  t129AppendixConners3OppositionalDefiantDisorderRange,
-  t127AppendixConners3AdhdHyperactiveImpulsiveRank,
-  t127AppendixConners3AdhdHyperactiveImpulsiveRange,
-  t130AppendixConners3Conners3AdhdIndexRank,
-  t130AppendixConners3Conners3AdhdIndexRange,
-  t131AppendixConners3Conners3GlobalIndexRank,
-  t131AppendixConners3Conners3GlobalIndexRange,
-  t132AppendixConners3AnxietyRank,
-  t132AppendixConners3AnxietyRange,
-  t133AppendixConners3DepressionRank,
-  t133AppendixConners3DepressionRange,
-  t134AppendixConners3SevereConductRank,
-  t134AppendixConners3SevereConductRange,
-  t135AppendixConners3PositiveImpressionRank,
-  t135AppendixConners3PositiveImpressionRange,
-  t136AppendixConners3NegativeImpressionRank,
-  t136AppendixConners3NegativeImpressionRange,
-  t137AppendixConners3InconsistencyIndexRank,
-  t137AppendixConners3InconsistencyIndexRange,
-  t138AppendixConners3InattentionRank,
-  t138AppendixConners3InattentionRange,
-  t139AppendixConners3HyperactivityImpulsivityRank,
-  t139AppendixConners3HyperactivityImpulsivityRange,
-  t141AppendixConners3LearningProblemsRank,
-  t141AppendixConners3LearningProblemsRange,
-  t142AppendixConners3ExecutiveFunctioningRank,
-  t142AppendixConners3ExecutiveFunctioningRange,
-  t143AppendixConners3DefianceAggressionRank,
-  t143AppendixConners3DefianceAggressionRange,
-  t144AppendixConners3PeerRelationsRank,
-  t144AppendixConners3PeerRelationsRange,
-  t145AppendixConners3AdhdInattentiveRank,
-  t145AppendixConners3AdhdInattentiveRange,
-  t146AppendixConners3AdhdHyperactiveImpulsiveRank,
-  t146AppendixConners3AdhdHyperactiveImpulsiveRange,
-  t147AppendixConners3ConductDisorderRank,
-  t147AppendixConners3ConductDisorderRange,
-  t148AppendixConners3OppositionalDefiantDisorderRank,
-  t148AppendixConners3OppositionalDefiantDisorderRange,
-  t149AppendixConners3Conners3AdhdIndexRank,
-  t149AppendixConners3Conners3AdhdIndexRange,
-  t150AppendixConners3Conners3GlobalIndexRank,
-  t150AppendixConners3Conners3GlobalIndexRange,
-  t151AppendixConners3AnxietyRank,
-  t151AppendixConners3AnxietyRange,
-  t152AppendixConners3DepressionRank,
-  t152AppendixConners3DepressionRange,
-  t153AppendixConners3SevereConductRank,
-  t153AppendixConners3SevereConductRange,
-  t154AppendixConners3PositiveImpressionRank,
-  t154AppendixConners3PositiveImpressionRange,
-  t155AppendixConners3NegativeImpressionRank,
-  t155AppendixConners3NegativeImpressionRange,
-  t156AppendixConners3InconsistencyIndexRank,
-  t156AppendixConners3InconsistencyIndexRange,
-  t158AppendixConners3HyperactivityImpulsivityRank,
-  t158AppendixConners3HyperactivityImpulsivityRange,
-  t157AppendixConners3InattentionRank,
-  t157AppendixConners3InattentionRange,
-  t159AppendixConners3LearningProblemsRank,
-  t159AppendixConners3LearningProblemsRange,
-  t160AppendixConners3DefianceAggressionRank,
-  t160AppendixConners3DefianceAggressionRange,
-  t161AppendixConners3FamilyRelationsRank,
-  t161AppendixConners3FamilyRelationsRange,
-  t162AppendixConners3AdhdInattentiveRank,
-  t162AppendixConners3AdhdInattentiveRange,
-  t163AppendixConners3AdhdHyperactiveImpulsiveRank,
-  t163AppendixConners3AdhdHyperactiveImpulsiveRange,
-  t164AppendixConners3ConductDisorderRank,
-  t164AppendixConners3ConductDisorderRange,
-  t165AppendixConners3OppositionalDefiantDisorderRank,
-  t165AppendixConners3OppositionalDefiantDisorderRange,
-  t166AppendixConners3Conners3AdhdIndexRank,
-  t166AppendixConners3Conners3AdhdIndexRange,
-  t283AppendixBasc3FIndexRank,
-  t283AppendixBasc3FIndexRange,
-  t284AppendixBasc3LIndexRank,
-  t284AppendixBasc3LIndexRange,
-  t285AppendixBasc3VIndexRank,
-  t285AppendixBasc3VIndexRange,
-  t286AppendixBasc3AlcoholAbuseRank,
-  t286AppendixBasc3AlcoholAbuseRange,
-  t287AppendixBasc3AnxietyRank,
-  t287AppendixBasc3AnxietyRange,
-  t288AppendixBasc3AttentionProblemsRank,
-  t288AppendixBasc3AttentionProblemsRange,
-  t289AppendixBasc3AttitudeToSchoolRank,
-  t289AppendixBasc3AttitudeToSchoolRange,
-  t290AppendixBasc3AttitudeToTeachersRank,
-  t290AppendixBasc3AttitudeToTeachersRange,
-  t291AppendixBasc3AtypicalityRank,
-  t291AppendixBasc3AtypicalityRange,
-  t292AppendixBasc3DepressionRank,
-  t292AppendixBasc3DepressionRange,
-  t293AppendixBasc3HyperactivityRank,
-  t293AppendixBasc3HyperactivityRange,
-  t294AppendixBasc3LocusOfControlRank,
-  t294AppendixBasc3LocusOfControlRange,
-  t295AppendixBasc3SchoolMaladjustmentRank,
-  t295AppendixBasc3SchoolMaladjustmentRange,
-  t296AppendixBasc3SensationSeekingRank,
-  t296AppendixBasc3SensationSeekingRange,
-  t297AppendixBasc3SenseOfInadequacyRank,
-  t297AppendixBasc3SenseOfInadequacyRange,
-  t298AppendixBasc3SocialStressRank,
-  t298AppendixBasc3SocialStressRange,
-  t299AppendixBasc3SomatizationRank,
-  t299AppendixBasc3SomatizationRange,
-  t300AppendixBasc3InterpersonalRelationsRank,
-  t300AppendixBasc3InterpersonalRelationsRange,
-  t301AppendixBasc3RelationsWithParentsRank,
-  t301AppendixBasc3RelationsWithParentsRange,
-  t302AppendixBasc3SelfEsteemRank,
-  t302AppendixBasc3SelfEsteemRange,
-  t303AppendixBasc3SelfRelianceRank,
-  t303AppendixBasc3SelfRelianceRange,
-  t304AppendixBasc3AngerControlRank,
-  t304AppendixBasc3AngerControlRange,
-  t305AppendixBasc3EgoStrengthRank,
-  t305AppendixBasc3EgoStrengthRange,
-  t306AppendixBasc3ManiaRank,
-  t306AppendixBasc3ManiaRange,
-  t307AppendixBasc3TestAnxietyRank,
-  t307AppendixBasc3TestAnxietyRange,
-  t308AppendixBasc3AttitudeToSchoolRank,
-  t308AppendixBasc3AttitudeToSchoolRange,
-  t309AppendixBasc3AttitudeToTeachersRank,
-  t309AppendixBasc3AttitudeToTeachersRange,
-  t310AppendixBasc3AtypicalityRank,
-  t310AppendixBasc3AtypicalityRange,
-  t311AppendixBasc3LocusOfControlRank,
-  t311AppendixBasc3LocusOfControlRange,
-  t312AppendixBasc3SocialStressRank,
-  t312AppendixBasc3SocialStressRange,
-  t313AppendixBasc3AnxietyRank,
-  t313AppendixBasc3AnxietyRange,
-  t314AppendixBasc3DepressionRank,
-  t314AppendixBasc3DepressionRange,
-  t315AppendixBasc3SenseOfInadequacyRank,
-  t315AppendixBasc3SenseOfInadequacyRange,
-  t316AppendixBasc3AttentionProblemsRank,
-  t316AppendixBasc3AttentionProblemsRange,
-  t317AppendixBasc3HyperactivityRank,
-  t317AppendixBasc3HyperactivityRange,
-  t662AppendixBasc3SocialStressRank,
-  t662AppendixBasc3SocialStressRange,
-  t664AppendixBasc3AnxietyRank,
-  t664AppendixBasc3AnxietyRange,
-  t665AppendixBasc3DepressionRank,
-  t665AppendixBasc3DepressionRange,
-  t666AppendixBasc3SenseOfInadequacyRank,
-  t666AppendixBasc3SenseOfInadequacyRange,
-  t667AppendixBasc3SelfEsteemRank,
-  t667AppendixBasc3SelfEsteemRange,
-  t668AppendixBasc3SelfRelianceRank,
-  t668AppendixBasc3SelfRelianceRange,
-  t324AppendixBasc3InterpersonalRelationsRank,
-  t324AppendixBasc3InterpersonalRelationsRange,
-  t325AppendixBasc3RelationsWithParentsRank,
-  t325AppendixBasc3RelationsWithParentsRange,
-  t326AppendixBasc3SelfEsteemRank,
-  t326AppendixBasc3SelfEsteemRange,
-  t327AppendixBasc3SelfRelianceRank,
-  t327AppendixBasc3SelfRelianceRange,
-  t328AppendixBasc3AttitudeToSchoolRank,
-  t328AppendixBasc3AttitudeToSchoolRange,
-  t329AppendixBasc3AttitudeToTeachersRank,
-  t329AppendixBasc3AttitudeToTeachersRange,
-  t330AppendixBasc3SensationSeekingRank,
-  t330AppendixBasc3SensationSeekingRange,
-  t331AppendixBasc3AtypicalityRank,
-  t331AppendixBasc3AtypicalityRange,
-  t332AppendixBasc3LocusOfControlRank,
-  t332AppendixBasc3LocusOfControlRange,
-  t333AppendixBasc3SocialStressRank,
-  t333AppendixBasc3SocialStressRange,
-  t334AppendixBasc3AnxietyRank,
-  t334AppendixBasc3AnxietyRange,
-  t335AppendixBasc3DepressionRank,
-  t335AppendixBasc3DepressionRange,
-  t336AppendixBasc3SenseOfInadequacyRank,
-  t336AppendixBasc3SenseOfInadequacyRange,
-  t337AppendixBasc3SomatizationRank,
-  t337AppendixBasc3SomatizationRange,
-  t338AppendixBasc3AttentionProblemsRank,
-  t338AppendixBasc3AttentionProblemsRange,
-  t339AppendixBasc3HyperactivityRank,
-  t339AppendixBasc3HyperactivityRange,
-  t340AppendixBasc3SocialStressRank,
-  t340AppendixBasc3SocialStressRange,
-  t341AppendixBasc3AnxietyRank,
-  t341AppendixBasc3AnxietyRange,
-  t342AppendixBasc3DepressionRank,
-  t342AppendixBasc3DepressionRange,
-  t343AppendixBasc3SenseOfInadequacyRank,
-  t343AppendixBasc3SenseOfInadequacyRange,
-  t344AppendixBasc3SelfEsteemRank,
-  t344AppendixBasc3SelfEsteemRange,
-  t345AppendixBasc3SelfRelianceRank,
-  t345AppendixBasc3SelfRelianceRange,
-  t346AppendixBasc3InterpersonalRelationsRank,
-  t346AppendixBasc3InterpersonalRelationsRange,
-  t347AppendixBasc3RelationsWithParentsRank,
-  t347AppendixBasc3RelationsWithParentsRange,
-  t348AppendixBasc3SelfEsteemRank,
-  t348AppendixBasc3SelfEsteemRange,
-  t349AppendixBasc3SelfRelianceRank,
-  t349AppendixBasc3SelfRelianceRange,
-  t350AppendixBasc3AtypicalityRank,
-  t350AppendixBasc3AtypicalityRange,
-  t351AppendixBasc3LocusOfControlRank,
-  t351AppendixBasc3LocusOfControlRange,
-  t352AppendixBasc3SocialStressRank,
-  t352AppendixBasc3SocialStressRange,
-  t353AppendixBasc3AnxietyRank,
-  t353AppendixBasc3AnxietyRange,
-  t354AppendixBasc3DepressionRank,
-  t354AppendixBasc3DepressionRange,
-  t355AppendixBasc3SenseOfInadequacyRank,
-  t355AppendixBasc3SenseOfInadequacyRange,
-  t356AppendixBasc3SomatizationRank,
-  t356AppendixBasc3SomatizationRange,
-  t357AppendixBasc3AttentionProblemsRank,
-  t357AppendixBasc3AttentionProblemsRange,
-  t358AppendixBasc3HyperactivityRank,
-  t358AppendixBasc3HyperactivityRange,
-  t359AppendixBasc3SocialStressRank,
-  t359AppendixBasc3SocialStressRange,
-  t360AppendixBasc3AnxietyRank,
-  t360AppendixBasc3AnxietyRange,
-  t361AppendixBasc3DepressionRank,
-  t361AppendixBasc3DepressionRange,
-  t362AppendixBasc3SenseOfInadequacyRank,
-  t362AppendixBasc3SenseOfInadequacyRange,
-  t363AppendixBasc3SelfEsteemRank,
-  t363AppendixBasc3SelfEsteemRange,
-  t364AppendixBasc3SelfRelianceRank,
-  t364AppendixBasc3SelfRelianceRange,
-  t365AppendixBasc3InterpersonalRelationsRank,
-  t365AppendixBasc3InterpersonalRelationsRange,
-  t366AppendixBasc3RelationsWithParentsRank,
-  t366AppendixBasc3RelationsWithParentsRange,
-  t367AppendixBasc3SelfEsteemRank,
-  t367AppendixBasc3SelfEsteemRange,
-  t368AppendixBasc3SelfRelianceRank,
-  t368AppendixBasc3SelfRelianceRange,
-  t369AppendixBasc3FIndexRank,
-  t369AppendixBasc3FIndexRange,
-  t370AppendixBasc3AggressionRank,
-  t370AppendixBasc3AggressionRange,
-  t371AppendixBasc3AnxietyRank,
-  t371AppendixBasc3AnxietyRange,
-  t372AppendixBasc3AttentionProblemsRank,
-  t372AppendixBasc3AttentionProblemsRange,
-  t373AppendixBasc3AtypicalityRank,
-  t373AppendixBasc3AtypicalityRange,
-  t374AppendixBasc3ConductProblemsRank,
-  t374AppendixBasc3ConductProblemsRange,
-  t375AppendixBasc3DepressionRank,
-  t375AppendixBasc3DepressionRange,
-  t376AppendixBasc3HyperactivityRank,
-  t376AppendixBasc3HyperactivityRange,
-  t377AppendixBasc3LearningProblemsRank,
-  t377AppendixBasc3LearningProblemsRange,
-  t378AppendixBasc3SomatizationRank,
-  t378AppendixBasc3SomatizationRange,
-  t379AppendixBasc3WithdrawalRank,
-  t379AppendixBasc3WithdrawalRange,
-  t380AppendixBasc3ActivitiesOfDailyLivingRank,
-  t380AppendixBasc3ActivitiesOfDailyLivingRange,
-  t381AppendixBasc3AdaptabilityRank,
-  t381AppendixBasc3AdaptabilityRange,
-  t382AppendixBasc3FunctionalCommunicationRank,
-  t382AppendixBasc3FunctionalCommunicationRange,
-  t383AppendixBasc3LeadershipRank,
-  t383AppendixBasc3LeadershipRange,
-  t384AppendixBasc3SocialSkillsRank,
-  t384AppendixBasc3SocialSkillsRange,
-  t385AppendixBasc3StudySkillsRank,
-  t385AppendixBasc3StudySkillsRange,
-  t386AppendixBasc3AngerControlRank,
-  t386AppendixBasc3AngerControlRange,
-  t387AppendixBasc3BullyingRank,
-  t387AppendixBasc3BullyingRange,
-  t388AppendixBasc3DevelopmentalSocialDisordersRank,
-  t388AppendixBasc3DevelopmentalSocialDisordersRange,
-  t389AppendixBasc3EmotionalSelfControlRank,
-  t389AppendixBasc3EmotionalSelfControlRange,
-  t390AppendixBasc3ExecutiveFunctioningRank,
-  t390AppendixBasc3ExecutiveFunctioningRange,
-  t391AppendixBasc3NegativeEmotionalityRank,
-  t391AppendixBasc3NegativeEmotionalityRange,
-  t392AppendixBasc3ResiliencyRank,
-  t392AppendixBasc3ResiliencyRange,
-  t393AppendixBasc3HyperactivityRank,
-  t393AppendixBasc3HyperactivityRange,
-  t394AppendixBasc3AggressionRank,
-  t394AppendixBasc3AggressionRange,
-  t395AppendixBasc3AnxietyRank,
-  t395AppendixBasc3AnxietyRange,
-  t396AppendixBasc3DepressionRank,
-  t396AppendixBasc3DepressionRange,
-  t397AppendixBasc3SomatizationRank,
-  t397AppendixBasc3SomatizationRange,
-  t398AppendixBasc3AdaptabilityRank,
-  t398AppendixBasc3AdaptabilityRange,
-  t399AppendixBasc3SocialSkillsRank,
-  t399AppendixBasc3SocialSkillsRange,
-  t400AppendixBasc3FunctionalCommunicationRank,
-  t400AppendixBasc3FunctionalCommunicationRange,
-  t401AppendixBasc3HyperactivityRank,
-  t401AppendixBasc3HyperactivityRange,
-  t402AppendixBasc3AggressionRank,
-  t402AppendixBasc3AggressionRange,
-  t403AppendixBasc3DepressionRank,
-  t403AppendixBasc3DepressionRange,
-  t404AppendixBasc3AttentionProblemsRank,
-  t404AppendixBasc3AttentionProblemsRange,
-  t405AppendixBasc3AtypicalityRank,
-  t405AppendixBasc3AtypicalityRange,
-  t406AppendixBasc3WithdrawalRank,
-  t406AppendixBasc3WithdrawalRange,
-  t407AppendixBasc3HyperactivityRank,
-  t407AppendixBasc3HyperactivityRange,
-  t408AppendixBasc3AggressionRank,
-  t408AppendixBasc3AggressionRange,
-  t409AppendixBasc3ConductProblemsRank,
-  t409AppendixBasc3ConductProblemsRange,
-  t410AppendixBasc3AnxietyRank,
-  t410AppendixBasc3AnxietyRange,
-  t411AppendixBasc3DepressionRank,
-  t411AppendixBasc3DepressionRange,
-  t412AppendixBasc3SomatizationRank,
-  t412AppendixBasc3SomatizationRange,
-  t413AppendixBasc3LearningProblemsRank,
-  t413AppendixBasc3LearningProblemsRange,
-  t414AppendixBasc3AttentionProblemsRank,
-  t414AppendixBasc3AttentionProblemsRange,
-  t415AppendixBasc3AdaptabilityRank,
-  t415AppendixBasc3AdaptabilityRange,
-  t416AppendixBasc3SocialSkillsRank,
-  t416AppendixBasc3SocialSkillsRange,
-  t417AppendixBasc3FunctionalCommunicationRank,
-  t417AppendixBasc3FunctionalCommunicationRange,
-  t418AppendixBasc3LeadershipRank,
-  t418AppendixBasc3LeadershipRange,
-  t419AppendixBasc3StudySkillsRank,
-  t419AppendixBasc3StudySkillsRange,
-  t420AppendixBasc3HyperactivityRank,
-  t420AppendixBasc3HyperactivityRange,
-  t421AppendixBasc3AggressionRank,
-  t421AppendixBasc3AggressionRange,
-  t422AppendixBasc3DepressionRank,
-  t422AppendixBasc3DepressionRange,
-  t423AppendixBasc3AttentionProblemsRank,
-  t423AppendixBasc3AttentionProblemsRange,
-  t424AppendixBasc3AtypicalityRank,
-  t424AppendixBasc3AtypicalityRange,
-  t425AppendixBasc3WithdrawalRank,
-  t425AppendixBasc3WithdrawalRange,
-  t426AppendixBasc3HyperactivityRank,
-  t426AppendixBasc3HyperactivityRange,
-  t427AppendixBasc3AggressionRank,
-  t427AppendixBasc3AggressionRange,
-  t428AppendixBasc3AnxietyRank,
-  t428AppendixBasc3AnxietyRange,
-  t429AppendixBasc3DepressionRank,
-  t429AppendixBasc3DepressionRange,
-  t430AppendixBasc3SomatizationRank,
-  t430AppendixBasc3SomatizationRange,
-  t431AppendixBasc3AdaptabilityRank,
-  t431AppendixBasc3AdaptabilityRange,
-  t432AppendixBasc3SocialSkillsRank,
-  t432AppendixBasc3SocialSkillsRange,
-  t433AppendixBasc3FunctionalCommunicationRank,
-  t433AppendixBasc3FunctionalCommunicationRange,
-  t434AppendixBasc3ActivitiesOfDailyLivingRank,
-  t434AppendixBasc3ActivitiesOfDailyLivingRange,
-  t435AppendixBasc3HyperactivityRank,
-  t435AppendixBasc3HyperactivityRange,
-  t436AppendixBasc3AggressionRank,
-  t436AppendixBasc3AggressionRange,
-  t437AppendixBasc3DepressionRank,
-  t437AppendixBasc3DepressionRange,
-  t438AppendixBasc3AttentionProblemsRank,
-  t438AppendixBasc3AttentionProblemsRange,
-  t439AppendixBasc3AtypicalityRank,
-  t439AppendixBasc3AtypicalityRange,
-  t440AppendixBasc3WithdrawalRank,
-  t440AppendixBasc3WithdrawalRange,
-  t441AppendixBasc3HyperactivityRank,
-  t441AppendixBasc3HyperactivityRange,
-  t442AppendixBasc3AggressionRank,
-  t442AppendixBasc3AggressionRange,
-  t443AppendixBasc3ConductProblemsRank,
-  t443AppendixBasc3ConductProblemsRange,
-  t444AppendixBasc3AnxietyRank,
-  t444AppendixBasc3AnxietyRange,
-  t445AppendixBasc3DepressionRank,
-  t445AppendixBasc3DepressionRange,
-  t446AppendixBasc3SomatizationRank,
-  t446AppendixBasc3SomatizationRange,
-  t447AppendixBasc3AdaptabilityRank,
-  t447AppendixBasc3AdaptabilityRange,
-  t448AppendixBasc3SocialSkillsRank,
-  t448AppendixBasc3SocialSkillsRange,
-  t449AppendixBasc3FunctionalCommunicationRank,
-  t449AppendixBasc3FunctionalCommunicationRange,
-  t450AppendixBasc3ActivitiesOfDailyLivingRank,
-  t450AppendixBasc3ActivitiesOfDailyLivingRange,
-  t451AppendixBasc3HyperactivityRank,
-  t451AppendixBasc3HyperactivityRange,
-  t452AppendixBasc3AggressionRank,
-  t452AppendixBasc3AggressionRange,
-  t453AppendixBasc3DepressionRank,
-  t453AppendixBasc3DepressionRange,
-  t454AppendixBasc3AttentionProblemsRank,
-  t454AppendixBasc3AttentionProblemsRange,
-  t455AppendixBasc3AtypicalityRank,
-  t455AppendixBasc3AtypicalityRange,
-  t456AppendixBasc3WithdrawalRank,
-  t456AppendixBasc3WithdrawalRange,
-  t457AppendixWaisIvSimilaritiesRank,
-  t457AppendixWaisIvSimilaritiesRange,
-  t458AppendixWaisIvVocabularyRank,
-  t458AppendixWaisIvVocabularyRange,
-  t459AppendixWaisIvInformationRank,
-  t459AppendixWaisIvInformationRange,
-  t460AppendixWaisIvComprehensionRank,
-  t460AppendixWaisIvComprehensionRange,
-  t461AppendixWaisIvBlockDesignRank,
-  t461AppendixWaisIvBlockDesignRange,
-  t462AppendixWaisIvMatrixReasoningRank,
-  t462AppendixWaisIvMatrixReasoningRange,
-  t463AppendixWaisIvVisualPuzzlesRank,
-  t463AppendixWaisIvVisualPuzzlesRange,
-  t464AppendixWaisIvFigureWeightsRank,
-  t464AppendixWaisIvFigureWeightsRange,
-  t465AppendixWaisIvPictureCompletionRank,
-  t465AppendixWaisIvPictureCompletionRange,
-  t466AppendixWaisIvDigitSpanRank,
-  t466AppendixWaisIvDigitSpanRange,
-  t467AppendixWaisIvArithmeticRank,
-  t467AppendixWaisIvArithmeticRange,
-  t468AppendixWaisIvLetterNumberSequencingRank,
-  t468AppendixWaisIvLetterNumberSequencingRange,
-  t469AppendixWaisIvCodingRank,
-  t469AppendixWaisIvCodingRange,
-  t470AppendixWaisIvSymbolSearchRank,
-  t470AppendixWaisIvSymbolSearchRange,
-  t471AppendixWaisIvCancellationRank,
-  t471AppendixWaisIvCancellationRange,
-  t557AppendixNepsyIiAnimalSortingAsRank,
-  t557AppendixNepsyIiAnimalSortingAsRange,
-  t558AppendixNepsyIiAuditoryAttentionAaAndResponseSetRsRank,
-  t558AppendixNepsyIiAuditoryAttentionAaAndResponseSetRsRange,
-  t559AppendixNepsyIiClocksClRank,
-  t559AppendixNepsyIiClocksClRange,
-  t560AppendixNepsyIiDesignFluencyDfRank,
-  t560AppendixNepsyIiDesignFluencyDfRange,
-  t561AppendixNepsyIiInhibitionInRank,
-  t561AppendixNepsyIiInhibitionInRange,
-  t562AppendixNepsyIiStatueStRank,
-  t562AppendixNepsyIiStatueStRange,
-  t563AppendixNepsyIiBodyPartNamingBpnAndIdentificationBpiRank,
-  t563AppendixNepsyIiBodyPartNamingBpnAndIdentificationBpiRange,
-  t564AppendixNepsyIiComprehensionOfInstructionsCiRank,
-  t564AppendixNepsyIiComprehensionOfInstructionsCiRange,
-  t565AppendixNepsyIiOromotorSequencesOsRank,
-  t565AppendixNepsyIiOromotorSequencesOsRange,
-  t566AppendixNepsyIiPhonologicalProcessingPhRank,
-  t566AppendixNepsyIiPhonologicalProcessingPhRange,
-  t567AppendixNepsyIiRepetitionNonsenseWordsRnRank,
-  t567AppendixNepsyIiRepetitionNonsenseWordsRnRange,
-  t568AppendixNepsyIiSpeededNamingSnRank,
-  t568AppendixNepsyIiSpeededNamingSnRange,
-  t569AppendixNepsyIiWordGenerationWgRank,
-  t569AppendixNepsyIiWordGenerationWgRange,
-  t571AppendixNepsyIiListMemoryLmListMemoryDelayedLmdRank,
-  t571AppendixNepsyIiListMemoryLmListMemoryDelayedLmdRange,
-  t572AppendixNepsyIiMemoryForDesignsMdMemoryForDesignsDelayedMddRank,
-  t572AppendixNepsyIiMemoryForDesignsMdMemoryForDesignsDelayedMddRange,
-  t573AppendixNepsyIiMemoryForFacesMfMemoryForFacesDelayedMfdRank,
-  t573AppendixNepsyIiMemoryForFacesMfMemoryForFacesDelayedMfdRange,
-  t574AppendixNepsyIiMemoryForNamesMnMemoryForNamesDelayedMndRank,
-  t574AppendixNepsyIiMemoryForNamesMnMemoryForNamesDelayedMndRange,
-  t575AppendixNepsyIiNarrativeMemoryNmRank,
-  t575AppendixNepsyIiNarrativeMemoryNmRange,
-  t576AppendixNepsyIiSentenceRepetitionSrRank,
-  t576AppendixNepsyIiSentenceRepetitionSrRange,
-  t577AppendixNepsyIiWordListInterferenceWiRank,
-  t577AppendixNepsyIiWordListInterferenceWiRange,
-  t578AppendixNepsyIiFingertipTappingFtRank,
-  t578AppendixNepsyIiFingertipTappingFtRange,
-  t579AppendixNepsyIiImitatingHandPositionsIhRank,
-  t579AppendixNepsyIiImitatingHandPositionsIhRange,
-  t580AppendixNepsyIiManualMotorSequencesMmRank,
-  t580AppendixNepsyIiManualMotorSequencesMmRange,
-  t581AppendixNepsyIiVisuomotorPrecisionVpRank,
-  t581AppendixNepsyIiVisuomotorPrecisionVpRange,
-  t582AppendixNepsyIiAffectRecognitionArRank,
-  t582AppendixNepsyIiAffectRecognitionArRange,
-  t583AppendixNepsyIiTheoryOfMindTmRank,
-  t583AppendixNepsyIiTheoryOfMindTmRange,
-  t584AppendixNepsyIiArrowsAwRank,
-  t584AppendixNepsyIiArrowsAwRange,
-  t585AppendixNepsyIiBlockConstructionBcRank,
-  t585AppendixNepsyIiBlockConstructionBcRange,
-  t586AppendixNepsyIiDesignCopyingDcRank,
-  t586AppendixNepsyIiDesignCopyingDcRange,
-  t587AppendixNepsyIiGeometricPuzzlesGpRank,
-  t587AppendixNepsyIiGeometricPuzzlesGpRange,
-  t588AppendixNepsyIiPicturePuzzlesPpRank,
-  t588AppendixNepsyIiPicturePuzzlesPpRange,
-  t589AppendixNepsyIiRouteFindingRfRank,
-  t589AppendixNepsyIiRouteFindingRfRange,
-  t593AppendixWjIvCogVocabularyRank,
-  t593AppendixWjIvCogVocabularyRange,
-  t594AppendixWjIvCogGeneralInformationRank,
-  t594AppendixWjIvCogGeneralInformationRange,
-  t595AppendixWjIvCogNumberSeriesRank,
-  t595AppendixWjIvCogNumberSeriesRange,
-  t596AppendixWjIvCogConceptFormationRank,
-  t596AppendixWjIvCogConceptFormationRange,
-  t597AppendixWjIvCogAnalysisSynthesisRank,
-  t597AppendixWjIvCogAnalysisSynthesisRange,
-  t598AppendixWjIvCogVerbalAttentionRank,
-  t598AppendixWjIvCogVerbalAttentionRange,
-  t599AppendixWjIvCogNumbersReversedRank,
-  t599AppendixWjIvCogNumbersReversedRange,
-  t600AppendixWjIvCogObjectNumberSequencingRank,
-  t600AppendixWjIvCogObjectNumberSequencingRange,
-  t645AppendixWjIvCogLetterPatternMatchingRank,
-  t645AppendixWjIvCogLetterPatternMatchingRange,
-  t601AppendixWjIvCogPairCancellationRank,
-  t601AppendixWjIvCogPairCancellationRange,
-  t602AppendixWjIvCogPhonologicalProcessingRank,
-  t602AppendixWjIvCogPhonologicalProcessingRange,
-  t603AppendixWjIvCogNonWordRepetitionRank,
-  t603AppendixWjIvCogNonWordRepetitionRange,
-  t604AppendixWjIvCogRecallRank,
-  t604AppendixWjIvCogRecallRange,
-  t605AppendixWjIvCogVisualAuditoryLearningRank,
-  t605AppendixWjIvCogVisualAuditoryLearningRange,
-  t606AppendixWjIvCogVisualizationRank,
-  t606AppendixWjIvCogVisualizationRange,
-  t607AppendixWjIvCogPictureRecognitionRank,
-  t607AppendixWjIvCogPictureRecognitionRange,
-  t644AppendixConners3AnxietyRank,
-  t644AppendixConners3AnxietyRange,
-  t167AppendixConners3DepressionRank,
-  t167AppendixConners3DepressionRange,
-  t168AppendixConners3SevereConductRank,
-  t168AppendixConners3SevereConductRange,
-  t169AppendixConners3PositiveImpressionRank,
-  t169AppendixConners3PositiveImpressionRange,
-  t170AppendixConners3NegativeImpressionRank,
-  t170AppendixConners3NegativeImpressionRange,
-  t171AppendixConners3InconsistencyIndexRank,
-  t171AppendixConners3InconsistencyIndexRange,
-  t172AppendixCtoni2PictorialAnalogiesRank,
-  t172AppendixCtoni2PictorialAnalogiesRange,
-  t173AppendixCtoni2GeometricAnalogiesRank,
-  t173AppendixCtoni2GeometricAnalogiesRange,
-  t174AppendixCtoni2PictorialCategoriesRank,
-  t174AppendixCtoni2PictorialCategoriesRange,
-  t175AppendixCtoni2GeometricCategoriesRank,
-  t175AppendixCtoni2GeometricCategoriesRange,
-  t177AppendixCtoni2GeometricSequencesRank,
-  t177AppendixCtoni2GeometricSequencesRange,
-  t176AppendixCtoni2PictorialSequencesRank,
-  t176AppendixCtoni2PictorialSequencesRange,
-  t178AppendixCtoni2PictorialScaleRank,
-  t178AppendixCtoni2PictorialScaleRange,
-  t179AppendixCtoni2GeometricScaleRank,
-  t179AppendixCtoni2GeometricScaleRange,
-  t180AppendixCtoni2FullScaleRank,
-  t180AppendixCtoni2FullScaleRange,
-  t221AppendixRbansListLearningRank,
-  t221AppendixRbansListLearningRange,
-  t222AppendixRbansStoryMemoryRank,
-  t222AppendixRbansStoryMemoryRange,
-  t223AppendixRbansFigureCopyRank,
-  t223AppendixRbansFigureCopyRange,
-  t224AppendixRbansLineOrientationRank,
-  t224AppendixRbansLineOrientationRange,
-  t225AppendixRbansPictureNamingRank,
-  t225AppendixRbansPictureNamingRange,
-  t226AppendixRbansSemanticFluencyRank,
-  t226AppendixRbansSemanticFluencyRange,
-  t227AppendixRbansDigitSpanRank,
-  t227AppendixRbansDigitSpanRange,
-  t228AppendixRbansCodingRank,
-  t228AppendixRbansCodingRange,
-  t229AppendixRbansListRecallRank,
-  t229AppendixRbansListRecallRange,
-  t230AppendixRbansListRecognitionRank,
-  t230AppendixRbansListRecognitionRange,
-  t231AppendixRbansStoryRecallRank,
-  t231AppendixRbansStoryRecallRange,
-  t232AppendixRbansFigureRecallRank,
-  t232AppendixRbansFigureRecallRange,
-  t233AppendixVinelandIiReceptiveRank,
-  t233AppendixVinelandIiReceptiveRange,
-  t234AppendixVinelandIiExpressiveRank,
-  t234AppendixVinelandIiExpressiveRange,
-  t235AppendixVinelandIiWrittenRank,
-  t235AppendixVinelandIiWrittenRange,
-  t236AppendixVinelandIiPersonalRank,
-  t236AppendixVinelandIiPersonalRange,
-  t237AppendixVinelandIiDomesticRank,
-  t237AppendixVinelandIiDomesticRange,
-  t238AppendixVinelandIiCommunityRank,
-  t238AppendixVinelandIiCommunityRange,
-  t239AppendixVinelandIiInterpersonalRelationshipsRank,
-  t239AppendixVinelandIiInterpersonalRelationshipsRange,
-  t240AppendixVinelandIiPlayAndLeisureTimeRank,
-  t240AppendixVinelandIiPlayAndLeisureTimeRange,
-  t241AppendixVinelandIiCopingSkillsRank,
-  t241AppendixVinelandIiCopingSkillsRange,
-  t242AppendixVinelandIiGrossRank,
-  t242AppendixVinelandIiGrossRange,
-  t243AppendixVinelandIiFineRank,
-  t243AppendixVinelandIiFineRange,
-  t244AppendixVinelandIiMaladaptiveBehaviorIndexRank,
-  t244AppendixVinelandIiMaladaptiveBehaviorIndexRange,
-  t245AppendixVinelandIiMaladaptiveBehaviorCriticalItemsRank,
-  t245AppendixVinelandIiMaladaptiveBehaviorCriticalItemsRange,
-  t246AppendixWasiIiSimilaritiesRank,
-  t246AppendixWasiIiSimilaritiesRange,
-  t247AppendixWasiIiVocabularyRank,
-  t247AppendixWasiIiVocabularyRange,
-  t248AppendixWasiIiBlockDesignRank,
-  t248AppendixWasiIiBlockDesignRange,
-  t249AppendixWasiIiMatrixReasoningRank,
-  t249AppendixWasiIiMatrixReasoningRange,
-  t266AppendixWraml2StoryMemoryRank,
-  t266AppendixWraml2StoryMemoryRange,
-  t267AppendixWraml2VerbalLearningRank,
-  t267AppendixWraml2VerbalLearningRange,
-  t268AppendixWraml2DesignMemoryRank,
-  t268AppendixWraml2DesignMemoryRange,
-  t269AppendixWraml2PictureMemoryRank,
-  t269AppendixWraml2PictureMemoryRange,
-  t270AppendixWraml2FingerWindowsRank,
-  t270AppendixWraml2FingerWindowsRange,
-  t271AppendixWraml2NumberLetterRank,
-  t271AppendixWraml2NumberLetterRange,
-  t272AppendixWraml2SentenceMemoryRank,
-  t272AppendixWraml2SentenceMemoryRange,
-  t273AppendixWraml2SoundSymbolRank,
-  t273AppendixWraml2SoundSymbolRange,
-  t274AppendixWraml2VerbalWorkingMemoryRank,
-  t274AppendixWraml2VerbalWorkingMemoryRange,
-  t275AppendixWraml2SymbolicWorkingMemoryRank,
-  t275AppendixWraml2SymbolicWorkingMemoryRange,
-  t276AppendixWraml2StoryMemoryDelayRecallRank,
-  t276AppendixWraml2StoryMemoryDelayRecallRange,
-  t277AppendixWraml2VerbalLearningDelayRecallRank,
-  t277AppendixWraml2VerbalLearningDelayRecallRange,
-  t278AppendixWraml2SoundSymbolDelayRecallRank,
-  t278AppendixWraml2SoundSymbolDelayRecallRange,
-  t279AppendixWraml2StoryMemoryRecognitionRank,
-  t279AppendixWraml2StoryMemoryRecognitionRange,
-  t280AppendixWraml2VerbalLearningRecognitionRank,
-  t280AppendixWraml2VerbalLearningRecognitionRange,
-  t281AppendixWraml2DesignMemoryRecognitionRank,
-  t281AppendixWraml2DesignMemoryRecognitionRange,
-  t282AppendixWraml2PictureMemoryRecognitionRank,
-  t282AppendixWraml2PictureMemoryRecognitionRange,
-  trbansTotalRaleScore,
-  trbansTotalRaleScoreScaledScore,
-  trbansTotalRaleScorePercentileRank,
-  trbansTotalRaleScoreRange,
-  t472AppendixPiyPoorAchievementAndMemoryRange,
-  t473AppendixPiyInadequateAbilitiesRange,
-  t474AppendixPiyLearningProblemsRange,
-  t475AppendixPiyBrashnessRange,
-  t476AppendixPiyDistractibilityAndOveractivityRange,
-  t477AppendixPiyImpulsivityRange,
-  t478AppendixPiyAntisocialBehaviorRange,
-  t479AppendixPiyDyscontrolRange,
-  t480AppendixPiyNoncomplianceRange,
-  t481AppendixPiyParentChildConflictRange,
-  t482AppendixPiyParentMaladjustmentRange,
-  t483AppendixPiyMaritalDiscordRange,
-  t484AppendixPiyFeelingsOfAlienationRange,
-  t485AppendixPiyHallucinationsAndDelusionsRange,
-  t486AppendixPiyPsychosomaticSyndromeRange,
-  t487AppendixPiyMuscularTensionAndAnxietyRange,
-  t488AppendixPiyPreoccupationWithDiseaseRange,
-  t489AppendixPiyFearAndWorryRange,
-  t490AppendixPiyDepressionRange,
-  t491AppendixPiySleepDisturbanceRange,
-  t492AppendixPiySocialIntroversionRange,
-  t493AppendixPiyIsolationRange,
-  t494AppendixPiyLimitedPeerStatusRange,
-  t495AppendixPiyConflictWithPeersRange,
-  t525AppendixMmpi2HypochondriasisHsRange,
-  t526AppendixMmpi2DepressionDRange,
-  t527AppendixMmpi2HysteriaHyRange,
-  t528AppendixMmpi2PsychopathicDeviatePdRange,
-  t529AppendixMmpi2MasculinityFemininityMfRange,
-  t530AppendixMmpi2ParanoiaPaRange,
-  t531AppendixMmpi2PsychastheniaPtRange,
-  t532AppendixMmpi2SchizophreniaScRange,
-  t533AppendixMmpi2HypomaniaMaRange,
-  t534AppendixMmpi2SocialIntroversionSiRange,
-  t535AppendixMmpi2LieLRange,
-  t536AppendixMmpi2FRange,
-  t537AppendixMmpi2BackFFbRange,
-  t538AppendixMmpi2KRange,
-  t539AppendixMmpiAHypochondriasisHsRange,
-  t540AppendixMmpiADepressionDRange,
-  t541AppendixMmpiAHysteriaHyRange,
-  t542AppendixMmpiAPsychopathicDeviatePdRange,
-  t543AppendixMmpiAMasculinityFemininityMfRange,
-  t544AppendixMmpiAParanoiaPaRange,
-  t545AppendixMmpiAPsychastheniaPtRange,
-  t546AppendixMmpiASchizophreniaScRange,
-  t547AppendixMmpiAHypomaniaMaRange,
-  t548AppendixMmpiASocialIntroversionSiRange,
-  t549AppendixMmpiACnsRange,
-  t550AppendixMmpiAVrinRange,
-  t551AppendixMmpiATrinRange,
-  t552AppendixMmpiAFRange,
-  t553AppendixMmpiAF1Range,
-  t554AppendixMmpiAF2Range,
-  t555AppendixMmpiALRange,
-  t556AppendixMmpiAKRange,
-  t608AppendixTsccUnderresponseUndRange,
-  t609AppendixTsccHyperresponseHypRange,
-  t610AppendixTsccAnxietyAnxRange,
-  t611AppendixTsccDepressionDepRange,
-  t612AppendixTsccAngerAngRange,
-  t613AppendixTsccPosttraumaticStressPtsRange,
-  t614AppendixTsccDissociationDisRange,
-  t615AppendixTsccSexualConcernsScRange,
-  t616AppendixWjIvAchLetterWordIdentificationRank,
-  t616AppendixWjIvAchLetterWordIdentificationRange,
-  t617AppendixWjIvAchWordAttackRank,
-  t617AppendixWjIvAchWordAttackRange,
-  t618AppendixWjIvAchPassageComprehensionRank,
-  t618AppendixWjIvAchPassageComprehensionRange,
-  t619AppendixWjIvAchReadingRecallRank,
-  t619AppendixWjIvAchReadingRecallRange,
-  t620AppendixWjIvAchReadingVocabularyRank,
-  t620AppendixWjIvAchReadingVocabularyRange,
-  t621AppendixWjIvAchCalculationRank,
-  t621AppendixWjIvAchCalculationRange,
-  t622AppendixWjIvAchMathFactFluencyRank,
-  t622AppendixWjIvAchMathFactFluencyRange,
-  t623AppendixWjIvAchAppliedProblemsRank,
-  t623AppendixWjIvAchAppliedProblemsRange,
-  t624AppendixWjIvAchNumberMatricesRank,
-  t624AppendixWjIvAchNumberMatricesRange,
-  t625AppendixWjIvAchWritingSamplesRank,
-  t625AppendixWjIvAchWritingSamplesRange,
-  t626AppendixWjIvAchSentenceWritingFluencyRank,
-  t626AppendixWjIvAchSentenceWritingFluencyRange,
-  t627AppendixWjIvAchOralReadingRank,
-  t627AppendixWjIvAchOralReadingRange,
-  t628AppendixWjIvAchSentenceReadingFluencyRank,
-  t628AppendixWjIvAchSentenceReadingFluencyRange,
-  t629AppendixWjIvAchSpellingRank,
-  t629AppendixWjIvAchSpellingRange,
-  t630AppendixWjIvAchSoundAwarenessRank,
-  t630AppendixWjIvAchSpellingOfSoundsRank,
-  t630AppendixWjIvAchSpellingOfSoundsRange,
-  t631AppendixWjIvAchEditingRank,
-  t631AppendixWjIvAchEditingRange,
-  t632AppendixWjIvAchScienceRank,
-  t632AppendixWjIvAchScienceRange,
-  t633AppendixWjIvAchSocialStudiesRank,
-  t633AppendixWjIvAchSocialStudiesRange,
-  t634AppendixWjIvAchHumanitiesRank,
-  t634AppendixWjIvAchHumanitiesRange,
-  t635AppendixWjIvAchWordAttackRank,
-  t635AppendixWjIvAchWordAttackRange,
-  t636AppendixWjIvAchSpellingOfSoundsRank,
-  t636AppendixWjIvAchSpellingOfSoundsRange,
-  t648AppendixWppsiIvVocabularyRank,
-  t648AppendixWppsiIvVocabularyRange,
-  t649AppendixWppsiIvInformationRank,
-  t649AppendixWppsiIvInformationRange,
-  t650AppendixWppsiIvComprehensionRank,
-  t650AppendixWppsiIvComprehensionRange,
-  t653AppendixWppsiIvBlockDesignRank,
-  t653AppendixWppsiIvBlockDesignRange,
-  t654AppendixWppsiIvObjectAssemblyRank,
-  t654AppendixWppsiIvObjectAssemblyRange,
-  t657AppendixWppsiIvBugSearchRank,
-  t657AppendixWppsiIvBugSearchRange,
-  t658AppendixWppsiIvCancellationRank,
-  t658AppendixWppsiIvCancellationRange,
-  t659AppendixWppsiIvAnimalCodingRank,
-  t659AppendixWppsiIvAnimalCodingRange,
-  t651AppendixWppsiIvMatrixReasoningRank,
-  t651AppendixWppsiIvMatrixReasoningRange,
-  t652AppendixWppsiIvPictureConceptsRank,
-  t652AppendixWppsiIvPictureConceptsRange,
-  t655AppendixWppsiIvPictureMemoryRank,
-  t655AppendixWppsiIvPictureMemoryRange,
-  t656AppendixWppsiIvZooLocationsRank,
-  t656AppendixWppsiIvZooLocationsRange,
-  t669BeeryMotorIntegrationVmiScore,
-  t670BeeryVisualPerceptionScore,
-  t671BeeryMotorCoordinationScore,
-  t669AppendixBeeryVmiBeeryMotorIntegrationVmiRank,
-  t669AppendixBeeryVmiBeeryMotorIntegrationVmiRange,
-  t670AppendixBeeryVmiBeeryVisualPerceptionRank,
-  t670AppendixBeeryVmiBeeryVisualPerceptionRange,
-  t671AppendixBeeryVmiBeeryMotorCoordinationRank,
-  t671AppendixBeeryVmiBeeryMotorCoordinationRange,
-  t672ListeningComprehensionGradesPk12Score,
-  t672AppendixWiatiiiListeningComprehensionGradesPk12Rank,
-  t672AppendixWiatiiiListeningComprehensionGradesPk12GradeEquivalent,
-  t672AppendixWiatiiiListeningComprehensionGradesPk12Range,
-  t673OralExpressionGradesPk12Score,
-  t673AppendixWiatiiiOralExpressionGradesPk12Rank,
-  t673AppendixWiatiiiOralExpressionGradesPk12GradeEquivalent,
-  t673AppendixWiatiiiOralExpressionGradesPk12Range,
-  t674EarlyReadingSkillsGradesPk3Score,
-  t674AppendixWiatiiiEarlyReadingSkillsGradesPkRank,
-  t674AppendixWiatiiiEarlyReadingSkillsGradesPk3GradeEquivalent,
-  t674AppendixWiatiiiEarlyReadingSkillsGradesPkRange,
-  t675ReadingComprehensionGrades112Score,
-  t675AppendixWiatiiiReadingComprehensionGrades112Rank,
-  t675AppendixWiatiiiReadingComprehensionGrades112GradeEquivalent,
-  t675AppendixWiatiiiReadingComprehensionGrades112Range,
-  t676WordReadingGrades112Score,
-  t676AppendixWiatiiiWordReadingGrades112Rank,
-  t676AppendixWiatiiiWordReadingGrades112GradeEquivalent,
-  t676AppendixWiatiiiWordReadingGrades112Range,
-  t677PseudowordDecodingGrades112Score,
-  t677AppendixWiatiiiPseudowordDecodingGrades112Rank,
-  t677AppendixWiatiiiPseudowordDecodingGrades112GradeEquivalent,
-  t677AppendixWiatiiiPseudowordDecodingGrades112Range,
-  t678OralReadingFluencyGrades112Score,
-  t678AppendixWiatiiiOralReadingFluencyGrades112Rank,
-  t678AppendixWiatiiiOralReadingFluencyGrades112GradeEquivalent,
-  t678AppendixWiatiiiOralReadingFluencyGrades112Range,
-  t679SpellingGradesK12Score,
-  t679AppendixWiatiiiSpellingGradesk12Rank,
-  t679AppendixWiatiiiSpellingGradesk12GradeEquivalent,
-  t679AppendixWiatiiiSpellingGradesk12Range,
-  t680AlphabetWritingFluencyGradesPk3Score,
-  t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3Rank,
-  t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3GradeEquivalent,
-  t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3Range,
-  t681SentenceCompositionGrades112Score,
-  t681AppendixWiatiiiSentenceCompositionGrades112Rank,
-  t681AppendixWiatiiiSentenceCompositionGrades112GradeEquivalent,
-  t681AppendixWiatiiiSentenceCompositionGrades112Range,
-  t682EssayCompositionGrades312Score,
-  t682AppendixWiatiiiEssayCompositionGrades312Rank,
-  t682AppendixWiatiiiEssayCompositionGrades312GradeEquivalent,
-  t682AppendixWiatiiiEssayCompositionGrades312Range,
-  t683NumericalOperationsGradesK12Score,
-  t683AppendixWiatiiiNumericalOperationsGradesk12Rank,
-  t683AppendixWiatiiiNumericalOperationsGradesk12GradeEquivalent,
-  t683AppendixWiatiiiNumericalOperationsGradesk12Range,
-  t684MathProblemSolvingGradesPk12Score,
-  t684AppendixWiatiiiMathProblemSolvingGradesPk12Rank,
-  t684AppendixWiatiiiMathProblemSolvingGradesPk12GradeEquivalent,
-  t684AppendixWiatiiiMathProblemSolvingGradesPk12Range,
-  t685MathFluencyAdditionScore,
-  t685AppendixWiatiiiMathFluencyAdditionRank,
-  t685AppendixWiatiiiMathFluencyAdditionGradeEquivalent,
-  t685AppendixWiatiiiMathFluencyAdditionRange,
-  t686MathFluencySubtractionScore,
-  t686AppendixWiatiiiMathFluencySubtractionRank,
-  t686AppendixWiatiiiMathFluencySubtractionGradeEquivalent,
-  t686AppendixWiatiiiMathFluencySubtractionRange,
-  t687MathFluencyMultiplicationScore,
-  t687AppendixWiatiiiMathFluencyMultiplicationRank,
-  t687AppendixWiatiiiMathFluencyMultiplicationGradeEquivalent,
-  t687AppendixWiatiiiMathFluencyMultiplicationRange,
-  t688VocabularyScore,
-  t688AppendixNelsonDennyVocabularyRank,
-  t688AppendixNelsonDennyVocabularyRange,
-  t689ComprehensionScore,
-  t689AppendixNelsonDennyComprehensionRank,
-  t689AppendixNelsonDennyComprehensionRange,
-  t690ReadingRateScore,
-  t690AppendixNelsonDennyReadingRateRank,
-  t690AppendixNelsonDennyReadingRateRange,
-  t733AppendixGort5RateRank,
-  t733AppendixGort5RateRange,
-  t734AppendixGort5AccuracyRank,
-  t734AppendixGort5AccuracyRange,
-  t735AppendixGort5FluencyRank,
-  t735AppendixGort5FluencyRange,
-  t736AppendixGort5ComprehensionRank,
-  t736AppendixGort5ComprehensionRange,
-  t737AppendixTommTrail1Rank,
-  t737AppendixTommTrail1Range,
-  t738AppendixTommTrial2Rank,
-  t738AppendixTommTrial2Range,
-  t739AppendixTommRetentionTrialRank,
-  t739AppendixTommRetentionTrialRange,
-  t743AppendixDasIiVerbalComprehensionRank,
-  t743AppendixDasIiVerbalComprehensionRange,
-  t744AppendixDasIiPictureSimilaritiesRank,
-  t744AppendixDasIiPictureSimilaritiesRange,
-  t745AppendixDasIiNamingVocabularyRank,
-  t745AppendixDasIiNamingVocabularyRange,
-  t746AppendixDasIiPatternConstructionRank,
-  t746AppendixDasIiPatternConstructionRange,
-  t747AppendixDasIiMatricesRank,
-  t747AppendixDasIiMatricesRange,
-  t748AppendixDasIiCopyingRank,
-  t748AppendixDasIiCopyingRange,
-  t749AppendixDasIiRecallOfObjectsImmediateRank,
-  t749AppendixDasIiRecallOfObjectsImmediateRange,
-  t750AppendixDasIiRecallOfObjectsDelayedRank,
-  t750AppendixDasIiRecallOfObjectsDelayedRange,
-  t751AppendixDasIiRecallOfDigitsForwardRank,
-  t751AppendixDasIiRecallOfDigitsForwardRange,
-  t752AppendixDasIiRecognitionOfPicturesRank,
-  t752AppendixDasIiRecognitionOfPicturesRange,
-  t753AppendixDasIiEarlyNumberConceptsRank,
-  t753AppendixDasIiEarlyNumberConceptsRange,
-  t754AppendixDasIiMatchingLetterLikeFormsRank,
-  t754AppendixDasIiMatchingLetterLikeFormsRange,
-  t755AppendixDasIiRecallOfSequentialOrderRank,
-  t755AppendixDasIiRecallOfSequentialOrderRange,
-  t756AppendixDasIiSpeedOfInformationProcessingRank,
-  t756AppendixDasIiSpeedOfInformationProcessingRange,
-  t757AppendixDasIiRecallOfDigitsBackwardRank,
-  t757AppendixDasIiRecallOfDigitsBackwardRange,
-  t758AppendixDasIiPhonologicalProcessingRank,
-  t758AppendixDasIiPhonologicalProcessingRange,
-  t759AppendixDasIiRapidNamingRank,
-  t759AppendixDasIiRapidNamingRange,
-  t760AppendixDasIiRecallOfDesignsRank,
-  t760AppendixDasIiRecallOfDesignsRange,
-  t761AppendixDasIiWordDefinitionsRank,
-  t761AppendixDasIiWordDefinitionsRange,
-  t762AppendixDasIiPatternConstructionRank,
-  t762AppendixDasIiPatternConstructionRange,
-  t763AppendixDasIiMatricesRank,
-  t763AppendixDasIiMatricesRange,
-  t764AppendixDasIiVerbalSimilaritiesRank,
-  t764AppendixDasIiVerbalSimilaritiesRange,
-  t765AppendixDasIiSequentialAndQuantitativeReasoningRank,
-  t765AppendixDasIiSequentialAndQuantitativeReasoningRange,
-  t766AppendixDasIiRecallOfObjectsImmediateRank,
-  t766AppendixDasIiRecallOfObjectsImmediateRange,
-  t767AppendixDasIiRecallOfObjectsDelayedRank,
-  t767AppendixDasIiRecallOfObjectsDelayedRange,
-  t768AppendixDasIiRecallOfDigitsForwardRank,
-  t768AppendixDasIiRecallOfDigitsForwardRange,
-  t769AppendixDasIiRecognitionOfPicturesRank,
-  t769AppendixDasIiRecognitionOfPicturesRange,
-  t770AppendixDasIiRecallOfSequentialOrderRank,
-  t770AppendixDasIiRecallOfSequentialOrderRange,
-  t771AppendixDasIiSpeedOfInformationProcessingRank,
-  t771AppendixDasIiSpeedOfInformationProcessingRange,
-  t772AppendixDasIiRecallOfDigitsBackwardRank,
-  t772AppendixDasIiRecallOfDigitsBackwardRange,
-  t773AppendixDasIiPhonologicalProcessingRank,
-  t773AppendixDasIiPhonologicalProcessingRange,
-  t18ApendixGort5ORIRank,
-  t18ApendixGort5ORIGradeEquivalent,
-  t18ORIScore
+  appendixReducer
 }) => {
   const subtestVal = id => {
     let val;
@@ -3909,13 +4042,13 @@ module.exports = ({
         val = t548SocialIntroversionSiScore;
         break;
       case 549:
-        val = t549CnsScore;
+        val = t549CNSScore;
         break;
       case 550:
-        val = t550VrinScore;
+        val = t550VRINScore;
         break;
       case 551:
-        val = t551TrinScore;
+        val = t551TRINScore;
         break;
       case 552:
         val = t552FScore;
@@ -3933,100 +4066,100 @@ module.exports = ({
         val = t556KScore;
         break;
       case 557:
-        val = t557AnimalSortingAsScore;
+        val = t557AnimalSortingASScore;
         break;
       case 558:
-        val = t558AuditoryAttentionAaAndResponseSetRsScore;
+        val = t558AuditoryAttentionAAAndResponseSetRSScore;
         break;
       case 559:
-        val = t559ClocksClScore;
+        val = t559ClocksCLScore;
         break;
       case 560:
-        val = t560DesignFluencyDfScore;
+        val = t560DesignFluencyDFScore;
         break;
       case 561:
-        val = t561InhibitionInScore;
+        val = t561InhibitionINScore;
         break;
       case 562:
-        val = t562StatueStScore;
+        val = t562StatueSTScore;
         break;
       case 563:
-        val = t563BodyPartNamingBpnAndIdentificationBpiScore;
+        val = t563BodyPartNamingBPNAndIdentificationBPIScore;
         break;
       case 564:
-        val = t564ComprehensionOfInstructionsCiScore;
+        val = t564ComprehensionOfInstructionsCIScore;
         break;
       case 565:
-        val = t565OromotorSequencesOsScore;
+        val = t565OromotorSequencesOSScore;
         break;
       case 566:
-        val = t566PhonologicalProcessingPhScore;
+        val = t566PhonologicalProcessingPHScore;
         break;
       case 567:
-        val = t567RepetitionNonsenseWordsRnScore;
+        val = t567RepetitionNonsenseWordsRNScore;
         break;
       case 568:
-        val = t568SpeededNamingSnScore;
+        val = t568SpeededNamingSNScore;
         break;
       case 569:
-        val = t569WordGenerationWgScore;
+        val = t569WordGenerationWGScore;
         break;
       case 571:
-        val = t571ListMemoryLmListMemoryDelayedLmdScore;
+        val = t571ListMemoryLMListMemoryDelayedLMDScore;
         break;
       case 572:
-        val = t572MemoryForDesignsMdMemoryForDesignsDelayedMddScore;
+        val = t572MemoryForDesignsMDMemoryForDesignsDelayedMDDScore;
         break;
       case 573:
-        val = t573MemoryForFacesMfMemoryForFacesDelayedMfdScore;
+        val = t573MemoryForFacesMFMemoryForFacesDelayedMFDScore;
         break;
       case 574:
-        val = t574MemoryForNamesMnMemoryForNamesDelayedMndScore;
+        val = t574MemoryForNamesMNMemoryForNamesDelayedMNDScore;
         break;
       case 575:
-        val = t575NarrativeMemoryNmScore;
+        val = t575NarrativeMemoryNMScore;
         break;
       case 576:
-        val = t576SentenceRepetitionSrScore;
+        val = t576SentenceRepetitionSRScore;
         break;
       case 577:
-        val = t577WordListInterferenceWiScore;
+        val = t577WordListInterferenceWIScore;
         break;
       case 578:
-        val = t578FingertipTappingFtScore;
+        val = t578FingertipTappingFTScore;
         break;
       case 579:
-        val = t579ImitatingHandPositionsIhScore;
+        val = t579ImitatingHandPositionsIHScore;
         break;
       case 580:
-        val = t580ManualMotorSequencesMmScore;
+        val = t580ManualMotorSequencesMMScore;
         break;
       case 581:
-        val = t581VisuomotorPrecisionVpScore;
+        val = t581VisuomotorPrecisionVPScore;
         break;
       case 582:
-        val = t582AffectRecognitionArScore;
+        val = t582AffectRecognitionARScore;
         break;
       case 583:
-        val = t583TheoryOfMindTmScore;
+        val = t583TheoryOfMindTMScore;
         break;
       case 584:
-        val = t584ArrowsAwScore;
+        val = t584ArrowsAWScore;
         break;
       case 585:
-        val = t585BlockConstructionBcScore;
+        val = t585BlockConstructionBCScore;
         break;
       case 586:
-        val = t586DesignCopyingDcScore;
+        val = t586DesignCopyingDCScore;
         break;
       case 587:
-        val = t587GeometricPuzzlesGpScore;
+        val = t587GeometricPuzzlesGPScore;
         break;
       case 588:
-        val = t588PicturePuzzlesPpScore;
+        val = t588PicturePuzzlesPPScore;
         break;
       case 589:
-        val = t589RouteFindingRfScore;
+        val = t589RouteFindingRFScore;
         break;
       case 590:
         val = t590DrawingScore;
@@ -4086,28 +4219,28 @@ module.exports = ({
         val = t607PictureRecognitionScore;
         break;
       case 608:
-        val = t608UnderresponseUndScore;
+        val = t608UnderresponseUNDScore;
         break;
       case 609:
-        val = t609HyperresponseHypScore;
+        val = t609HyperresponseHYPScore;
         break;
       case 610:
-        val = t610AnxietyAnxScore;
+        val = t610AnxietyANXScore;
         break;
       case 611:
-        val = t611DepressionDepScore;
+        val = t611DepressionDEPScore;
         break;
       case 612:
-        val = t612AngerAngScore;
+        val = t612AngerANGScore;
         break;
       case 613:
-        val = t613PosttraumaticStressPtsScore;
+        val = t613PosttraumaticStressPTSScore;
         break;
       case 614:
-        val = t614DissociationDisScore;
+        val = t614DissociationDISScore;
         break;
       case 615:
-        val = t615SexualConcernsScScore;
+        val = t615SexualConcernsSCScore;
         break;
       case 616:
         val = t616LetterWordIdentificationScore;
@@ -4152,7 +4285,7 @@ module.exports = ({
         val = t629SpellingScore;
         break;
       case 630:
-        val = t630SpellingOfSoundsScore;
+        val = t630SoundAwarenessScore;
         break;
       case 631:
         val = t631EditingScore;
@@ -4260,13 +4393,178 @@ module.exports = ({
         val = t668SelfRelianceScore;
         break;
       case 669:
-        val = t669BeeryMotorIntegrationVmiScore;
+        val = t669BeeryMotorIntegrationVMIScore;
         break;
       case 670:
         val = t670BeeryVisualPerceptionScore;
         break;
       case 671:
         val = t671BeeryMotorCoordinationScore;
+        break;
+      case 672:
+        val = t672ListeningComprehensionGradesPK12Score;
+        break;
+      case 673:
+        val = t673OralExpressionGradesPK12Score;
+        break;
+      case 674:
+        val = t674EarlyReadingSkillsGradesPK3Score;
+        break;
+      case 675:
+        val = t675ReadingComprehensionGrades112Score;
+        break;
+      case 676:
+        val = t676WordReadingGrades112Score;
+        break;
+      case 677:
+        val = t677PseudowordDecodingGrades112Score;
+        break;
+      case 678:
+        val = t678OralReadingFluencyGrades112Score;
+        break;
+      case 679:
+        val = t679SpellingGradesK12Score;
+        break;
+      case 680:
+        val = t680AlphabetWritingFluencyGradesPK3Score;
+        break;
+      case 681:
+        val = t681SentenceCompositionGrades112Score;
+        break;
+      case 682:
+        val = t682EssayCompositionGrades312Score;
+        break;
+      case 683:
+        val = t683NumericalOperationsGradesK12Score;
+        break;
+      case 684:
+        val = t683NumericalOperationsGradesK12Score;
+        break;
+      case 684:
+        val = t684MathProblemSolvingGradesPK12Score;
+        break;
+      case 685:
+        val = t685MathFluencyAdditionScore;
+        break;
+      case 686:
+        val = t686MathFluencySubtractionScore;
+        break;
+      case 687:
+        val = t687MathFluencyMultiplicationScore;
+        break;
+      case 688:
+        val = t688VocabularyScore;
+        break;
+      case 689:
+        val = t689ComprehensionScore;
+        break;
+      case 690:
+        val = t690ReadingRateScore;
+        break;
+      case 698:
+        val = t698VisualScanningScore;
+        break;
+      case 699:
+        val = t699NumberSequencingScore;
+        break;
+      case 700:
+        val = t700LetterSequencingScore;
+        break;
+      case 701:
+        val = t701CombinedNumberAndLetterSequencingScore;
+        break;
+      case 702:
+        val = t702NumberLetterSwitchingScore;
+        break;
+      case 703:
+        val = t703MotorSpeedScore;
+        break;
+      case 704:
+        val = t704LetterFluencyScore;
+        break;
+      case 705:
+        val = t705CategoryFluencyScore;
+        break;
+      case 706:
+        val = t706CategorySwitchingScore;
+        break;
+      case 707:
+        val = t707FilledDotsScore;
+        break;
+      case 708:
+        val = t708EmptyDotsOnlyScore;
+        break;
+      case 709:
+        val = t709SwitchingScore;
+        break;
+      case 710:
+        val = t710ColorNamingScore;
+        break;
+      case 711:
+        val = t711WordReadingScore;
+        break;
+      case 712:
+        val = t712InhibitionScore;
+        break;
+      case 713:
+        val = t713InhibitionSwitchingScore;
+        break;
+      case 714:
+        val = t714FreeSortingScore;
+        break;
+      case 715:
+        val = t715SortRecognitionScore;
+        break;
+      case 716:
+        val = t716Item1Score;
+        break;
+      case 717:
+        val = t717Item2Score;
+        break;
+      case 718:
+        val = t718Item3Score;
+        break;
+      case 719:
+        val = t719Item4Score;
+        break;
+      case 720:
+        val = t720Item1Score;
+        break;
+      case 721:
+        val = t721Item2Score;
+        break;
+      case 722:
+        val = t722Item1TwoDisksScore;
+        break;
+      case 723:
+        val = t723Item2TwoDisksScore;
+        break;
+      case 724:
+        val = t724Item3TwoDisksScore;
+        break;
+      case 725:
+        val = t725Item4ThreeDisksScore;
+        break;
+      case 726:
+        val = t726Item5ThreeDisksScore;
+        break;
+      case 727:
+        val = t727Item6FourDisksScore;
+        break;
+      case 728:
+        val = t728Item7FourDisksScore;
+        break;
+      case 729:
+        val = t729Item8FiveDisksScore;
+        break;
+      case 730:
+        val = t730Item9FiveDisksScore;
+        break;
+      case 731:
+        val = t731FreeInquiryScore;
+        break;
+      case 732:
+        val = t732MultipleChoiceScore;
         break;
       case 733:
         val = t733RateScore;
@@ -4467,6 +4765,72 @@ module.exports = ({
     return val;
   };
 
+  const appendixSubtestSummaryOfScoresScoreVal = id => {
+    let val;
+    switch (id) {
+      case 169:
+        val = t169AppendixDkefsVerbalFluencySummaryOfScoresScore;
+        break;
+      case 170:
+        val = t170AppendixDkefsDesignFluencySummaryOfScoresScore;
+        break;
+      case 171:
+        val = t171AppendixDkefsColorWordInterferenceTestSummaryOfScoresScore;
+        break;
+      case 172:
+        val = t172AppendixDkefsSortingTestSummaryOfScoresScore;
+        break;
+      case 173:
+        val = t173AppendixDkefsTwentyQuestionsSummaryOfScoresScore;
+        break;
+      case 174:
+        val = t174AppendixDkefsWordContextTestSummaryOfScoresScore;
+        break;
+      case 175:
+        val = t175AppendixDkefsTowerTestSummaryOfScoresScore;
+        break;
+      case 176:
+        val = t176AppendixDkefsProverbTestSummaryOfScoresScore;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
+  const appendixSubtestSummaryOfScoresClassificationVal = id => {
+    let val;
+    switch (id) {
+      case 169:
+        val = t169AppendixDkefsVerbalFluencySummaryOfScoresRange;
+        break;
+      case 170:
+        val = t170AppendixDkefsDesignFluencySummaryOfScoresRange;
+        break;
+      case 171:
+        val = t171AppendixDkefsColorWordInterferenceTestSummaryOfScoresRange;
+        break;
+      case 172:
+        val = t172AppendixDkefsSortingTestSummaryOfScoresRange;
+        break;
+      case 173:
+        val = t173AppendixDkefsTwentyQuestionsSummaryOfScoresRange;
+        break;
+      case 174:
+        val = t174AppendixDkefsWordContextTestSummaryOfScoresRange;
+        break;
+      case 175:
+        val = t175AppendixDkefsTowerTestSummaryOfScoresRange;
+        break;
+      case 176:
+        val = t176AppendixDkefsProverbTestSummaryOfScoresRange;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
   const testScoringTableScoresCol1Val = id => {
     let val;
     switch (id) {
@@ -4507,7 +4871,7 @@ module.exports = ({
         val = t36Gort5Percentile;
         break;
       case 46:
-        val = t46QikCptSustainedAttentionScore;
+        val = t47QikCptSustainedAttentionScore;
         break;
       default:
         val = "";
@@ -4537,7 +4901,7 @@ module.exports = ({
         val = t36Gort5AgeLevelEquivalency;
         break;
       case 46:
-        val = t46QikCptImpulseControlScore;
+        val = t48QikCptImpulseControlScore;
         break;
       default:
         val = "";
@@ -4567,7 +4931,7 @@ module.exports = ({
         val = t36Gort5GradeLevelEquivalency;
         break;
       case 46:
-        val = t46QikCptPerformanceIndexScore;
+        val = t49QikCptPerformanceIndexScore;
         break;
       default:
         val = "";
@@ -4579,7 +4943,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 46:
-        val = t46QikCptSpeedOfResponseScore;
+        val = t50QikCptSpeedOfResponseScore;
         break;
       default:
         val = "";
@@ -4591,7 +4955,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 46:
-        val = t46QikCptConsistencyOfResponseScore;
+        val = t51QikCptConsistencyOfResponseScore;
         break;
       default:
         val = "";
@@ -4599,17 +4963,14 @@ module.exports = ({
     return val;
   };
 
-  const gaiRange = id => {
+  const gaiScore = id => {
     let val;
     switch (id) {
       case 2:
-        val = t2WiscvGaiRange;
+        val = t2WiscvGaiCompositeScore;
         break;
       case 6:
-        val = t6WaisivGaiRange;
-        break;
-      case 9:
-        val = t9WppsiivGaiRange;
+        val = t6WaisivGaiCompositeScore;
         break;
       default:
         val = "";
@@ -4635,11 +4996,29 @@ module.exports = ({
     return val;
   };
 
+  const gaiRange = id => {
+    let val;
+    switch (id) {
+      case 2:
+        val = t2WiscvGaiRange;
+        break;
+      case 6:
+        val = t6WaisivGaiRange;
+        break;
+      case 9:
+        val = t9WppsiivGaiRange;
+        break;
+      default:
+        val = "";
+    }
+    return val;
+  };
+
   const gcaRange = id => {
     let val;
     switch (id) {
       case 10:
-        val = t10DasIiGcaRange;
+        val = t10DasiiGcaRange;
         break;
       default:
         val = "";
@@ -4651,7 +5030,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 10:
-        val = t10DasIiGcaScore;
+        val = t10DasiiGcaScore;
         break;
       default:
         val = "";
@@ -4663,7 +5042,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 10:
-        val = t10DasIiGcaPercentile;
+        val = t10DasiiGcaPercentile;
         break;
       default:
         val = "";
@@ -4675,7 +5054,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 10:
-        val = t10DasIiSncRange;
+        val = t10DasiiSncRange;
         break;
       default:
         val = "";
@@ -4687,7 +5066,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 10:
-        val = t10DasIiSncScore;
+        val = t10DasiiSncScore;
         break;
       default:
         val = "";
@@ -4699,7 +5078,7 @@ module.exports = ({
     let val;
     switch (id) {
       case 10:
-        val = t10DasIiSncPercentile;
+        val = t10DasiiSncPercentile;
         break;
       default:
         val = "";
@@ -4713,53 +5092,77 @@ module.exports = ({
       case 1:
         val = `${
           t1IfFsiqIsMeaningful === true
-            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t1WiscvFsiqScore} (${t1WiscvFsiqPercentile} percentile), which falls within in the  ${t1WiscvFsiqRank} range when compared to ${
+            ? `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t1WiscvFsiqScore} (${t1WiscvFsiqPercentile} percentile), which falls within in the  ${t1WiscvFsiqRank} range when compared to ${
                 diGender === "Boy" ? "his" : "her"
               } same-aged peers.`
-            : `Overall, ${diName} demonstrated an inconsistent performance on the WISC-V. As a result, ${
+            : `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated an inconsistent performance on the WISC-V. As a result, ${
                 diGender === "Boy" ? "his" : "her"
               } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the five Composite areas that constitute ${
                 diGender === "Boy" ? "his" : "her"
               } Full-Scale score (FSIQ). Therefore, in order to better understand ${
                 diGender === "Boy" ? "his" : "her"
-              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${
+                diName !== undefined ? `${diName}'s` : "The Client's"
+              } individual subtest scores is warranted.`
         }`;
         break;
       case 3:
         val = `${
           t57WasiiiVerbalComprehensionConsistent === true
-            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t57WasiiiVerbalComprehensionCompositeScore} (${t57WasiiiVerbalComprehensionCompositePercentile} percentile), which falls within in the ${t57WasiiiVerbalComprehensionCompositeRange} range of functioning.`
-            : `Overall, ${diName} demonstrated an inconsistent performance on the WASI-II. As a result, ${
+            ? `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t57WasiiiVerbalComprehensionCompositeScore} (${t57WasiiiVerbalComprehensionCompositePercentile} percentile), which falls within in the ${t57WasiiiVerbalComprehensionCompositeRange} range of functioning.`
+            : `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated an inconsistent performance on the WASI-II. As a result, ${
                 diGender === "Boy" ? "his" : "her"
               } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between subtests that constitute ${
                 diGender === "Boy" ? "his" : "her"
               } Full-Scale score (FSIQ). Therefore, in order to better understand ${
                 diGender === "Boy" ? "his" : "her"
-              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${
+                diName !== undefined ? `${diName}` : "The Client"
+              }'s individual subtest scores is warranted.`
         }`;
         break;
       case 5:
         val = `${
           t5IfFsiqIsMeaningful === true
-            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t5WaisivFsiqScore} (${t5WaisivFsiqPercentile} percentile), which falls within in the ${t5WaisivFsiqRank} range of functioning.`
-            : `Overall, ${diName} emonstrated an inconsistent performance on the WAIS-IV. As a result, ${
+            ? `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t5WaisivFsiqScore} (${t5WaisivFsiqPercentile} percentile), which falls within in the ${t5WaisivFsiqRank} range of functioning.`
+            : `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated an inconsistent performance on the WAIS-IV. As a result, ${
                 diGender === "Boy" ? "his" : "her"
               } Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the four Composite areas that constitute ${
                 diGender === "Boy" ? "his" : "her"
               } Full-Scale score (FSIQ). Therefore, in order to better understand ${
                 diGender === "Boy" ? "his" : "her"
-              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${
+                diName !== undefined ? `${diName}'s` : "The Client's"
+              } individual subtest scores is warranted.`
         }`;
         break;
       case 7:
         val = `${
           t7IfGiaIsMeaningful === true
-            ? `Overall, ${diName} demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of ${t7WjivCogFsiqScore} (${t7WjivCogFsiqPercentile} percentile), which falls within in the ${t7WjivCogFsiqRank} range of functioning.`
-            : `Overall, ${diName} demonstrated an inconsistent performance on the WJ-IV. As a result, ${
+            ? `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated a consistent performance on the WJ-IV and received a General Intellectual Ability (GIA) score of ${t7WjivCogFsiqScore} (${t7WjivCogFsiqPercentile} percentile), which falls within in the ${t7WjivCogFsiqRank} range of functioning.`
+            : `Overall, ${
+                diName !== undefined ? `${diName}` : "The Client"
+              } demonstrated an inconsistent performance on the WJ-IV. As a result, ${
                 diGender === "Boy" ? "his" : "her"
               } GIA score cannot be interpreted meaningfully due to the significant discrepancies between the seven clusters. Therefore, in order to better understand ${
                 diGender === "Boy" ? "his" : "her"
-              } cognitive strengths and weaknesses, a more in-depth look at all of ${diName}'s individual subtest scores is warranted.`
+              } cognitive strengths and weaknesses, a more in-depth look at all of ${
+                diName !== undefined ? `${diName}'s` : "The Client's"
+              }'s individual subtest scores is warranted.`
         }`;
         break;
       case 9:
@@ -4784,71 +5187,195 @@ module.exports = ({
   const parentScaleDescVal = id => {
     let val;
     switch (id) {
+      case 1:
+        val = `The VCI is designed to measure verbal concept formation, crystallized intelligence, effective information retrieval, ability to solve verbal problems, and language development.<br/><br/>
+        ${
+          diName !== undefined ? `${diName}` : `The Client`
+        } demonstrated a relatively ${
+          t1WiscvVerbalComprehensionIndexVciConsistent === true
+            ? "consistent"
+            : t1WiscvVerbalComprehensionIndexVciInconsistent === true
+            ? "inconsistent"
+            : t1WiscvVerbalComprehensionIndexVciFreehandPerformance
+        } performance on the subtests within the VCI. Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a VCI Composite score of ${t1WiscvVerbalComprehensionIndexVciCompositeScore}, (${t1WiscvVerbalComprehensionIndexVciCompositePercentile} percentile), which is in the ${t1WiscvVerbalComprehensionIndexVciCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age.`;
+        break;
+      case 2:
+        val = `The VSI is a measure of visual processing, which represents one's ability to analyze and synthesize visual stimuli. designed to measure verbal concept formation, crystallized intelligence, effective information retrieval, ability to solve verbal problems, and language development.<br/><br/>
+        ${
+          diName !== undefined ? `${diName}` : `The Client`
+        } demonstrated a relatively ${
+          t2WiscvVisualSpatialIndexVsiConsistent === true
+            ? "consistent"
+            : t2WiscvVisualSpatialIndexVsiInconsistent === true
+            ? "inconsistent"
+            : t2WiscvVisualSpatialIndexVsiFreehandPerformance
+        } performance on the subtests within the VSI. Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a VSI Composite score of ${t2WiscvVisualSpatialIndexVsiCompositeScore}, (${t2WiscvVisualSpatialIndexVsiCompositePercentile} percentile), which is in the ${t2WiscvVisualSpatialIndexVsiCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age.`;
+        break;
+      case 3:
+        val = `The FRI indicative of one’s ability to solve unfamiliar and novel tasks utilizing knowledge that is not dependent on formal education but is contingent on problem-solving abilities and mental flexibility.<br/><br/>
+        ${
+          diName !== undefined ? `${diName}` : `The Client`
+        } demonstrated a relatively ${
+          t3WiscvFluidReasoningIndexFriConsistent === true
+            ? "consistent"
+            : t3WiscvFluidReasoningIndexFriInconsistent === true
+            ? "inconsistent"
+            : t3WiscvFluidReasoningIndexFriFreehandPerformance
+        } performance on the subtests within the FRI. Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a FRI Composite score of ${t3WiscvFluidReasoningIndexFriCompositeScore}, (${t3WiscvFluidReasoningIndexFriCompositePercentile} percentile), which is in the ${t3WiscvFluidReasoningIndexFriCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age.`;
+        break;
+      case 4:
+        val = `The WMI is designed to measure one’s ability to temporarily retain information in memory and mentally manipulate the information in order to produce a result.<br/><br/>
+        ${
+          diName !== undefined ? `${diName}` : `The Client`
+        } demonstrated a relatively ${
+          t4WiscvWorkingMemoryIndexWmiConsistent === true
+            ? "consistent"
+            : t4WiscvWorkingMemoryIndexWmiInconsistent === true
+            ? "inconsistent"
+            : t4WiscvWorkingMemoryIndexWmiFreehandPerformance
+        } performance on the subtests within the WMI. Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a WMI Composite score of ${t4WiscvWorkingMemoryIndexWmiCompositeScore}, (${t4WiscvWorkingMemoryIndexWmiCompositePercentile} percentile), which is in the ${t4WiscvWorkingMemoryIndexWmiCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age.`;
+        break;
+      case 5:
+        val = `The PSI provides a measure of the ability to quickly and correctly scan, sequence, or discriminate simple visual information. This composite also measures short-term visual memory, attention, and visual-motor coordination involving decision-making.<br/><br/>
+        ${
+          diName !== undefined ? `${diName}` : `The Client`
+        } demonstrated a relatively ${
+          t5WiscvProcessingSpeedIndexPsiConsistent === true
+            ? "consistent"
+            : t5WiscvProcessingSpeedIndexPsiInconsistent === true
+            ? "inconsistent"
+            : t5WiscvProcessingSpeedIndexPsiFreehandPerformance
+        } performance on the subtests within the PSI. Specifically, 
+        ${diGender === "Boy" ? `he` : `she`}
+        received a PSI Composite score of ${t5WiscvProcessingSpeedIndexPsiCompositeScore}, (${t5WiscvProcessingSpeedIndexPsiCompositePercentile} percentile), which is in the ${t5WiscvProcessingSpeedIndexPsiCompositeRange} range of functioning compared to other individuals ${
+          diGender === "Boy" ? `his` : `her`
+        } age.`;
+        break;
       case 57:
-        val = `${diName} demonstrated a relatively ${
+        val = `${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
           t57WasiiiVerbalComprehensionConsistent === true
             ? "consistent"
-            : "inconsistent"
+            : t57WasiiiVerbalComprehensionInconsistent === true
+            ? "inconsistent"
+            : t57WasiiiVerbalComprehensionFreehandPerformance
         } performance on the subtests within the Verbal Comprehension Index (VCI). Specifically, 
         ${diGender === "Boy" ? `he` : `she`}
         received a VCI Composite score of ${t57WasiiiVerbalComprehensionCompositeScore}, (${t57WasiiiVerbalComprehensionCompositePercentile} percentile), which is in the ${t57WasiiiVerbalComprehensionCompositeRange} range of functioning compared to other individuals ${
           diGender === "Boy" ? `his` : `her`
-        } age. The VCI measured ${diName}'s verbal reasoning, knowledge and conceptualization.`;
+        } age. The VCI measured ${
+          diName !== undefined ? `${diName}'s` : "The Client's"
+        } verbal reasoning, knowledge and conceptualization.`;
         break;
       case 58:
-        val = `${diName} demonstrated a relatively ${
+        val = `${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
           t58WasiiiPerceptualReasoningConsistent === true
             ? "consistent"
-            : "inconsistent"
-        } performance on the subtests within the Fluid Reasoning Index (FRI). This index emphasizes visual-perceptual and visual-spatial reasoning, as well as conceptual reasoning and construction abilities requiring visual-perceptual integration. Specifically, ${diName} received a FRI Composite score of ${t58WasiiiPerceptualReasoningCompositeScore} (${t58WasiiiPerceptualReasoningCompositePercentile} percentile) which fell within the ${t58WasiiiPerceptualReasoningCompositeRange} range of functioning.`;
+            : t58WasiiiPerceptualReasoningInconsistent === true
+            ? "inconsistent"
+            : t58WasiiiPerceptualReasoningFreehandPerformance
+        } performance on the subtests within the Fluid Reasoning Index (FRI). This index emphasizes visual-perceptual and visual-spatial reasoning, as well as conceptual reasoning and construction abilities requiring visual-perceptual integration. Specifically, ${
+          diName !== undefined ? `${diName}` : "The Client"
+        } received a FRI Composite score of ${t58WasiiiPerceptualReasoningCompositeScore} (${t58WasiiiPerceptualReasoningCompositePercentile} percentile) which fell within the ${t58WasiiiPerceptualReasoningCompositeRange} range of functioning.`;
         break;
       case 106:
-        val = `${diName} demonstrated a relatively ${
+        val = `${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
           t106WaisivVerbalComprehensionConsistent === true
             ? "consistent"
-            : "inconsistent"
+            : t106WaisivVerbalComprehensionInconsistent === true
+            ? "inconsistent"
+            : t106WaisivVerbalComprehensionFreehandPerformance
         } performance on the subtests within the Verbal Comprehension Index (VCI). Specifically, 
         ${diGender === "Boy" ? `he` : `she`}
         received a VCI Composite score of ${t106WaisivVerbalComprehensionCompositeScore}, (${t106WaisivVerbalComprehensionCompositePercentile} percentile), which is in the ${t106WaisivVerbalComprehensionCompositeRange} range of functioning compared to other individuals ${
           diGender === "Boy" ? `his` : `her`
-        } age. The VCI measured ${diName}'s verbal reasoning, knowledge and conceptualization.`;
+        } age. The VCI measured ${
+          diName !== undefined ? `${diName}'s` : "The Client's"
+        } verbal reasoning, knowledge and conceptualization.`;
         break;
       case 107:
-        val = `${diName} demonstrated a relatively ${
+        val = `${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
           t107WaisivPerceptualReasoningConsistent === true
             ? "consistent"
-            : "inconsistent"
-        } performance on the subtests within the Fluid Reasoning Index (FRI). This index emphasizes visual-perceptual and visual-spatial reasoning, as well as conceptual reasoning and construction abilities requiring visual-perceptual integration. Specifically, ${diName} received a FRI Composite score of ${t107WaisivPerceptualReasoningCompositeScore} (${t107WaisivPerceptualReasoningCompositePercentile} percentile) which fell within the ${t107WaisivPerceptualReasoningCompositeRange} range of functioning.`;
+            : t107WaisivPerceptualReasoningInconsistent === true
+            ? "inconsistent"
+            : t107WaisivPerceptualReasoningFreehandPerformance
+        } performance on the subtests within the Perceptual Reasoning (PRI). This index emphasizes visual-perceptual and visual-spatial reasoning, as well as conceptual reasoning and construction abilities requiring visual-perceptual integration. Specifically, ${
+          diName !== undefined ? `${diName}` : "The Client"
+        } received a PRI Composite score of ${t107WaisivPerceptualReasoningCompositeScore} (${t107WaisivPerceptualReasoningCompositePercentile} percentile) which fell within the ${t107WaisivPerceptualReasoningCompositeRange} range of functioning.`;
         break;
       case 108:
-        val = `${diName} demonstrated a relatively ${
+        val = `${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
           t108WaisivWorkingMemoryConsistent === true
             ? "consistent"
-            : "inconsistent"
-        } Tasks within the Working Memory Index (WMI) measure attention, concentration, and working memory for both verbal and visual material. ${diName} received a WMI Composite score of ${t108WaisivWorkingMemoryCompositeScore} (${t108WaisivWorkingMemoryCompositePercentile} percentile) which fell within the ${t108WaisivWorkingMemoryCompositeRange} range compared to ${
+            : t108WaisivWorkingMemoryInconsistent === true
+            ? "inconsistent"
+            : t108WaisivWorkingMemoryFreehandPerformance
+        } Tasks within the Working Memory Index (WMI) measure attention, concentration, and working memory for both verbal and visual material. ${
+          diName !== undefined ? `${diName}` : "The Client"
+        } received a WMI Composite score of ${t108WaisivWorkingMemoryCompositeScore} (${t108WaisivWorkingMemoryCompositePercentile} percentile) which fell within the ${t108WaisivWorkingMemoryCompositeRange} range compared to ${
           diGender === "Boy" ? `his` : `her`
         } peers.`;
         break;
       case 109:
-        val = `${diName} demonstrated a relatively ${
-          t109WaisvProcessingSpeedConsistent === true
+        val = `${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
+          t109WaisivProcessingSpeedConsistent === true
             ? "consistent"
-            : "inconsistent"
-        } The Processing Speed domain measured ${diName}'s speed of mental and graphomotor processing, as well as their ability to efficiently scan and process visual information. ${diName} received a PSI Composite score of ${t109WaisvProcessingSpeedCompositeScore} (${t109WaisvProcessingSpeedCompositePercentile} percentile) which fell within the ${t109WaisvProcessingSpeedCompositeRange} range of functioning.`;
+            : t109WaisivProcessingSpeedInconsistent === true
+            ? "inconsistent"
+            : t109WaisivProcessingSpeedFreehandPerformance
+        } The Processing Speed domain measured ${
+          diName !== undefined ? `${diName}'s` : "The Client's"
+        } speed of mental and graphomotor processing, as well as their ability to efficiently scan and process visual information. ${
+          diName !== undefined ? `${diName}` : "The Client"
+        } received a PSI Composite score of ${t109WaisivProcessingSpeedCompositeScore} (${t109WaisivProcessingSpeedCompositePercentile} percentile) which fell within the ${t109WaisivProcessingSpeedCompositeRange} range of functioning.`;
         break;
       case 127:
         val = `The Minnesota Multiphasic Personality Inventory-A (MMPI-A) contains eight validity scales used to describe the extent of the individual’s cooperation with the assessment. It can indicate whether the individual wanted to call attention to his or her symptoms or, conversely, if he or she was inclined to deny problems.`;
         break;
       case 134:
-        val = `Comprehension-Knowledge (Gc) is a composite score that provides a estimate of crystalized intelligence or verbal ability, which is defined as a store of acquired knowledge that reflects the breadth and depth of knowledge of a culture. Comprehension-Knowledge (Gc) is composed of two tests Oral Vocabulary and General Information.<p>${diName} demonstrated a relatively ${
-          t134WjivCogComprehensionKnowledgeGcConsistent === true
+        val = `Comprehension-Knowledge (Gc) is a composite score that provides a estimate of crystalized intelligence or verbal ability, which is defined as a store of acquired knowledge that reflects the breadth and depth of knowledge of a culture. Comprehension-Knowledge (Gc) is composed of two tests Oral Vocabulary and General Information.<p>${
+          diName !== undefined ? `${diName}` : "The Client"
+        } demonstrated a relatively ${
+          t134WjivcogComprehensionKnowledgeGcConsistent === true
             ? "consistent"
-            : "inconsistent"
+            : t134WjivcogComprehensionKnowledgeGcInconsistent === true
+            ? "inconsistent"
+            : t134WjivcogComprehensionKnowledgeGcFreehandPerformance
         } performance on the subtests within the Comprehension-Knowledge (Gc) cluster. Specifically, ${
           diGender === "Boy" ? `he` : `she`
         } received a Gc score of ${t134WjivCogComprehensionKnowledgeGcCompositeScore} (${t134WjivCogComprehensionKnowledgeGcCompositePercentile} percentile) which fell within the ${t134WjivCogComprehensionKnowledgeGcCompositeRange} range of functioning compared to other individuals ${
           diGender === "Boy" ? `his` : `her`
-        } age. The Gc cluster measured ${diName}'s breadth and depth of knowledge and skills, including verbal communication and reasoning ability.</p>`;
+        } age. The Gc cluster measured ${
+          diName !== undefined ? `${diName}` : "The Client's"
+        }'s breadth and depth of knowledge and skills, including verbal communication and reasoning ability.</p>`;
         break;
       case 135:
         val = `Fluid Reasoning (Gf) is a composite score that provides an estimate of ability to reason, form concepts, and solve problems using unfamiliar information or novel procedures. Fluid reason requires deliberate and flexible control of attention to solve on the spot problems.<p>${diName} demonstrated a relatively ${
@@ -4920,8 +5447,43 @@ module.exports = ({
       case 143:
         val = `The clinical scales of the TSCC measure the extent to which the child endorses six different types of potentially trauma-related symptoms. Five of the six scales (all but PTS) are nonoverlapping at the item level. Two of these clinical scales (DIS and SC) also contain scorable subscales, based upon principle components analyses and scale content.<ul><li><b>Anxiety (ANX) &#10142;</b> Scores on the Anxiety (ANX) scale reflect the extent to which the child is experiencing generalized anxiety, hyperarousal, and worry, as well as specific fears of men or women, of the dark, and of being killed. Also tapped by this scale are episodes of free-floating anxiety and fears of impeding danger.</li><li><b>Depression (DEP) &#10142;</b> The Depression (DEP) scale taps feelings of sadness, unhappiness, and loneliness; episodes of tearfulness; and depressive cognitions such as guilt and self-denigration.</li>  <li><b>Anger (ANG)  &#10142;</b> Scores on the Anger (ANG) scale indicate the extent of angry thoughts, feelings, and behaviors reported by the child.</li>  <li><b>Posttraumatic Stress &#10142;</b> The Posttraumatic Stress (PTS) scale consists of items reflecting classic posttraumatic symptoms.</li><li><b>Dissociation (DIS) &#10142;</b> The Dissociation (DIS) scale measures the extent to which the child experiences mild-to-moderate dissociative symptomatology.</li>  <li><b>Sexual Concerns (SC) &#10142;</b> The Sexual Concerns (SC) scale measures sexual distress and preoccupation.</li></ul>`;
         break;
+      case 151:
+        val =
+          "The CTONI-2 has two principal uses. The first use is to estimate the intelligence of people for whom traditional ability tests might be inappropriate. For such persons, the heavy language content or the complicated motor response demands of most mental ability tests can result in a serious underestimation of the intelligence. This often leads to misidentifications, faulty diagnoses, erroneous placements, low expectations, and other undesirable consequences. Use of the CTONI-2 will avoid many of the hazards that are frequently encountered when testing people who have a variety of disabilities (e.g., traumatic brain injury, post-stroke syndrome, deafness, aphasia, autism, or other language disorders) or come from cultural, linguistic, educational, or socioeconomic backgrounds that might negatively influence their performance on ability tests.<br/><br/>The CTONI-2’s second use is to provide researchers with a tool that they can use to study the nature of intelligence, the interaction of verbal and nonverbal abilities, and the role of nonverbal formats in assessing thinking and academic subject matters.";
+        break;
+      case 152:
+        val =
+          "In addition to the subtests, the CTONI-2 also has three composites. Two composites represent the contexts used to measure the abilities (Pictorial Scale and Geometric Scale). The third composite, the Full Scale, is the overall ability score on the test. All three composites measure general intelligence.";
+        break;
       case 160:
         val = `The Minnesota Personality Inventory-A is a self-report instrument designed to aid in the assessment of a wide range of clinical conditions.`;
+        break;
+      case 168:
+        val = `This test consists of five conditions. The primary executive-function task is the Number-Letter Switching condition, a visual-motor sequencing procedure, which is a measure of flexibility of thinking. The other four conditions allow the examiner to evaluate several key component processes needed to perform the switching task. These fundamental components include visual scanning, number sequencing, letter sequencing, and motor speed in drawing lines.`;
+        break;
+      case 169:
+        val = "";
+        break;
+      case 170:
+        val = "";
+        break;
+      case 171:
+        val = `This test measures the examinee’s ability to inhibit a more automatic verbal response (reading) in order to generate a conflicting response of naming a dissonant ink color. Another condition requires the examinee to switch back and forth between naming the dissonant ink colors and reading the conflicting words. This condition is a measure of both inhibition and cognitive flexibility.`;
+        break;
+      case 172:
+        val = `This test provides a window into their ability to initiate problem-solving behavior and a window into their conceptual-reasoning skills.`;
+        break;
+      case 173:
+        val = `On this test, the examinee is presented with a stimulus page depicting pictures of 30 common objects. The examinee tried to ask the fewest number of yes/no questions in order to identify the unknown target object. Executive functions tapped by this test include the individual’s ability to identify the various categories and subcategories represented in the 30 objects and to formulate abstract, yes/no questions that eliminate the maximum number of objects regardless of the examiner’s answer.`;
+        break;
+      case 174:
+        val = `The examinee’s main task in this test is to discover the meaning of made-up or mystery words based on clues given in sentences. For each mystery word, the examinee is shown five sentences (clues) that help him or her to decode the meaning of the word. With each new clue-sentence for the word, previously presented sentences are also displayed. The first sentence for each word provides only vague or general clues about the mystery word’s meaning. Each subsequent clue sentence provides progressively more detailed information. The examinee tries to decode the mystery word with as few clue sentences as possible and is asked to continue reporting the correct response to the remaining clue sentences of each item. This test is a means of evaluating executive functions in the verbal modality and assessing skills such as deductive reasoning, integration of multiple bits of information, hypothesis testing, and flexibility of thinking.`;
+        break;
+      case 175:
+        val = `The materials for this test include five disks that vary in size from small to large and a board with three vertical pegs. Each item begins by the examiner’s placing from two to five disks on the pegs in a predetermined starting position and displaying a picture of the tower to be built (i.e., the ending position). The examinee’s task is to move the disks across the three pegs to build the target tower in the fewest number of moves possible. In constructing the target towers, the examinee must follow two rules: (a) to move only one disk at a time and (b) never to place a larger disk over a smaller disk. Process measures include first-move completion time, the total number of moves, item-completion time, final achievement (correct or incorrect tower), and number of rule violations. This test measures spatial planning, rule learning, inhibition of impulsive responding, inhibition of perseverative responding, and establishing and maintaining the instructional set.`;
+        break;
+      case 176:
+        val = `The test consists of eight sayings that are presented in two conditions: Free Inquiry and Multiple Choice. For the Free Inquiry condition, the proverbs are read individually to examinees, who attempt to interpret them orally without assistance or cues. For the Multiple Choice condition, the same eight proverbs are presented individually along with four alternative interpretations from which the examinee must select the best one. The set of multiple-choice response alternatives for each proverb consists of (a) a correct abstract interpretation; (b) a correct concrete interpretation; (c) an incorrect, phonemically similar response, and (d) an unrelated saying.`;
         break;
       default:
         val = "default";
@@ -4932,8 +5494,11 @@ module.exports = ({
   const summaryAbilities = id => {
     let val;
     switch (id) {
+      case 1:
+        val = t1WiscvSummaryAbilities;
+        break;
       case 2:
-        val = t2DasIISummaryAbilities;
+        val = t2DasiiSummaryAbilities;
         break;
       case 3:
         val = t3WasiiiSummaryAbilities;
@@ -4947,6 +5512,9 @@ module.exports = ({
       case 6:
         val = t6WjivCogSummaryAbilities;
         break;
+      case 7:
+        val = t7BeeryvmiSummaryAbilities;
+        break;
       case 9:
         val = t9WppsiivSummaryAbilities;
         break;
@@ -4959,8 +5527,11 @@ module.exports = ({
   const summaryChallenges = id => {
     let val;
     switch (id) {
+      case 1:
+        val = t1WiscvSummaryChallenges;
+        break;
       case 2:
-        val = t2DasIISummaryChallenges;
+        val = t2DasiiSummaryChallenges;
         break;
       case 3:
         val = t3WasiiiSummaryChallenges;
@@ -4973,6 +5544,9 @@ module.exports = ({
         break;
       case 6:
         val = t6WjivCogSummaryChallenges;
+        break;
+      case 7:
+        val = t7BeeryvmiSummaryChallenges;
         break;
       case 9:
         val = t9WppsiivSummaryChallenges;
@@ -4989,26 +5563,26 @@ module.exports = ({
       case 1:
         name === "Full Scale IQ"
           ? (val = t1WiscvFsiqScore)
-          : (val = t1WiscVVerbalComprehensionIndexVciCompositeScore);
+          : (val = t1WiscvVerbalComprehensionIndexVciCompositeScore);
         break;
       case 2:
-        val = t2WiscVVisualSpatialIndexVsiCompositeScore;
+        val = t2WiscvVisualSpatialIndexVsiCompositeScore;
         break;
       case 3:
-        name === "Full Scale IQ"
+        name === "Full Scale IQ-4"
           ? (val = t3WasiiiFsiqScore)
-          : (val = t3WiscVFluidReasoningIndexFriCompositeScore);
+          : (val = t3WiscvFluidReasoningIndexFriCompositeScore);
         break;
       case 4:
-        val = t4WiscVWorkingMemoryIndexWmiCompositeScore;
+        val = t4WiscvWorkingMemoryIndexWmiCompositeScore;
         break;
       case 5:
         name === "Full Scale IQ"
           ? (val = t5WaisivFsiqScore)
-          : (val = t5WiscVProcessingSpeedIndexPsiCompositeScore);
+          : (val = t5WiscvProcessingSpeedIndexPsiCompositeScore);
         break;
       case 6:
-        val = "";
+        val = t6WaisivGaiCompositeScore;
         break;
       case 7:
         val = t7WjivCogFsiqScore;
@@ -5018,8 +5592,8 @@ module.exports = ({
         break;
       case 10:
         name === "General Conceptual Ability (GCA)"
-          ? (val = t10DasIiGcaScore)
-          : (val = t10DasIiSncScore);
+          ? (val = t10DasiiGcaScore)
+          : (val = t10DasiiSncScore);
         break;
       case 57:
         val = t57WasiiiVerbalComprehensionCompositeScore;
@@ -5028,16 +5602,16 @@ module.exports = ({
         val = t58WasiiiPerceptualReasoningCompositeScore;
         break;
       case 106:
-        val = t106WaisIvVerbalComprehensionCompositeScore;
+        val = t106WaisivVerbalComprehensionCompositeScore;
         break;
       case 107:
-        val = t107WaisIvPerceptualReasoningCompositeScore;
+        val = t107WaisivPerceptualReasoningCompositeScore;
         break;
       case 108:
-        val = t108WaisIvWorkingMemoryCompositeScore;
+        val = t108WaisivWorkingMemoryCompositeScore;
         break;
       case 109:
-        val = t109WaisIvProcessingSpeedCompositeScore;
+        val = t109WaisivProcessingSpeedCompositeScore;
         break;
       case 134:
         val = t134WjIvCogComprehensionKnowledgeGcCompositeScore;
@@ -5088,26 +5662,26 @@ module.exports = ({
         if (name === "Full Scale IQ") {
           val = t1WiscvFsiqPercentile;
         } else {
-          val = t1WiscVVerbalComprehensionIndexVciCompositePercentile;
+          val = t1WiscvVerbalComprehensionIndexVciCompositePercentile;
         }
         break;
       case 2:
-        val = t2WiscVVisualSpatialIndexVsiCompositePercentile;
+        val = t2WiscvVisualSpatialIndexVsiCompositePercentile;
       case 3:
-        if (name === "Full Scale IQ") {
+        if (name === "Full Scale IQ-4") {
           val = t3WasiiiFsiqPercentile;
         } else {
-          val = t3WiscVFluidReasoningIndexFriCompositePercentile;
+          val = t3WiscvFluidReasoningIndexFriCompositePercentile;
         }
         break;
       case 4:
-        val = t4WiscVWorkingMemoryIndexWmiCompositePercentile;
+        val = t4WiscvWorkingMemoryIndexWmiCompositePercentile;
         break;
       case 5:
         if (name === "Full Scale IQ") {
           val = t5WaisivFsiqPercentile;
         } else {
-          val = t5WiscVProcessingSpeedIndexPsiCompositePercentile;
+          val = t5WiscvProcessingSpeedIndexPsiCompositePercentile;
         }
         break;
       case 6:
@@ -5123,8 +5697,8 @@ module.exports = ({
         break;
       case 10:
         name === "General Conceptual Ability (GCA)"
-          ? (val = t10DasIiGcaPercentile)
-          : (val = t10DasIiSncPercentile);
+          ? (val = t10DasiiGcaPercentile)
+          : (val = t10DasiiSncPercentile);
         break;
       case 57:
         val = t57WasiiiVerbalComprehensionCompositePercentile;
@@ -5133,16 +5707,16 @@ module.exports = ({
         val = t58WasiiiPerceptualReasoningCompositePercentile;
         break;
       case 106:
-        val = t106WaisIvVerbalComprehensionCompositePercentile;
+        val = t106WaisivVerbalComprehensionCompositePercentile;
         break;
       case 107:
-        val = t107WaisIvPerceptualReasoningCompositePercentile;
+        val = t107WaisivPerceptualReasoningCompositePercentile;
         break;
       case 108:
-        val = t108WaisIvWorkingMemoryCompositePercentile;
+        val = t108WaisivWorkingMemoryCompositePercentile;
         break;
       case 109:
-        val = t109WaisIvProcessingSpeedCompositePercentile;
+        val = t109WaisivProcessingSpeedCompositePercentile;
         break;
       case 134:
         val = t134WjIvCogComprehensionKnowledgeGcCompositePercentile;
@@ -5193,27 +5767,27 @@ module.exports = ({
         if (name === "Full Scale IQ") {
           val = t1WiscvFsiqRank;
         } else {
-          val = t1WiscVVerbalComprehensionIndexVciCompositeRange;
+          val = t1WiscvVerbalComprehensionIndexVciCompositeRange;
         }
         break;
       case 2:
-        val = t2WiscVVisualSpatialIndexVsiCompositeRange;
+        val = t2WiscvVisualSpatialIndexVsiCompositeRange;
         break;
       case 3:
-        if (name === "Full Scale IQ") {
+        if (name === "Full Scale IQ-4") {
           val = t3WasiiiFsiqRank;
         } else {
-          val = t3WiscVFluidReasoningIndexFriCompositeRange;
+          val = t3WiscvFluidReasoningIndexFriCompositeRange;
         }
         break;
       case 4:
-        val = t4WiscVWorkingMemoryIndexWmiCompositeRange;
+        val = t4WiscvWorkingMemoryIndexWmiCompositeRange;
         break;
       case 5:
         if (name === "Full Scale IQ") {
           val = t5WaisivFsiqRank;
         } else {
-          val = t5WiscVProcessingSpeedIndexPsiCompositeRange;
+          val = t5WiscvProcessingSpeedIndexPsiCompositeRange;
         }
         break;
       case 6:
@@ -5229,8 +5803,8 @@ module.exports = ({
         break;
       case 10:
         name === "General Conceptual Ability (GCA)"
-          ? (val = t10DasIiGcaRange)
-          : (val = t10DasIiSncRange);
+          ? (val = t10DasiiGcaRange)
+          : (val = t10DasiiSncRange);
         break;
       case 57:
         val = t57WasiiiVerbalComprehensionCompositeRange;
@@ -5239,16 +5813,16 @@ module.exports = ({
         val = t58WasiiiPerceptualReasoningCompositeRange;
         break;
       case 106:
-        val = t106WaisIvVerbalComprehensionCompositeRange;
+        val = t106WaisivVerbalComprehensionCompositeRange;
         break;
       case 107:
-        val = t107WaisIvPerceptualReasoningCompositeRange;
+        val = t107WaisivPerceptualReasoningCompositeRange;
         break;
       case 108:
-        val = t108WaisIvWorkingMemoryCompositeRange;
+        val = t108WaisivWorkingMemoryCompositeRange;
         break;
       case 109:
-        val = t109WaisIvProcessingSpeedCompositeRange;
+        val = t109WaisivProcessingSpeedCompositeRange;
         break;
       case 134:
         val = t134WjIvCogComprehensionKnowledgeGcCompositeRange;
@@ -6475,13 +7049,13 @@ module.exports = ({
         val = t548SocialIntroversionSiScore;
         break;
       case 549:
-        val = t549CnsScore;
+        val = t549CNSScore;
         break;
       case 550:
-        val = t550VrinScore;
+        val = t550VRINScore;
         break;
       case 551:
-        val = t551TrinScore;
+        val = t551TRINScore;
         break;
       case 552:
         val = t552FScore;
@@ -6499,100 +7073,100 @@ module.exports = ({
         val = t556KScore;
         break;
       case 557:
-        val = t557AnimalSortingAsScore;
+        val = t557AnimalSortingASScore;
         break;
       case 558:
-        val = t558AuditoryAttentionAaAndResponseSetRsScore;
+        val = t558AuditoryAttentionAAAndResponseSetRSScore;
         break;
       case 559:
-        val = t559ClocksClScore;
+        val = t559ClocksCLScore;
         break;
       case 560:
-        val = t560DesignFluencyDfScore;
+        val = t560DesignFluencyDFScore;
         break;
       case 561:
-        val = t561InhibitionInScore;
+        val = t561InhibitionINScore;
         break;
       case 562:
-        val = t562StatueStScore;
+        val = t562StatueSTScore;
         break;
       case 563:
-        val = t563BodyPartNamingBpnAndIdentificationBpiScore;
+        val = t563BodyPartNamingBPNAndIdentificationBPIScore;
         break;
       case 564:
-        val = t564ComprehensionOfInstructionsCiScore;
+        val = t564ComprehensionOfInstructionsCIScore;
         break;
       case 565:
-        val = t565OromotorSequencesOsScore;
+        val = t565OromotorSequencesOSScore;
         break;
       case 566:
-        val = t566PhonologicalProcessingPhScore;
+        val = t566PhonologicalProcessingPHScore;
         break;
       case 567:
-        val = t567RepetitionNonsenseWordsRnScore;
+        val = t567RepetitionNonsenseWordsRNScore;
         break;
       case 568:
-        val = t568SpeededNamingSnScore;
+        val = t568SpeededNamingSNScore;
         break;
       case 569:
-        val = t569WordGenerationWgScore;
+        val = t569WordGenerationWGScore;
         break;
       case 571:
-        val = t571ListMemoryLmListMemoryDelayedLmdScore;
+        val = t571ListMemoryLMListMemoryDelayedLMDScore;
         break;
       case 572:
-        val = t572MemoryForDesignsMdMemoryForDesignsDelayedMddScore;
+        val = t572MemoryForDesignsMDMemoryForDesignsDelayedMDDScore;
         break;
       case 573:
-        val = t573MemoryForFacesMfMemoryForFacesDelayedMfdScore;
+        val = t573MemoryForFacesMFMemoryForFacesDelayedMFDScore;
         break;
       case 574:
-        val = t574MemoryForNamesMnMemoryForNamesDelayedMndScore;
+        val = t574MemoryForNamesMNMemoryForNamesDelayedMNDScore;
         break;
       case 575:
-        val = t575NarrativeMemoryNmScore;
+        val = t575NarrativeMemoryNMScore;
         break;
       case 576:
-        val = t576SentenceRepetitionSrScore;
+        val = t576SentenceRepetitionSRScore;
         break;
       case 577:
-        val = t577WordListInterferenceWiScore;
+        val = t577WordListInterferenceWIScore;
         break;
       case 578:
-        val = t578FingertipTappingFtScore;
+        val = t578FingertipTappingFTScore;
         break;
       case 579:
-        val = t579ImitatingHandPositionsIhScore;
+        val = t579ImitatingHandPositionsIHScore;
         break;
       case 580:
-        val = t580ManualMotorSequencesMmScore;
+        val = t580ManualMotorSequencesMMScore;
         break;
       case 581:
-        val = t581VisuomotorPrecisionVpScore;
+        val = t581VisuomotorPrecisionVPScore;
         break;
       case 582:
-        val = t582AffectRecognitionArScore;
+        val = t582AffectRecognitionARScore;
         break;
       case 583:
-        val = t583TheoryOfMindTmScore;
+        val = t583TheoryOfMindTMScore;
         break;
       case 584:
-        val = t584ArrowsAwScore;
+        val = t584ArrowsAWScore;
         break;
       case 585:
-        val = t585BlockConstructionBcScore;
+        val = t585BlockConstructionBCScore;
         break;
       case 586:
-        val = t586DesignCopyingDcScore;
+        val = t586DesignCopyingDCScore;
         break;
       case 587:
-        val = t587GeometricPuzzlesGpScore;
+        val = t587GeometricPuzzlesGPScore;
         break;
       case 588:
-        val = t588PicturePuzzlesPpScore;
+        val = t588PicturePuzzlesPPScore;
         break;
       case 589:
-        val = t589RouteFindingRfScore;
+        val = t589RouteFindingRFScore;
         break;
       case 593:
         val = t593VocabularyScore;
@@ -6643,28 +7217,28 @@ module.exports = ({
         val = t607PictureRecognitionScore;
         break;
       case 608:
-        val = t608UnderresponseUndScore;
+        val = t608UnderresponseUNDScore;
         break;
       case 609:
-        val = t609HyperresponseHypScore;
+        val = t609HyperresponseHYPScore;
         break;
       case 610:
-        val = t610AnxietyAnxScore;
+        val = t610AnxietyANXScore;
         break;
       case 611:
-        val = t611DepressionDepScore;
+        val = t611DepressionDEPScore;
         break;
       case 612:
-        val = t612AngerAngScore;
+        val = t612AngerANGScore;
         break;
       case 613:
-        val = t613PosttraumaticStressPtsScore;
+        val = t613PosttraumaticStressPTSScore;
         break;
       case 614:
-        val = t614DissociationDisScore;
+        val = t614DissociationDISScore;
         break;
       case 615:
-        val = t615SexualConcernsScScore;
+        val = t615SexualConcernsSCScore;
         break;
       case 616:
         val = t616LetterWordIdentificationScore;
@@ -6766,7 +7340,7 @@ module.exports = ({
         val = t659AnimalCodingScore;
         break;
       case 669:
-        val = t669BeeryMotorIntegrationVmiScore;
+        val = t669BeeryMotorIntegrationVMIScore;
         break;
       case 670:
         val = t670BeeryVisualPerceptionScore;
@@ -6775,13 +7349,13 @@ module.exports = ({
         val = t671BeeryMotorCoordinationScore;
         break;
       case 672:
-        val = t672ListeningComprehensionGradesPk12Score;
+        val = t672ListeningComprehensionGradesPK12Score;
         break;
       case 673:
-        val = t673OralExpressionGradesPk12Score;
+        val = t673OralExpressionGradesPK12Score;
         break;
       case 674:
-        val = t674EarlyReadingSkillsGradesPk3Score;
+        val = t674EarlyReadingSkillsGradesPK3Score;
         break;
       case 675:
         val = t675ReadingComprehensionGrades112Score;
@@ -6799,7 +7373,7 @@ module.exports = ({
         val = t679SpellingGradesK12Score;
         break;
       case 680:
-        val = t680AlphabetWritingFluencyGradesPk3Score;
+        val = t680AlphabetWritingFluencyGradesPK3Score;
         break;
       case 681:
         val = t681SentenceCompositionGrades112Score;
@@ -6811,7 +7385,7 @@ module.exports = ({
         val = t683NumericalOperationsGradesK12Score;
         break;
       case 684:
-        val = t684MathProblemSolvingGradesPk12Score;
+        val = t684MathProblemSolvingGradesPK12Score;
         break;
       case 685:
         val = t685MathFluencyAdditionScore;
@@ -6830,6 +7404,111 @@ module.exports = ({
         break;
       case 690:
         val = t690ReadingRateScore;
+        break;
+      case 698:
+        val = t698VisualScanningScore;
+        break;
+      case 699:
+        val = t699NumberSequencingScore;
+        break;
+      case 700:
+        val = t700LetterSequencingScore;
+        break;
+      case 701:
+        val = t701CombinedNumberAndLetterSequencingScore;
+        break;
+      case 702:
+        val = t702NumberLetterSwitchingScore;
+        break;
+      case 703:
+        val = t703MotorSpeedScore;
+        break;
+      case 704:
+        val = t704LetterFluencyScore;
+        break;
+      case 705:
+        val = t705CategoryFluencyScore;
+        break;
+      case 706:
+        val = t706CategorySwitchingScore;
+        break;
+      case 707:
+        val = t707FilledDotsScore;
+        break;
+      case 708:
+        val = t708EmptyDotsOnlyScore;
+        break;
+      case 709:
+        val = t709SwitchingScore;
+        break;
+      case 710:
+        val = t710ColorNamingScore;
+        break;
+      case 711:
+        val = t711WordReadingScore;
+        break;
+      case 712:
+        val = t712InhibitionScore;
+        break;
+      case 713:
+        val = t713InhibitionSwitchingScore;
+        break;
+      case 714:
+        val = t714FreeSortingScore;
+        break;
+      case 715:
+        val = t715SortRecognitionScore;
+        break;
+      case 716:
+        val = t716Item1Score;
+        break;
+      case 717:
+        val = t717Item2Score;
+        break;
+      case 718:
+        val = t718Item3Score;
+        break;
+      case 719:
+        val = t719Item4Score;
+        break;
+      case 720:
+        val = t720Item1Score;
+        break;
+      case 721:
+        val = t721Item2Score;
+        break;
+      case 722:
+        val = t722Item1TwoDisksScore;
+        break;
+      case 723:
+        val = t723Item2TwoDisksScore;
+        break;
+      case 724:
+        val = t724Item3TwoDisksScore;
+        break;
+      case 725:
+        val = t725Item4ThreeDisksScore;
+        break;
+      case 726:
+        val = t726Item5ThreeDisksScore;
+        break;
+      case 727:
+        val = t727Item6FourDisksScore;
+        break;
+      case 728:
+        val = t728Item7FourDisksScore;
+        break;
+      case 729:
+        val = t729Item8FiveDisksScore;
+        break;
+      case 730:
+        val = t730Item9FiveDisksScore;
+        break;
+      case 731:
+        val = t731FreeInquiryScore;
+        break;
+      case 732:
+        val = t732MultipleChoiceScore;
         break;
       case 733:
         val = t733RateScore;
@@ -6955,52 +7634,52 @@ module.exports = ({
     let val;
     switch (id) {
       case 1:
-        val = t1AppendixWiscVSimilaritiesRank;
+        val = t1AppendixWiscvSimilaritiesRank;
         break;
       case 2:
-        val = t2AppendixWiscVVocabularyRank;
+        val = t2AppendixWiscvVocabularyRank;
         break;
       case 3:
-        val = t3AppendixWiscVInformationRank;
+        val = t3AppendixWiscvInformationRank;
         break;
       case 4:
-        val = t4AppendixWiscVComprehensionRank;
+        val = t4AppendixWiscvComprehensionRank;
         break;
       case 5:
-        val = t5AppendixWiscVBlockDesignRank;
+        val = t5AppendixWiscvBlockDesignRank;
         break;
       case 6:
-        val = t6AppendixWiscVVocabularyRank;
+        val = t6AppendixWiscvVocabularyRank;
         break;
       case 7:
-        val = t7AppendixWiscVMatrixReasoningRank;
+        val = t7AppendixWiscvMatrixReasoningRank;
         break;
       case 8:
-        val = t8AppendixWiscVFigureWeightsRank;
+        val = t8AppendixWiscvFigureWeightsRank;
         break;
       case 9:
-        val = t9AppendixWiscVPictureConceptsRank;
+        val = t9AppendixWiscvPictureConceptsRank;
         break;
       case 10:
-        val = t10AppendixWiscVArithmeticRank;
+        val = t10AppendixWiscvArithmeticRank;
         break;
       case 11:
-        val = t11AppendixWiscVDigitSpanRank;
+        val = t11AppendixWiscvDigitSpanRank;
         break;
       case 12:
-        val = t12AppendixWiscVPictureSpanRank;
+        val = t12AppendixWiscvPictureSpanRank;
         break;
       case 13:
-        val = t13AppendixWiscVLetterNumberSequencingRank;
+        val = t13AppendixWiscvLetterNumberSequencingRank;
         break;
       case 14:
-        val = t14AppendixWiscVCodingRank;
+        val = t14AppendixWiscvCodingRank;
         break;
       case 15:
-        val = t15AppendixWiscVSymbolSearchRank;
+        val = t15AppendixWiscvSymbolSearchRank;
         break;
       case 16:
-        val = t16AppendixWiscVCancellationRank;
+        val = t16AppendixWiscvCancellationRank;
         break;
       case 46:
         val = t46AppendixQikCptAccuracyIndexRank;
@@ -7021,19 +7700,19 @@ module.exports = ({
         val = t51AppendixQikCptConsistencyOfResponseRank;
         break;
       case 73:
-        val = t73AppendixWiscVNamingSpeedLiteracyRank;
+        val = t73AppendixWiscvNamingSpeedLiteracyRank;
         break;
       case 74:
-        val = t74AppendixWiscVNamingSpeedQualityRank;
+        val = t74AppendixWiscvNamingSpeedQualityRank;
         break;
       case 75:
-        val = t75AppendixWiscVImmediateSymbolTranslationRank;
+        val = t75AppendixWiscvImmediateSymbolTranslationRank;
         break;
       case 76:
-        val = t76AppendixWiscVDelayedSymbolTranslationRank;
+        val = t76AppendixWiscvDelayedSymbolTranslationRank;
         break;
       case 77:
-        val = t77AppendixWiscVRecognitionSymbolTranslationRank;
+        val = t77AppendixWiscvRecognitionSymbolTranslationRank;
         break;
       case 78:
         val = t78AppendixBriefInconsistencyScaleRank;
@@ -7321,55 +8000,55 @@ module.exports = ({
         val = t232AppendixRbansFigureRecallRank;
         break;
       case 233:
-        val = t233AppendixVinelandIiReceptiveRank;
+        val = t233AppendixVinelandiiReceptiveRank;
         break;
       case 234:
-        val = t234AppendixVinelandIiExpressiveRank;
+        val = t234AppendixVinelandiiExpressiveRank;
         break;
       case 235:
-        val = t235AppendixVinelandIiWrittenRank;
+        val = t235AppendixVinelandiiWrittenRank;
         break;
       case 236:
-        val = t236AppendixVinelandIiPersonalRank;
+        val = t236AppendixVinelandiiPersonalRank;
         break;
       case 237:
-        val = t237AppendixVinelandIiDomesticRank;
+        val = t237AppendixVinelandiiDomesticRank;
         break;
       case 238:
-        val = t238AppendixVinelandIiCommunityRank;
+        val = t238AppendixVinelandiiCommunityRank;
         break;
       case 239:
-        val = t239AppendixVinelandIiInterpersonalRelationshipsRank;
+        val = t239AppendixVinelandiiInterpersonalRelationshipsRank;
         break;
       case 240:
-        val = t240AppendixVinelandIiPlayAndLeisureTimeRank;
+        val = t240AppendixVinelandiiPlayAndLeisureTimeRank;
         break;
       case 241:
-        val = t241AppendixVinelandIiCopingSkillsRank;
+        val = t241AppendixVinelandiiCopingSkillsRank;
         break;
       case 242:
-        val = t242AppendixVinelandIiGrossRank;
+        val = t242AppendixVinelandiiGrossRank;
         break;
       case 243:
-        val = t243AppendixVinelandIiFineRank;
+        val = t243AppendixVinelandiiFineRank;
         break;
       case 244:
-        val = t244AppendixVinelandIiMaladaptiveBehaviorIndexRank;
+        val = t244AppendixVinelandiiMaladaptiveBehaviorIndexRank;
         break;
       case 245:
-        val = t245AppendixVinelandIiMaladaptiveBehaviorCriticalItemsRank;
+        val = t245AppendixVinelandiiMaladaptiveBehaviorCriticalItemsRank;
         break;
       case 246:
-        val = t246AppendixWasiIiSimilaritiesRank;
+        val = t246AppendixWasiiiSimilaritiesRank;
         break;
       case 247:
-        val = t247AppendixWasiIiVocabularyRank;
+        val = t247AppendixWasiiiVocabularyRank;
         break;
       case 248:
-        val = t248AppendixWasiIiBlockDesignRank;
+        val = t248AppendixWasiiiBlockDesignRank;
         break;
       case 249:
-        val = t249AppendixWasiIiMatrixReasoningRank;
+        val = t249AppendixWasiiiMatrixReasoningRank;
         break;
       case 266:
         val = t266AppendixWraml2StoryMemoryRank;
@@ -7945,217 +8624,217 @@ module.exports = ({
         val = t456AppendixBasc3WithdrawalRank;
         break;
       case 457:
-        val = t457AppendixWaisIvSimilaritiesRank;
+        val = t457AppendixWaisivSimilaritiesRank;
         break;
       case 458:
-        val = t458AppendixWaisIvVocabularyRank;
+        val = t458AppendixWaisivVocabularyRank;
         break;
       case 459:
-        val = t459AppendixWaisIvInformationRank;
+        val = t459AppendixWaisivInformationRank;
         break;
       case 460:
-        val = t460AppendixWaisIvComprehensionRank;
+        val = t460AppendixWaisivComprehensionRank;
         break;
       case 461:
-        val = t461AppendixWaisIvBlockDesignRank;
+        val = t461AppendixWaisivBlockDesignRank;
         break;
       case 462:
-        val = t462AppendixWaisIvMatrixReasoningRank;
+        val = t462AppendixWaisivMatrixReasoningRank;
         break;
       case 463:
-        val = t463AppendixWaisIvVisualPuzzlesRank;
+        val = t463AppendixWaisivVisualPuzzlesRank;
         break;
       case 464:
-        val = t464AppendixWaisIvFigureWeightsRank;
+        val = t464AppendixWaisivFigureWeightsRank;
         break;
       case 465:
-        val = t465AppendixWaisIvPictureCompletionRank;
+        val = t465AppendixWaisivPictureCompletionRank;
         break;
       case 466:
-        val = t466AppendixWaisIvDigitSpanRank;
+        val = t466AppendixWaisivDigitSpanRank;
         break;
       case 467:
-        val = t467AppendixWaisIvArithmeticRank;
+        val = t467AppendixWaisivArithmeticRank;
         break;
       case 468:
-        val = t468AppendixWaisIvLetterNumberSequencingRank;
+        val = t468AppendixWaisivLetterNumberSequencingRank;
         break;
       case 469:
-        val = t469AppendixWaisIvCodingRank;
+        val = t469AppendixWaisivCodingRank;
         break;
       case 470:
-        val = t470AppendixWaisIvSymbolSearchRank;
+        val = t470AppendixWaisivSymbolSearchRank;
         break;
       case 471:
-        val = t471AppendixWaisIvCancellationRank;
+        val = t471AppendixWaisivCancellationRank;
         break;
       case 472:
-        val = t472AppendixPiyPoorAchievementAndMemoryRange;
+        val = t472AppendixPiyPoorAchievementAndMemoryRank;
         break;
       case 473:
-        val = t473AppendixPiyInadequateAbilitiesRange;
+        val = t473AppendixPiyInadequateAbilitiesRank;
         break;
       case 474:
-        val = t474AppendixPiyLearningProblemsRange;
+        val = t474AppendixPiyLearningProblemsRank;
         break;
       case 475:
-        val = t475AppendixPiyBrashnessRange;
+        val = t475AppendixPiyBrashnessRank;
         break;
       case 476:
-        val = t476AppendixPiyDistractibilityAndOveractivityRange;
+        val = t476AppendixPiyDistractibilityAndOveractivityRank;
         break;
       case 477:
-        val = t477AppendixPiyImpulsivityRange;
+        val = t477AppendixPiyImpulsivityRank;
         break;
       case 478:
-        val = t478AppendixPiyAntisocialBehaviorRange;
+        val = t478AppendixPiyAntisocialBehaviorRank;
         break;
       case 479:
-        val = t479AppendixPiyDyscontrolRange;
+        val = t479AppendixPiyDyscontrolRank;
         break;
       case 480:
-        val = t480AppendixPiyNoncomplianceRange;
+        val = t480AppendixPiyNoncomplianceRank;
         break;
       case 481:
-        val = t481AppendixPiyParentChildConflictRange;
+        val = t481AppendixPiyParentChildConflictRank;
         break;
       case 482:
-        val = t482AppendixPiyParentMaladjustmentRange;
+        val = t482AppendixPiyParentMaladjustmentRank;
         break;
       case 483:
-        val = t483AppendixPiyMaritalDiscordRange;
+        val = t483AppendixPiyMaritalDiscordRank;
         break;
       case 484:
-        val = t484AppendixPiyFeelingsOfAlienationRange;
+        val = t484AppendixPiyFeelingsOfAlienationRank;
         break;
       case 485:
-        val = t485AppendixPiyHallucinationsAndDelusionsRange;
+        val = t485AppendixPiyHallucinationsAndDelusionsRank;
         break;
       case 486:
-        val = t486AppendixPiyPsychosomaticSyndromeRange;
+        val = t486AppendixPiyPsychosomaticSyndromeRank;
         break;
       case 487:
-        val = t487AppendixPiyMuscularTensionAndAnxietyRange;
+        val = t487AppendixPiyMuscularTensionAndAnxietyRank;
         break;
       case 488:
-        val = t488AppendixPiyPreoccupationWithDiseaseRange;
+        val = t488AppendixPiyPreoccupationWithDiseaseRank;
         break;
       case 489:
-        val = t489AppendixPiyFearAndWorryRange;
+        val = t489AppendixPiyFearAndWorryRank;
         break;
       case 490:
-        val = t490AppendixPiyDepressionRange;
+        val = t490AppendixPiyDepressionRank;
         break;
       case 491:
-        val = t491AppendixPiySleepDisturbanceRange;
+        val = t491AppendixPiySleepDisturbanceRank;
         break;
       case 492:
-        val = t492AppendixPiySocialIntroversionRange;
+        val = t492AppendixPiySocialIntroversionRank;
         break;
       case 493:
-        val = t493AppendixPiyIsolationRange;
+        val = t493AppendixPiyIsolationRank;
         break;
       case 494:
-        val = t494AppendixPiyLimitedPeerStatusRange;
+        val = t494AppendixPiyLimitedPeerStatusRank;
         break;
       case 495:
-        val = t495AppendixPiyConflictWithPeersRange;
+        val = t495AppendixPiyConflictWithPeersRank;
         break;
       case 557:
-        val = t557AppendixNepsyIiAnimalSortingAsRank;
+        val = t557AppendixNepsyiiAnimalSortingAsRank;
         break;
       case 558:
-        val = t558AppendixNepsyIiAuditoryAttentionAaAndResponseSetRsRank;
+        val = t558AppendixNepsyiiAuditoryAttentionAaAndResponseSetRsRank;
         break;
       case 559:
-        val = t559AppendixNepsyIiClocksClRank;
+        val = t559AppendixNepsyiiClocksClRank;
         break;
       case 560:
-        val = t560AppendixNepsyIiDesignFluencyDfRank;
+        val = t560AppendixNepsyiiDesignFluencyDfRank;
         break;
       case 561:
-        val = t561AppendixNepsyIiInhibitionInRank;
+        val = t561AppendixNepsyiiInhibitionInRank;
         break;
       case 562:
-        val = t562AppendixNepsyIiStatueStRank;
+        val = t562AppendixNepsyiiStatueStRank;
         break;
       case 563:
-        val = t563AppendixNepsyIiBodyPartNamingBpnAndIdentificationBpiRank;
+        val = t563AppendixNepsyiiBodyPartNamingBpnAndIdentificationBpiRank;
         break;
       case 564:
-        val = t564AppendixNepsyIiComprehensionOfInstructionsCiRank;
+        val = t564AppendixNepsyiiComprehensionOfInstructionsCiRank;
         break;
       case 565:
-        val = t565AppendixNepsyIiOromotorSequencesOsRank;
+        val = t565AppendixNepsyiiOromotorSequencesOsRank;
         break;
       case 566:
-        val = t566AppendixNepsyIiPhonologicalProcessingPhRank;
+        val = t566AppendixNepsyiiPhonologicalProcessingPhRank;
         break;
       case 567:
-        val = t567AppendixNepsyIiRepetitionNonsenseWordsRnRank;
+        val = t567AppendixNepsyiiRepetitionNonsenseWordsRnRank;
         break;
       case 568:
-        val = t568AppendixNepsyIiSpeededNamingSnRank;
+        val = t568AppendixNepsyiiSpeededNamingSnRank;
         break;
       case 569:
-        val = t569AppendixNepsyIiWordGenerationWgRank;
+        val = t569AppendixNepsyiiWordGenerationWgRank;
         break;
       case 571:
-        val = t571AppendixNepsyIiListMemoryLmListMemoryDelayedLmdRank;
+        val = t571AppendixNepsyiiListMemoryLmListMemoryDelayedLmdRank;
         break;
       case 572:
-        val = t572AppendixNepsyIiMemoryForDesignsMdMemoryForDesignsDelayedMddRank;
+        val = t572AppendixNepsyiiMemoryForDesignsMdMemoryForDesignsDelayedMddRank;
         break;
       case 573:
-        val = t573AppendixNepsyIiMemoryForFacesMfMemoryForFacesDelayedMfdRank;
+        val = t573AppendixNepsyiiMemoryForFacesMfMemoryForFacesDelayedMfdRank;
         break;
       case 574:
-        val = t574AppendixNepsyIiMemoryForNamesMnMemoryForNamesDelayedMndRank;
+        val = t574AppendixNepsyiiMemoryForNamesMnMemoryForNamesDelayedMndRank;
         break;
       case 575:
-        val = t575AppendixNepsyIiNarrativeMemoryNmRank;
+        val = t575AppendixNepsyiiNarrativeMemoryNmRank;
         break;
       case 576:
-        val = t576AppendixNepsyIiSentenceRepetitionSrRank;
+        val = t576AppendixNepsyiiSentenceRepetitionSrRank;
         break;
       case 577:
-        val = t577AppendixNepsyIiWordListInterferenceWiRank;
+        val = t577AppendixNepsyiiWordListInterferenceWiRank;
         break;
       case 578:
-        val = t578AppendixNepsyIiFingertipTappingFtRank;
+        val = t578AppendixNepsyiiFingertipTappingFtRank;
         break;
       case 579:
-        val = t579AppendixNepsyIiImitatingHandPositionsIhRank;
+        val = t579AppendixNepsyiiImitatingHandPositionsIhRank;
         break;
       case 580:
-        val = t580AppendixNepsyIiManualMotorSequencesMmRank;
+        val = t580AppendixNepsyiiManualMotorSequencesMmRank;
         break;
       case 581:
-        val = t581AppendixNepsyIiVisuomotorPrecisionVpRank;
+        val = t581AppendixNepsyiiVisuomotorPrecisionVpRank;
         break;
       case 582:
-        val = t582AppendixNepsyIiAffectRecognitionArRank;
+        val = t582AppendixNepsyiiAffectRecognitionArRank;
         break;
       case 583:
-        val = t583AppendixNepsyIiTheoryOfMindTmRank;
+        val = t583AppendixNepsyiiTheoryOfMindTmRank;
         break;
       case 584:
-        val = t584AppendixNepsyIiArrowsAwRank;
+        val = t584AppendixNepsyiiArrowsAwRank;
         break;
       case 585:
-        val = t585AppendixNepsyIiBlockConstructionBcRank;
+        val = t585AppendixNepsyiiBlockConstructionBcRank;
         break;
       case 586:
-        val = t586AppendixNepsyIiDesignCopyingDcRank;
+        val = t586AppendixNepsyiiDesignCopyingDcRank;
         break;
       case 587:
-        val = t587AppendixNepsyIiGeometricPuzzlesGpRank;
+        val = t587AppendixNepsyiiGeometricPuzzlesGpRank;
         break;
       case 588:
-        val = t588AppendixNepsyIiPicturePuzzlesPpRank;
+        val = t588AppendixNepsyiiPicturePuzzlesPpRank;
         break;
       case 589:
-        val = t589AppendixNepsyIiRouteFindingRfRank;
+        val = t589AppendixNepsyiiRouteFindingRfRank;
         break;
       case 593:
         val = t593AppendixWjIvCogVocabularyRank;
@@ -8206,67 +8885,67 @@ module.exports = ({
         val = t607AppendixWjIvCogPictureRecognitionRank;
         break;
       case 616:
-        val = t616AppendixWjIvAchLetterWordIdentificationRank;
+        val = t616AppendixWjivachLetterWordIdentificationRank;
         break;
       case 617:
-        val = t617AppendixWjIvAchWordAttackRank;
+        val = t617AppendixWjivachWordAttackRank;
         break;
       case 618:
-        val = t618AppendixWjIvAchPassageComprehensionRank;
+        val = t618AppendixWjivachPassageComprehensionRank;
         break;
       case 619:
-        val = t619AppendixWjIvAchReadingRecallRank;
+        val = t619AppendixWjivachReadingRecallRank;
         break;
       case 620:
-        val = t620AppendixWjIvAchReadingVocabularyRank;
+        val = t620AppendixWjivachReadingVocabularyRank;
         break;
       case 621:
-        val = t621AppendixWjIvAchCalculationRank;
+        val = t621AppendixWjivachCalculationRank;
         break;
       case 622:
-        val = t622AppendixWjIvAchMathFactFluencyRank;
+        val = t622AppendixWjivachMathFactFluencyRank;
         break;
       case 623:
-        val = t623AppendixWjIvAchAppliedProblemsRank;
+        val = t623AppendixWjivachAppliedProblemsRank;
         break;
       case 624:
-        val = t624AppendixWjIvAchNumberMatricesRank;
+        val = t624AppendixWjivachNumberMatricesRank;
         break;
       case 625:
-        val = t625AppendixWjIvAchWritingSamplesRank;
+        val = t625AppendixWjivachWritingSamplesRank;
         break;
       case 626:
-        val = t626AppendixWjIvAchSentenceWritingFluencyRank;
+        val = t626AppendixWjivachSentenceWritingFluencyRank;
         break;
       case 627:
-        val = t627AppendixWjIvAchOralReadingRank;
+        val = t627AppendixWjivachOralReadingRank;
         break;
       case 628:
-        val = t628AppendixWjIvAchSentenceReadingFluencyRank;
+        val = t628AppendixWjivachSentenceReadingFluencyRank;
         break;
       case 629:
-        val = t629AppendixWjIvAchSpellingRank;
+        val = t629AppendixWjivachSpellingRank;
         break;
       case 630:
-        val = t630AppendixWjIvAchSoundAwarenessRank;
+        val = t630AppendixWjivachSoundAwarenessRank;
         break;
       case 631:
-        val = t631AppendixWjIvAchEditingRank;
+        val = t631AppendixWjivachEditingRank;
         break;
       case 632:
-        val = t632AppendixWjIvAchScienceRank;
+        val = t632AppendixWjivachScienceRank;
         break;
       case 633:
-        val = t633AppendixWjIvAchSocialStudiesRank;
+        val = t633AppendixWjivachSocialStudiesRank;
         break;
       case 634:
-        val = t634AppendixWjIvAchHumanitiesRank;
+        val = t634AppendixWjivachHumanitiesRank;
         break;
       case 635:
-        val = t635AppendixWjIvAchWordAttackRank;
+        val = t635AppendixWjivachWordAttackRank;
         break;
       case 636:
-        val = t636AppendixWjIvAchSpellingOfSoundsRank;
+        val = t636AppendixWjivachSpellingOfSoundsRank;
         break;
       case 648:
         val = t648AppendixWppsiIvVocabularyRank;
@@ -8305,13 +8984,13 @@ module.exports = ({
         val = t659AppendixWppsiIvAnimalCodingRank;
         break;
       case 669:
-        val = t669AppendixBeeryVmiBeeryMotorIntegrationVmiRank;
+        val = t669AppendixBeeryvmiBeeryMotorIntegrationVmiRank;
         break;
       case 670:
-        val = t670AppendixBeeryVmiBeeryVisualPerceptionRank;
+        val = t670AppendixBeeryvmiBeeryVisualPerceptionRank;
         break;
       case 671:
-        val = t671AppendixBeeryVmiBeeryMotorCoordinationRank;
+        val = t671AppendixBeeryvmiBeeryMotorCoordinationRank;
         break;
       case 672:
         val = t672AppendixWiatiiiListeningComprehensionGradesPk12Rank;
@@ -8320,7 +8999,7 @@ module.exports = ({
         val = t673AppendixWiatiiiOralExpressionGradesPk12Rank;
         break;
       case 674:
-        val = t674AppendixWiatiiiEarlyReadingSkillsGradesPkRank;
+        val = t674AppendixWiatiiiEarlyReadingSkillsGradesPk3Rank;
         break;
       case 675:
         val = t675AppendixWiatiiiReadingComprehensionGrades112Rank;
@@ -8335,7 +9014,7 @@ module.exports = ({
         val = t678AppendixWiatiiiOralReadingFluencyGrades112Rank;
         break;
       case 679:
-        val = t679AppendixWiatiiiSpellingGradesk12Rank;
+        val = t679AppendixWiatiiiSpellingGradesK12Rank;
         break;
       case 680:
         val = t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3Rank;
@@ -8347,7 +9026,7 @@ module.exports = ({
         val = t682AppendixWiatiiiEssayCompositionGrades312Rank;
         break;
       case 683:
-        val = t683AppendixWiatiiiNumericalOperationsGradesk12Rank;
+        val = t683AppendixWiatiiiNumericalOperationsGradesK12Rank;
         break;
       case 684:
         val = t684AppendixWiatiiiMathProblemSolvingGradesPk12Rank;
@@ -8392,97 +9071,97 @@ module.exports = ({
         val = t739AppendixTommRetentionTrialRank;
         break;
       case 743:
-        val = t743AppendixDasIiVerbalComprehensionRank;
+        val = t743AppendixDasiiVerbalComprehensionRank;
         break;
       case 744:
-        val = t744AppendixDasIiPictureSimilaritiesRank;
+        val = t744AppendixDasiiPictureSimilaritiesRank;
         break;
       case 745:
-        val = t745AppendixDasIiNamingVocabularyRank;
+        val = t745AppendixDasiiNamingVocabularyRank;
         break;
       case 746:
-        val = t746AppendixDasIiPatternConstructionRank;
+        val = t746AppendixDasiiPatternConstructionRank;
         break;
       case 747:
-        val = t747AppendixDasIiMatricesRank;
+        val = t747AppendixDasiiMatricesRank;
         break;
       case 748:
-        val = t748AppendixDasIiCopyingRank;
+        val = t748AppendixDasiiCopyingRank;
         break;
       case 749:
-        val = t749AppendixDasIiRecallOfObjectsImmediateRank;
+        val = t749AppendixDasiiRecallOfObjectsImmediateRank;
         break;
       case 750:
-        val = t750AppendixDasIiRecallOfObjectsDelayedRank;
+        val = t750AppendixDasiiRecallOfObjectsDelayedRank;
         break;
       case 751:
-        val = t751AppendixDasIiRecallOfDigitsForwardRank;
+        val = t751AppendixDasiiRecallOfDigitsForwardRank;
         break;
       case 752:
-        val = t752AppendixDasIiRecognitionOfPicturesRank;
+        val = t752AppendixDasiiRecognitionOfPicturesRank;
         break;
       case 753:
-        val = t753AppendixDasIiEarlyNumberConceptsRank;
+        val = t753AppendixDasiiEarlyNumberConceptsRank;
         break;
       case 754:
-        val = t754AppendixDasIiMatchingLetterLikeFormsRank;
+        val = t754AppendixDasiiMatchingLetterLikeFormsRank;
         break;
       case 755:
-        val = t755AppendixDasIiRecallOfSequentialOrderRank;
+        val = t755AppendixDasiiRecallOfSequentialOrderRank;
         break;
       case 756:
-        val = t756AppendixDasIiSpeedOfInformationProcessingRank;
+        val = t756AppendixDasiiSpeedOfInformationProcessingRank;
         break;
       case 757:
-        val = t757AppendixDasIiRecallOfDigitsBackwardRank;
+        val = t757AppendixDasiiRecallOfDigitsBackwardRank;
         break;
       case 758:
-        val = t758AppendixDasIiPhonologicalProcessingRank;
+        val = t758AppendixDasiiPhonologicalProcessingRank;
         break;
       case 759:
-        val = t759AppendixDasIiRapidNamingRank;
+        val = t759AppendixDasiiRapidNamingRank;
         break;
       case 760:
-        val = t760AppendixDasIiRecallOfDesignsRank;
+        val = t760AppendixDasiiRecallOfDesignsRank;
         break;
       case 761:
-        val = t761AppendixDasIiWordDefinitionsRank;
+        val = t761AppendixDasiiWordDefinitionsRank;
         break;
       case 762:
-        val = t762AppendixDasIiPatternConstructionRank;
+        val = t762AppendixDasiiPatternConstructionRank;
         break;
       case 763:
-        val = t763AppendixDasIiMatricesRank;
+        val = t763AppendixDasiiMatricesRank;
         break;
       case 764:
-        val = t764AppendixDasIiVerbalSimilaritiesRank;
+        val = t764AppendixDasiiVerbalSimilaritiesRank;
         break;
       case 765:
-        val = t765AppendixDasIiSequentialAndQuantitativeReasoningRank;
+        val = t765AppendixDasiiSequentialAndQuantitativeReasoningRank;
         break;
       case 766:
-        val = t766AppendixDasIiRecallOfObjectsImmediateRank;
+        val = t766AppendixDasiiRecallOfObjectsImmediateRank;
         break;
       case 767:
-        val = t767AppendixDasIiRecallOfObjectsDelayedRank;
+        val = t767AppendixDasiiRecallOfObjectsDelayedRank;
         break;
       case 768:
-        val = t768AppendixDasIiRecallOfDigitsForwardRank;
+        val = t768AppendixDasiiRecallOfDigitsForwardRank;
         break;
       case 769:
-        val = t769AppendixDasIiRecognitionOfPicturesRank;
+        val = t769AppendixDasiiRecognitionOfPicturesRank;
         break;
       case 770:
-        val = t770AppendixDasIiRecallOfSequentialOrderRank;
+        val = t770AppendixDasiiRecallOfSequentialOrderRank;
         break;
       case 771:
-        val = t771AppendixDasIiSpeedOfInformationProcessingRank;
+        val = t771AppendixDasiiSpeedOfInformationProcessingRank;
         break;
       case 772:
-        val = t772AppendixDasIiRecallOfDigitsBackwardRank;
+        val = t772AppendixDasiiRecallOfDigitsBackwardRank;
         break;
       case 773:
-        val = t773AppendixDasIiPhonologicalProcessingRank;
+        val = t773AppendixDasiiPhonologicalProcessingRank;
         break;
       default:
         val = "";
@@ -8515,7 +9194,7 @@ module.exports = ({
         val = t678AppendixWiatiiiOralReadingFluencyGrades112GradeEquivalent;
         break;
       case 679:
-        val = t679AppendixWiatiiiSpellingGradesk12GradeEquivalent;
+        val = t679AppendixWiatiiiSpellingGradesK12GradeEquivalent;
         break;
       case 680:
         val = t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3GradeEquivalent;
@@ -8527,7 +9206,7 @@ module.exports = ({
         val = t682AppendixWiatiiiEssayCompositionGrades312GradeEquivalent;
         break;
       case 683:
-        val = t683AppendixWiatiiiNumericalOperationsGradesk12GradeEquivalent;
+        val = t683AppendixWiatiiiNumericalOperationsGradesK12GradeEquivalent;
         break;
       case 684:
         val = t684AppendixWiatiiiMathProblemSolvingGradesPk12GradeEquivalent;
@@ -8551,97 +9230,97 @@ module.exports = ({
         val = t690AppendixNelsonDennyReadingRateRange;
         break;
       case 743:
-        val = t743AppendixDasIiVerbalComprehensionRange;
+        val = t743AppendixDasiiVerbalComprehensionRange;
         break;
       case 744:
-        val = t744AppendixDasIiPictureSimilaritiesRange;
+        val = t744AppendixDasiiPictureSimilaritiesRange;
         break;
       case 745:
-        val = t745AppendixDasIiNamingVocabularyRange;
+        val = t745AppendixDasiiNamingVocabularyRange;
         break;
       case 746:
-        val = t746AppendixDasIiPatternConstructionRange;
+        val = t746AppendixDasiiPatternConstructionRange;
         break;
       case 747:
-        val = t747AppendixDasIiMatricesRange;
+        val = t747AppendixDasiiMatricesRange;
         break;
       case 748:
-        val = t748AppendixDasIiCopyingRange;
+        val = t748AppendixDasiiCopyingRange;
         break;
       case 749:
-        val = t749AppendixDasIiRecallOfObjectsImmediateRange;
+        val = t749AppendixDasiiRecallOfObjectsImmediateRange;
         break;
       case 750:
-        val = t750AppendixDasIiRecallOfObjectsDelayedRange;
+        val = t750AppendixDasiiRecallOfObjectsDelayedRange;
         break;
       case 751:
-        val = t751AppendixDasIiRecallOfDigitsForwardRange;
+        val = t751AppendixDasiiRecallOfDigitsForwardRange;
         break;
       case 752:
-        val = t752AppendixDasIiRecognitionOfPicturesRange;
+        val = t752AppendixDasiiRecognitionOfPicturesRange;
         break;
       case 753:
-        val = t753AppendixDasIiEarlyNumberConceptsRange;
+        val = t753AppendixDasiiEarlyNumberConceptsRange;
         break;
       case 754:
-        val = t754AppendixDasIiMatchingLetterLikeFormsRange;
+        val = t754AppendixDasiiMatchingLetterLikeFormsRange;
         break;
       case 755:
-        val = t755AppendixDasIiRecallOfSequentialOrderRange;
+        val = t755AppendixDasiiRecallOfSequentialOrderRange;
         break;
       case 756:
-        val = t756AppendixDasIiSpeedOfInformationProcessingRange;
+        val = t756AppendixDasiiSpeedOfInformationProcessingRange;
         break;
       case 757:
-        val = t757AppendixDasIiRecallOfDigitsBackwardRange;
+        val = t757AppendixDasiiRecallOfDigitsBackwardRange;
         break;
       case 758:
-        val = t758AppendixDasIiPhonologicalProcessingRange;
+        val = t758AppendixDasiiPhonologicalProcessingRange;
         break;
       case 759:
-        val = t759AppendixDasIiRapidNamingRange;
+        val = t759AppendixDasiiRapidNamingRange;
         break;
       case 760:
-        val = t760AppendixDasIiRecallOfDesignsRange;
+        val = t760AppendixDasiiRecallOfDesignsRange;
         break;
       case 761:
-        val = t761AppendixDasIiWordDefinitionsRange;
+        val = t761AppendixDasiiWordDefinitionsRange;
         break;
       case 762:
-        val = t762AppendixDasIiPatternConstructionRange;
+        val = t762AppendixDasiiPatternConstructionRange;
         break;
       case 763:
-        val = t763AppendixDasIiMatricesRange;
+        val = t763AppendixDasiiMatricesRange;
         break;
       case 764:
-        val = t764AppendixDasIiVerbalSimilaritiesRange;
+        val = t764AppendixDasiiVerbalSimilaritiesRange;
         break;
       case 765:
-        val = t765AppendixDasIiSequentialAndQuantitativeReasoningRange;
+        val = t765AppendixDasiiSequentialAndQuantitativeReasoningRange;
         break;
       case 766:
-        val = t766AppendixDasIiRecallOfObjectsImmediateRange;
+        val = t766AppendixDasiiRecallOfObjectsImmediateRange;
         break;
       case 767:
-        val = t767AppendixDasIiRecallOfObjectsDelayedRange;
+        val = t767AppendixDasiiRecallOfObjectsDelayedRange;
         break;
       case 768:
-        val = t768AppendixDasIiRecallOfDigitsForwardRange;
+        val = t768AppendixDasiiRecallOfDigitsForwardRange;
         break;
       case 769:
-        val = t769AppendixDasIiRecognitionOfPicturesRange;
+        val = t769AppendixDasiiRecognitionOfPicturesRange;
         break;
       case 770:
-        val = t770AppendixDasIiRecallOfSequentialOrderRange;
+        val = t770AppendixDasiiRecallOfSequentialOrderRange;
         break;
       case 771:
-        val = t771AppendixDasIiSpeedOfInformationProcessingRange;
+        val = t771AppendixDasiiSpeedOfInformationProcessingRange;
         break;
       case 772:
-        val = t772AppendixDasIiRecallOfDigitsBackwardRange;
+        val = t772AppendixDasiiRecallOfDigitsBackwardRange;
         break;
       case 773:
-        val = t773AppendixDasIiPhonologicalProcessingRange;
+        val = t773AppendixDasiiPhonologicalProcessingRange;
         break;
       default:
         val = "";
@@ -8653,52 +9332,52 @@ module.exports = ({
     let val;
     switch (id) {
       case 1:
-        val = t1AppendixWiscVSimilaritiesRange;
+        val = t1AppendixWiscvSimilaritiesRange;
         break;
       case 2:
-        val = t2AppendixWiscVVocabularyRange;
+        val = t2AppendixWiscvVocabularyRange;
         break;
       case 3:
-        val = t3AppendixWiscVInformationRange;
+        val = t3AppendixWiscvInformationRange;
         break;
       case 4:
-        val = t4AppendixWiscVComprehensionRange;
+        val = t4AppendixWiscvComprehensionRange;
         break;
       case 5:
-        val = t5AppendixWiscVBlockDesignRange;
+        val = t5AppendixWiscvBlockDesignRange;
         break;
       case 6:
-        val = t6AppendixWiscVVocabularyRange;
+        val = t6AppendixWiscvVocabularyRange;
         break;
       case 7:
-        val = t7AppendixWiscVMatrixReasoningRange;
+        val = t7AppendixWiscvMatrixReasoningRange;
         break;
       case 8:
-        val = t8AppendixWiscVFigureWeightsRange;
+        val = t8AppendixWiscvFigureWeightsRange;
         break;
       case 9:
-        val = t9AppendixWiscVPictureConceptsRange;
+        val = t9AppendixWiscvPictureConceptsRange;
         break;
       case 10:
-        val = t10AppendixWiscVArithmeticRange;
+        val = t10AppendixWiscvArithmeticRange;
         break;
       case 11:
-        val = t11AppendixWiscVDigitSpanRange;
+        val = t11AppendixWiscvDigitSpanRange;
         break;
       case 12:
-        val = t12AppendixWiscVPictureSpanRange;
+        val = t12AppendixWiscvPictureSpanRange;
         break;
       case 13:
-        val = t13AppendixWiscVLetterNumberSequencingRange;
+        val = t13AppendixWiscvLetterNumberSequencingRange;
         break;
       case 14:
-        val = t14AppendixWiscVCodingRange;
+        val = t14AppendixWiscvCodingRange;
         break;
       case 15:
-        val = t15AppendixWiscVSymbolSearchRange;
+        val = t15AppendixWiscvSymbolSearchRange;
         break;
       case 16:
-        val = t16AppendixWiscVCancellationRange;
+        val = t16AppendixWiscvCancellationRange;
         break;
       case 46:
         val = t46AppendixQikCptAccuracyIndexRange;
@@ -8719,19 +9398,19 @@ module.exports = ({
         val = t51AppendixQikCptConsistencyOfResponseRange;
         break;
       case 73:
-        val = t73AppendixWiscVNamingSpeedLiteracyRange;
+        val = t73AppendixWiscvNamingSpeedLiteracyRange;
         break;
       case 74:
-        val = t74AppendixWiscVNamingSpeedQualityRange;
+        val = t74AppendixWiscvNamingSpeedQualityRange;
         break;
       case 75:
-        val = t75AppendixWiscVImmediateSymbolTranslationRange;
+        val = t75AppendixWiscvImmediateSymbolTranslationRange;
         break;
       case 76:
-        val = t76AppendixWiscVDelayedSymbolTranslationRange;
+        val = t76AppendixWiscvDelayedSymbolTranslationRange;
         break;
       case 77:
-        val = t77AppendixWiscVRecognitionSymbolTranslationRange;
+        val = t77AppendixWiscvRecognitionSymbolTranslationRange;
         break;
       case 78:
         val = t78AppendixBriefInconsistencyScaleRange;
@@ -9019,55 +9698,55 @@ module.exports = ({
         val = t232AppendixRbansFigureRecallRange;
         break;
       case 233:
-        val = t233AppendixVinelandIiReceptiveRange;
+        val = t233AppendixVinelandiiReceptiveRange;
         break;
       case 234:
-        val = t234AppendixVinelandIiExpressiveRange;
+        val = t234AppendixVinelandiiExpressiveRange;
         break;
       case 235:
-        val = t235AppendixVinelandIiWrittenRange;
+        val = t235AppendixVinelandiiWrittenRange;
         break;
       case 236:
-        val = t236AppendixVinelandIiPersonalRange;
+        val = t236AppendixVinelandiiPersonalRange;
         break;
       case 237:
-        val = t237AppendixVinelandIiDomesticRange;
+        val = t237AppendixVinelandiiDomesticRange;
         break;
       case 238:
-        val = t238AppendixVinelandIiCommunityRange;
+        val = t238AppendixVinelandiiCommunityRange;
         break;
       case 239:
-        val = t239AppendixVinelandIiInterpersonalRelationshipsRange;
+        val = t239AppendixVinelandiiInterpersonalRelationshipsRange;
         break;
       case 240:
-        val = t240AppendixVinelandIiPlayAndLeisureTimeRange;
+        val = t240AppendixVinelandiiPlayAndLeisureTimeRange;
         break;
       case 241:
-        val = t241AppendixVinelandIiCopingSkillsRange;
+        val = t241AppendixVinelandiiCopingSkillsRange;
         break;
       case 242:
-        val = t242AppendixVinelandIiGrossRange;
+        val = t242AppendixVinelandiiGrossRange;
         break;
       case 243:
-        val = t243AppendixVinelandIiFineRange;
+        val = t243AppendixVinelandiiFineRange;
         break;
       case 244:
-        val = t244AppendixVinelandIiMaladaptiveBehaviorIndexRange;
+        val = t244AppendixVinelandiiMaladaptiveBehaviorIndexRange;
         break;
       case 245:
-        val = t245AppendixVinelandIiMaladaptiveBehaviorCriticalItemsRange;
+        val = t245AppendixVinelandiiMaladaptiveBehaviorCriticalItemsRange;
         break;
       case 246:
-        val = t246AppendixWasiIiSimilaritiesRange;
+        val = t246AppendixWasiiiSimilaritiesRange;
         break;
       case 247:
-        val = t247AppendixWasiIiVocabularyRange;
+        val = t247AppendixWasiiiVocabularyRange;
         break;
       case 248:
-        val = t248AppendixWasiIiBlockDesignRange;
+        val = t248AppendixWasiiiBlockDesignRange;
         break;
       case 249:
-        val = t249AppendixWasiIiMatrixReasoningRange;
+        val = t249AppendixWasiiiMatrixReasoningRange;
         break;
       case 266:
         val = t266AppendixWraml2StoryMemoryRange;
@@ -9643,49 +10322,49 @@ module.exports = ({
         val = t456AppendixBasc3WithdrawalRange;
         break;
       case 457:
-        val = t457AppendixWaisIvSimilaritiesRange;
+        val = t457AppendixWaisivSimilaritiesRange;
         break;
       case 458:
-        val = t458AppendixWaisIvVocabularyRange;
+        val = t458AppendixWaisivVocabularyRange;
         break;
       case 459:
-        val = t459AppendixWaisIvInformationRange;
+        val = t459AppendixWaisivInformationRange;
         break;
       case 460:
-        val = t460AppendixWaisIvComprehensionRange;
+        val = t460AppendixWaisivComprehensionRange;
         break;
       case 461:
-        val = t461AppendixWaisIvBlockDesignRange;
+        val = t461AppendixWaisivBlockDesignRange;
         break;
       case 462:
-        val = t462AppendixWaisIvMatrixReasoningRange;
+        val = t462AppendixWaisivMatrixReasoningRange;
         break;
       case 463:
-        val = t463AppendixWaisIvVisualPuzzlesRange;
+        val = t463AppendixWaisivVisualPuzzlesRange;
         break;
       case 464:
-        val = t464AppendixWaisIvFigureWeightsRange;
+        val = t464AppendixWaisivFigureWeightsRange;
         break;
       case 465:
-        val = t465AppendixWaisIvPictureCompletionRange;
+        val = t465AppendixWaisivPictureCompletionRange;
         break;
       case 466:
-        val = t466AppendixWaisIvDigitSpanRange;
+        val = t466AppendixWaisivDigitSpanRange;
         break;
       case 467:
-        val = t467AppendixWaisIvArithmeticRange;
+        val = t467AppendixWaisivArithmeticRange;
         break;
       case 468:
-        val = t468AppendixWaisIvLetterNumberSequencingRange;
+        val = t468AppendixWaisivLetterNumberSequencingRange;
         break;
       case 469:
-        val = t469AppendixWaisIvCodingRange;
+        val = t469AppendixWaisivCodingRange;
         break;
       case 470:
-        val = t470AppendixWaisIvSymbolSearchRange;
+        val = t470AppendixWaisivSymbolSearchRange;
         break;
       case 471:
-        val = t471AppendixWaisIvCancellationRange;
+        val = t471AppendixWaisivCancellationRange;
         break;
       case 525:
         val = t525AppendixMmpi2HypochondriasisHsRange;
@@ -9700,7 +10379,7 @@ module.exports = ({
         val = t528AppendixMmpi2PsychopathicDeviatePdRange;
         break;
       case 529:
-        val = t529AppendixMmpi2MasculinityFemininityMfRange;
+        val = t529AppendixMmpi2MasculinityfemininityMfRange;
         break;
       case 530:
         val = t530AppendixMmpi2ParanoiaPaRange;
@@ -9730,154 +10409,154 @@ module.exports = ({
         val = t538AppendixMmpi2KRange;
         break;
       case 539:
-        val = t539AppendixMmpiAHypochondriasisHsRange;
+        val = t539AppendixMmpiaHypochondriasisHsRange;
         break;
       case 540:
-        val = t540AppendixMmpiADepressionDRange;
+        val = t540AppendixMmpiaDepressionDRange;
         break;
       case 541:
-        val = t541AppendixMmpiAHysteriaHyRange;
+        val = t541AppendixMmpiaHysteriaHyRange;
         break;
       case 542:
-        val = t542AppendixMmpiAPsychopathicDeviatePdRange;
+        val = t542AppendixMmpiaPsychopathicDeviatePdRange;
         break;
       case 543:
-        val = t543AppendixMmpiAMasculinityFemininityMfRange;
+        val = t543AppendixMmpiaMasculinityfemininityMfRange;
         break;
       case 544:
-        val = t544AppendixMmpiAParanoiaPaRange;
+        val = t544AppendixMmpiaParanoiaPaRange;
         break;
       case 545:
-        val = t545AppendixMmpiAPsychastheniaPtRange;
+        val = t545AppendixMmpiaPsychastheniaPtRange;
         break;
       case 546:
-        val = t546AppendixMmpiASchizophreniaScRange;
+        val = t546AppendixMmpiaSchizophreniaScRange;
         break;
       case 547:
-        val = t547AppendixMmpiAHypomaniaMaRange;
+        val = t547AppendixMmpiaHypomaniaMaRange;
         break;
       case 548:
-        val = t548AppendixMmpiASocialIntroversionSiRange;
+        val = t548AppendixMmpiaSocialIntroversionSiRange;
         break;
       case 549:
-        val = t549AppendixMmpiACnsRange;
+        val = t549AppendixMmpiaCnsRange;
         break;
       case 550:
-        val = t550AppendixMmpiAVrinRange;
+        val = t550AppendixMmpiaVrinRange;
         break;
       case 551:
-        val = t551AppendixMmpiATrinRange;
+        val = t551AppendixMmpiaTrinRange;
         break;
       case 552:
-        val = t552AppendixMmpiAFRange;
+        val = t552AppendixMmpiaFRange;
         break;
       case 553:
-        val = t553AppendixMmpiAF1Range;
+        val = t553AppendixMmpiaF1Range;
         break;
       case 554:
-        val = t554AppendixMmpiAF2Range;
+        val = t554AppendixMmpiaF2Range;
         break;
       case 555:
-        val = t555AppendixMmpiALRange;
+        val = t555AppendixMmpiaLRange;
         break;
       case 556:
-        val = t556AppendixMmpiAKRange;
+        val = t556AppendixMmpiaKRange;
         break;
       case 557:
-        val = t557AppendixNepsyIiAnimalSortingAsRange;
+        val = t557AppendixNepsyiiAnimalSortingAsRange;
         break;
       case 558:
-        val = t558AppendixNepsyIiAuditoryAttentionAaAndResponseSetRsRange;
+        val = t558AppendixNepsyiiAuditoryAttentionAaAndResponseSetRsRange;
         break;
       case 559:
-        val = t559AppendixNepsyIiClocksClRange;
+        val = t559AppendixNepsyiiClocksClRange;
         break;
       case 560:
-        val = t560AppendixNepsyIiDesignFluencyDfRange;
+        val = t560AppendixNepsyiiDesignFluencyDfRange;
         break;
       case 561:
-        val = t561AppendixNepsyIiInhibitionInRange;
+        val = t561AppendixNepsyiiInhibitionInRange;
         break;
       case 562:
-        val = t562AppendixNepsyIiStatueStRange;
+        val = t562AppendixNepsyiiStatueStRange;
         break;
       case 563:
-        val = t563AppendixNepsyIiBodyPartNamingBpnAndIdentificationBpiRange;
+        val = t563AppendixNepsyiiBodyPartNamingBpnAndIdentificationBpiRange;
         break;
       case 564:
-        val = t564AppendixNepsyIiComprehensionOfInstructionsCiRange;
+        val = t564AppendixNepsyiiComprehensionOfInstructionsCiRange;
         break;
       case 565:
-        val = t565AppendixNepsyIiOromotorSequencesOsRange;
+        val = t565AppendixNepsyiiOromotorSequencesOsRange;
         break;
       case 566:
-        val = t566AppendixNepsyIiPhonologicalProcessingPhRange;
+        val = t566AppendixNepsyiiPhonologicalProcessingPhRange;
         break;
       case 567:
-        val = t567AppendixNepsyIiRepetitionNonsenseWordsRnRange;
+        val = t567AppendixNepsyiiRepetitionNonsenseWordsRnRange;
         break;
       case 568:
-        val = t568AppendixNepsyIiSpeededNamingSnRange;
+        val = t568AppendixNepsyiiSpeededNamingSnRange;
         break;
       case 569:
-        val = t569AppendixNepsyIiWordGenerationWgRange;
+        val = t569AppendixNepsyiiWordGenerationWgRange;
         break;
       case 571:
-        val = t571AppendixNepsyIiListMemoryLmListMemoryDelayedLmdRange;
+        val = t571AppendixNepsyiiListMemoryLmListMemoryDelayedLmdRange;
         break;
       case 572:
-        val = t572AppendixNepsyIiMemoryForDesignsMdMemoryForDesignsDelayedMddRange;
+        val = t572AppendixNepsyiiMemoryForDesignsMdMemoryForDesignsDelayedMddRange;
         break;
       case 573:
-        val = t573AppendixNepsyIiMemoryForFacesMfMemoryForFacesDelayedMfdRange;
+        val = t573AppendixNepsyiiMemoryForFacesMfMemoryForFacesDelayedMfdRange;
         break;
       case 574:
-        val = t574AppendixNepsyIiMemoryForNamesMnMemoryForNamesDelayedMndRange;
+        val = t574AppendixNepsyiiMemoryForNamesMnMemoryForNamesDelayedMndRange;
         break;
       case 575:
-        val = t575AppendixNepsyIiNarrativeMemoryNmRange;
+        val = t575AppendixNepsyiiNarrativeMemoryNmRange;
         break;
       case 576:
-        val = t576AppendixNepsyIiSentenceRepetitionSrRange;
+        val = t576AppendixNepsyiiSentenceRepetitionSrRange;
         break;
       case 577:
-        val = t577AppendixNepsyIiWordListInterferenceWiRange;
+        val = t577AppendixNepsyiiWordListInterferenceWiRange;
         break;
       case 578:
-        val = t578AppendixNepsyIiFingertipTappingFtRange;
+        val = t578AppendixNepsyiiFingertipTappingFtRange;
         break;
       case 579:
-        val = t579AppendixNepsyIiImitatingHandPositionsIhRange;
+        val = t579AppendixNepsyiiImitatingHandPositionsIhRange;
         break;
       case 580:
-        val = t580AppendixNepsyIiManualMotorSequencesMmRange;
+        val = t580AppendixNepsyiiManualMotorSequencesMmRange;
         break;
       case 581:
-        val = t581AppendixNepsyIiVisuomotorPrecisionVpRange;
+        val = t581AppendixNepsyiiVisuomotorPrecisionVpRange;
         break;
       case 582:
-        val = t582AppendixNepsyIiAffectRecognitionArRange;
+        val = t582AppendixNepsyiiAffectRecognitionArRange;
         break;
       case 583:
-        val = t583AppendixNepsyIiTheoryOfMindTmRange;
+        val = t583AppendixNepsyiiTheoryOfMindTmRange;
         break;
       case 584:
-        val = t584AppendixNepsyIiArrowsAwRange;
+        val = t584AppendixNepsyiiArrowsAwRange;
         break;
       case 585:
-        val = t585AppendixNepsyIiBlockConstructionBcRange;
+        val = t585AppendixNepsyiiBlockConstructionBcRange;
         break;
       case 586:
-        val = t586AppendixNepsyIiDesignCopyingDcRange;
+        val = t586AppendixNepsyiiDesignCopyingDcRange;
         break;
       case 587:
-        val = t587AppendixNepsyIiGeometricPuzzlesGpRange;
+        val = t587AppendixNepsyiiGeometricPuzzlesGpRange;
         break;
       case 588:
-        val = t588AppendixNepsyIiPicturePuzzlesPpRange;
+        val = t588AppendixNepsyiiPicturePuzzlesPpRange;
         break;
       case 589:
-        val = t589AppendixNepsyIiRouteFindingRfRange;
+        val = t589AppendixNepsyiiRouteFindingRfRange;
         break;
       case 593:
         val = t593AppendixWjIvCogVocabularyRange;
@@ -9952,67 +10631,67 @@ module.exports = ({
         val = t615AppendixTsccSexualConcernsScRange;
         break;
       case 616:
-        val = t616AppendixWjIvAchLetterWordIdentificationRange;
+        val = t616AppendixWjivachLetterWordIdentificationRange;
         break;
       case 617:
-        val = t617AppendixWjIvAchWordAttackRange;
+        val = t617AppendixWjivachWordAttackRange;
         break;
       case 618:
-        val = t618AppendixWjIvAchPassageComprehensionRange;
+        val = t618AppendixWjivachPassageComprehensionRange;
         break;
       case 619:
-        val = t619AppendixWjIvAchReadingRecallRange;
+        val = t619AppendixWjivachReadingRecallRange;
         break;
       case 620:
-        val = t620AppendixWjIvAchReadingVocabularyRange;
+        val = t620AppendixWjivachReadingVocabularyRange;
         break;
       case 621:
-        val = t621AppendixWjIvAchCalculationRange;
+        val = t621AppendixWjivachCalculationRange;
         break;
       case 622:
-        val = t622AppendixWjIvAchMathFactFluencyRange;
+        val = t622AppendixWjivachMathFactFluencyRange;
         break;
       case 623:
-        val = t623AppendixWjIvAchAppliedProblemsRange;
+        val = t623AppendixWjivachAppliedProblemsRange;
         break;
       case 624:
-        val = t624AppendixWjIvAchNumberMatricesRange;
+        val = t624AppendixWjivachNumberMatricesRange;
         break;
       case 625:
-        val = t625AppendixWjIvAchWritingSamplesRange;
+        val = t625AppendixWjivachWritingSamplesRange;
         break;
       case 626:
-        val = t626AppendixWjIvAchSentenceWritingFluencyRange;
+        val = t626AppendixWjivachSentenceWritingFluencyRange;
         break;
       case 627:
-        val = t627AppendixWjIvAchOralReadingRange;
+        val = t627AppendixWjivachOralReadingRange;
         break;
       case 628:
-        val = t628AppendixWjIvAchSentenceReadingFluencyRange;
+        val = t628AppendixWjivachSentenceReadingFluencyRange;
         break;
       case 629:
-        val = t629AppendixWjIvAchSpellingRange;
+        val = t629AppendixWjivachSpellingRange;
         break;
       case 630:
-        val = t630AppendixWjIvAchSpellingOfSoundsRange;
+        val = t630AppendixWjivachSoundAwarenessRange;
         break;
       case 631:
-        val = t631AppendixWjIvAchEditingRange;
+        val = t631AppendixWjivachEditingRange;
         break;
       case 632:
-        val = t632AppendixWjIvAchScienceRange;
+        val = t632AppendixWjivachScienceRange;
         break;
       case 633:
-        val = t633AppendixWjIvAchSocialStudiesRange;
+        val = t633AppendixWjivachSocialStudiesRange;
         break;
       case 634:
-        val = t634AppendixWjIvAchHumanitiesRange;
+        val = t634AppendixWjivachHumanitiesRange;
         break;
       case 635:
-        val = t635AppendixWjIvAchWordAttackRange;
+        val = t635AppendixWjivachWordAttackRange;
         break;
       case 636:
-        val = t636AppendixWjIvAchSpellingOfSoundsRange;
+        val = t636AppendixWjivachSpellingOfSoundsRange;
         break;
       case 648:
         val = t648AppendixWppsiIvVocabularyRange;
@@ -10051,13 +10730,13 @@ module.exports = ({
         val = t659AppendixWppsiIvAnimalCodingRange;
         break;
       case 669:
-        val = t669AppendixBeeryVmiBeeryMotorIntegrationVmiRange;
+        val = t669AppendixBeeryvmiBeeryMotorIntegrationVmiRange;
         break;
       case 670:
-        val = t670AppendixBeeryVmiBeeryVisualPerceptionRange;
+        val = t670AppendixBeeryvmiBeeryVisualPerceptionRange;
         break;
       case 671:
-        val = t671AppendixBeeryVmiBeeryMotorCoordinationRange;
+        val = t671AppendixBeeryvmiBeeryMotorCoordinationRange;
         break;
       case 672:
         val = t672AppendixWiatiiiListeningComprehensionGradesPk12Range;
@@ -10066,7 +10745,7 @@ module.exports = ({
         val = t673AppendixWiatiiiOralExpressionGradesPk12Range;
         break;
       case 674:
-        val = t674AppendixWiatiiiEarlyReadingSkillsGradesPkRange;
+        val = t674AppendixWiatiiiEarlyReadingSkillsGradesPk3Range;
         break;
       case 675:
         val = t675AppendixWiatiiiReadingComprehensionGrades112Range;
@@ -10081,7 +10760,7 @@ module.exports = ({
         val = t678AppendixWiatiiiOralReadingFluencyGrades112Range;
         break;
       case 679:
-        val = t679AppendixWiatiiiSpellingGradesk12Range;
+        val = t679AppendixWiatiiiSpellingGradesK12Range;
         break;
       case 680:
         val = t680AppendixWiatiiiAlphabetWritingFluencyGradesPk3Range;
@@ -10093,7 +10772,7 @@ module.exports = ({
         val = t682AppendixWiatiiiEssayCompositionGrades312Range;
         break;
       case 683:
-        val = t683AppendixWiatiiiNumericalOperationsGradesk12Range;
+        val = t683AppendixWiatiiiNumericalOperationsGradesK12Range;
         break;
       case 684:
         val = t684AppendixWiatiiiMathProblemSolvingGradesPk12Range;
@@ -10106,6 +10785,111 @@ module.exports = ({
         break;
       case 687:
         val = t687AppendixWiatiiiMathFluencyMultiplicationRange;
+        break;
+      case 698:
+        val = t698AppendixDkefsVisualScanningRange;
+        break;
+      case 699:
+        val = t699AppendixDkefsNumberSequencingRange;
+        break;
+      case 700:
+        val = t700AppendixDkefsLetterSequencingRange;
+        break;
+      case 701:
+        val = t701AppendixDkefsCombinedNumberAndLetterSequencingRange;
+        break;
+      case 702:
+        val = t702AppendixDkefsNumberLetterSwitchingRange;
+        break;
+      case 703:
+        val = t703AppendixDkefsMotorSpeedRange;
+        break;
+      case 704:
+        val = t704AppendixDkefsLetterFluencyRange;
+        break;
+      case 705:
+        val = t705AppendixDkefsCategoryFluencyRange;
+        break;
+      case 706:
+        val = t706AppendixDkefsCategorySwitchingRange;
+        break;
+      case 707:
+        val = t707AppendixDkefsFilledDotsRange;
+        break;
+      case 708:
+        val = t708AppendixDkefsEmptyDotsOnlyRange;
+        break;
+      case 709:
+        val = t709AppendixDkefsSwitchingRange;
+        break;
+      case 710:
+        val = t710AppendixDkefsColorNamingRange;
+        break;
+      case 711:
+        val = t711AppendixDkefsWordReadingRange;
+        break;
+      case 712:
+        val = t712AppendixDkefsInhibitionRange;
+        break;
+      case 713:
+        val = t713AppendixDkefsInhibitionswitchingRange;
+        break;
+      case 714:
+        val = t714AppendixDkefsFreeSortingRange;
+        break;
+      case 715:
+        val = t715AppendixDkefsSortRecognitionRange;
+        break;
+      case 716:
+        val = t716AppendixDkefsItem1Range;
+        break;
+      case 717:
+        val = t717AppendixDkefsItem2Range;
+        break;
+      case 718:
+        val = t718AppendixDkefsItem3Range;
+        break;
+      case 719:
+        val = t719AppendixDkefsItem4Range;
+        break;
+      case 720:
+        val = t720AppendixDkefsItem1Range;
+        break;
+      case 721:
+        val = t721AppendixDkefsItem2Range;
+        break;
+      case 722:
+        val = t722AppendixDkefsItem1TwoDisksRange;
+        break;
+      case 723:
+        val = t723AppendixDkefsItem2TwoDisksRange;
+        break;
+      case 724:
+        val = t724AppendixDkefsItem3TwoDisksRange;
+        break;
+      case 725:
+        val = t725AppendixDkefsItem4ThreeDisksRange;
+        break;
+      case 726:
+        val = t726AppendixDkefsItem5ThreeDisksRange;
+        break;
+      case 727:
+        val = t727AppendixDkefsItem6FourDisksRange;
+        break;
+      case 728:
+        val = t728AppendixDkefsItem7FourDisksRange;
+        break;
+      case 729:
+        val = t729AppendixDkefsItem8FiveDisksRange;
+        break;
+      case 730:
+        val = t730AppendixDkefsItem9FiveDisksRange;
+        break;
+      case 731:
+        val = t731AppendixDkefsFreeInquiryRange;
+        break;
+      case 732:
+        val = t732AppendixDkefsMultipleChoiceRange;
         break;
       case 733:
         val = t733AppendixGort5RateRange;
@@ -10736,96 +11520,164 @@ module.exports = ({
                   <td class="col2eq">
                     <div>
                       ${
-                        diName !== null
+                        diName !== undefined
                           ? `<p>Name: <span>${diName}</span></p>`
-                          : null
+                          : ""
                       }
-                      <p>Date of Birth: <span>${diDateofbirth}</span></p>
-                      <p>Age: <span>${diAge}</span></p>
-                      <p>Gender: <span>${diGender}</span></p>
-                      <p>Handedness: <span>${diHandedness}</span></p>
+                      ${
+                        diDateofbirth !== undefined
+                          ? `<p>Date of Birth: <span>${diDateofbirth}</span></p>`
+                          : ""
+                      }
+                      ${
+                        diAge !== undefined
+                          ? `<p>Age: <span>${diAge}</span></p>`
+                          : ""
+                      }
+                      ${
+                        diGender !== undefined
+                          ? `<p>Gender: <span>${diGender}</span></p>`
+                          : ""
+                      }
+                      ${
+                        diHandedness !== undefined
+                          ? `<p>Handedness: <span>${diHandedness}</span></p>`
+                          : ""
+                      }
                     </div>
                   </td>
                   <td class="col2eq">
                     <div>
-                      <p>Place of Evaluation: <span>${diEvaluationlocation}</span></p>
-                      <p>Date(s) of Evaluation: 
-                        <ul>
-                          ${
-                            diDateoftesting !== undefined
-                              ? diDateoftesting
-                                  .map(
-                                    date =>
-                                      `<li>${date.title}, ${date.date}</li>`
-                                  )
-                                  .join("")
-                              : null
-                          }
-                        </ul>
-                      </p>
-                      <p>Evaluator's Name: <span>${diEvaluator}</span></p>
-                      <p>School: <span>${diSchool}</span></p>
-                      <p>Grade: <span>${diGrade}</span></p>
+                      ${
+                        diEvaluationlocation !== undefined
+                          ? `<p>Place of Evaluation: <span>${diEvaluationlocation}</span></p>`
+                          : ""
+                      }
+                      
+                      ${
+                        diDateoftesting !== undefined
+                          ? `<p>Date(s) of Evaluation:
+                              <ul>
+                              ${diDateoftesting
+                                .map(
+                                  date => `<li>${date.title}, ${date.date}</li>`
+                                )
+                                .join("")}
+                                </ul>
+                            </p>`
+                          : ""
+                      }
+                        
+                      ${
+                        diEvaluator !== undefined
+                          ? `<p>Evaluator's Name: <span>${diEvaluator}</span></p>`
+                          : ""
+                      }
+                      ${
+                        diSchool !== undefined
+                          ? `<p>School: <span>${diSchool}</span></p>`
+                          : ""
+                      }
+                      ${
+                        diGrade !== undefined
+                          ? `<p>Grade: <span>${diGrade}</span></p>`
+                          : ""
+                      }
                     </div>
                   </td>
                 </tr>
               </table>
             </section>
 
-            <section>
-              <h2>Person Answering Questions</h2>
+             <section>
+              ${
+                paqName !== undefined ||
+                paqGuardian !== undefined ||
+                paqCellPhone !== undefined ||
+                paqAddress !== undefined ||
+                paqHomePhone !== undefined ||
+                paqWorkPhone !== undefined
+                  ? `<h2>Person Answering Questions</h2>`
+                  : ""
+              }
               <table cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="col2eq">
                     <div>
                       ${
-                        paqName !== null
+                        paqName !== undefined
                           ? `<p>Name: <span>${paqName}</span></p>`
-                          : null
+                          : ""
                       }
-                      <p>Relationship to the child: <span>${paqGuardian}</span></p>
-                      <p>Cell phone: <span>${paqCellPhone}</span></p>
+                      ${
+                        paqGuardian !== undefined
+                          ? `<p>Relationship to the child: <span>${paqGuardian}</span></p>`
+                          : ""
+                      }
+                      ${
+                        paqCellPhone !== undefined
+                          ? `<p>Cell phone: <span>${paqCellPhone}</span></p>`
+                          : ""
+                      }
                     </div>
                   </td>
                   <td class="col2eq">
                     <div>
-                      <p>Address: <span>${paqAddress}</span></p>
-                      <p>Home phone: <span>${paqHomePhone}</span></p>
-                      <p>Work phone: <span>${paqWorkPhone}</span></p>
+                      ${
+                        paqAddress !== undefined
+                          ? `<p>Address: <span>${paqAddress}</span></p>`
+                          : ""
+                      }
+                      ${
+                        paqHomePhone !== undefined
+                          ? `<p>Home phone: <span>${paqHomePhone}</span></p>`
+                          : ""
+                      }
+                      ${
+                        paqWorkPhone !== undefined
+                          ? `<p>Work phone: <span>${paqWorkPhone}</span></p>`
+                          : ""
+                      }
                     </div>
                   </td>
                 </tr>
               </table>
             </section>
 
-            <section>
-              <h2>Reason for Referral</h2>
-              <table cellpadding="0" cellspacing="0">
-                <tr>
-                  <td>
-                    <div>
-                      <ul>
-                        ${
-                          reasonReferral1 !== null
-                            ? `<li>${reasonReferral1}</li>`
-                            : null
-                        }
-                        ${
-                          reasonReferral2 !== null
-                            ? `<li>${reasonReferral2}</li>`
-                            : null
-                        }
-                        ${
-                          reasonReferral3 !== null
-                            ? `<li>${reasonReferral3}</li>`
-                            : null
-                        }
-                      </ul>
-                    </div>
-                  </td>
-                </tr>
-              </table>
-            </section>
+            ${
+              reasonReferral1 !== undefined ||
+              reasonReferral2 !== undefined ||
+              reasonReferral3 !== undefined
+                ? `<section>
+            <h2>Reason for Referral</h2>
+            <table cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <div>
+                    <ul>
+                      ${
+                        reasonReferral1 !== undefined
+                          ? `<li>${reasonReferral1}</li>`
+                          : ""
+                      }
+                      ${
+                        reasonReferral2 !== undefined
+                          ? `<li>${reasonReferral2}</li>`
+                          : ""
+                      }
+                      ${
+                        reasonReferral3 !== undefined
+                          ? `<li>${reasonReferral3}</li>`
+                          : ""
+                      }
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </section>`
+                : ""
+            }
 
             ${
               wizardForm5Disabled !== true && recordsReviewed !== undefined
@@ -10861,13 +11713,49 @@ module.exports = ({
               wizardForm7Disabled !== true ||
               wizardForm8Disabled !== true
                 ? `<section>
-            <h2>Background Information</h2>
-            <p><em>The following background information was obtained from a clinical interview with ${diEvaluator}.</em></p>
+            ${
+              bhPrimaryCaregiverMother !== undefined ||
+              bhMotherName !== undefined ||
+              bhMotherCellPhone !== undefined ||
+              bhMotherOccupation !== undefined ||
+              bhMotherLengthEmployement !== undefined ||
+              bhMotherPrimaryLanguage !== undefined ||
+              bhMotherAge !== undefined ||
+              bhMotherHomePhone !== undefined ||
+              bhMotherWorkPhone !== undefined ||
+              bhMotherEmployer !== undefined ||
+              bhMotherHighestGrade !== undefined ||
+              bhMotherSecondaryLanguage !== undefined ||
+              bhPrimaryCaregiverFather !== undefined ||
+              bhFatherName !== undefined ||
+              bhFatherCellPhone !== undefined ||
+              bhFatherOccupation !== undefined ||
+              bhFatherLengthEmployement !== undefined ||
+              bhFatherPrimaryLanguage !== undefined ||
+              bhFatherAge !== undefined ||
+              bhFatherHomePhone !== undefined ||
+              bhFatherWorkPhone !== undefined ||
+              bhFatherEmployer !== undefined ||
+              bhFatherHighestGrade !== undefined ||
+              bhFatherSecondaryLanguage !== undefined ||
+              bhPrimaryCaregiverName !== undefined ||
+              bhOtherParentStepparentAge !== undefined ||
+              bhOtherParentStepparentGuardian !== undefined ||
+              bhOtherParentStepparentHomePhone !== undefined ||
+              bhOtherParentStepparentWorkPhone !== undefined ||
+              bhOtherParentStepparentCellPhone !== undefined ||
+              bhOtherParentStepparentAddress !== undefined
+                ? `<h2>Background Information</h2>
+            <p><em>The following background information was obtained from a clinical interview with ${diEvaluator}.</em></p>`
+                : ""
+            }
             ${
               wizardForm6Disabled !== true
                 ? `${
-                    bhPrimaryCaregiverMother !== undefined &&
-                    bhPrimaryCaregiverMother === true
+                    bhPrimaryCaregiverMother === undefined
+                      ? ""
+                      : bhPrimaryCaregiverMother !== undefined &&
+                        bhPrimaryCaregiverMother === true
                       ? `<div class="primary-caregiver--active"><h3>Mother</h3><span>Primary caregiver</span></div>`
                       : `<h3>Mother</h3>`
                   }
@@ -10881,7 +11769,9 @@ module.exports = ({
                         : ""
                     }
                     ${
-                      bhStepmother === "Yes"
+                      bhStepmother === undefined
+                        ? ""
+                        : bhStepmother !== undefined && bhStepmother === "Yes"
                         ? `<p>Relationship: <span>Stepmother</span></p>`
                         : `<p>Relationship: <span>Mother</span></p>`
                     }
@@ -10949,8 +11839,10 @@ module.exports = ({
             ${
               wizardForm7Disabled !== true
                 ? `${
-                    bhPrimaryCaregiverFather !== undefined &&
-                    bhPrimaryCaregiverFather === true
+                    bhPrimaryCaregiverFather === undefined
+                      ? ""
+                      : bhPrimaryCaregiverFather !== undefined &&
+                        bhPrimaryCaregiverFather === true
                       ? `<div class="primary-caregiver--active"><h3>Father</h3><span>Primary caregiver</span></div>`
                       : `<h3>Father</h3>`
                   }
@@ -10964,7 +11856,9 @@ module.exports = ({
                         : ""
                     }
                     ${
-                      bhStepfather === "Yes"
+                      bhStepfather === undefined
+                        ? ""
+                        : bhStepfather !== undefined && bhStepfather === "Yes"
                         ? `<p>Relationship: <span>Stepfather</span></p>`
                         : `<p>Relationship: <span>Father</span></p>`
                     }
@@ -11030,7 +11924,12 @@ module.exports = ({
             }
             ${
               wizardForm8Disabled !== true
-                ? `<h3>Primary Caregiver Not Mother or Father</h3>
+                ? `${
+                    bhPrimaryCaregiverName === undefined ||
+                    bhOtherParentStepparentGuardian === undefined
+                      ? ""
+                      : `<h3>Primary Caregiver Not Mother or Father</h3>`
+                  }
               <table cellpadding="0" cellspacing="0">
                 <tr>
                   <td>
@@ -11083,7 +11982,13 @@ module.exports = ({
             ${
               wizardForm9Disabled !== true
                 ? `<section>
-            <h2>Childcare Information</h2>
+            ${
+              ccCaregiverGone !== undefined ||
+              ccHoursPerDay !== undefined ||
+              ccDifferentPeople !== undefined
+                ? `<h2>Childcare Information</h2>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11114,7 +12019,16 @@ module.exports = ({
             ${
               wizardForm10Disabled !== true
                 ? `<section>
-            <h2>Family History</h2>
+            ${
+              fhCloseness !== undefined ||
+              fhExperienced !== undefined ||
+              fhCustodyMother === true ||
+              fhCustodyFather === true ||
+              fhCustodyBoth === true ||
+              fhVisitation !== undefined
+                ? `<h2>Family History</h2>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11170,7 +12084,11 @@ module.exports = ({
             ${
               wizardForm11Disabled !== true
                 ? `<section>
-            <h2>Siblings</h2>
+            ${
+              brothersSisters !== undefined || bsGetAlong !== undefined
+                ? `<h2>Siblings</h2>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11220,7 +12138,12 @@ module.exports = ({
               wizardForm12Disabled !== true
                 ? `
                     <section>
-                      <h2>Child’s Residence</h2>
+                      ${
+                        crResidence !== undefined ||
+                        crResidenceLength !== undefined
+                          ? `<h2>Child’s Residence</h2>`
+                          : ""
+                      }
                       <table cellpadding="0" cellspacing="0">
                         <tr>
                           <td>
@@ -11247,7 +12170,28 @@ module.exports = ({
             ${
               wizardForm13Disabled !== true
                 ? `<section>
-            <h2>Family Residence</h2>
+            ${
+              frMovies !== undefined ||
+              frGames !== undefined ||
+              frMeals !== undefined ||
+              frSports !== undefined ||
+              frConversations !== undefined ||
+              frVisitsRelatives !== undefined ||
+              frTelevision !== undefined ||
+              frChurch !== undefined ||
+              frOther !== undefined ||
+              frSpokenLanguage !== undefined ||
+              frGrandparentFrequency !== undefined ||
+              frEnjoy !== undefined ||
+              frDifficult !== undefined ||
+              frCareer !== undefined ||
+              frEducationLevel !== undefined ||
+              frDisciplinarian !== undefined ||
+              frAgreeDiscipline !== undefined ||
+              frDisciplineTechniques !== undefined
+                ? `<h2>Family Residence</h2>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11341,8 +12285,67 @@ module.exports = ({
             ${
               wizardForm14Disabled !== true
                 ? `<section>
-            <h2>Medical & Development History</h2>
-            <h3>Pregnancy</h3>
+            ${
+              mdhPlannedPregnancy !== undefined ||
+              mdhDrCare !== undefined ||
+              mdhTotalPregnancies !== undefined ||
+              mdhPregnancyDifficultConception !== undefined ||
+              mdhPregnancyToxemia !== undefined ||
+              mdhPregnancyWeightGain !== undefined ||
+              mdhPregnancyVomiting !== undefined ||
+              mdhPregnancyGermanMeasels !== undefined ||
+              mdhPregnancySwelling !== undefined ||
+              mdhPregnancyEmotional !== undefined ||
+              mdhPregnancyVaginalBleeding !== undefined ||
+              mdhPregnancyFlu !== undefined ||
+              mdhPregnancyAnemia !== undefined ||
+              mdhPregnancyBloodPressure !== undefined ||
+              mdhPregnancyInjury !== undefined ||
+              mdhOtherComplication !== undefined ||
+              mdhMothersAge !== undefined ||
+              mdhFathersAge !== undefined ||
+              mdhMothersAgeFirstChild !== undefined ||
+              mdhHospitalBirth !== undefined ||
+              mdhPregnancyLength !== undefined ||
+              mdhBirthWeight !== undefined ||
+              mdhLaborLength !== undefined ||
+              mdhApgarScore !== undefined ||
+              mdhBirthConditionChild !== undefined ||
+              mdhForceps !== undefined ||
+              mdhBreech !== undefined ||
+              mdhInduced !== undefined ||
+              mdhCeasarean !== undefined ||
+              mdhDeliveryComplications !== undefined ||
+              mdhIncubator !== undefined ||
+              mdhJaundiced !== undefined ||
+              mdhBreathingProblems !== undefined ||
+              mdhSupplementalOxygen !== undefined ||
+              mdhAnesthesia !== undefined ||
+              mdhMotherLengthHospital !== undefined ||
+              mdhChildLengthHospital !== undefined
+                ? `<h2>Medical & Development History</h2>`
+                : ""
+            }
+            ${
+              mdhPlannedPregnancy !== undefined ||
+              mdhDrCare !== undefined ||
+              mdhTotalPregnancies !== undefined ||
+              mdhPregnancyDifficultConception !== undefined ||
+              mdhPregnancyToxemia !== undefined ||
+              mdhPregnancyWeightGain !== undefined ||
+              mdhPregnancyVomiting !== undefined ||
+              mdhPregnancyGermanMeasels !== undefined ||
+              mdhPregnancySwelling !== undefined ||
+              mdhPregnancyEmotional !== undefined ||
+              mdhPregnancyVaginalBleeding !== undefined ||
+              mdhPregnancyFlu !== undefined ||
+              mdhPregnancyAnemia !== undefined ||
+              mdhPregnancyBloodPressure !== undefined ||
+              mdhPregnancyInjury !== undefined ||
+              mdhOtherComplication !== undefined
+                ? `<h3>Pregnancy</h3>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11445,7 +12448,31 @@ module.exports = ({
             ${
               wizardForm15Disabled !== true
                 ? `<section>
-            <h3>Birth</h3>
+            ${
+              mdhMothersAge !== undefined ||
+              mdhFathersAge !== undefined ||
+              mdhMothersAgeFirstChild !== undefined ||
+              mdhHospitalBirth !== undefined ||
+              mdhPregnancyLength !== undefined ||
+              mdhBirthWeight !== undefined ||
+              mdhLaborLength !== undefined ||
+              mdhApgarScore !== undefined ||
+              mdhBirthConditionChild !== undefined ||
+              mdhForceps !== undefined ||
+              mdhBreech !== undefined ||
+              mdhInduced !== undefined ||
+              mdhCeasarean !== undefined ||
+              mdhDeliveryComplications !== undefined ||
+              mdhIncubator !== undefined ||
+              mdhJaundiced !== undefined ||
+              mdhBreathingProblems !== undefined ||
+              mdhSupplementalOxygen !== undefined ||
+              mdhAnesthesia !== undefined ||
+              mdhMotherLengthHospital !== undefined ||
+              mdhChildLengthHospital !== undefined
+                ? `<h3>Birth</h3>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11570,12 +12597,62 @@ module.exports = ({
             ${
               wizardForm16Disabled !== true
                 ? `<section>
-            <h2>Development</h2>
+            ${
+              mdhTurnOverMonths !== undefined ||
+              mdhTurnOverYear !== undefined ||
+              mdhWalkDownStairsMonths !== undefined ||
+              mdhWalkDownStairsYear !== undefined ||
+              mdhSitAloneMonths !== undefined ||
+              mdhSitAloneYear !== undefined ||
+              mdhAttractedSoundMonths !== undefined ||
+              mdhAttractedSoundYear !== undefined ||
+              mdhCrawlMonths !== undefined ||
+              mdhCrawlYear !== undefined ||
+              mdhUnderstandWordsMonths !== undefined ||
+              mdhUnderstandWordsYear !== undefined ||
+              mdhStandAloneMonths !== undefined ||
+              mdhStandAloneYear !== undefined ||
+              mdhSpeakFirstWordsMonths !== undefined ||
+              mdhSpeakFirstWordsYear !== undefined ||
+              mdhWalkAloneMonths !== undefined ||
+              mdhWalkAloneYear !== undefined ||
+              mdhSpeakSentencesMonths !== undefined ||
+              mdhSpeakSentencesYear !== undefined ||
+              mdhWalkUpStairsMonths !== undefined ||
+              mdhWalkUpStairsYear !== undefined
+                ? `<h2>Development</h2>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
                   <div>
-                    <p>At what age did this child first do the following?</p>  
+                    ${
+                      mdhTurnOverMonths !== undefined ||
+                      mdhTurnOverYear !== undefined ||
+                      mdhWalkDownStairsMonths !== undefined ||
+                      mdhWalkDownStairsYear !== undefined ||
+                      mdhSitAloneMonths !== undefined ||
+                      mdhSitAloneYear !== undefined ||
+                      mdhAttractedSoundMonths !== undefined ||
+                      mdhAttractedSoundYear !== undefined ||
+                      mdhCrawlMonths !== undefined ||
+                      mdhCrawlYear !== undefined ||
+                      mdhUnderstandWordsMonths !== undefined ||
+                      mdhUnderstandWordsYear !== undefined ||
+                      mdhStandAloneMonths !== undefined ||
+                      mdhStandAloneYear !== undefined ||
+                      mdhSpeakFirstWordsMonths !== undefined ||
+                      mdhSpeakFirstWordsYear !== undefined ||
+                      mdhWalkAloneMonths !== undefined ||
+                      mdhWalkAloneYear !== undefined ||
+                      mdhSpeakSentencesMonths !== undefined ||
+                      mdhSpeakSentencesYear !== undefined ||
+                      mdhWalkUpStairsMonths !== undefined ||
+                      mdhWalkUpStairsYear !== undefined
+                        ? `<p>At what age did this child first do the following?</p>`
+                        : ""
+                    }  
                     <ul>
                       ${
                         mdhTurnOverMonths !== undefined ||
@@ -11819,7 +12896,19 @@ module.exports = ({
             ${
               wizardForm17Disabled !== true
                 ? `<section>
-            <h3>Early Years</h3>
+            ${
+              mdhBreastFed !== undefined ||
+              mdhBreastFedWeaned !== undefined ||
+              mdhBottleFed !== undefined ||
+              mdhBottleFedWeaned !== undefined ||
+              mdhToiletTrainedDay !== undefined ||
+              mdhToiletTrainedNight !== undefined ||
+              mdhBedWetting !== undefined ||
+              mdhBedSoiling !== undefined ||
+              mdhBedWettingMedicalReasons !== undefined
+                ? `<h3>Early Years</h3>`
+                : ""
+            }
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -11909,14 +12998,42 @@ module.exports = ({
             ${
               wizardForm18Disabled !== true
                 ? `<section>
-                  <h3>Developmental</h3>
+                  ${
+                    mdhWalkingDifficulty === true ||
+                    mdhUnclearSpeech === true ||
+                    mdhFeedingProblem === true ||
+                    mdhUnderweightProblem === true ||
+                    mdhOverweightProblem === true ||
+                    mdhColic === true ||
+                    mdhSleepProblem === true ||
+                    mdhEatingProblem === true ||
+                    mdhLearningRideBike === true ||
+                    mdhLearningSkip === true ||
+                    mdhLearningThrowCatch === true
+                      ? `<h3>Developmental</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
                         <div>
-                          <p>${
-                            diName !== undefined ? diName : "Client"
-                          } experienced the following problems:</p>  
+                          ${
+                            mdhWalkingDifficulty === true ||
+                            mdhUnclearSpeech === true ||
+                            mdhFeedingProblem === true ||
+                            mdhUnderweightProblem === true ||
+                            mdhOverweightProblem === true ||
+                            mdhColic === true ||
+                            mdhSleepProblem === true ||
+                            mdhEatingProblem === true ||
+                            mdhLearningRideBike === true ||
+                            mdhLearningSkip === true ||
+                            mdhLearningThrowCatch === true
+                              ? `<p>${
+                                  diName !== undefined ? diName : "Client"
+                                } experienced the following problems:</p>`
+                              : ""
+                          }  
                           <ul>
                             ${
                               mdhWalkingDifficulty === true
@@ -12037,9 +13154,18 @@ module.exports = ({
               <tr>
                 <td>
                   <div>
-                    <p>${
-                      diName !== undefined ? diName : "Client"
-                    } experienced the following problems:</p>  
+                    ${
+                      mdhMotorSkillsFirstFour === true ||
+                      mdhTemperTantrum === true ||
+                      mdhNoThriveFirstFour === true ||
+                      mdhSeparationAnxiety === true ||
+                      mdhExcessiveCrying === true ||
+                      mdhChangeWritingHand !== undefined
+                        ? `<p>${
+                            diName !== undefined ? diName : "Client"
+                          } experienced the following problems:</p>`
+                        : ""
+                    }  
                     <ul>
                     ${
                       mdhMotorSkillsFirstFour === true
@@ -12103,14 +13229,86 @@ module.exports = ({
             ${
               wizardForm20Disabled !== true
                 ? `<section>
-                  <h2>Medical history</h2>
+                  ${
+                    mhMeaselsMonths !== undefined ||
+                    mhMeaselsMonthsYear !== undefined ||
+                    mhRheumaticFeverMonths !== undefined ||
+                    mhRheumaticFeverYear !== undefined ||
+                    mhGermanMeaselsMonths !== undefined ||
+                    mhGermanMeaselsYear !== undefined ||
+                    mhDiptheriaMonths !== undefined ||
+                    mhDiptheriaYear !== undefined ||
+                    mhMumpsMonths !== undefined ||
+                    mhMumpsYear !== undefined ||
+                    mhUnderstandWordsMonths !== undefined ||
+                    mhUnderstandWordsYear !== undefined ||
+                    mdhMeningitisMonths !== undefined ||
+                    mdhMeningitisYear !== undefined ||
+                    mhChickenPoxMonth !== undefined ||
+                    mhChickenPoxYear !== undefined ||
+                    mhEncephalitisMonth !== undefined ||
+                    mhEncephalitisYear !== undefined ||
+                    mhTuberculosisMonth !== undefined ||
+                    mhAnemiaMonth !== undefined ||
+                    mhAnemiaYear !== undefined ||
+                    mhWhoopingCoughMonths !== undefined ||
+                    mhWhoopingCoughYear !== undefined ||
+                    mhFever104Months !== undefined ||
+                    mhFever104Year !== undefined ||
+                    mhScarletFeverMonths !== undefined ||
+                    mhScarletFeverYear !== undefined ||
+                    mhBrokenBonesMonths !== undefined ||
+                    mhBrokenBonesYear !== undefined ||
+                    mhConcussionMonths !== undefined ||
+                    mhConcussionYear !== undefined ||
+                    mhComaLossConsciousnessMonths !== undefined ||
+                    mhComaLossConsciousnessYear !== undefined
+                      ? `<h2>Medical history</h2>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
                         <div>
-                          <p>${
-                            diName !== undefined ? diName : "Client"
-                          } has the following illnesses:</p>  
+                          ${
+                            mhMeaselsMonths !== undefined ||
+                            mhMeaselsMonthsYear !== undefined ||
+                            mhRheumaticFeverMonths !== undefined ||
+                            mhRheumaticFeverYear !== undefined ||
+                            mhGermanMeaselsMonths !== undefined ||
+                            mhGermanMeaselsYear !== undefined ||
+                            mhDiptheriaMonths !== undefined ||
+                            mhDiptheriaYear !== undefined ||
+                            mhMumpsMonths !== undefined ||
+                            mhMumpsYear !== undefined ||
+                            mhUnderstandWordsMonths !== undefined ||
+                            mhUnderstandWordsYear !== undefined ||
+                            mdhMeningitisMonths !== undefined ||
+                            mdhMeningitisYear !== undefined ||
+                            mhChickenPoxMonth !== undefined ||
+                            mhChickenPoxYear !== undefined ||
+                            mhEncephalitisMonth !== undefined ||
+                            mhEncephalitisYear !== undefined ||
+                            mhTuberculosisMonth !== undefined ||
+                            mhAnemiaMonth !== undefined ||
+                            mhAnemiaYear !== undefined ||
+                            mhWhoopingCoughMonths !== undefined ||
+                            mhWhoopingCoughYear !== undefined ||
+                            mhFever104Months !== undefined ||
+                            mhFever104Year !== undefined ||
+                            mhScarletFeverMonths !== undefined ||
+                            mhScarletFeverYear !== undefined ||
+                            mhBrokenBonesMonths !== undefined ||
+                            mhBrokenBonesYear !== undefined ||
+                            mhConcussionMonths !== undefined ||
+                            mhConcussionYear !== undefined ||
+                            mhComaLossConsciousnessMonths !== undefined ||
+                            mhComaLossConsciousnessYear !== undefined
+                              ? `<p>${
+                                  diName !== undefined ? diName : "Client"
+                                } has the following illnesses:</p>`
+                              : ""
+                          }  
                           <ul>
                           ${
                             mhMeaselsMonths !== undefined ||
@@ -12492,15 +13690,75 @@ module.exports = ({
             }
 
             ${
-              mdColds !== undefined ||
-              mdChronicCough !== undefined ||
-              mdAsthma !== undefined ||
-              mdHayFever !== undefined ||
-              mdSinusCondition !== undefined ||
               wizardForm21Disabled !== true
                 ? `<section>
-                  <h2>Medical development</h2>
-                  <h3>Respiratory</h3>
+                  ${
+                    mdColds !== undefined ||
+                    mdChronicCough !== undefined ||
+                    mdAsthma !== undefined ||
+                    mdHayFever !== undefined ||
+                    mdSinusCondition !== undefined ||
+                    mdPhysicalExertion !== undefined ||
+                    mdActivityLimits !== undefined ||
+                    mdHeartMurmur !== undefined ||
+                    mdVomiting !== undefined ||
+                    mdDiarrhea !== undefined ||
+                    mdConstipation !== undefined ||
+                    mdStomachPain !== undefined ||
+                    mdUrination !== undefined ||
+                    mdPainUrinating !== undefined ||
+                    mdExessiveUrination !== undefined ||
+                    mdUrineOdor !== undefined ||
+                    mdMusclePain !== undefined ||
+                    mdClumsyWalk !== undefined ||
+                    mdPoorPosture !== undefined ||
+                    mdOtherMuscleProblems !== undefined ||
+                    mdFrequentRashes !== undefined ||
+                    mdBruises !== undefined ||
+                    mdSores !== undefined ||
+                    mdAcne !== undefined ||
+                    mdItchy !== undefined ||
+                    mdSeizures !== undefined ||
+                    mdSpeechDefects !== undefined ||
+                    mdAccidentProne !== undefined ||
+                    mdNailBiter !== undefined ||
+                    mdSucksThumb !== undefined ||
+                    mdGrindsTeeth !== undefined ||
+                    mdTwitches !== undefined ||
+                    mdBangsHead !== undefined ||
+                    mdRocks !== undefined ||
+                    mdBowelMovement !== undefined ||
+                    mdNeurologicalMeds !== undefined ||
+                    mdNeurologicalTranquilizer !== undefined ||
+                    mdNeurologicalAdhdMeds !== undefined ||
+                    mdhAllergiesMedicine !== undefined ||
+                    mdhAllergiesFood !== undefined ||
+                    mdhAllergiesOther !== undefined ||
+                    mdhSpeechStuttering !== undefined ||
+                    mdhSpeechUnclear !== undefined ||
+                    mdhSpeechOther !== undefined ||
+                    mdhSpeechExamDate !== undefined ||
+                    mdhHearingEarInfection !== undefined ||
+                    mdhHearingProblems !== undefined ||
+                    mdhHearingTubes !== undefined ||
+                    mdhHearingExamDate !== undefined ||
+                    mdhVisionProblems !== undefined ||
+                    mdhGlasses !== undefined ||
+                    mdhVisionProblemsDescription !== undefined ||
+                    mdhGlassesDescription !== undefined ||
+                    mdhVisionExamDate !== undefined
+                      ? `<h2>Medical development</h2>`
+                      : ""
+                  }
+                  ${
+                    mdColds !== undefined ||
+                    mdChronicCough !== undefined ||
+                    mdAsthma !== undefined ||
+                    mdHayFever !== undefined ||
+                    mdSinusCondition !== undefined
+                      ? `<h3>Respiratory</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12540,14 +13798,15 @@ module.exports = ({
             }
 
             ${
-              mdColds !== undefined ||
-              mdChronicCough !== undefined ||
-              mdAsthma !== undefined ||
-              mdHayFever !== undefined ||
-              mdSinusCondition !== undefined ||
-              wizardForm21Disabled !== true
+              wizardForm22Disabled !== true
                 ? `<section>
-                  <h3>Cardiovascular</h3>
+                  ${
+                    mdPhysicalExertion !== undefined ||
+                    mdActivityLimits !== undefined ||
+                    mdHeartMurmur !== undefined
+                      ? `<h3>Cardiovascular</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12577,13 +13836,16 @@ module.exports = ({
             }
             
             ${
-              mdVomiting !== undefined ||
-              mdDiarrhea !== undefined ||
-              mdConstipation !== undefined ||
-              mdStomachPain !== undefined ||
-              wizardForm22Disabled !== true
+              wizardForm23Disabled !== true
                 ? `<section>
-                  <h3>Gastrointestinal</h3>
+                  ${
+                    mdVomiting !== undefined ||
+                    mdDiarrhea !== undefined ||
+                    mdConstipation !== undefined ||
+                    mdStomachPain !== undefined
+                      ? `<h3>Gastrointestinal</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12618,13 +13880,16 @@ module.exports = ({
             }
             
             ${
-              mdUrination !== undefined ||
-              mdPainUrinating !== undefined ||
-              mdExessiveUrination !== undefined ||
-              mdUrineOdor !== undefined ||
-              wizardForm23Disabled !== true
+              wizardForm24Disabled !== true
                 ? `<section>
-                  <h3>Genitourinary</h3>
+                  ${
+                    mdUrination !== undefined ||
+                    mdPainUrinating !== undefined ||
+                    mdExessiveUrination !== undefined ||
+                    mdUrineOdor !== undefined
+                      ? `<h3>Genitourinary</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12659,13 +13924,16 @@ module.exports = ({
             }
             
             ${
-              mdMusclePain !== undefined ||
-              mdClumsyWalk !== undefined ||
-              mdPoorPosture !== undefined ||
-              mdOtherMuscleProblems !== undefined ||
-              wizardForm24Disabled !== true
+              wizardForm25Disabled !== true
                 ? `<section>
-                  <h3>Musculoskeletal</h3>
+                  ${
+                    mdMusclePain !== undefined ||
+                    mdClumsyWalk !== undefined ||
+                    mdPoorPosture !== undefined ||
+                    mdOtherMuscleProblems !== undefined
+                      ? `<h3>Musculoskeletal</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12700,14 +13968,17 @@ module.exports = ({
             }
             
             ${
-              mdFrequentRashes !== undefined ||
-              mdBruisesEasily !== undefined ||
-              mdSores !== undefined ||
-              mdSevereAcne !== undefined ||
-              mdItchySkin !== undefined ||
-              wizardForm25Disabled !== true
+              wizardForm26Disabled !== true
                 ? `<section>
-                  <h3>Skin</h3>
+                  ${
+                    mdFrequentRashes !== undefined ||
+                    mdBruises !== undefined ||
+                    mdSores !== undefined ||
+                    mdAcne !== undefined ||
+                    mdItchy !== undefined
+                      ? `<h3>Skin</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12719,8 +13990,8 @@ module.exports = ({
                                 : ""
                             }
                             ${
-                              mdBruisesEasily !== undefined
-                                ? `<li><p>Bruises easily: <span>${mdBruisesEasily}</span></p></li>`
+                              mdBruises !== undefined
+                                ? `<li><p>Bruises easily: <span>${mdBruises}</span></p></li>`
                                 : ""
                             }
                             ${
@@ -12729,13 +14000,13 @@ module.exports = ({
                                 : ""
                             }
                             ${
-                              mdSevereAcne !== undefined
-                                ? `<li><p>Severe acne: <span>${mdSevereAcne}</span></p></li>`
+                              mdAcne !== undefined
+                                ? `<li><p>Severe acne: <span>${mdAcne}</span></p></li>`
                                 : ""
                             }
                             ${
-                              mdItchySkin !== undefined
-                                ? `<li><p>Itchy skin: <span>${mdItchySkin}</span></p></li>`
+                              mdItchy !== undefined
+                                ? `<li><p>Itchy skin: <span>${mdItchy}</span></p></li>`
                                 : ""
                             }
                         </div>
@@ -12747,36 +14018,33 @@ module.exports = ({
             }
             
             ${
-              mdSeizuresConvulsions !== undefined ||
-              mdSpeechDefects !== undefined ||
-              mdAccidentProne !== undefined ||
-              mdNailBiter !== undefined ||
-              mdSucksThumb !== undefined ||
-              mdGrindsTeeth !== undefined ||
-              mdTwitches !== undefined ||
-              mdBangsHead !== undefined ||
-              mdRocks !== undefined ||
-              mdBowelMovements !== undefined ||
-              mdNeurologicalMeds !== undefined ||
-              mdNeurologicalMedsDate !== undefined ||
-              mdNeurologicalMedsKind !== undefined ||
-              mdNeurologicalTranquilizer !== undefined ||
-              mdNeurologicalTranquilizerDate !== undefined ||
-              mdNeurologicalTranquilizerKind !== undefined ||
-              mdNeurologicalAdhdMeds !== undefined ||
-              mdNeurologicalAdhdMedsDate !== undefined ||
-              mdNeurologicalAdhdMedsKind !== undefined ||
-              wizardForm25Disabled !== true
+              wizardForm27Disabled !== true
                 ? `<section>
-                  <h3>Neurological</h3>
+                  ${
+                    mdSeizures !== undefined ||
+                    mdSpeechDefects !== undefined ||
+                    mdAccidentProne !== undefined ||
+                    mdNailBiter !== undefined ||
+                    mdSucksThumb !== undefined ||
+                    mdGrindsTeeth !== undefined ||
+                    mdTwitches !== undefined ||
+                    mdBangsHead !== undefined ||
+                    mdRocks !== undefined ||
+                    mdBowelMovement !== undefined ||
+                    mdNeurologicalMeds !== undefined ||
+                    mdNeurologicalTranquilizer !== undefined ||
+                    mdNeurologicalAdhdMeds !== undefined
+                      ? `<h3>Neurological</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
                         <div>
                           <ul>
                             ${
-                              mdSeizuresConvulsions !== undefined
-                                ? `<li><p>Seizures/convulsions: <span>${mdSeizuresConvulsions}</span></p></li>`
+                              mdSeizures !== undefined
+                                ? `<li><p>Seizures/convulsions: <span>${mdSeizures}</span></p></li>`
                                 : ""
                             }
                             ${
@@ -12820,8 +14088,8 @@ module.exports = ({
                                 : ""
                             }
                             ${
-                              mdBowelMovements !== undefined
-                                ? `<li><p>Bowel movements in pants/bed: <span>${mdBowelMovements}</span></p></li>`
+                              mdBowelMovement !== undefined
+                                ? `<li><p>Bowel movements in pants/bed: <span>${mdBowelMovement}</span></p></li>`
                                 : ""
                             }
                           </ul>
@@ -12873,12 +14141,15 @@ module.exports = ({
             }
 
             ${
-              mdhAllergiesMedicine === true ||
-              mdhAllergiesFood == true ||
-              mdhAllergiesOther == true ||
-              wizardForm26Disabled !== true
+              wizardForm28Disabled !== true
                 ? `<section>
-                  <h3>Allergies</h3>
+                  ${
+                    mdhAllergiesMedicine !== undefined ||
+                    mdhAllergiesFood !== undefined ||
+                    mdhAllergiesOther !== undefined
+                      ? `<h3>Allergies</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12886,8 +14157,9 @@ module.exports = ({
                           <ul>
                             ${
                               mdhAllergiesMedicine === true
-                                ? `<li><p>Walking difficulty${
-                                    mdhAllergiesMedicineDescription !== null
+                                ? `<li><p>Allergies to medicine${
+                                    mdhAllergiesMedicineDescription !==
+                                    undefined
                                       ? `: <span>${mdhAllergiesMedicineDescription}</span></p></li>`
                                       : ""
                                   }`
@@ -12895,8 +14167,8 @@ module.exports = ({
                             }
                             ${
                               mdhAllergiesFood === true
-                                ? `<li><p>Walking difficulty${
-                                    mdhAllergiesFoodDescription !== null
+                                ? `<li><p>Allergies to food${
+                                    mdhAllergiesFoodDescription !== undefined
                                       ? `: <span>${mdhAllergiesFoodDescription}</span></p></li>`
                                       : ""
                                   }`
@@ -12904,8 +14176,8 @@ module.exports = ({
                             }
                             ${
                               mdhAllergiesOther === true
-                                ? `<li><p>Walking difficulty${
-                                    mdhAllergiesOtherDescription !== null
+                                ? `<li><p>Other allergies${
+                                    mdhAllergiesOtherDescription !== undefined
                                       ? `: <span>${mdhAllergiesOtherDescription}</span></p></li>`
                                       : ""
                                   }`
@@ -12921,16 +14193,16 @@ module.exports = ({
             }
 
             ${
-              mdhSpeechStuttering === true ||
-              mdhSpeechUnclear === true ||
-              mdhSpeechOther === true ||
-              mdhSpeechStutteringDescription !== undefined ||
-              mdhSpeechUnclearDescription !== undefined ||
-              mdhSpeechOtherDescription !== undefined ||
-              mdhSpeechExamDate !== undefined ||
-              wizardForm27Disabled !== true
+              wizardForm29Disabled !== true
                 ? `<section>
-                  <h3>Speech</h3>
+                  ${
+                    mdhSpeechStuttering !== undefined ||
+                    mdhSpeechUnclear !== undefined ||
+                    mdhSpeechOther !== undefined ||
+                    mdhSpeechExamDate !== undefined
+                      ? `<h3>Speech</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -12939,7 +14211,7 @@ module.exports = ({
                             ${
                               mdhSpeechStuttering === true
                                 ? `<li><p>Stuttering${
-                                    mdhSpeechStutteringDescription !== null
+                                    mdhSpeechStutteringDescription !== undefined
                                       ? `: <span>${mdhSpeechStutteringDescription}</span></p></li>`
                                       : ""
                                   }`
@@ -12948,7 +14220,7 @@ module.exports = ({
                             ${
                               mdhSpeechUnclear === true
                                 ? `<li><p>Unclear speech${
-                                    mdhSpeechUnclearDescription !== null
+                                    mdhSpeechUnclearDescription !== undefined
                                       ? `: <span>${mdhSpeechUnclearDescription}</span></p></li>`
                                       : ""
                                   }`
@@ -12957,7 +14229,7 @@ module.exports = ({
                             ${
                               mdhSpeechOther === true
                                 ? `<li><p>Other speech problems${
-                                    mdhSpeechOtherDescription !== null
+                                    mdhSpeechOtherDescription !== undefined
                                       ? `: <span>${mdhSpeechOtherDescription}</span></p></li>`
                                       : ""
                                   }`
@@ -12978,16 +14250,16 @@ module.exports = ({
             }
 
             ${
-              mdhHearingEarInfection === true ||
-              mdhHearingProblems === true ||
-              mdhHearingTubes === true ||
-              mdhHearingEarInfectionDescription !== undefined ||
-              mdhHearingProblemsDescription !== undefined ||
-              mdhHearingTubesDescription !== undefined ||
-              mdhHearingExamDate !== undefined ||
-              wizardForm28Disabled !== true
+              wizardForm30Disabled !== true
                 ? `<section>
-                  <h3>Hearing</h3>
+                  ${
+                    mdhHearingEarInfection !== undefined ||
+                    mdhHearingProblems !== undefined ||
+                    mdhHearingTubes !== undefined ||
+                    mdhHearingExamDate !== undefined
+                      ? `<h3>Hearing</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -13035,14 +14307,17 @@ module.exports = ({
             }
 
             ${
-              mdhVisionProblems === true ||
-              mdhGlasses === true ||
-              mdhVisionProblemsDescription !== undefined ||
-              mdhGlassesDescription !== undefined ||
-              mdhVisionExamDate !== undefined ||
-              wizardForm28Disabled !== true
+              wizardForm31Disabled !== true
                 ? `<section>
-                  <h3>Vision</h3>
+                  ${
+                    mdhVisionProblems !== undefined ||
+                    mdhGlasses !== undefined ||
+                    mdhVisionProblemsDescription !== undefined ||
+                    mdhGlassesDescription !== undefined ||
+                    mdhVisionExamDate !== undefined
+                      ? `<h3>Vision</h3>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
@@ -13068,7 +14343,7 @@ module.exports = ({
                             }
                           </ul>
                           ${
-                            mdhHearingExamDate !== undefined
+                            mdhVisionExamDate !== undefined
                               ? `<p>Date of most recent vision exam: <span>${mdhVisionExamDate}</span></p>`
                               : ""
                           }
@@ -13081,27 +14356,36 @@ module.exports = ({
             }
 
             ${
-              mcDrName !== undefined ||
-              mcDrPhone !== undefined ||
-              mcDrVisitCount !== undefined ||
-              mcDrLastVisit !== undefined ||
-              medicationListGroup !== undefined ||
-              mcSexualAbuse !== undefined ||
-              counselingGroup !== undefined ||
-              nuerologicalGroup !== undefined ||
-              psychologyGroup !== undefined ||
-              wizardForm29Disabled !== true
-                ? `<section>
-                    <h3>Medical Care</h3>
+              wizardForm32Disabled === true &&
+              wizardForm33Disabled === true &&
+              wizardForm34Disabled === true
+                ? ""
+                : `<section>
+                    ${
+                      mcDrName !== undefined ||
+                      mcDrPhone !== undefined ||
+                      mcDrVisitCount !== undefined ||
+                      mcDrLastVisit !== undefined ||
+                      medicationListGroup !== undefined ||
+                      mcSexualAbuse !== undefined ||
+                      counselingGroup !== undefined ||
+                      nuerologicalGroup !== undefined ||
+                      psychologyGroup !== undefined
+                        ? `<h3>Medical Care</h3>`
+                        : ""
+                    }
                     <table cellpadding="0" cellspacing="0">
                       <tr>
                         <td>
                           <div>
                             ${
-                              mcDrName !== undefined
-                                ? `<p>What is the primary physicians name? <span>${mcDrName}</span></p>`
-                                : ""
-                            }
+                              wizardForm32Disabled === true
+                                ? ""
+                                : `${
+                                    mcDrName !== undefined
+                                      ? `<p>What is the primary physicians name? <span>${mcDrName}</span></p>`
+                                      : ""
+                                  }
                             ${
                               mcDrPhone !== undefined
                                 ? `<p>What's the doctor's phone? <span>${mcDrPhone}</span></p>`
@@ -13115,9 +14399,20 @@ module.exports = ({
                             ${
                               mcDrLastVisit !== undefined
                                 ? `<p>Date of last visit? <span>${mcDrLastVisit}</span></p>`
-                                : `<p>How long since last visit? <span>${mcDrLastVisitMonths}</span></p>`
+                                : ""
                             }
-                            <p>List any medication this child is currently taking:</p>
+                            ${
+                              mcDrLastVisit === undefined &&
+                              mcDrLastVisitMonths !== undefined
+                                ? `<p>How long since last visit? <span>${mcDrLastVisitMonths}</span></p>`
+                                : ""
+                            }
+                            ${
+                              medicationListGroup === undefined ||
+                              medicationListGroup.length < 1
+                                ? ""
+                                : `<p>List any medication this child is currently taking:</p>`
+                            }
                             <ul>
                               ${
                                 medicationListGroup !== undefined
@@ -13136,17 +14431,21 @@ module.exports = ({
                                           </li>`
                                       )
                                       .join("")
-                                  : null
+                                  : ""
                               }
                             </ul>
                             ${
                               mcSexualAbuse !== undefined
                                 ? `<p>Has this child ever been sexually abused? <span>${mcSexualAbuse}</span></p>`
                                 : ""
+                            }`
                             }
                             ${
-                              counselingGroup !== undefined
-                                ? `<p>Psychology counseling or therapy this child has had:</p>
+                              counselingGroup === undefined ||
+                              counselingGroup.length < 1 ||
+                              wizardForm33Disabled === true
+                                ? ""
+                                : `<p>Psychology counseling or therapy this child has had:</p>
                                   <ul>
                                     ${
                                       counselingGroup !== undefined
@@ -13176,15 +14475,16 @@ module.exports = ({
                                                 </li>`
                                             )
                                             .join("")
-                                        : null
+                                        : ""
                                     }
                                   </ul>`
-                                : ""
                             }
-
                             ${
-                              nuerologicalGroup !== undefined
-                                ? `<p>Neurological exam(s) this child has had:</p>
+                              nuerologicalGroup === undefined ||
+                              nuerologicalGroup.length < 1 ||
+                              wizardForm34Disabled === true
+                                ? ""
+                                : `<p>Neurological exam(s) this child has had:</p>
                                   <ul>
                                     ${
                                       nuerologicalGroup !== undefined
@@ -13211,15 +14511,17 @@ module.exports = ({
                                                 </li>`
                                             )
                                             .join("")
-                                        : null
+                                        : ""
                                     }
                                   </ul>`
-                                : ""
                             }
 
                             ${
-                              psychologyGroup !== undefined
-                                ? `<p>Psychiatric exam(s) this child has had:</p>
+                              psychologyGroup === undefined ||
+                              psychologyGroup.length < 1 ||
+                              wizardForm35Disabled === true
+                                ? ""
+                                : `<p>Psychiatric exam(s) this child has had:</p>
                                   <ul>
                                     ${
                                       psychologyGroup !== undefined
@@ -13246,66 +14548,106 @@ module.exports = ({
                                                 </li>`
                                             )
                                             .join("")
-                                        : null
+                                        : ""
                                     }
                                   </ul>`
-                                : ""
                             }
-                            
                           </div>
                         </td>
                       </tr>
                     </table>
                   </section>`
-                : ""
             }
 
             ${
-              fhDrugAbuse === true ||
-              fhAlzheimers === true ||
-              fhBehaviorDisorder === true ||
-              fhBirthDefect === true ||
-              fhCancer === true ||
-              fhCerbralPalsy === true ||
-              fhCysticFibrosis === true ||
-              fhDiabetes === true ||
-              fhEmotionalDisturbance === true ||
-              fhFoodAllergies === true ||
-              fhHeartDisease === true ||
-              fhHemophilia === true ||
-              fhHighBloodPressure === true ||
-              fhHuntingtonChorea === true ||
-              fhIntellectualDisability === true ||
-              fhKidneyDisease === true ||
-              fhMentalIllness === true ||
-              fhMigraines === true ||
-              fhMultipleSclerosis === true ||
-              fhMuscularDystrophy === true ||
-              fhNervousnes === true ||
-              fhOtherLearningDisability === true ||
-              fhParkinsons === true ||
-              fhPhysicalHandicap === true ||
-              fhReadingProblem === true ||
-              fhSeizures === true ||
-              fhSevereHeadInjury === true ||
-              fhSickleCell === true ||
-              fhSpeechProblem === true ||
-              fhStroke === true ||
-              fhTaySachs === true ||
-              fhTourettes === true ||
-              fhTuberculosis === true ||
-              fhOther === true ||
-              fhFathersHealth !== undefined ||
-              fhMothersHealth !== undefined ||
-              specialEdGroup !== undefined ||
-              wizardForm30Disabled !== true
+              wizardForm36Disabled !== true
                 ? `<section>
-                  <h2>Family History</h2>
+                  ${
+                    fhDrugAbuse !== undefined ||
+                    fhAlzheimers !== undefined ||
+                    fhBehaviorDisorder !== undefined ||
+                    fhBirthDefect !== undefined ||
+                    fhCancer !== undefined ||
+                    fhCerbralPalsy !== undefined ||
+                    fhCysticFibrosis !== undefined ||
+                    fhDiabetes !== undefined ||
+                    fhEmotionalDisturbance !== undefined ||
+                    fhFoodAllergies !== undefined ||
+                    fhHeartDisease !== undefined ||
+                    fhHemophilia !== undefined ||
+                    fhHighBloodPressure !== undefined ||
+                    fhHuntingtonChorea !== undefined ||
+                    fhIntellectualDisability !== undefined ||
+                    fhKidneyDisease !== undefined ||
+                    fhMentalIllness !== undefined ||
+                    fhMigraines !== undefined ||
+                    fhMultipleSclerosis !== undefined ||
+                    fhMuscularDystrophy !== undefined ||
+                    fhNervousnes !== undefined ||
+                    fhOtherLearningDisability !== undefined ||
+                    fhParkinsons !== undefined ||
+                    fhPhysicalHandicap !== undefined ||
+                    fhReadingProblem !== undefined ||
+                    fhSeizures !== undefined ||
+                    fhSevereHeadInjury !== undefined ||
+                    fhSickleCell !== undefined ||
+                    fhSpeechProblem !== undefined ||
+                    fhStroke !== undefined ||
+                    fhTaySachs !== undefined ||
+                    fhTourettes !== undefined ||
+                    fhTuberculosis !== undefined ||
+                    fhOther !== undefined ||
+                    fhFathersHealth !== undefined ||
+                    fhMothersHealth !== undefined ||
+                    specialEdGroup !== undefined
+                      ? `<h2>Family History</h2>`
+                      : ""
+                  }
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
                         <div>
-                          <p>Family members had the following:</p>
+                        ${
+                          fhDrugAbuse !== undefined ||
+                          fhAlzheimers !== undefined ||
+                          fhBehaviorDisorder !== undefined ||
+                          fhBirthDefect !== undefined ||
+                          fhCancer !== undefined ||
+                          fhCerbralPalsy !== undefined ||
+                          fhCysticFibrosis !== undefined ||
+                          fhDiabetes !== undefined ||
+                          fhEmotionalDisturbance !== undefined ||
+                          fhFoodAllergies !== undefined ||
+                          fhHeartDisease !== undefined ||
+                          fhHemophilia !== undefined ||
+                          fhHighBloodPressure !== undefined ||
+                          fhHuntingtonChorea !== undefined ||
+                          fhIntellectualDisability !== undefined ||
+                          fhKidneyDisease !== undefined ||
+                          fhMentalIllness !== undefined ||
+                          fhMigraines !== undefined ||
+                          fhMultipleSclerosis !== undefined ||
+                          fhMuscularDystrophy !== undefined ||
+                          fhNervousnes !== undefined ||
+                          fhOtherLearningDisability !== undefined ||
+                          fhParkinsons !== undefined ||
+                          fhPhysicalHandicap !== undefined ||
+                          fhReadingProblem !== undefined ||
+                          fhSeizures !== undefined ||
+                          fhSevereHeadInjury !== undefined ||
+                          fhSickleCell !== undefined ||
+                          fhSpeechProblem !== undefined ||
+                          fhStroke !== undefined ||
+                          fhTaySachs !== undefined ||
+                          fhTourettes !== undefined ||
+                          fhTuberculosis !== undefined ||
+                          fhOther !== undefined ||
+                          fhFathersHealth !== undefined ||
+                          fhMothersHealth !== undefined ||
+                          specialEdGroup !== undefined
+                            ? `<p>Family members had the following:</p>`
+                            : ""
+                        }  
                           <ul>
                             ${
                               fhDrugAbuse === true
@@ -13461,7 +14803,8 @@ module.exports = ({
                               : ""
                           }
                           ${
-                            specialEdGroup !== undefined
+                            specialEdGroup !== undefined &&
+                            specialEdGroup.length > 0
                               ? `<p>Has anyone in the family ever been in special education?</p>
                                 <ul>
                                   ${specialEdGroup
@@ -13491,7 +14834,7 @@ module.exports = ({
             }
 
             ${
-              wizardForm31Disabled !== true
+              wizardForm37Disabled !== true
                 ? `<section>
                   ${
                     fRelatingProblems !== undefined ||
@@ -13678,28 +15021,28 @@ module.exports = ({
             }
 
             ${
-              wizardForm32Disabled != true
+              wizardForm38Disabled !== true
                 ? `<section>
                     ${
-                      riActivitesSports != undefined ||
-                      riActivitesHobbies != undefined ||
-                      riActivitesOther != undefined
+                      riActivitesSports !== undefined ||
+                      riActivitesHobbies !== undefined ||
+                      riActivitesOther !== undefined
                         ? `
                           <h2>Recreation &amp; Interests</h2>
                           <div>
                             ${
-                              riActivitesSports != undefined
-                                ? `<p><em>What sport activities does this child enjoy?</em> <span>${riActivitesSports}</span></p>`
+                              riActivitesSports !== undefined
+                                ? `<p><em>What sport activities does this child enjoy?</em><br/><span>${riActivitesSports}</span></p>`
                                 : ""
                             }
                             ${
-                              riActivitesHobbies != undefined
-                                ? `<p><em>What hobbies does this child enjoy?</em> <span>${riActivitesHobbies}</span></p>`
+                              riActivitesHobbies !== undefined
+                                ? `<p><em>What hobbies does this child enjoy?</em><br /><span>${riActivitesHobbies}</span></p>`
                                 : ""
                             }
                             ${
-                              riActivitesOther != undefined
-                                ? `<p><em>What other activities does this child enjoy?</em> <span>${riActivitesOther}</span></p>`
+                              riActivitesOther !== undefined
+                                ? `<p><em>What other activities does this child enjoy?</em><br /><span>${riActivitesOther}</span></p>`
                                 : ""
                             }
                           </div>`
@@ -13710,7 +15053,7 @@ module.exports = ({
             }
 
             ${
-              wizardForm33Disabled !== true
+              wizardForm39Disabled !== true
                 ? `<section>
                     ${
                       btOverstimulated === true ||
@@ -13726,7 +15069,9 @@ module.exports = ({
                       btParentalAttention === true ||
                       btCannotCalm === true
                         ? `<h2>Behavior &amp; Treatment</h2>
-                          <p><em>John exhibits the following:</em></p>
+                          <p><em>${
+                            diName !== undefined ? `${diName}` : "The Client"
+                          } exhibits the following:</em></p>
                           <ul>
                             ${
                               btOverstimulated === true
@@ -13791,12 +15136,20 @@ module.exports = ({
                           </ul>
                           ${
                             btFears !== undefined
-                              ? `<p><em>Does this child have fears?</em> <span>${btFears}</span></p>`
+                              ? `<p><em>What are ${
+                                  diName !== undefined
+                                    ? `${diName}'s`
+                                    : "the Client's"
+                                } fears?</em><br /><span>${btFears}</span></p>`
                               : ""
                           }
                           ${
                             btAngry !== undefined
-                              ? `<p><em>What makes this child angry?</em> <span>${btAngry}</span></p>`
+                              ? `<p><em>What makes ${
+                                  diName !== undefined
+                                    ? `${diName}`
+                                    : "the Client"
+                                } angry?</em><br /><span>${btAngry}</span></p>`
                               : ""
                           }`
                         : ""
@@ -13806,7 +15159,7 @@ module.exports = ({
             }
 
             ${
-              wizardForm34Disabled !== true
+              wizardForm40Disabled !== true
                 ? `<section>
                     ${
                       ehDaycare !== undefined ||
@@ -13868,7 +15221,7 @@ module.exports = ({
                         }
                         ${
                           ehKindergarten === "Yes"
-                            ? `<p><em>Any problems in kindergarten?</em><span> ${ehKindergartenProblems}</span></p>`
+                            ? `<p><em>Any problems in kindergarten?</em><span><br />${ehKindergartenProblems}</span></p>`
                             : ""
                         }`
                         : ""
@@ -13878,7 +15231,7 @@ module.exports = ({
             }
 
             ${
-              wizardForm35Disabled !== true
+              wizardForm41Disabled !== true
                 ? `<section>
                     ${
                       ehChangedSchools !== undefined ||
@@ -13906,7 +15259,7 @@ module.exports = ({
                     }
                     ${
                       ehChangedSchools !== undefined
-                        ? `<p><em>Changed schools for reasons other than normal academic progression? </em> 
+                        ? `<p><em>Changed schools for reasons other than normal academic progression?<br /></em> 
                             ${
                               ehChangedSchools === "Yes"
                                 ? `<span>Yes. ${ehChangedSchoolsDesc}</span>`
@@ -13916,7 +15269,7 @@ module.exports = ({
                     }
                     ${
                       ehRepeatGrade !== undefined
-                        ? `<p><em>Has been retained a grade in school? </em> 
+                        ? `<p><em>Has been retained a grade in school?<br /></em> 
                           ${
                             ehRepeatGrade === "Yes"
                               ? `<span>Yes. ${ehGradeRepeatDesc}</span>`
@@ -13927,7 +15280,7 @@ module.exports = ({
                     }
                     ${
                       ehGradeSkip !== undefined
-                        ? `<p><em>Has skipped a grade in school? </em> 
+                        ? `<p><em>Has skipped a grade in school?<br /></em> 
                           ${
                             ehGradeSkip == "Yes"
                               ? `<span>Yes. ${ehGradeSkipDesc}</span>`
@@ -13938,7 +15291,7 @@ module.exports = ({
                     }
                     ${
                       ehDifficultyReading !== undefined
-                        ? `<p><em>Does this child have difficulty reading? </em> 
+                        ? `<p><em>Does this child have difficulty reading?<br /></em> 
                               ${
                                 ehDifficultyReading == "Yes"
                                   ? `<span>Yes. ${ehDifficultyReadingDesc}</span>`
@@ -13949,7 +15302,7 @@ module.exports = ({
                     }
                     ${
                       ehDifficultyMath !== undefined
-                        ? `<p><em>Does this child difficulty with math? </em> 
+                        ? `<p><em>Does this child difficulty with math?<br /></em> 
                             ${
                               ehDifficultyMath == "Yes"
                                 ? `<span>Yes. ${ehDifficultyMathDesc}</span>`
@@ -13960,7 +15313,7 @@ module.exports = ({
                     }
                     ${
                       ehPoorGrades !== undefined
-                        ? `<p><em>Gets poor grades? </em> 
+                        ? `<p><em>Gets poor grades?<br /></em> 
                             ${
                               ehPoorGrades == "Yes"
                                 ? `<span>Yes. ${ehPoorGradesDesc}</span>`
@@ -13971,7 +15324,7 @@ module.exports = ({
                     }
                     ${
                       ehSpecialEd !== undefined
-                        ? `<p><em>Has been tested for special education? </em> 
+                        ? `<p><em>Has been tested for special education?<br /></em> 
                             ${
                               ehSpecialEd == "Yes"
                                 ? `<span>Yes. ${ehSpecialEdDesc}</span>`
@@ -14020,7 +15373,7 @@ module.exports = ({
                     }
                     ${
                       ehAbsent !== undefined
-                        ? `<p><em>Is absent from school frequently? </em> 
+                        ? `<p><em>Is absent from school frequently?<br /></em> 
                             ${
                               ehAbsent == "Yes"
                                 ? `<span>Yes. ${ehAbsentDesc}</span>`
@@ -14031,12 +15384,14 @@ module.exports = ({
                     }
                     ${
                       ehGraduateHsDesc !== undefined
-                        ? `<p><em>${diName} will graduate high school on </em>${ehGraduateHsDesc}</p>`
+                        ? `<p><em>${
+                            diName !== undefined ? `${diName}` : "The Client's"
+                          } will graduate high school on </em>${ehGraduateHsDesc}.</p>`
                         : ""
                     }
                     ${
                       ehTeacherConcerns !== undefined
-                        ? `<p><em>Do you have any concerns about the quality of this child's teachers? </em> 
+                        ? `<p><em>Do you have any concerns about the quality of this child's teachers?<br /></em> 
                             ${
                               ehTeacherConcerns == "Yes"
                                 ? `<span>Yes. ${ehTeacherConcernsDesc}</span>`
@@ -14050,14 +15405,15 @@ module.exports = ({
             }
 
             ${
-              wizardForm42Disabled !== true
+              rdaReligonAffiliation !== undefined ||
+              rdaReligonInvolvement !== undefined ||
+              rdaSpiritualImportance !== undefined ||
+              rdaReligonBuilding !== undefined ||
+              rdaEthnicity !== undefined ||
+              rdaRace !== undefined ||
+              rdaIdenficationOther !== undefined
                 ? `<section>
-                    ${
-                      rdaReligonAffiliation !== undefined ||
-                      rdaReligonInvolvement !== undefined
-                        ? `<h2>Religious &amp; Racial Ethnic Identification</h2>`
-                        : ""
-                    }
+                    <h2>Religious &amp; Racial Ethnic Identification</h2>
                     ${
                       rdaReligonAffiliation !== undefined ||
                       rdaReligonInvolvement !== undefined
@@ -14068,7 +15424,7 @@ module.exports = ({
                                 <p><em>Denomination:</em> <span>${rdaReligonAffiliation}</span></p>
                               </li>
                               <li>
-                                <p><em>Level of involvement:</em> <span>${rdaReligonInvolvement}</span></p>
+                                <p><em>Level of involvement (Scale of 1-5 with 5 being very involved):</em> <span>${rdaReligonInvolvement}</span></p>
                               </li>
                             </ul>
                           </div>`
@@ -14084,7 +15440,7 @@ module.exports = ({
                     ${
                       rdaSpiritualImportance !== undefined
                         ? `<div>  
-                            <p><em>How important are spirtial concerns in your life?</em> <span>${rdaSpiritualImportance}</span></p>
+                            <p><em>How important are spirtial concerns in your life?</em><br /><span>${rdaSpiritualImportance}</span></p>
                           </div>`
                         : ""
                     }
@@ -14112,21 +15468,29 @@ module.exports = ({
                     ${
                       rdaEthnicity !== undefined
                         ? `<div>  
-                            <p><em>${diName}'s ethnicity is</em> <span>${rdaEthnicity}</span></p>
+                            <p><em>${
+                              diName !== undefined
+                                ? `${diName}'s`
+                                : "The Client's"
+                            } ethnicity is</em> <span>${rdaEthnicity}</span>.</p>
                           </div>`
                         : ""
                     }
                     ${
                       rdaRace !== undefined
                         ? `<div>  
-                            <p><em>${diName}'s race is</em> <span>${rdaRace}</span></p>
+                            <p><em>${
+                              diName !== undefined
+                                ? `${diName}'s`
+                                : "The Client's"
+                            } race is</em> <span>${rdaRace}</span>.</p>
                           </div>`
                         : ""
                     }
                     ${
                       rdaIdenficationOther !== undefined
                         ? `<div>  
-                            <p><em>Any other way you identify yourself and consider important?</em> <span>${rdaIdenficationOther}</span></p>
+                            <p><em>Any other way you identify yourself and consider important?</em><br /><span>${rdaIdenficationOther}</span></p>
                           </div>`
                         : ""
                     }
@@ -14140,7 +15504,7 @@ module.exports = ({
                     ${
                       otherInformation !== undefined
                         ? `<h2>Other Information</h2>
-                            <p><em>Is there anything else we should know that doesn't appear on this or other forms, but that is or might be important?</em> <span>${otherInformation}</span></p>`
+                            <p><em>Is there anything else we should know that doesn't appear on this or other forms, but that is or might be important?</em><br /><span>${otherInformation}</span></p>`
                         : ""
                     }
                   </section>`
@@ -14265,7 +15629,7 @@ module.exports = ({
                     <p>${t.Descriptions.replace("(Client)", `${diName}`)}</p>
                   </div>
                   ${
-                    t.TestIndexes !== undefined
+                    t.TestIndexes !== undefined && t.TestIndexes.length > 0
                       ? t.TestIndexes.map(
                           t =>
                             `<div class="domain__test">
@@ -14276,13 +15640,20 @@ module.exports = ({
                                 <p>${t.IndexDescription}
                                   ${t.HasInput &&
                                     `<span>
-                                    ${diName}'s GAI places ${
-                                      diGender === "Boy" ? `him` : `her`
-                                    } in the ${gaiRange(
+                                    ${
+                                      diName !== undefined
+                                        ? `${diName}`
+                                        : "The Client"
+                                    } received a Composite score of ${gaiScore(
                                       t.Id
-                                    )} range and at the ${gaiPercentile(
+                                    )}
+                                    (${gaiPercentile(
                                       t.Id
-                                    )} percentile.
+                                    )} percentile) which is in the ${gaiRange(
+                                      t.Id
+                                    )} range of functioning compared to other individuals ${
+                                      diGender === "Boy" ? `his` : `her`
+                                    } age.
                                     </span>`}
                                 </p>
                               </div>`
@@ -14290,22 +15661,26 @@ module.exports = ({
                               ? `<div>
                                   <h5>${t.IndexName}</h5>
                                   <div className="test__list">
-                                    ${diName}'s GCA score on the DAS-II places ${
+                                    ${
+                                      diName !== undefined
+                                        ? `${diName}'s`
+                                        : "The Client's"
+                                    } GCA score on the DAS-II places ${
                                   diGender === "Boy" ? `him` : `her`
                                 } in
                                     the ${gcaRange(
                                       t.Id
-                                    )} range DAS-II GCA score of ${gcaScore(
+                                    )} range, (DAS-II GCA score of ${gcaScore(
                                   t.Id
                                 )}, 
-                                    ${gcaPercentile(t.Id)} percentile while ${
+                                    ${gcaPercentile(t.Id)} percentile), while ${
                                   diGender === "Boy" ? `his` : `her`
                                 } Special Nonverbal Composite SNC
                                     score placed in the ${sncRange(
                                       t.Id
-                                    )} range DAS-II SNC score of ${sncScore(
+                                    )} range (DAS-II SNC score of ${sncScore(
                                   t.Id
-                                )}, ${sncPercentile(t.Id)} percentile.
+                                )}, ${sncPercentile(t.Id)} percentile).
                                   </div>
                                 </div>`
                               : `<div>
@@ -14314,7 +15689,8 @@ module.exports = ({
                               </div>`
                           }
                           ${
-                            t.IndexConditions !== undefined
+                            t.IndexConditions !== undefined &&
+                            t.IndexConditions.length > 0
                               ? `<p>${indexConditionVal(
                                   t.IndexConditions[0].Id
                                 )}</p>`
@@ -14346,7 +15722,16 @@ module.exports = ({
                                 testSelectedReducer[i].ScoreType
                               }</th>
                               <th style="width:60%">${
-                                testSelectedReducer[i].DescriptionType
+                                appendixReducer[i].Abbreviation === "DAS-II" ||
+                                appendixReducer[i].Abbreviation === "PIY" ||
+                                (appendixReducer[i].Abbreviation === "D-KEFS" &&
+                                  (t.ParentScaleName ===
+                                    "Color-Word Interference Test" ||
+                                    t.ParentScaleName === "Twenty Questions" ||
+                                    t.ParentScaleName === "Word Context Test" ||
+                                    t.ParentScaleName === "Tower Test"))
+                                  ? ""
+                                  : `${testSelectedReducer[i].DescriptionType}`
                               }</th>
                             </tr>
                             ${t.SubTests.map(
@@ -14356,7 +15741,9 @@ module.exports = ({
                                   <td><strong>${subtestVal(t.Id)}</strong></td>
                                   <td>
                                     <div>${
-                                      t.Description === null
+                                      t.Description === null ||
+                                      testSelectedReducer[i].Abbreviation ===
+                                        "PIY"
                                         ? subTestDescriptionColVal(t.Id)
                                         : t.Description
                                     }</div>
@@ -14369,7 +15756,7 @@ module.exports = ({
                       : ""
                   }
                 ${
-                  t.SubTests !== undefined
+                  t.SubTests !== undefined && t.SubTests.length > 0
                     ? `<table class="test-table">
                       <tr class="table__row table__header">
                         <th style="width:25%">${
@@ -14700,7 +16087,11 @@ module.exports = ({
                             <h5>SUMMARY</h5>
                             <p className="test__list">
                               <span>
-                                Overall, ${diName} performance on the&nbsp;
+                                Overall, ${
+                                  diName !== undefined
+                                    ? `${diName}'s`
+                                    : "The Client's"
+                                } performance on the&nbsp;
                                 ${
                                   testSelectedReducer[0].Abbreviation
                                 } provided a
@@ -14710,7 +16101,9 @@ module.exports = ({
                                 abilities and strengths. ${
                                   diGender === "Boy" ? `He` : `She`
                                 } demonstrated
-                                well-developed ${summaryAbilities(t.Id)}.
+                                well-developed ${summaryAbilities(
+                                  t.Id
+                                )} abilities.
                               </span>
                             </p>
                             <p className="test__list">
@@ -14740,14 +16133,14 @@ module.exports = ({
 
               <section>
               ${
-                diName !== null ||
-                diAge !== null ||
-                reasonReferral1 !== null ||
-                reasonReferral2 !== null ||
-                reasonReferral3 !== null ||
-                relevantBackgroundHistory !== null ||
-                resultsCurrentAssessment !== null ||
-                summaryCurrentSituation !== null
+                diName !== undefined ||
+                diAge !== undefined ||
+                reasonReferral1 !== undefined ||
+                reasonReferral2 !== undefined ||
+                reasonReferral3 !== undefined ||
+                relevantBackgroundHistory !== undefined ||
+                resultsCurrentAssessment !== undefined ||
+                summaryCurrentSituation !== undefined
                   ? `<h2>Summary of Findings</h2>`
                   : ""
               }
@@ -15041,6 +16434,7 @@ module.exports = ({
                 WPPSIIV === true ||
                 WRAML2 === true ||
                 GORT5 === true ||
+                TOMM === true ||
                 WMSIV === true ||
                 WRAVMA === true ||
                 BeeryVMI === true ||
@@ -15050,13 +16444,13 @@ module.exports = ({
                 MCMIIV === true ||
                 MMPI2 === true ||
                 MMPIA === true ||
-                Rorschach === true ||
                 TSCC === true
                   ? `<section class="appendices">
                       <h2>Appendix of scores</h2>
-                    ${appendixReducer.Tests.map(
-                      (a, i) =>
-                        `<div class="appendix">
+                    ${appendixReducer
+                      .map(
+                        (a, i) =>
+                          `<div class="appendix">
                         <h4>${a.TestName}</h4>
                         <span class="h7">&nbsp;${a.Abbreviation}</span>
                         ${
@@ -15103,28 +16497,24 @@ module.exports = ({
                                 <th style="width:50%">Subtest</th>
                                 <th style="width:10%">Score</th>
                                 ${
-                                  appendixReducer.Tests[i].Abbreviation ===
-                                  "TOMM"
+                                  appendixReducer[i].Abbreviation === "TOMM"
                                     ? `<th style="width:10%"># Correct</th>`
                                     : `<th style="width:10%">% Rank</th>`
                                 }
                                 ${
-                                  appendixReducer.Tests[i].Abbreviation ===
+                                  appendixReducer[i].Abbreviation ===
                                     "GORT-5" ||
-                                  appendixReducer.Tests[i].Abbreviation ===
-                                    "TOMM"
+                                  appendixReducer[i].Abbreviation === "TOMM"
                                     ? ""
                                     : `<th style="width:20%">Gr. Eqv.</th>`
                                 }
                                 ${
-                                  appendixReducer.Tests[i].Abbreviation ===
-                                  "GORT-5"
+                                  appendixReducer[i].Abbreviation === "GORT-5"
                                     ? `<th style="width:20%">Classification</th>`
                                     : ""
                                 }
                                 ${
-                                  appendixReducer.Tests[i].Abbreviation ===
-                                  "TOMM"
+                                  appendixReducer[i].Abbreviation === "TOMM"
                                     ? `<th style="width:20%">Percentile</th>`
                                     : ""
                                 }
@@ -15132,34 +16522,33 @@ module.exports = ({
                               ${a.SubTests.map(
                                 subtest =>
                                   `<tr class="table__row">
-                                  <td style="width:50%">${subtest.name}</td>
+                                  <td style="width:50%">${subtest.Name}</td>
                                   <td style="width:10%"><strong>${appendixSubtestScoreVal(
-                                    subtest.id
+                                    subtest.Id
                                   )}</strong></td>
                                   <td style="width:10%"><strong>${appendixSubtestRankVal(
-                                    subtest.id
+                                    subtest.Id
                                   )}</strong></td>
                                   ${
-                                    appendixReducer.Tests[i].Abbreviation ===
+                                    appendixReducer[i].Abbreviation ===
                                       "GORT-5" ||
-                                    appendixReducer.Tests[i].Abbreviation ===
-                                      "TOMM"
+                                    appendixReducer[i].Abbreviation === "TOMM"
                                       ? `<td style="width:20%"><strong>${appendixSubtestClassificationVal(
-                                          subtest.id
+                                          subtest.Id
                                         )}</strong></td>`
                                       : `<td style="width:20%"><strong>${appendixSubtestGradeEquivalentVal(
-                                          subtest.id
+                                          subtest.Id
                                         )}</strong></td>`
                                   }
                                 </tr>`
                               ).join("")}
                               ${
-                                appendixReducer.Tests[i].Id === 18
+                                appendixReducer[i].Id === 18
                                   ? `<tr class="table__row">
                                 <td style="width:50%">ORI (Oral Reading Index)</td>
                                 <td style="width:10%"><strong>${t18ORIScore}</strong></td>
-                                <td style="width:10%"><strong>${t18ApendixGort5ORIGradeEquivalent}</strong></td>
-                                <td style="width:20%"><strong>${t18ApendixGort5ORIRank}</strong></td>
+                                <td style="width:10%"><strong>${t18AppendixGort5ORIGradeEquivalent}</strong></td>
+                                <td style="width:20%"><strong>${t18AppendixGort5ORIRank}</strong></td>
                                 </tr>`
                                   : ""
                               }
@@ -15178,54 +16567,57 @@ module.exports = ({
                                     <th style="width:50%">Subtest</th>
                                     <th style="width:10%">Score</th>
                                     ${
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "MMPI-2" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "MMPI-A" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
-                                        "TSCC"
+                                      appendixReducer[i].Abbreviation ===
+                                        "TSCC" ||
+                                      appendixReducer[i].Abbreviation ===
+                                        "D-KEFS"
                                         ? ""
                                         : `<th style="width:10%">% Rank</th>`
                                     }
                                     ${
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "WJ-IV ACH" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "BRIEF" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "NEPSY-II" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "Vineland-II" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "CTONI-2" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "WISC-V" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "WAIS-IV" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
-                                        "WASI-IV" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
+                                        "WASI-II" ||
+                                      appendixReducer[i].Abbreviation ===
                                         "WJ-IV COG" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "WPPSI-IV" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "Beery VMI" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "MMPI-2" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "MMPI-A" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "PIY" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
-                                        "TSCC"
+                                      appendixReducer[i].Abbreviation ===
+                                        "TSCC" ||
+                                      appendixReducer[i].Abbreviation ===
+                                        "D-KEFS"
                                         ? ""
                                         : `<th style="width:10%">Gr. Eqv.</th>`
                                     }
                                     ${
-                                      appendixReducer.Tests[i].Abbreviation ===
+                                      appendixReducer[i].Abbreviation ===
                                         "DAS-II" ||
-                                      appendixReducer.Tests[i].Abbreviation ===
-                                        "PIY"
+                                      appendixReducer[i].Abbreviation === "PIY"
                                         ? ""
                                         : `<th style="width:20%">Classification</th>`
                                     }
@@ -15240,58 +16632,62 @@ module.exports = ({
                                           subtest.id
                                         )}</strong></td>
                                         ${
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "MMPI-2" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "MMPI-A" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "TSCC"
+                                          appendixReducer[i].Abbreviation ===
+                                            "MMPI-2" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "MMPI-A" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "TSCC" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "D-KEFS"
                                             ? ""
                                             : `<td style="width:10%"><strong>${appendixSubtestRankVal(
                                                 subtest.id
                                               )}</strong></td>`
                                         }
                                         ${
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "WJ-IV ACH" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "BRIEF" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "NEPSY-II" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "Vineland-II" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "CTONI-2" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "WISC-V" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "WAIS-IV" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "WASI-IV" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "WJ-IV COG" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "WPPSI-IV" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "Beery VMI" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "MMPI-2" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "MMPI-A" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "PIY" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "TSCC"
+                                          appendixReducer[i].Abbreviation ===
+                                            "WJ-IV ACH" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "BRIEF" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "NEPSY-II" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "Vineland-II" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "CTONI-2" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "WISC-V" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "WAIS-IV" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "WASI-II" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "WJ-IV COG" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "WPPSI-IV" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "Beery VMI" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "MMPI-2" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "MMPI-A" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "PIY" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "TSCC" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "D-KEFS"
                                             ? ""
                                             : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
                                                 subtest.id
                                               )}</strong></td>`
                                         }
                                         ${
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "DAS-II" ||
-                                          appendixReducer.Tests[i]
-                                            .Abbreviation === "PIY"
+                                          appendixReducer[i].Abbreviation ===
+                                            "DAS-II" ||
+                                          appendixReducer[i].Abbreviation ===
+                                            "PIY"
                                             ? ""
                                             : `<td style="width:20%"><strong>${appendixSubtestClassificationVal(
                                                 subtest.id
@@ -15299,6 +16695,31 @@ module.exports = ({
                                         }
                                       </tr>`
                                   ).join("")}
+                                  ${
+                                    appendixReducer[i].Abbreviation ===
+                                      "D-KEFS" &&
+                                    (p.ParentScaleTitle === "Verbal Fluency" ||
+                                      p.ParentScaleTitle === "Design Fluency" ||
+                                      p.ParentScaleTitle ===
+                                        "Color-Word Interference Test" ||
+                                      p.ParentScaleTitle === "Sorting Test" ||
+                                      p.ParentScaleTitle ===
+                                        "Twenty Questions" ||
+                                      p.ParentScaleTitle ===
+                                        "Word Context Test" ||
+                                      p.ParentScaleTitle === "Tower Test" ||
+                                      p.ParentScaleTitle === "Proverb Test")
+                                      ? `<tr class="table__row">
+                                          <td style="width:50%">${`<strong>Summary of Scores</strong>`}</td>
+                                          <td style="width:10%"><strong>${appendixSubtestSummaryOfScoresScoreVal(
+                                            p.Id
+                                          )}</strong></td>
+                                          <td style="width:20%"><strong>${appendixSubtestSummaryOfScoresClassificationVal(
+                                            p.Id
+                                          )}</strong></td>
+                                        </tr>`
+                                      : ""
+                                  }
                                 </table>
                               </div>`
                               ).join("")
@@ -15320,16 +16741,16 @@ module.exports = ({
                                           <th style="width:10%">Score</th>
                                           <th style="width:10%">% Rank</th>
                                           ${
-                                            appendixReducer.Tests[i]
-                                              .Abbreviation === "WJ-IV ACH" ||
-                                            appendixReducer.Tests[i]
-                                              .Abbreviation === "BRIEF" ||
-                                            appendixReducer.Tests[i]
-                                              .Abbreviation === "Conners-3" ||
-                                            appendixReducer.Tests[i]
-                                              .Abbreviation === "RBANS" ||
-                                            appendixReducer.Tests[i]
-                                              .Abbreviation === "WRAML2"
+                                            appendixReducer[i].Abbreviation ===
+                                              "WJ-IV ACH" ||
+                                            appendixReducer[i].Abbreviation ===
+                                              "BRIEF" ||
+                                            appendixReducer[i].Abbreviation ===
+                                              "Conners-3" ||
+                                            appendixReducer[i].Abbreviation ===
+                                              "RBANS" ||
+                                            appendixReducer[i].Abbreviation ===
+                                              "WRAML2"
                                               ? ""
                                               : `<th style="width:10%">Gr. Eqv.</th>`
                                           }
@@ -15348,17 +16769,17 @@ module.exports = ({
                                                 subtest.id
                                               )}</strong></td>
                                               ${
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation ===
                                                   "WJ-IV ACH" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "BRIEF" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation ===
                                                   "Conners-3" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "RBANS" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "WRAML2"
                                                   ? ""
                                                   : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
@@ -15373,6 +16794,24 @@ module.exports = ({
                                       </table>
                                   </div>`
                                 ).join("")}
+                                ${
+                                  appendixReducer[i].Abbreviation === "RBANS"
+                                    ? `<table class="test-table test-table--appendix">
+                                        <tr class="table__row table__header">
+                                          <th style="width:50%">Total Scale Score</th>
+                                          <th style="width:10%">Scaled Score</th>
+                                          <th style="width:10%">% Rank</th>
+                                          <th style="width:20%">Classification</th>
+                                        </tr>
+                                        <tr class="table__row">
+                                          <td style="width:50%">${rbansTotalScaleScore}</td>
+                                          <td style="width:10%"><strong>${rbansTotalScaleScoreScaledScore}</strong></td>
+                                          <td style="width:10%"><strong>${rbansTotalScaleScorePercentileRank}</strong></td>
+                                          <td style="width:20%"><strong>${rbansTotalScaleScoreRange}</strong></td>
+                                        </tr>
+                                      </table>`
+                                    : ""
+                                }
                               </div>`
                               ).join("")
                             : ""
@@ -15396,19 +16835,19 @@ module.exports = ({
                                               <th style="width:10%">Score</th>
                                               <th style="width:10%">% Rank</th>
                                               ${
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation ===
                                                   "WJ-IV ACH" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "BRIEF" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation ===
                                                   "Conners-3" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "RBANS" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "WRAML2" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "BASC-3"
                                                   ? ""
                                                   : `<th style="width:10%">Gr. Eqv.</th>`
@@ -15428,22 +16867,22 @@ module.exports = ({
                                                     subtest.id
                                                   )}</strong></td>
                                                   ${
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "WJ-IV ACH" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "BRIEF" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "Conners-3" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "RBANS" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "WRAML2" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation === "BASC-3"
                                                       ? ""
                                                       : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
@@ -15480,19 +16919,19 @@ module.exports = ({
                                               <th style="width:10%">Score</th>
                                               <th style="width:10%">% Rank</th>
                                               ${
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation ===
                                                   "WJ-IV ACH" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "BRIEF" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation ===
                                                   "Conners-3" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "RBANS" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "WRAML2" ||
-                                                appendixReducer.Tests[i]
+                                                appendixReducer[i]
                                                   .Abbreviation === "BASC-3"
                                                   ? ""
                                                   : `<th style="width:10%">Gr. Eqv.</th>`
@@ -15512,22 +16951,22 @@ module.exports = ({
                                                     subtest.id
                                                   )}</strong></td>
                                                   ${
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "WJ-IV ACH" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "BRIEF" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "Conners-3" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "RBANS" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation ===
                                                       "WRAML2" ||
-                                                    appendixReducer.Tests[i]
+                                                    appendixReducer[i]
                                                       .Abbreviation === "BASC-3"
                                                       ? ""
                                                       : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
@@ -15581,7 +17020,8 @@ module.exports = ({
                             : ""
                         }
                       </div>`
-                    ).join("")}
+                      )
+                      .join("")}
                     </section>`
                   : ""
               }
