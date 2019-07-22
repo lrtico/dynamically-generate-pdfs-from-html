@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Client-side:
 ## Start the React app to send the hard-coded data to the PDF generator
-- Cd into /src/App.js
+- Cd into /src/
 - Open a Terminal and type npm start
 
 
