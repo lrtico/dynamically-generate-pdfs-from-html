@@ -4,6 +4,12 @@ This project contains both the client-side and server-side scripts to generate a
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Server-side:
+## Start the Express server to process the PDF
+Cd into /server/index.js
+Open a Terminal and type nodemon index.js
+
+Client-side:
 ## Available Scripts
 
 In the project directory, you can run:
