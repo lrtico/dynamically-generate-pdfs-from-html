@@ -2,6 +2,12 @@ The purpose of this project is to generate a PDF from a JSON object sent from On
 
 This project contains both the client-side and server-side scripts to generate a PDF. The client-side files were used during development to simulate data from the React app **(located in the "/src/App.js" file).** This file contains hard-coded placeholder data that would be sent from the React app.
 
+# Set up
+- Start by downloading or cloning the repository (green button).
+- After unzipping and opening the folder in your editor, open a terminal and cd into the **"/src/"** directory
+- type npm install to install all necessary dependices for the client
+- cd into the **"/server/"** folder
+- type npm install to install all necessary dependices for the server
 
 # Server-side:
 ## Start the Express server to process the PDF
