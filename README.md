@@ -1,8 +1,6 @@
-The purpose of this project is to generate a PDF from a JSON object sent from One Neuro's report writer web app, built with love using React. The index.js file in the ./sever/documents/ folder contains the template which receives the JSON data and maps it to the template which is then output to a PDF and downloaded to the user's computer.
+The purpose of this project is to generate a PDF from a JSON object sent from One Neuro's report writer web app, built using React. The index.js file in the /sever/documents/ folder is a JavaScript literal HTML template that receives the JSON data from the React app and then generates a PDF which is downloaded to the user's computer.
 
-This project contains both the client-side and server-side scripts to generate a PDF. The client-side files contain placeholder data for the One Neuro report generating app **(located in the "/src/App.js" file).** This placeholder data can be used instead of accepting the JSON object from the report generating app.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains both the client-side and server-side scripts to generate a PDF. The client-side files were used during development to simulate data from the React app **(located in the "/src/App.js" file).** This file contains hard-coded placeholder data that would be sent from the React app.
 
 
 # Server-side:
