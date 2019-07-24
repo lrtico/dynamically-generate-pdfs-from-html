@@ -1,7 +1,6 @@
 //export a function that returns all the necessary HTML and generates the PDF
 
 module.exports = ({
-  values: {
     wizardForm5Disabled,
     wizardForm6Disabled,
     wizardForm7Disabled,
@@ -2557,10 +2556,9 @@ module.exports = ({
     t175AppendixDkefsTowerTestSummaryOfScoresRange,
     t175AppendixDkefsTowerTestSummaryOfScoresScore,
     t176AppendixDkefsProverbTestSummaryOfScoresRange,
-    t176AppendixDkefsProverbTestSummaryOfScoresScore
-  },
-  testSelectedReducer,
-  appendixReducer
+    t176AppendixDkefsProverbTestSummaryOfScoresScore,
+    testSelectedReducer,
+    appendixReducer
 }) => {
   const subtestVal = id => {
     let val;
