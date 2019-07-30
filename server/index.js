@@ -9,7 +9,7 @@ const pdfTemplate = require("./documents/");
 
 //initialize the app and set up the port
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 //set up middleware
 app.use(cors());
@@ -20,7 +20,21 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //post method requires a route and callback function which has request and response parameters passed to it
 app.post("/create-pdf", (req, res) => {
   //call the PDF const then use the html-pdf method toFile to create a PDF and err handling response
-  pdf.create(pdfTemplate(req.body), {}).toFile("result.pdf", err => {
+
+  //Create the options for the PDF - see https://github.com/marcbachmann/node-html-pdf for a list of options
+  const options = {
+    format: "Letter",
+    orientation: "portrait",
+    border: "0",
+    header: {
+      height: "35mm"
+    },
+    footer: {
+      height: "30mm"
+    }
+  };
+
+  pdf.create(pdfTemplate(req.body), options).toFile("result.pdf", err => {
     if (err) {
       res.send(Promise.reject());
     }
