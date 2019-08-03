@@ -9,7 +9,7 @@ const pdfTemplate = require("./documents/");
 
 //initialize the app and set up the port
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 //set up middleware
 app.use(cors());
@@ -27,7 +27,7 @@ app.post("/create-pdf", (req, res) => {
     orientation: "portrait",
     border: "0",
     header: {
-      height: "35mm"
+      height: "30mm"
     },
     footer: {
       height: "30mm"
