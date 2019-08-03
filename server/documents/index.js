@@ -7359,6 +7359,33 @@ module.exports = ({
       case 659:
         val = t659AnimalCodingScore;
         break;
+      case 660:
+        val = t660ReceptiveVocabularyScore;
+        break;
+      case 661:
+        val = t661PictureNamingScore;
+        break;
+      case 662:
+        val = t662SocialStressScore;
+        break;
+      case 663:
+        val = "";
+        break;
+      case 664:
+        val = t664AnxietyScore;
+        break;
+      case 665:
+        val = t665DepressionScore;
+        break;
+      case 666:
+        val = t666SenseOfInadequacyScore;
+        break;
+      case 667:
+        val = t667SelfEsteemScore;
+        break;
+      case 668:
+        val = t668SelfRelianceScore;
+        break;
       case 669:
         val = t669BeeryMotorIntegrationVMIScore;
         break;
@@ -11032,7 +11059,7 @@ module.exports = ({
                 background-color: white;
                 font-size: 10pt;
                 font-family: "Lato", sans-serif;
-                margin: 0.25in 0.125in;
+                margin: 0 0.125in;
               }
               .pdf-t p {
                 flex: 1 1 100%;
@@ -11046,7 +11073,7 @@ module.exports = ({
               .pdf-t main h1 {
                 font-size: 18pt;
                 font-weight: 700;
-                margin: 0.25in 0;
+                margin: 0 0 0.125in;
               }
               .pdf-t main section {
                 // display: flex;
@@ -14710,152 +14737,152 @@ module.exports = ({
                           fhFathersHealth !== undefined ||
                           fhMothersHealth !== undefined ||
                           specialEdGroup !== undefined
-                            ? `<p>Family members had the following:</p>`
+                            ? `<p>Family members had the following:</p></li>`
                             : ""
                         }  
                           <ul>
                             ${
                               fhDrugAbuse === true
-                                ? `<li><p>Alcohol/Drug abuse</p>`
+                                ? `<li>Alcohol/Drug abuse</li>`
                                 : ""
                             }
                             ${
                               fhAlzheimers === true
-                                ? `<li><p>Alzheimers Disease</p>`
+                                ? `<li>Alzheimers Disease</li>`
                                 : ""
                             }
                             ${
                               fhBehaviorDisorder === true
-                                ? `<li><p>Behavior disorder</p>`
+                                ? `<li>Behavior disorder</li>`
                                 : ""
                             }
                             ${
                               fhBirthDefect === true
-                                ? `<li><p>Birth defect</p>`
+                                ? `<li>Birth defect</li>`
                                 : ""
                             }
-                            ${fhCancer === true ? `<li><p>Cancer</p>` : ""}
+                            ${fhCancer === true ? `<li>Cancer</li>` : ""}
                             ${
                               fhCerbralPalsy === true
-                                ? `<li><p>Cerbral Palsy</p>`
+                                ? `<li>Cerbral Palsy</li>`
                                 : ""
                             }
                             ${
                               fhCysticFibrosis === true
-                                ? `<li><p>Cystic Fibrosis</p>`
+                                ? `<li>Cystic Fibrosis</li>`
                                 : ""
                             }
-                            ${fhDiabetes === true ? `<li><p>Diabetes</p>` : ""}
+                            ${fhDiabetes === true ? `<li>Diabetes</li>` : ""}
                             ${
                               fhEmotionalDisturbance === true
-                                ? `<li><p>Emotional Disturbance</p>`
+                                ? `<li>Emotional Disturbance</li>`
                                 : ""
                             }
                             ${
                               fhFoodAllergies === true
-                                ? `<li><p>Food Allergies</p>`
+                                ? `<li>Food Allergies</li>`
                                 : ""
                             }
                             ${
                               fhHeartDisease === true
-                                ? `<li><p>Heart Disease</p>`
+                                ? `<li>Heart Disease</li>`
                                 : ""
                             }
                             ${
                               fhHemophilia === true
-                                ? `<li><p>Hemophilia</p>`
+                                ? `<li>Hemophilia</li>`
                                 : ""
                             }
                             ${
                               fhHighBloodPressure === true
-                                ? `<li><p>High Blood Pressure</p>`
+                                ? `<li>High Blood Pressure</li>`
                                 : ""
                             }
                             ${
                               fhHuntingtonChorea === true
-                                ? `<li><p>Huntington Chorea</p>`
+                                ? `<li>Huntington Chorea</li>`
                                 : ""
                             }
                             ${
                               fhIntellectualDisability === true
-                                ? `<li><p>Intellectual Disability</p>`
+                                ? `<li>Intellectual Disability</li>`
                                 : ""
                             }
                             ${
                               fhKidneyDisease === true
-                                ? `<li><p>Kidney Disease</p>`
+                                ? `<li>Kidney Disease</li>`
                                 : ""
                             }
                             ${
                               fhMentalIllness === true
-                                ? `<li><p>Mental Illness</p>`
+                                ? `<li>Mental Illness</li>`
                                 : ""
                             }
                             ${
-                              fhMigraines === true ? `<li><p>Migraines</p>` : ""
+                              fhMigraines === true ? `<li>Migraines</li>` : ""
                             }
                             ${
                               fhMultipleSclerosis === true
-                                ? `<li><p>Multiple Sclerosis</p>`
+                                ? `<li>Multiple Sclerosis</li>`
                                 : ""
                             }
                             ${
                               fhMuscularDystrophy === true
-                                ? `<li><p>Muscular Dystrophy</p>`
+                                ? `<li>Muscular Dystrophy</li>`
                                 : ""
                             }
                             ${
                               fhNervousnes === true
-                                ? `<li><p>Nervousnes</p>`
+                                ? `<li>Nervousnes</li>`
                                 : ""
                             }
                             ${
                               fhOtherLearningDisability === true
-                                ? `<li><p>Other Learning Disability</p>`
+                                ? `<li>Other Learning Disability</li>`
                                 : ""
                             }
                             ${
                               fhParkinsons === true
-                                ? `<li><p>Parkinsons</p>`
+                                ? `<li>Parkinsons</li>`
                                 : ""
                             }
                             ${
                               fhPhysicalHandicap === true
-                                ? `<li><p>Physical Handicap</p>`
+                                ? `<li>Physical Handicap</li>`
                                 : ""
                             }
                             ${
                               fhReadingProblem === true
-                                ? `<li><p>Reading Problem</p>`
+                                ? `<li>Reading Problem</li>`
                                 : ""
                             }
-                            ${fhSeizures === true ? `<li><p>Seizures</p>` : ""}
+                            ${fhSeizures === true ? `<li>Seizures</li>` : ""}
                             ${
                               fhSevereHeadInjury === true
-                                ? `<li><p>Severe Head Injury</p>`
+                                ? `<li>Severe Head Injury</li>`
                                 : ""
                             }
                             ${
                               fhSickleCell === true
-                                ? `<li><p>Sickle Cell</p>`
+                                ? `<li>Sickle Cell</li>`
                                 : ""
                             }
                             ${
                               fhSpeechProblem === true
-                                ? `<li><p>Speech Problem</p>`
+                                ? `<li>Speech Problem</li>`
                                 : ""
                             }
-                            ${fhStroke === true ? `<li><p>Stroke</p>` : ""}
-                            ${fhTaySachs === true ? `<li><p>Tay Sachs</p>` : ""}
+                            ${fhStroke === true ? `<li>Stroke</li>` : ""}
+                            ${fhTaySachs === true ? `<li>Tay Sachs</li>` : ""}
                             ${
-                              fhTourettes === true ? `<li><p>Tourettes</p>` : ""
+                              fhTourettes === true ? `<li>Tourettes</li>` : ""
                             }
                             ${
                               fhTuberculosis === true
-                                ? `<li><p>Tuberculosis</p>`
+                                ? `<li>Tuberculosis</li>`
                                 : ""
                             }
-                            ${fhOther === true ? `<li><p>Other</p>` : ""}
+                            ${fhOther === true ? `<li>Other</li>` : ""}
                           </ul>
                           ${
                             fhFathersHealth !== undefined
@@ -15789,6 +15816,7 @@ module.exports = ({
                               }</th>
                               <th style="width:60%">${
                                 appendixReducer[i].Abbreviation === "DAS-II" ||
+                                appendixReducer[i].Abbreviation === "PIY" ||
                                 (appendixReducer[i].Abbreviation === "D-KEFS" &&
                                   (t.ParentScaleName ===
                                     "Color-Word Interference Test" ||
@@ -15806,9 +15834,7 @@ module.exports = ({
                                   <td><strong>${subtestVal(t.Id)}</strong></td>
                                   <td>
                                     <div>${
-                                      t.Description === null ||
-                                      testSelectedReducer[i].Abbreviation ===
-                                        "PIY"
+                                      t.Description === null 
                                         ? subTestDescriptionColVal(t.Id)
                                         : t.Description
                                     }</div>
