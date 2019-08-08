@@ -2,7 +2,7 @@ The purpose of this project is to generate a PDF from a JSON object sent from On
 
 This project contains both the client-side and server-side scripts to generate a PDF. The client-side files were used during development to simulate data from the React app **(located in the "/src/App.js" file).** This file contains hard-coded placeholder data that would be sent from the React app. 
 
-**Note:** If you want to use the React app inside the client folder (instead of the report generator), rename the "index-hard-coded-react-data.js" file in the 'server/documents/' folder to "index.js", and rename the current "index.js" file in that directory to something else.
+**Note:** If you want to use the React app inside the client folder (instead of the report generator), rename the "index-placeholder-data.js" file in the 'server/documents/' folder to "index.js", and rename the current "index.js" file in that directory to something else.
 
 # Set up
 - Start by downloading or cloning the repository (green button).
