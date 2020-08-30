@@ -13,8 +13,8 @@ const port = process.env.PORT || 5000;
 
 //set up middleware
 app.use(cors());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: "50mb" }));
+app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
 //POST request - PDF generation and fetching of data
 //post method requires a route and callback function which has request and response parameters passed to it
