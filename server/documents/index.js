@@ -11001,7 +11001,6 @@ module.exports = ({
          <head>
             <meta charset="utf-8">
             <title>PDF Result Template</title>
-            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
             <script>
               function subst() {
                 var vars={};
@@ -11027,7 +11026,7 @@ module.exports = ({
               body {
                 background-color: white;
                 font-size: 12pt;
-                font-family: "Lato", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
               }
               article,
               aside,
@@ -11041,7 +11040,7 @@ module.exports = ({
               .pdf-t {
                 background-color: white;
                 font-size: 10pt;
-                font-family: "Lato", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 margin: 0 0.125in;
               }
               .pdf-t p {
@@ -11162,11 +11161,11 @@ module.exports = ({
                 font-style: normal;
               }
               .pdf-t main section .test-table {
-                font-family: "Lato", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
               }
               .pdf-t main section table.test-table {
                 border-collapse: collapse;
-                font-family: "Lato", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 font-size: 9pt;
                 width: 100%;
               }
@@ -11270,7 +11269,7 @@ module.exports = ({
               .appendices .appendix h4 {
                 color: #464646;
                 display: inline-block;
-                font-family: "Lato", "Montserrat", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 font-size: 12pt;
                 margin-bottom: 0.125in !important;
                 margin-top: 0;
@@ -11278,14 +11277,14 @@ module.exports = ({
               }
               .pdf-t main section .domain__test h5 {
                 color: #777;
-                font-family: "Montserrat", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 font-size: 12pt;
                 margin: 36px 0 9px;
                 text-transform: uppercase;
               }
               .pdf-t main section .test-table h5 {
                 color: #777;
-                font-family: "Montserrat", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 font-size: 12pt;
                 margin: 36px 0 9px;
                 text-transform: uppercase;
@@ -11443,7 +11442,7 @@ module.exports = ({
               }
               .appendices .appendix h5 {
                 color: #777;
-                font-family: "Montserrat", sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 font-size: 12pt;
                 margin: 0.125in 0 0;
                 text-transform: capitalize;
@@ -11514,7 +11513,7 @@ module.exports = ({
                 margin-left: 0.3in;
               }
               #pageHeader div {
-                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
                 font-size: 7.5pt;
                 line-height:8.5pt;
                 font-weight: 400;
