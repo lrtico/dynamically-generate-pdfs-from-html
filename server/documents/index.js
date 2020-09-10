@@ -14341,7 +14341,8 @@ module.exports = ({
                             ${
                               mdhHearingEarInfection === true
                                 ? `<li><p>Ear infections${
-                                    mdhHearingEarInfectionDescription !== null
+                                    mdhHearingEarInfectionDescription !==
+                                    undefined
                                       ? `: <span>${mdhHearingEarInfectionDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -14350,7 +14351,7 @@ module.exports = ({
                             ${
                               mdhHearingProblems === true
                                 ? `<li><p>Hearing problems${
-                                    mdhHearingProblemsDescription !== null
+                                    mdhHearingProblemsDescription !== undefined
                                       ? `: <span>${mdhHearingProblemsDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -14359,7 +14360,7 @@ module.exports = ({
                             ${
                               mdhHearingTubes === true
                                 ? `<li><p>Ear tubes${
-                                    mdhHearingTubesDescription !== null
+                                    mdhHearingTubesDescription !== undefined
                                       ? `: <span>${mdhHearingTubesDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -14399,7 +14400,7 @@ module.exports = ({
                             ${
                               mdhVisionProblems === true
                                 ? `<li><p>Vision problems${
-                                    mdhVisionProblemsDescription !== null
+                                    mdhVisionProblemsDescription !== undefined
                                       ? `: <span>${mdhVisionProblemsDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -14408,7 +14409,7 @@ module.exports = ({
                             ${
                               mdhGlasses === true
                                 ? `<li><p>Wears glasses or contacts${
-                                    mdhGlassesDescription !== null
+                                    mdhGlassesDescription !== undefined
                                       ? `: <span>${mdhGlassesDescription}</span></p></li>`
                                       : ''
                                   }`
