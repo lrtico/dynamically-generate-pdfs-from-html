@@ -5257,9 +5257,7 @@ module.exports = ({
         val = `is a summary score that incorporates all eight clinical scales of the BRIEF. To legitimately derive a GEC score, there must be no significant difference between the BRI and MI scores, as this would suggest that the GEC is likely to obscure important differences between the two index scores and should not be used as a summary measure.`;
         break;
       case 57:
-        val = `${
-          diName !== undefined ? `${diName}` : 'The Client'
-        } demonstrated a relatively ${
+        val = `${diName !== undefined ? `${diName}` : 'The Client'} demonstrated a relatively ${
           t57WasiiiVerbalComprehensionConsistent === true
             ? 'consistent'
             : t57WasiiiVerbalComprehensionInconsistent === true
@@ -5274,9 +5272,7 @@ module.exports = ({
         } verbal reasoning, knowledge and conceptualization.`;
         break;
       case 58:
-        val = `${
-          diName !== undefined ? `${diName}` : 'The Client'
-        } demonstrated a relatively ${
+        val = `${diName !== undefined ? `${diName}` : 'The Client'} demonstrated a relatively ${
           t58WasiiiPerceptualReasoningConsistent === true
             ? 'consistent'
             : t58WasiiiPerceptualReasoningInconsistent === true
@@ -5287,9 +5283,7 @@ module.exports = ({
         } received a FRI Composite score of ${t58WasiiiPerceptualReasoningCompositeScore} (${t58WasiiiPerceptualReasoningCompositePercentile} percentile) which fell within the ${t58WasiiiPerceptualReasoningCompositeRange} range of functioning.`;
         break;
       case 106:
-        val = `${
-          diName !== undefined ? `${diName}` : 'The Client'
-        } demonstrated a relatively ${
+        val = `${diName !== undefined ? `${diName}` : 'The Client'} demonstrated a relatively ${
           t106WaisivVerbalComprehensionConsistent === true
             ? 'consistent'
             : t106WaisivVerbalComprehensionInconsistent === true
@@ -5304,9 +5298,7 @@ module.exports = ({
         } verbal reasoning, knowledge and conceptualization.`;
         break;
       case 107:
-        val = `${
-          diName !== undefined ? `${diName}` : 'The Client'
-        } demonstrated a relatively ${
+        val = `${diName !== undefined ? `${diName}` : 'The Client'} demonstrated a relatively ${
           t107WaisivPerceptualReasoningConsistent === true
             ? 'consistent'
             : t107WaisivPerceptualReasoningInconsistent === true
@@ -5317,9 +5309,7 @@ module.exports = ({
         } received a PRI Composite score of ${t107WaisivPerceptualReasoningCompositeScore} (${t107WaisivPerceptualReasoningCompositePercentile} percentile) which fell within the ${t107WaisivPerceptualReasoningCompositeRange} range of functioning.`;
         break;
       case 108:
-        val = `${
-          diName !== undefined ? `${diName}` : 'The Client'
-        } demonstrated a relatively ${
+        val = `${diName !== undefined ? `${diName}` : 'The Client'} demonstrated a relatively ${
           t108WaisivWorkingMemoryConsistent === true
             ? 'consistent'
             : t108WaisivWorkingMemoryInconsistent === true
@@ -5332,9 +5322,7 @@ module.exports = ({
         } peers.`;
         break;
       case 109:
-        val = `${
-          diName !== undefined ? `${diName}` : 'The Client'
-        } demonstrated a relatively ${
+        val = `${diName !== undefined ? `${diName}` : 'The Client'} demonstrated a relatively ${
           t109WaisivProcessingSpeedConsistent === true
             ? 'consistent'
             : t109WaisivProcessingSpeedInconsistent === true
@@ -11026,7 +11014,7 @@ module.exports = ({
               body {
                 background-color: white;
                 font-size: 12pt;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
               }
               article,
               aside,
@@ -11040,7 +11028,7 @@ module.exports = ({
               .pdf-t {
                 background-color: white;
                 font-size: 10pt;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 margin: 0 0.125in;
               }
               .pdf-t p {
@@ -11053,7 +11041,7 @@ module.exports = ({
                 margin: 0 0.5in;
               }
               .pdf-t main h1 {
-                font-size: 18pt;
+                font-size: 10pt;
                 font-weight: 700;
                 margin: 0 0 0.125in;
               }
@@ -11161,11 +11149,11 @@ module.exports = ({
                 font-style: normal;
               }
               .pdf-t main section .test-table {
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
               }
               .pdf-t main section table.test-table {
                 border-collapse: collapse;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 font-size: 9pt;
                 width: 100%;
               }
@@ -11269,7 +11257,7 @@ module.exports = ({
               .appendices .appendix h4 {
                 color: #464646;
                 display: inline-block;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 font-size: 12pt;
                 margin-bottom: 0.125in !important;
                 margin-top: 0;
@@ -11277,14 +11265,14 @@ module.exports = ({
               }
               .pdf-t main section .domain__test h5 {
                 color: #777;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 font-size: 12pt;
                 margin: 36px 0 9px;
                 text-transform: uppercase;
               }
               .pdf-t main section .test-table h5 {
                 color: #777;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 font-size: 12pt;
                 margin: 36px 0 9px;
                 text-transform: uppercase;
@@ -11442,7 +11430,7 @@ module.exports = ({
               }
               .appendices .appendix h5 {
                 color: #777;
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 font-size: 12pt;
                 margin: 0.125in 0 0;
                 text-transform: capitalize;
@@ -11513,7 +11501,7 @@ module.exports = ({
                 margin-left: 0.3in;
               }
               #pageHeader div {
-                font-family: "Calibri", "Corbel", "Franklin Gothic", "Lato", sans-serif;
+                font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                 font-size: 7.5pt;
                 line-height:8.5pt;
                 font-weight: 400;
@@ -11593,26 +11581,14 @@ module.exports = ({
                 <tr>
                   <td class="col2eq">
                     <div>
-                      ${
-                        diName !== undefined
-                          ? `<p>Name: <span>${diName}</span></p>`
-                          : ''
-                      }
+                      ${diName !== undefined ? `<p>Name: <span>${diName}</span></p>` : ''}
                       ${
                         diDateofbirth !== undefined
                           ? `<p>Date of Birth: <span>${diDateofbirth}</span></p>`
                           : ''
                       }
-                      ${
-                        diAge !== undefined
-                          ? `<p>Age: <span>${diAge}</span></p>`
-                          : ''
-                      }
-                      ${
-                        diGender !== undefined
-                          ? `<p>Gender: <span>${diGender}</span></p>`
-                          : ''
-                      }
+                      ${diAge !== undefined ? `<p>Age: <span>${diAge}</span></p>` : ''}
+                      ${diGender !== undefined ? `<p>Gender: <span>${diGender}</span></p>` : ''}
                       ${
                         diHandedness !== undefined
                           ? `<p>Handedness: <span>${diHandedness}</span></p>`
@@ -11633,10 +11609,7 @@ module.exports = ({
                           ? `<p>Date(s) of Evaluation:
                               <ul>
                               ${diDateoftesting
-                                .map(
-                                  (date) =>
-                                    `<li>${date.title}, ${date.date}</li>`,
-                                )
+                                .map((date) => `<li>${date.title}, ${date.date}</li>`)
                                 .join('')}
                                 </ul>
                             </p>`
@@ -11648,16 +11621,8 @@ module.exports = ({
                           ? `<p>Evaluator's Name: <span>${diEvaluator}</span></p>`
                           : ''
                       }
-                      ${
-                        diSchool !== undefined
-                          ? `<p>School: <span>${diSchool}</span></p>`
-                          : ''
-                      }
-                      ${
-                        diGrade !== undefined
-                          ? `<p>Grade: <span>${diGrade}</span></p>`
-                          : ''
-                      }
+                      ${diSchool !== undefined ? `<p>School: <span>${diSchool}</span></p>` : ''}
+                      ${diGrade !== undefined ? `<p>Grade: <span>${diGrade}</span></p>` : ''}
                     </div>
                   </td>
                 </tr>
@@ -11679,11 +11644,7 @@ module.exports = ({
                 <tr>
                   <td class="col2eq">
                     <div>
-                      ${
-                        paqName !== undefined
-                          ? `<p>Name: <span>${paqName}</span></p>`
-                          : ''
-                      }
+                      ${paqName !== undefined ? `<p>Name: <span>${paqName}</span></p>` : ''}
                       ${
                         paqGuardian !== undefined
                           ? `<p>Relationship to the child: <span>${paqGuardian}</span></p>`
@@ -11699,9 +11660,7 @@ module.exports = ({
                   <td class="col2eq">
                     <div>
                       ${
-                        paqAddress !== undefined
-                          ? `<p>Address: <span>${paqAddress}</span></p>`
-                          : ''
+                        paqAddress !== undefined ? `<p>Address: <span>${paqAddress}</span></p>` : ''
                       }
                       ${
                         paqHomePhone !== undefined
@@ -11730,21 +11689,9 @@ module.exports = ({
                 <td>
                   <div>
                     <ul>
-                      ${
-                        reasonReferral1 !== undefined
-                          ? `<li>${reasonReferral1}</li>`
-                          : ''
-                      }
-                      ${
-                        reasonReferral2 !== undefined
-                          ? `<li>${reasonReferral2}</li>`
-                          : ''
-                      }
-                      ${
-                        reasonReferral3 !== undefined
-                          ? `<li>${reasonReferral3}</li>`
-                          : ''
-                      }
+                      ${reasonReferral1 !== undefined ? `<li>${reasonReferral1}</li>` : ''}
+                      ${reasonReferral2 !== undefined ? `<li>${reasonReferral2}</li>` : ''}
+                      ${reasonReferral3 !== undefined ? `<li>${reasonReferral3}</li>` : ''}
                     </ul>
                   </div>
                 </td>
@@ -11827,8 +11774,7 @@ module.exports = ({
                 ? `${
                     bhPrimaryCaregiverMother === undefined
                       ? ''
-                      : bhPrimaryCaregiverMother !== undefined &&
-                        bhPrimaryCaregiverMother === true
+                      : bhPrimaryCaregiverMother !== undefined && bhPrimaryCaregiverMother === true
                       ? `<div class="primary-caregiver--active"><h3>Mother</h3><span>Primary caregiver</span></div>`
                       : `<h3>Mother</h3>`
                   }
@@ -11836,11 +11782,7 @@ module.exports = ({
               <tr>
                 <td>
                   <div>
-                    ${
-                      bhMotherName !== undefined
-                        ? `<p>Name: <span>${bhMotherName}</span></p>`
-                        : ''
-                    }
+                    ${bhMotherName !== undefined ? `<p>Name: <span>${bhMotherName}</span></p>` : ''}
                     ${
                       bhStepmother === undefined
                         ? ''
@@ -11872,11 +11814,7 @@ module.exports = ({
                 </td>
                 <td>
                   <div>
-                    ${
-                      bhMotherAge !== undefined
-                        ? `<p>Age: <span>${bhMotherAge}</span></p>`
-                        : ''
-                    }
+                    ${bhMotherAge !== undefined ? `<p>Age: <span>${bhMotherAge}</span></p>` : ''}
                     ${
                       bhMotherHomePhone !== undefined
                         ? `<p>Home phone: <span>${bhMotherHomePhone}</span></p>`
@@ -11914,8 +11852,7 @@ module.exports = ({
                 ? `${
                     bhPrimaryCaregiverFather === undefined
                       ? ''
-                      : bhPrimaryCaregiverFather !== undefined &&
-                        bhPrimaryCaregiverFather === true
+                      : bhPrimaryCaregiverFather !== undefined && bhPrimaryCaregiverFather === true
                       ? `<div class="primary-caregiver--active"><h3>Father</h3><span>Primary caregiver</span></div>`
                       : `<h3>Father</h3>`
                   }
@@ -11923,11 +11860,7 @@ module.exports = ({
               <tr>
                 <td>
                   <div>
-                    ${
-                      bhFatherName !== undefined
-                        ? `<p>Name: <span>${bhFatherName}</span></p>`
-                        : ''
-                    }
+                    ${bhFatherName !== undefined ? `<p>Name: <span>${bhFatherName}</span></p>` : ''}
                     ${
                       bhStepfather === undefined
                         ? ''
@@ -11959,11 +11892,7 @@ module.exports = ({
                 </td>
                 <td>
                   <div>
-                    ${
-                      bhFatherAge !== undefined
-                        ? `<p>Age: <span>${bhFatherAge}</span></p>`
-                        : ''
-                    }
+                    ${bhFatherAge !== undefined ? `<p>Age: <span>${bhFatherAge}</span></p>` : ''}
                     ${
                       bhFatherHomePhone !== undefined
                         ? `<p>Home phone: <span>${bhFatherHomePhone}</span></p>`
@@ -12131,9 +12060,7 @@ module.exports = ({
                         : ''
                     }
                     ${
-                      fhCustodyMother === true ||
-                      fhCustodyFather === true ||
-                      fhCustodyBoth === true
+                      fhCustodyMother === true || fhCustodyFather === true || fhCustodyBoth === true
                         ? `<p>Who has custody of this child? <span>${
                             fhCustodyMother === true ? 'Mother' : ''
                           }${fhCustodyFather === true ? 'Father' : ''}${
@@ -12157,11 +12084,7 @@ module.exports = ({
             ${
               wizardForm11Disabled !== true
                 ? `<section>
-            ${
-              brothersSisters !== undefined || bsGetAlong !== undefined
-                ? `<h2>Siblings</h2>`
-                : ''
-            }
+            ${brothersSisters !== undefined || bsGetAlong !== undefined ? `<h2>Siblings</h2>` : ''}
             <table cellpadding="0" cellspacing="0">
               <tr>
                 <td>
@@ -12212,8 +12135,7 @@ module.exports = ({
                 ? `
                     <section>
                       ${
-                        crResidence !== undefined ||
-                        crResidenceLength !== undefined
+                        crResidence !== undefined || crResidenceLength !== undefined
                           ? `<h2>Child’s Residence</h2>`
                           : ''
                       }
@@ -12287,14 +12209,8 @@ module.exports = ({
                       ${frGames === true ? `<li>Games</li>` : ''}
                       ${frMeals === true ? `<li>Meals</li>` : ''}
                       ${frSports === true ? `<li>Sports</li>` : ''}
-                      ${
-                        frConversations === true ? `<li>Conversations</li>` : ''
-                      }
-                      ${
-                        frVisitsRelatives === true
-                          ? `<li>Visits with relatives</li>`
-                          : ''
-                      }
+                      ${frConversations === true ? `<li>Conversations</li>` : ''}
+                      ${frVisitsRelatives === true ? `<li>Visits with relatives</li>` : ''}
                       ${frTelevision === true ? `<li>Television</li>` : ''}
                       ${frChurch === true ? `<li>Church</li>` : ''}
                       ${frOther === true ? `<li>Other</li>` : ''}
@@ -12330,8 +12246,7 @@ module.exports = ({
                         : ''
                     }
                     ${
-                      frDisciplinarian !== undefined &&
-                      frDisciplinarian === 'Other'
+                      frDisciplinarian !== undefined && frDisciplinarian === 'Other'
                         ? `<p>Who is mainly in charge of discipline in the home? <span>${frDisciplinarianOtherDesc}</span></p>`
                         : frDisciplinarian !== undefined
                         ? `<p>Who is mainly in charge of discipline in the home? <span>${frDisciplinarian}</span></p>`
@@ -12460,48 +12375,16 @@ module.exports = ({
                           : ''
                       }
                       ${mdhPregnancyToxemia === true ? `<li>Toxemia</li>` : ''}
-                      ${
-                        mdhPregnancyWeightGain === true
-                          ? `<li>Abnormal weight gain</li>`
-                          : ''
-                      }
-                      ${
-                        mdhPregnancyVomiting === true
-                          ? `<li>Excessive vomiting</li>`
-                          : ''
-                      }
-                      ${
-                        mdhPregnancyGermanMeasels === true
-                          ? `<li>German measels</li>`
-                          : ''
-                      }
-                      ${
-                        mdhPregnancySwelling === true
-                          ? `<li>Excessive swelling</li>`
-                          : ''
-                      }
-                      ${
-                        mdhPregnancyEmotional === true
-                          ? `<li>Emotional problems</li>`
-                          : ''
-                      }
-                      ${
-                        mdhPregnancyVaginalBleeding === true
-                          ? `<li>Vaginal bleeding</li>`
-                          : ''
-                      }
+                      ${mdhPregnancyWeightGain === true ? `<li>Abnormal weight gain</li>` : ''}
+                      ${mdhPregnancyVomiting === true ? `<li>Excessive vomiting</li>` : ''}
+                      ${mdhPregnancyGermanMeasels === true ? `<li>German measels</li>` : ''}
+                      ${mdhPregnancySwelling === true ? `<li>Excessive swelling</li>` : ''}
+                      ${mdhPregnancyEmotional === true ? `<li>Emotional problems</li>` : ''}
+                      ${mdhPregnancyVaginalBleeding === true ? `<li>Vaginal bleeding</li>` : ''}
                       ${mdhPregnancyFlu === true ? `<li>Flu</li>` : ''}
                       ${mdhPregnancyAnemia === true ? `<li>Anemia</li>` : ''}
-                      ${
-                        mdhPregnancyBloodPressure === true
-                          ? `<li>High blood pressure</li>`
-                          : ''
-                      }
-                      ${
-                        mdhPregnancyInjury === true
-                          ? `<li>Maternal injury</li>`
-                          : ''
-                      }
+                      ${mdhPregnancyBloodPressure === true ? `<li>High blood pressure</li>` : ''}
+                      ${mdhPregnancyInjury === true ? `<li>Maternal injury</li>` : ''}
                       ${
                         mdhOtherComplication === true
                           ? `<li>${mdhOtherComplicationDescription}</li>`
@@ -12728,14 +12611,11 @@ module.exports = ({
                     }  
                     <ul>
                       ${
-                        mdhTurnOverMonths !== undefined ||
-                        mdhTurnOverYear !== undefined
+                        mdhTurnOverMonths !== undefined || mdhTurnOverYear !== undefined
                           ? `<li><p>Turn over: ${
                               mdhTurnOverMonths !== undefined
                                 ? `<span>${mdhTurnOverMonths} ${
-                                    mdhTurnOverMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhTurnOverMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
@@ -12748,36 +12628,28 @@ module.exports = ({
                           : ''
                       }
                       ${
-                        mdhWalkDownStairsMonths !== undefined ||
-                        mdhWalkDownStairsYear !== undefined
+                        mdhWalkDownStairsMonths !== undefined || mdhWalkDownStairsYear !== undefined
                           ? `<li><p>Walk down stairs: ${
                               mdhWalkDownStairsMonths !== undefined
                                 ? `<span>${mdhWalkDownStairsMonths} ${
-                                    mdhWalkDownStairsMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhWalkDownStairsMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
                               mdhWalkDownStairsYear !== undefined
                                 ? ` <span>${mdhWalkDownStairsYear} ${
-                                    mdhWalkDownStairsYear === '1'
-                                      ? `year`
-                                      : `years`
+                                    mdhWalkDownStairsYear === '1' ? `year` : `years`
                                   }</span>`
                                 : ''
                             }</p></li>`
                           : ''
                       }
                       ${
-                        mdhSitAloneMonths !== undefined ||
-                        mdhSitAloneYear !== undefined
+                        mdhSitAloneMonths !== undefined || mdhSitAloneYear !== undefined
                           ? `<li><p>Sit alone: ${
                               mdhSitAloneMonths !== undefined
                                 ? `<span>${mdhSitAloneMonths} ${
-                                    mdhSitAloneMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhSitAloneMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
@@ -12790,30 +12662,24 @@ module.exports = ({
                           : ''
                       }
                       ${
-                        mdhAttractedSoundMonths !== undefined ||
-                        mdhAttractedSoundYear !== undefined
+                        mdhAttractedSoundMonths !== undefined || mdhAttractedSoundYear !== undefined
                           ? `<li><p>Show interest in or attraction to sound: ${
                               mdhAttractedSoundMonths !== undefined
                                 ? `<span>${mdhAttractedSoundMonths} ${
-                                    mdhAttractedSoundMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhAttractedSoundMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
                               mdhAttractedSoundYear !== undefined
                                 ? ` <span>${mdhAttractedSoundYear} ${
-                                    mdhAttractedSoundYear === '1'
-                                      ? `year`
-                                      : `years`
+                                    mdhAttractedSoundYear === '1' ? `year` : `years`
                                   }</span>`
                                 : ''
                             }</p></li>`
                           : ''
                       }
                       ${
-                        mdhCrawlMonths !== undefined ||
-                        mdhCrawlYear !== undefined
+                        mdhCrawlMonths !== undefined || mdhCrawlYear !== undefined
                           ? `<li><p>Crawl: ${
                               mdhCrawlMonths !== undefined
                                 ? `<span>${mdhCrawlMonths} ${
@@ -12835,31 +12701,24 @@ module.exports = ({
                           ? `<li><p>Understand first words: ${
                               mdhUnderstandWordsMonths !== undefined
                                 ? `<span>${mdhUnderstandWordsMonths} ${
-                                    mdhUnderstandWordsMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhUnderstandWordsMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
                               mdhUnderstandWordsYear !== undefined
                                 ? ` <span>${mdhUnderstandWordsYear} ${
-                                    mdhUnderstandWordsYear === '1'
-                                      ? `year`
-                                      : `years`
+                                    mdhUnderstandWordsYear === '1' ? `year` : `years`
                                   }</span>`
                                 : ''
                             }</p></li>`
                           : ''
                       }
                       ${
-                        mdhStandAloneMonths !== undefined ||
-                        mdhStandAloneYear !== undefined
+                        mdhStandAloneMonths !== undefined || mdhStandAloneYear !== undefined
                           ? `<li><p>Stand alone: ${
                               mdhStandAloneMonths !== undefined
                                 ? `<span>${mdhStandAloneMonths} ${
-                                    mdhStandAloneMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhStandAloneMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
@@ -12877,31 +12736,24 @@ module.exports = ({
                           ? `<li><p>Speak first words: ${
                               mdhSpeakFirstWordsMonths !== undefined
                                 ? `<span>${mdhSpeakFirstWordsMonths} ${
-                                    mdhSpeakFirstWordsMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhSpeakFirstWordsMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
                               mdhSpeakFirstWordsYear !== undefined
                                 ? ` <span>${mdhSpeakFirstWordsYear} ${
-                                    mdhSpeakFirstWordsYear === '1'
-                                      ? `year`
-                                      : `years`
+                                    mdhSpeakFirstWordsYear === '1' ? `year` : `years`
                                   }</span>`
                                 : ''
                             }</p></li>`
                           : ''
                       }
                       ${
-                        mdhWalkAloneMonths !== undefined ||
-                        mdhWalkAloneYear !== undefined
+                        mdhWalkAloneMonths !== undefined || mdhWalkAloneYear !== undefined
                           ? `<li><p>Walk alone: ${
                               mdhWalkAloneMonths !== undefined
                                 ? `<span>${mdhWalkAloneMonths} ${
-                                    mdhWalkAloneMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhWalkAloneMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
@@ -12914,44 +12766,34 @@ module.exports = ({
                           : ''
                       }
                       ${
-                        mdhSpeakSentencesMonths !== undefined ||
-                        mdhSpeakSentencesYear !== undefined
+                        mdhSpeakSentencesMonths !== undefined || mdhSpeakSentencesYear !== undefined
                           ? `<li><p>Speak in sentences: ${
                               mdhSpeakSentencesMonths !== undefined
                                 ? `<span>${mdhSpeakSentencesMonths} ${
-                                    mdhSpeakSentencesMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhSpeakSentencesMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
                               mdhSpeakSentencesYear !== undefined
                                 ? ` <span>${mdhSpeakSentencesYear} ${
-                                    mdhSpeakSentencesYear === '1'
-                                      ? `year`
-                                      : `years`
+                                    mdhSpeakSentencesYear === '1' ? `year` : `years`
                                   }</span>`
                                 : ''
                             }</p></li>`
                           : ''
                       }
                       ${
-                        mdhWalkUpStairsMonths !== undefined ||
-                        mdhWalkUpStairsYear !== undefined
+                        mdhWalkUpStairsMonths !== undefined || mdhWalkUpStairsYear !== undefined
                           ? `<li><p>Walk up stairs: ${
                               mdhWalkUpStairsMonths !== undefined
                                 ? `<span>${mdhWalkUpStairsMonths} ${
-                                    mdhWalkUpStairsMonths === '1'
-                                      ? `month`
-                                      : `months`
+                                    mdhWalkUpStairsMonths === '1' ? `month` : `months`
                                   }</span>`
                                 : ''
                             } ${
                               mdhWalkUpStairsYear !== undefined
                                 ? ` <span>${mdhWalkUpStairsYear} ${
-                                    mdhWalkUpStairsYear === '1'
-                                      ? `year`
-                                      : `years`
+                                    mdhWalkUpStairsYear === '1' ? `year` : `years`
                                   }</span>`
                                 : ''
                             }</p></li>`
@@ -13007,8 +12849,7 @@ module.exports = ({
                         : ''
                     }
                     ${
-                      mdhToiletTrainedDay !== undefined ||
-                      mdhToiletTrainedNight !== undefined
+                      mdhToiletTrainedDay !== undefined || mdhToiletTrainedNight !== undefined
                         ? `<p>When was this child toilet trained?</p>
                     <ul>
                     ${
@@ -13111,8 +12952,7 @@ module.exports = ({
                             ${
                               mdhWalkingDifficulty === true
                                 ? `<li><p>Walking difficulty${
-                                    mdhWalkingDifficultyDescription !==
-                                    undefined
+                                    mdhWalkingDifficultyDescription !== undefined
                                       ? `: <span>${mdhWalkingDifficultyDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -13139,8 +12979,7 @@ module.exports = ({
                             ${
                               mdhUnderweightProblem === true
                                 ? `<li><p>Underweight problem${
-                                    mdhUnderweightProblemDescription !==
-                                    undefined
+                                    mdhUnderweightProblemDescription !== undefined
                                       ? `: <span>${mdhUnderweightProblemDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -13149,8 +12988,7 @@ module.exports = ({
                             ${
                               mdhOverweightProblem === true
                                 ? `<li><p>Overweight problem${
-                                    mdhOverweightProblemDescription !==
-                                    undefined
+                                    mdhOverweightProblemDescription !== undefined
                                       ? `: <span>${mdhOverweightProblemDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -13204,8 +13042,7 @@ module.exports = ({
                             ${
                               mdhLearningThrowCatch === true
                                 ? `<li><p>Difficulty learning to throw or catch${
-                                    mdhLearningThrowCatchDescription !==
-                                    undefined
+                                    mdhLearningThrowCatchDescription !== undefined
                                       ? `: <span>${mdhLearningThrowCatchDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -13384,22 +13221,17 @@ module.exports = ({
                           }  
                           <ul>
                           ${
-                            mhMeaselsMonths !== undefined ||
-                            mhMeaselsMonthsYear !== undefined
+                            mhMeaselsMonths !== undefined || mhMeaselsMonthsYear !== undefined
                               ? `<li><p>Measels: ${
                                   mhMeaselsMonths !== undefined
                                     ? `<span>${mhMeaselsMonths} ${
-                                        mhMeaselsMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhMeaselsMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhMeaselsMonths !== undefined
                                     ? ` <span>${mhMeaselsMonths} ${
-                                        mhMeaselsMonths === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhMeaselsMonths === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
@@ -13411,75 +13243,58 @@ module.exports = ({
                               ? `<li><p>Rheumatic fever: ${
                                   mhRheumaticFeverMonths !== undefined
                                     ? `<span>${mhRheumaticFeverMonths} ${
-                                        mhRheumaticFeverMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhRheumaticFeverMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhRheumaticFeverYear !== undefined
                                     ? ` <span>${mhRheumaticFeverYear} ${
-                                        mhRheumaticFeverYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhRheumaticFeverYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhGermanMeaselsMonths !== undefined ||
-                            mhGermanMeaselsYear !== undefined
+                            mhGermanMeaselsMonths !== undefined || mhGermanMeaselsYear !== undefined
                               ? `<li><p>German measels: ${
                                   mhGermanMeaselsMonths !== undefined
                                     ? `<span>${mhGermanMeaselsMonths} ${
-                                        mhGermanMeaselsMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhGermanMeaselsMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhGermanMeaselsYear !== undefined
                                     ? ` <span>${mhGermanMeaselsYear} ${
-                                        mhGermanMeaselsYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhGermanMeaselsYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhDiptheriaMonths !== undefined ||
-                            mhDiptheriaYear !== undefined
+                            mhDiptheriaMonths !== undefined || mhDiptheriaYear !== undefined
                               ? `<li><p>Diptheria: ${
                                   mhDiptheriaMonths !== undefined
                                     ? `<span>${mhDiptheriaMonths} ${
-                                        mhDiptheriaMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhDiptheriaMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhDiptheriaYear !== undefined
                                     ? ` <span>${mhDiptheriaYear} ${
-                                        mhDiptheriaYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhDiptheriaYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhMumpsMonths !== undefined ||
-                            mhMumpsYear !== undefined
+                            mhMumpsMonths !== undefined || mhMumpsYear !== undefined
                               ? `<li><p>Mumps: ${
                                   mhMumpsMonths !== undefined
                                     ? `<span>${mhMumpsMonths} ${
-                                        mhMumpsMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhMumpsMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
@@ -13497,119 +13312,92 @@ module.exports = ({
                               ? `<li><p>Understand first words: ${
                                   mhUnderstandWordsMonths !== undefined
                                     ? `<span>${mhUnderstandWordsMonths} ${
-                                        mhUnderstandWordsMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhUnderstandWordsMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhUnderstandWordsYear !== undefined
                                     ? ` <span>${mhUnderstandWordsYear} ${
-                                        mhUnderstandWordsYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhUnderstandWordsYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mdhMeningitisMonths !== undefined ||
-                            mdhMeningitisYear !== undefined
+                            mdhMeningitisMonths !== undefined || mdhMeningitisYear !== undefined
                               ? `<li><p>Meningitis: ${
                                   mdhMeningitisMonths !== undefined
                                     ? `<span>${mdhMeningitisMonths} ${
-                                        mdhMeningitisMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mdhMeningitisMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mdhMeningitisYear !== undefined
                                     ? ` <span>${mdhMeningitisYear} ${
-                                        mdhMeningitisYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mdhMeningitisYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhChickenPoxMonth !== undefined ||
-                            mhChickenPoxYear !== undefined
+                            mhChickenPoxMonth !== undefined || mhChickenPoxYear !== undefined
                               ? `<li><p>Chicken pox: ${
                                   mhChickenPoxMonth !== undefined
                                     ? `<span>${mhChickenPoxMonth} ${
-                                        mhChickenPoxMonth === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhChickenPoxMonth === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhChickenPoxYear !== undefined
                                     ? ` <span>${mhChickenPoxYear} ${
-                                        mhChickenPoxYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhChickenPoxYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhEncephalitisMonth !== undefined ||
-                            mhEncephalitisYear !== undefined
+                            mhEncephalitisMonth !== undefined || mhEncephalitisYear !== undefined
                               ? `<li><p>Encephalitis: ${
                                   mhEncephalitisMonth !== undefined
                                     ? `<span>${mhEncephalitisMonth} ${
-                                        mhEncephalitisMonth === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhEncephalitisMonth === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhEncephalitisYear !== undefined
                                     ? ` <span>${mhEncephalitisYear} ${
-                                        mhEncephalitisYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhEncephalitisYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhTuberculosisMonth !== undefined ||
-                            mhTuberculosisYear !== undefined
+                            mhTuberculosisMonth !== undefined || mhTuberculosisYear !== undefined
                               ? `<li><p>Tuberculosis: ${
                                   mhTuberculosisMonth !== undefined
                                     ? `<span>${mhTuberculosisMonth} ${
-                                        mhTuberculosisMonth === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhTuberculosisMonth === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhTuberculosisYear !== undefined
                                     ? ` <span>${mhTuberculosisYear} ${
-                                        mhTuberculosisYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhTuberculosisYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhAnemiaMonth !== undefined ||
-                            mhAnemiaYear !== undefined
+                            mhAnemiaMonth !== undefined || mhAnemiaYear !== undefined
                               ? `<li><p>Anemia: ${
                                   mhAnemiaMonth !== undefined
                                     ? `<span>${mhAnemiaMonth} ${
-                                        mhAnemiaMonth === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhAnemiaMonth === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
@@ -13622,110 +13410,85 @@ module.exports = ({
                               : ''
                           }
                           ${
-                            mhWhoopingCoughMonths !== undefined ||
-                            mhWhoopingCoughYear !== undefined
+                            mhWhoopingCoughMonths !== undefined || mhWhoopingCoughYear !== undefined
                               ? `<li><p>Whooping cough: ${
                                   mhWhoopingCoughMonths !== undefined
                                     ? `<span>${mhWhoopingCoughMonths} ${
-                                        mhWhoopingCoughMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhWhoopingCoughMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhWhoopingCoughYear !== undefined
                                     ? ` <span>${mhWhoopingCoughYear} ${
-                                        mhWhoopingCoughYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhWhoopingCoughYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhFever104Months !== undefined ||
-                            mhFever104Year !== undefined
+                            mhFever104Months !== undefined || mhFever104Year !== undefined
                               ? `<li><p>Fever above 104°: ${
                                   mhFever104Months !== undefined
                                     ? `<span>${mhFever104Months} ${
-                                        mhFever104Months === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhFever104Months === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhFever104Year !== undefined
                                     ? ` <span>${mhFever104Year} ${
-                                        mhFever104Year === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhFever104Year === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhScarletFeverMonths !== undefined ||
-                            mhScarletFeverYear !== undefined
+                            mhScarletFeverMonths !== undefined || mhScarletFeverYear !== undefined
                               ? `<li><p>Scarlet fever: ${
                                   mhScarletFeverMonths !== undefined
                                     ? `<span>${mhScarletFeverMonths} ${
-                                        mhScarletFeverMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhScarletFeverMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhScarletFeverYear !== undefined
                                     ? ` <span>${mhScarletFeverYear} ${
-                                        mhScarletFeverYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhScarletFeverYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhBrokenBonesMonths !== undefined ||
-                            mhBrokenBonesYear !== undefined
+                            mhBrokenBonesMonths !== undefined || mhBrokenBonesYear !== undefined
                               ? `<li><p>Broken bones: ${
                                   mhBrokenBonesMonths !== undefined
                                     ? `<span>${mhBrokenBonesMonths} ${
-                                        mhBrokenBonesMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhBrokenBonesMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhBrokenBonesYear !== undefined
                                     ? ` <span>${mhBrokenBonesYear} ${
-                                        mhBrokenBonesYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhBrokenBonesYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
                               : ''
                           }
                           ${
-                            mhConcussionMonths !== undefined ||
-                            mhConcussionYear !== undefined
+                            mhConcussionMonths !== undefined || mhConcussionYear !== undefined
                               ? `<li><p>Concussion: ${
                                   mhConcussionMonths !== undefined
                                     ? `<span>${mhConcussionMonths} ${
-                                        mhConcussionMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhConcussionMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhConcussionYear !== undefined
                                     ? ` <span>${mhConcussionYear} ${
-                                        mhConcussionYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhConcussionYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
@@ -13737,17 +13500,13 @@ module.exports = ({
                               ? `<li><p>Coma or loss of consiousness: ${
                                   mhComaLossConsciousnessMonths !== undefined
                                     ? `<span>${mhComaLossConsciousnessMonths} ${
-                                        mhComaLossConsciousnessMonths === '1'
-                                          ? `month`
-                                          : `months`
+                                        mhComaLossConsciousnessMonths === '1' ? `month` : `months`
                                       }</span>`
                                     : ''
                                 } ${
                                   mhComaLossConsciousnessYear !== undefined
                                     ? ` <span>${mhComaLossConsciousnessYear} ${
-                                        mhComaLossConsciousnessYear === '1'
-                                          ? `year`
-                                          : `years`
+                                        mhComaLossConsciousnessYear === '1' ? `year` : `years`
                                       }</span>`
                                     : ''
                                 }</p></li>`
@@ -14231,8 +13990,7 @@ module.exports = ({
                             ${
                               mdhAllergiesMedicine === true
                                 ? `<li><p>Allergies to medicine${
-                                    mdhAllergiesMedicineDescription !==
-                                    undefined
+                                    mdhAllergiesMedicineDescription !== undefined
                                       ? `: <span>${mdhAllergiesMedicineDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -14341,8 +14099,7 @@ module.exports = ({
                             ${
                               mdhHearingEarInfection === true
                                 ? `<li><p>Ear infections${
-                                    mdhHearingEarInfectionDescription !==
-                                    undefined
+                                    mdhHearingEarInfectionDescription !== undefined
                                       ? `: <span>${mdhHearingEarInfectionDescription}</span></p></li>`
                                       : ''
                                   }`
@@ -14476,14 +14233,12 @@ module.exports = ({
                                 : ''
                             }
                             ${
-                              mcDrLastVisit === undefined &&
-                              mcDrLastVisitMonths !== undefined
+                              mcDrLastVisit === undefined && mcDrLastVisitMonths !== undefined
                                 ? `<p>How long since last visit? <span>${mcDrLastVisitMonths}</span></p>`
                                 : ''
                             }
                             ${
-                              medicationListGroup === undefined ||
-                              medicationListGroup.length < 1
+                              medicationListGroup === undefined || medicationListGroup.length < 1
                                 ? ''
                                 : `<p>List any medication this child is currently taking:</p>`
                             }
@@ -14695,137 +14450,51 @@ module.exports = ({
                             : ''
                         }  
                           <ul>
-                            ${
-                              fhDrugAbuse === true
-                                ? `<li>Alcohol/Drug abuse</li>`
-                                : ''
-                            }
-                            ${
-                              fhAlzheimers === true
-                                ? `<li>Alzheimers Disease</li>`
-                                : ''
-                            }
-                            ${
-                              fhBehaviorDisorder === true
-                                ? `<li>Behavior disorder</li>`
-                                : ''
-                            }
-                            ${
-                              fhBirthDefect === true
-                                ? `<li>Birth defect</li>`
-                                : ''
-                            }
+                            ${fhDrugAbuse === true ? `<li>Alcohol/Drug abuse</li>` : ''}
+                            ${fhAlzheimers === true ? `<li>Alzheimers Disease</li>` : ''}
+                            ${fhBehaviorDisorder === true ? `<li>Behavior disorder</li>` : ''}
+                            ${fhBirthDefect === true ? `<li>Birth defect</li>` : ''}
                             ${fhCancer === true ? `<li>Cancer</li>` : ''}
-                            ${
-                              fhCerbralPalsy === true
-                                ? `<li>Cerbral Palsy</li>`
-                                : ''
-                            }
-                            ${
-                              fhCysticFibrosis === true
-                                ? `<li>Cystic Fibrosis</li>`
-                                : ''
-                            }
+                            ${fhCerbralPalsy === true ? `<li>Cerbral Palsy</li>` : ''}
+                            ${fhCysticFibrosis === true ? `<li>Cystic Fibrosis</li>` : ''}
                             ${fhDiabetes === true ? `<li>Diabetes</li>` : ''}
                             ${
                               fhEmotionalDisturbance === true
                                 ? `<li>Emotional Disturbance</li>`
                                 : ''
                             }
-                            ${
-                              fhFoodAllergies === true
-                                ? `<li>Food Allergies</li>`
-                                : ''
-                            }
-                            ${
-                              fhHeartDisease === true
-                                ? `<li>Heart Disease</li>`
-                                : ''
-                            }
-                            ${
-                              fhHemophilia === true ? `<li>Hemophilia</li>` : ''
-                            }
-                            ${
-                              fhHighBloodPressure === true
-                                ? `<li>High Blood Pressure</li>`
-                                : ''
-                            }
-                            ${
-                              fhHuntingtonChorea === true
-                                ? `<li>Huntington Chorea</li>`
-                                : ''
-                            }
+                            ${fhFoodAllergies === true ? `<li>Food Allergies</li>` : ''}
+                            ${fhHeartDisease === true ? `<li>Heart Disease</li>` : ''}
+                            ${fhHemophilia === true ? `<li>Hemophilia</li>` : ''}
+                            ${fhHighBloodPressure === true ? `<li>High Blood Pressure</li>` : ''}
+                            ${fhHuntingtonChorea === true ? `<li>Huntington Chorea</li>` : ''}
                             ${
                               fhIntellectualDisability === true
                                 ? `<li>Intellectual Disability</li>`
                                 : ''
                             }
-                            ${
-                              fhKidneyDisease === true
-                                ? `<li>Kidney Disease</li>`
-                                : ''
-                            }
-                            ${
-                              fhMentalIllness === true
-                                ? `<li>Mental Illness</li>`
-                                : ''
-                            }
+                            ${fhKidneyDisease === true ? `<li>Kidney Disease</li>` : ''}
+                            ${fhMentalIllness === true ? `<li>Mental Illness</li>` : ''}
                             ${fhMigraines === true ? `<li>Migraines</li>` : ''}
-                            ${
-                              fhMultipleSclerosis === true
-                                ? `<li>Multiple Sclerosis</li>`
-                                : ''
-                            }
-                            ${
-                              fhMuscularDystrophy === true
-                                ? `<li>Muscular Dystrophy</li>`
-                                : ''
-                            }
-                            ${
-                              fhNervousnes === true ? `<li>Nervousnes</li>` : ''
-                            }
+                            ${fhMultipleSclerosis === true ? `<li>Multiple Sclerosis</li>` : ''}
+                            ${fhMuscularDystrophy === true ? `<li>Muscular Dystrophy</li>` : ''}
+                            ${fhNervousnes === true ? `<li>Nervousnes</li>` : ''}
                             ${
                               fhOtherLearningDisability === true
                                 ? `<li>Other Learning Disability</li>`
                                 : ''
                             }
-                            ${
-                              fhParkinsons === true ? `<li>Parkinsons</li>` : ''
-                            }
-                            ${
-                              fhPhysicalHandicap === true
-                                ? `<li>Physical Handicap</li>`
-                                : ''
-                            }
-                            ${
-                              fhReadingProblem === true
-                                ? `<li>Reading Problem</li>`
-                                : ''
-                            }
+                            ${fhParkinsons === true ? `<li>Parkinsons</li>` : ''}
+                            ${fhPhysicalHandicap === true ? `<li>Physical Handicap</li>` : ''}
+                            ${fhReadingProblem === true ? `<li>Reading Problem</li>` : ''}
                             ${fhSeizures === true ? `<li>Seizures</li>` : ''}
-                            ${
-                              fhSevereHeadInjury === true
-                                ? `<li>Severe Head Injury</li>`
-                                : ''
-                            }
-                            ${
-                              fhSickleCell === true
-                                ? `<li>Sickle Cell</li>`
-                                : ''
-                            }
-                            ${
-                              fhSpeechProblem === true
-                                ? `<li>Speech Problem</li>`
-                                : ''
-                            }
+                            ${fhSevereHeadInjury === true ? `<li>Severe Head Injury</li>` : ''}
+                            ${fhSickleCell === true ? `<li>Sickle Cell</li>` : ''}
+                            ${fhSpeechProblem === true ? `<li>Speech Problem</li>` : ''}
                             ${fhStroke === true ? `<li>Stroke</li>` : ''}
                             ${fhTaySachs === true ? `<li>Tay Sachs</li>` : ''}
                             ${fhTourettes === true ? `<li>Tourettes</li>` : ''}
-                            ${
-                              fhTuberculosis === true
-                                ? `<li>Tuberculosis</li>`
-                                : ''
-                            }
+                            ${fhTuberculosis === true ? `<li>Tuberculosis</li>` : ''}
                             ${fhOther === true ? `<li>Other</li>` : ''}
                           </ul>
                           ${
@@ -14839,8 +14508,7 @@ module.exports = ({
                               : ''
                           }
                           ${
-                            specialEdGroup !== undefined &&
-                            specialEdGroup.length > 0
+                            specialEdGroup !== undefined && specialEdGroup.length > 0
                               ? `<p>Has anyone in the family ever been in special education?</p>
                                 <ul>
                                   ${specialEdGroup
@@ -14922,8 +14590,7 @@ module.exports = ({
                                   : ''
                               }
                               ${
-                                fYoungerFriends !== undefined ||
-                                fYoungerFriendsDesc !== undefined
+                                fYoungerFriends !== undefined || fYoungerFriendsDesc !== undefined
                                   ? `<p>
                                       <em>Does this child prefer playing with younger children? </em> 
                                       ${
@@ -14935,8 +14602,7 @@ module.exports = ({
                                   : ''
                               }
                               ${
-                                fMakingFriends !== undefined ||
-                                fMakingFriendsDesc !== undefined
+                                fMakingFriends !== undefined || fMakingFriendsDesc !== undefined
                                   ? `<p>
                                       <em>Does this child have difficulty making friends? </em> 
                                       ${
@@ -15117,36 +14783,20 @@ module.exports = ({
                                 ? `<li><p>Has a short attention span</p></li>`
                                 : ''
                             }
-                            ${
-                              btSelfControl === true
-                                ? `<li><p>Lacks selfControl</p></li>`
-                                : ''
-                            }
+                            ${btSelfControl === true ? `<li><p>Lacks selfControl</p></li>` : ''}
                             ${
                               btUnhappy === true
                                 ? `<li><p>Seems unhappy most of the time</p></li>`
                                 : ''
                             }
-                            ${
-                              btAffectionless === true
-                                ? `<li><p>Withholds affection</p></li>`
-                                : ''
-                            }
-                            ${
-                              btHidesFeelings === true
-                                ? `<li><p>Hides feelings</p></li>`
-                                : ''
-                            }
+                            ${btAffectionless === true ? `<li><p>Withholds affection</p></li>` : ''}
+                            ${btHidesFeelings === true ? `<li><p>Hides feelings</p></li>` : ''}
                             ${
                               btOverEngergetic === true
                                 ? `<li><p>Seems over energetic in play</p></li>`
                                 : ''
                             }
-                            ${
-                              btImpulsive === true
-                                ? `<li><p>Seems impulsive</p></li>`
-                                : ''
-                            }
+                            ${btImpulsive === true ? `<li><p>Seems impulsive</p></li>` : ''}
                             ${
                               btOverreactsProblems === true
                                 ? `<li><p>Overreacts in the face of problems</p></li>`
@@ -15162,27 +14812,19 @@ module.exports = ({
                                 ? `<li><p>Requires a lot of parental attention</p></li>`
                                 : ''
                             }
-                            ${
-                              btCannotCalm === true
-                                ? `<li><p>Cannot calm down</p></li>`
-                                : ''
-                            }
+                            ${btCannotCalm === true ? `<li><p>Cannot calm down</p></li>` : ''}
                           </ul>
                           ${
                             btFears !== undefined
                               ? `<p><em>What are ${
-                                  diName !== undefined
-                                    ? `${diName}'s`
-                                    : "the Client's"
+                                  diName !== undefined ? `${diName}'s` : "the Client's"
                                 } fears?</em><br /><span>${btFears}</span></p>`
                               : ''
                           }
                           ${
                             btAngry !== undefined
                               ? `<p><em>What makes ${
-                                  diName !== undefined
-                                    ? `${diName}`
-                                    : 'the Client'
+                                  diName !== undefined ? `${diName}` : 'the Client'
                                 } angry?</em><br /><span>${btAngry}</span></p>`
                               : ''
                           }`
@@ -15208,11 +14850,7 @@ module.exports = ({
                             ehDaycare !== undefined
                               ? `<p>
                                   <em>Does or did this child attend preschool/daycare? </em> 
-                                  ${
-                                    ehDaycare === 'Yes'
-                                      ? `<span>Yes</span>`
-                                      : `<span>No</span>`
-                                  } 
+                                  ${ehDaycare === 'Yes' ? `<span>Yes</span>` : `<span>No</span>`} 
                                 </p>`
                               : ''
                           }
@@ -15246,9 +14884,7 @@ module.exports = ({
                           ehKindergarten !== undefined
                             ? `<p><em>Does or did this child attend kindergarten? </em> 
                                 ${
-                                  ehKindergarten === 'Yes'
-                                    ? `<span>Yes</span>`
-                                    : `<span>No</span>`
+                                  ehKindergarten === 'Yes' ? `<span>Yes</span>` : `<span>No</span>`
                                 } 
                               </p>`
                             : ''
@@ -15370,11 +15006,7 @@ module.exports = ({
                     ${
                       ehSpecialEdCurrent !== undefined
                         ? `<p><em>Currently is placed in special education? </em> 
-                            ${
-                              ehSpecialEdCurrent == 'Yes'
-                                ? `<span>Yes</span>`
-                                : `<span>No</span>`
-                            } 
+                            ${ehSpecialEdCurrent == 'Yes' ? `<span>Yes</span>` : `<span>No</span>`} 
                           </p>`
                         : ''
                     }
@@ -15397,11 +15029,7 @@ module.exports = ({
                     ${
                       ehDislikesSchool !== undefined
                         ? `<p><em>Dislikes going to school? </em> 
-                            ${
-                              ehDislikesSchool == 'Yes'
-                                ? `<span>Yes</span>`
-                                : `<span>No</span>`
-                            } 
+                            ${ehDislikesSchool == 'Yes' ? `<span>Yes</span>` : `<span>No</span>`} 
                           </p>`
                         : ''
                     }
@@ -15449,8 +15077,7 @@ module.exports = ({
                 ? `<section>
                     <h2>Religious &amp; Racial Ethnic Identification</h2>
                     ${
-                      rdaReligonAffiliation !== undefined ||
-                      rdaReligonInvolvement !== undefined
+                      rdaReligonAffiliation !== undefined || rdaReligonInvolvement !== undefined
                         ? `<div>  
                             <p><em>Current religious denomination/affiliation:</em></p>
                             <ul>
@@ -15503,9 +15130,7 @@ module.exports = ({
                       rdaEthnicity !== undefined
                         ? `<div>  
                             <p><em>${
-                              diName !== undefined
-                                ? `${diName}'s`
-                                : "The Client's"
+                              diName !== undefined ? `${diName}'s` : "The Client's"
                             } ethnicity is</em> <span>${rdaEthnicity}</span>.</p>
                           </div>`
                         : ''
@@ -15514,9 +15139,7 @@ module.exports = ({
                       rdaRace !== undefined
                         ? `<div>  
                             <p><em>${
-                              diName !== undefined
-                                ? `${diName}'s`
-                                : "The Client's"
+                              diName !== undefined ? `${diName}'s` : "The Client's"
                             } race is</em> <span>${rdaRace}</span>.</p>
                           </div>`
                         : ''
@@ -15677,15 +15300,9 @@ module.exports = ({
                                     t.HasInput &&
                                     `<span>
                                     ${
-                                      diName !== undefined
-                                        ? `${diName}`
-                                        : 'The Client'
-                                    } received a Composite score of ${gaiScore(
-                                      t.Id,
-                                    )}
-                                    (${gaiPercentile(
-                                      t.Id,
-                                    )} percentile) which is in the ${gaiRange(
+                                      diName !== undefined ? `${diName}` : 'The Client'
+                                    } received a Composite score of ${gaiScore(t.Id)}
+                                    (${gaiPercentile(t.Id)} percentile) which is in the ${gaiRange(
                                       t.Id,
                                     )} range of functioning compared to other individuals ${
                                       diGender === 'Boy' ? `his` : `her`
@@ -15699,15 +15316,11 @@ module.exports = ({
                                   <h5>${t.IndexName}</h5>
                                   <div className="test__list">
                                     ${
-                                      diName !== undefined
-                                        ? `${diName}'s`
-                                        : "The Client's"
+                                      diName !== undefined ? `${diName}'s` : "The Client's"
                                     } GCA score on the DAS-II places ${
                                   diGender === 'Boy' ? `him` : `her`
                                 } in
-                                    the ${gcaRange(
-                                      t.Id,
-                                    )} range, (DAS-II GCA score of ${gcaScore(
+                                    the ${gcaRange(t.Id)} range, (DAS-II GCA score of ${gcaScore(
                                   t.Id,
                                 )}, 
                                     ${gcaPercentile(t.Id)} percentile), while ${
@@ -15726,11 +15339,8 @@ module.exports = ({
                               </div>`
                           }
                           ${
-                            t.IndexConditions !== undefined &&
-                            t.IndexConditions.length > 0
-                              ? `<p>${indexConditionVal(
-                                  t.IndexConditions[0].Id,
-                                )}</p>`
+                            t.IndexConditions !== undefined && t.IndexConditions.length > 0
+                              ? `<p>${indexConditionVal(t.IndexConditions[0].Id)}</p>`
                               : ''
                           }
                           </div>`,
@@ -15752,24 +15362,17 @@ module.exports = ({
                           }
                           <table class="test-table">
                             <tr class="table__row table__header">
-                              <th style="width:25%">${
-                                testSelectedReducer[i].SubTestType
-                              }</th>
-                              <th style="width:15%">${
-                                testSelectedReducer[i].ScoreType
-                              }</th>
+                              <th style="width:25%">${testSelectedReducer[i].SubTestType}</th>
+                              <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
                               <th style="width:60%">${
                                 appendixReducer[i].Abbreviation === 'DAS-II' ||
                                 appendixReducer[i].Abbreviation === 'PIY' ||
                                 (appendixReducer[i].Abbreviation === 'D-KEFS' &&
                                   (parentscaletitle.ParentScaleName ===
                                     'Color-Word Interference Test' ||
-                                    parentscaletitle.ParentScaleName ===
-                                      'Twenty Questions' ||
-                                    parentscaletitle.ParentScaleName ===
-                                      'Word Context Test' ||
-                                    parentscaletitle.ParentScaleName ===
-                                      'Tower Test'))
+                                    parentscaletitle.ParentScaleName === 'Twenty Questions' ||
+                                    parentscaletitle.ParentScaleName === 'Word Context Test' ||
+                                    parentscaletitle.ParentScaleName === 'Tower Test'))
                                   ? ''
                                   : `${testSelectedReducer[i].DescriptionType}`
                               }</th>
@@ -15778,9 +15381,7 @@ module.exports = ({
                               (subtest) =>
                                 `<tr class="table__row">
                                   <td>${subtest.Name}</td>
-                                  <td><strong>${subtestVal(
-                                    subtest.Id,
-                                  )}</strong></td>
+                                  <td><strong>${subtestVal(subtest.Id)}</strong></td>
                                   <td>
                                     <div>${
                                       t.Description === null
@@ -15799,12 +15400,8 @@ module.exports = ({
                   t.SubTests !== undefined && t.SubTests.length > 0
                     ? `<table class="test-table">
                       <tr class="table__row table__header">
-                        <th style="width:25%">${
-                          testSelectedReducer[i].SubTestType
-                        }</th>
-                        <th style="width:15%">${
-                          testSelectedReducer[i].ScoreType
-                        }</th>
+                        <th style="width:25%">${testSelectedReducer[i].SubTestType}</th>
+                        <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
                         <th style="width:60%">
                           ${
                             appendixReducer[i].Abbreviation !== 'TOMM'
@@ -15840,12 +15437,8 @@ module.exports = ({
                                 </div>
                                 <table class="test-table">
                                   <tr class="table__row table__header">
-                                    <th style="width:25%">${
-                                      testSelectedReducer[i].SubTestType
-                                    }</th>
-                                    <th style="width:15%">${
-                                      testSelectedReducer[i].ScoreType
-                                    }</th>
+                                    <th style="width:25%">${testSelectedReducer[i].SubTestType}</th>
+                                    <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
                                     <th style="width:60%">${
                                       testSelectedReducer[i].DescriptionType
                                     }</th>
@@ -15854,9 +15447,7 @@ module.exports = ({
                                     (t) =>
                                       `<tr class="table__row">
                                         <td>${t.Name}</td>
-                                        <td><strong>${subtestVal(
-                                          t.Id,
-                                        )}</strong></td>
+                                        <td><strong>${subtestVal(t.Id)}</strong></td>
                                         <td>
                                           <div>${t.Description}</div>
                                         </td>
@@ -15890,17 +15481,14 @@ module.exports = ({
                                             testSelectedReducer[i].ScoreType
                                           }</th>
                                           <th style="width:60%">${
-                                            testSelectedReducer[i]
-                                              .DescriptionType
+                                            testSelectedReducer[i].DescriptionType
                                           }</th>
                                         </tr>
                                         ${t.SubTests.map(
                                           (t) =>
                                             `<tr class="table__row">
                                               <td>${t.Name}</td>
-                                              <td><strong>${subtestVal(
-                                                t.Id,
-                                              )}</strong></td>
+                                              <td><strong>${subtestVal(t.Id)}</strong></td>
                                               <td>
                                                 <div>${t.Description}</div>
                                               </td>
@@ -15932,12 +15520,8 @@ module.exports = ({
                               }
                               <table class="test-table">
                                 <tr class="table__row table__header">
-                                  <th style="width:25%">${
-                                    testSelectedReducer[i].SubTestType
-                                  }</th>
-                                  <th style="width:15%">${
-                                    testSelectedReducer[i].ScoreType
-                                  }</th>
+                                  <th style="width:25%">${testSelectedReducer[i].SubTestType}</th>
+                                  <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
                                   <th style="width:60%">${
                                     testSelectedReducer[i].DescriptionType
                                   }</th>
@@ -15946,9 +15530,7 @@ module.exports = ({
                                   (t) =>
                                     `<tr class="table__row">
                                       <td>${t.Name}</td>
-                                      <td><strong>${subtestVal(
-                                        t.Id,
-                                      )}</strong></td>
+                                      <td><strong>${subtestVal(t.Id)}</strong></td>
                                       <td>
                                         <div>${t.Description}</div>
                                       </td>
@@ -15983,12 +15565,8 @@ module.exports = ({
                                 }
                                 <table class="test-table">
                                   <tr class="table__row table__header">
-                                    <th style="width:25%">${
-                                      testSelectedReducer[i].SubTestType
-                                    }</th>
-                                    <th style="width:15%">${
-                                      testSelectedReducer[i].ScoreType
-                                    }</th>
+                                    <th style="width:25%">${testSelectedReducer[i].SubTestType}</th>
+                                    <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
                                     <th style="width:60%">${
                                       testSelectedReducer[i].DescriptionType
                                     }</th>
@@ -15997,9 +15575,7 @@ module.exports = ({
                                     (t) =>
                                       `<tr class="table__row">
                                       <td>${t.Name}</td>
-                                      <td><strong>${subtestVal(
-                                        t.Id,
-                                      )}</strong></td>
+                                      <td><strong>${subtestVal(t.Id)}</strong></td>
                                       <td>
                                         <div>${t.Description}</div>
                                       </td>
@@ -16018,15 +15594,9 @@ module.exports = ({
                     ? t.TestScoringTableDetails.map(
                         (t) =>
                           `<div class="test-table test-table--fourCols">
-                          <h5 class="test-table__name">${
-                            t.Name !== null ? t.Name : ''
-                          }</h5>
+                          <h5 class="test-table__name">${t.Name !== null ? t.Name : ''}</h5>
                           <p>${t.Description !== null ? t.Description : ''}</p>
-                          ${
-                            t.ScoreHeader === null
-                              ? ''
-                              : `<p>${t.ScoreHeader}</p>`
-                          }
+                          ${t.ScoreHeader === null ? '' : `<p>${t.ScoreHeader}</p>`}
                           <table class="test-table">
                             <tr class="table__row table__header">
                               ${
@@ -16067,54 +15637,42 @@ module.exports = ({
                                 t.Col1 === null
                                   ? `<td></td>`
                                   : t.Col1 === '<Field>'
-                                  ? `<td>${testScoringTableScoresCol1Val(
-                                      t.Id,
-                                    )}</td>`
+                                  ? `<td>${testScoringTableScoresCol1Val(t.Id)}</td>`
                                   : `<td>${t.Col1}</td>`
                               }
                               ${
                                 t.Col2 === null
                                   ? `<td></td>`
                                   : t.Col2 === '<Field>'
-                                  ? `<td>${testScoringTableScoresCol2Val(
-                                      t.Id,
-                                    )}</td>`
+                                  ? `<td>${testScoringTableScoresCol2Val(t.Id)}</td>`
                                   : `<td>${t.Col2}</td>`
                               }
                               ${
                                 t.Col3 === null
                                   ? `<td></td>`
                                   : t.Col3 === '<Field>'
-                                  ? `<td>${testScoringTableScoresCol3Val(
-                                      t.Id,
-                                    )}</td>`
+                                  ? `<td>${testScoringTableScoresCol3Val(t.Id)}</td>`
                                   : `<td>${t.Col3}</td>`
                               }
                               ${
                                 t.Col4 === null
                                   ? `<td></td>`
                                   : t.Col4 === '<Field>'
-                                  ? `<td>${testScoringTableScoresCol4Val(
-                                      t.Id,
-                                    )}</td>`
+                                  ? `<td>${testScoringTableScoresCol4Val(t.Id)}</td>`
                                   : `<td>${t.Col4}</td>`
                               }
                               ${
                                 t.Col5 === null
                                   ? ''
                                   : t.Col5 === '<Field>'
-                                  ? `<td>${testScoringTableScoresCol5Val(
-                                      t.Id,
-                                    )}</td>`
+                                  ? `<td>${testScoringTableScoresCol5Val(t.Id)}</td>`
                                   : `<td>${t.Col5}</td>`
                               }
                               ${
                                 t.Col6 === null
                                   ? ''
                                   : t.Col6 === '<Field>'
-                                  ? `<td>${testScoringTableScoresCol6Val(
-                                      t.Id,
-                                    )}</td>`
+                                  ? `<td>${testScoringTableScoresCol6Val(t.Id)}</td>`
                                   : `<td>${t.Col6}</td>`
                               }
                             </tr>`,
@@ -16132,22 +15690,16 @@ module.exports = ({
                             <p className="test__list">
                               <span>
                                 Overall, ${
-                                  diName !== undefined
-                                    ? `${diName}'s`
-                                    : "The Client's"
+                                  diName !== undefined ? `${diName}'s` : "The Client's"
                                 } performance on the&nbsp;
-                                ${
-                                  testSelectedReducer[0].Abbreviation
-                                } provided a
+                                ${testSelectedReducer[0].Abbreviation} provided a
                                 snapshot into ${
                                   diGender === 'Boy' ? `his` : `her`
                                 } various cognitive
                                 abilities and strengths. ${
                                   diGender === 'Boy' ? `He` : `She`
                                 } demonstrated
-                                well-developed ${summaryAbilities(
-                                  t.Id,
-                                )} abilities.
+                                well-developed ${summaryAbilities(t.Id)} abilities.
                               </span>
                             </p>
                             <p className="test__list">
@@ -16163,9 +15715,7 @@ module.exports = ({
                               evaluated so as to help ${
                                 diGender === 'Boy' ? `him` : `her`
                               } continue to
-                              perform at ${
-                                diGender === 'Boy' ? `his` : `her`
-                              } best.
+                              perform at ${diGender === 'Boy' ? `his` : `her`} best.
                             </p>
                           </div>`,
                       ).join('')
@@ -16401,11 +15951,9 @@ module.exports = ({
                 recommendationNeurocognitiveDisorder === true ||
                 recommendationVisualProcessingChildrenAdults === true ||
                 recommendationVisualProcessingChildren === true ||
-                recommendationLearningDisabilityWritingChildrenAdults ===
-                  true ||
+                recommendationLearningDisabilityWritingChildrenAdults === true ||
                 recommendationLearningDisabilityWritingChildren === true ||
-                recommendationAuditoryProcessingWeaknessChildrenAdults ===
-                  true ||
+                recommendationAuditoryProcessingWeaknessChildrenAdults === true ||
                 recommendationAuditoryProcessingWeaknessChildren === true
                   ? `<section class="li-not-bold recommendations">
                       <h2>Recommendations</h2>
@@ -16421,20 +15969,14 @@ module.exports = ({
                               ${r.recommendation
                                 .map(
                                   (item) =>
-                                    `<li>${item.text.replace(
-                                      /CLIENT NAME/g,
-                                      `${diName}`,
-                                    )}</li>
+                                    `<li>${item.text.replace(/CLIENT NAME/g, `${diName}`)}</li>
                                   ${
                                     item.subtext.length > 0
                                       ? item.subtext
                                           .map(
                                             (r) =>
                                               `<ul>
-                                        <li>${r.text.replace(
-                                          /CLIENT NAME/g,
-                                          `${diName}`,
-                                        )}</li>
+                                        <li>${r.text.replace(/CLIENT NAME/g, `${diName}`)}</li>
                                       </ul>`,
                                           )
                                           .join('')
@@ -16509,10 +16051,7 @@ module.exports = ({
                             </tr>
                             ${a.TestIndexes.map(
                               (testIndex) => `<tr class="table__row">
-                            <td style="width:50%">${testIndex.IndexName.replace(
-                              '<span>',
-                              '',
-                            )
+                            <td style="width:50%">${testIndex.IndexName.replace('<span>', '')
                               .replace('</span>', '')
                               .replace(/\(|\)/g, '')}</td>
                             <td style="width:10%"><strong>${appendixTestIndexScoreVal(
@@ -16546,8 +16085,7 @@ module.exports = ({
                                     : `<th style="width:10%">% Rank</th>`
                                 }
                                 ${
-                                  appendixReducer[i].Abbreviation ===
-                                    'GORT-5' ||
+                                  appendixReducer[i].Abbreviation === 'GORT-5' ||
                                   appendixReducer[i].Abbreviation === 'TOMM'
                                     ? ''
                                     : `<th style="width:20%">Gr. Eqv.</th>`
@@ -16574,8 +16112,7 @@ module.exports = ({
                                     subtest.Id,
                                   )}</strong></td>
                                   ${
-                                    appendixReducer[i].Abbreviation ===
-                                      'GORT-5' ||
+                                    appendixReducer[i].Abbreviation === 'GORT-5' ||
                                     appendixReducer[i].Abbreviation === 'TOMM'
                                       ? `<td style="width:20%"><strong>${appendixSubtestClassificationVal(
                                           subtest.Id,
@@ -16611,56 +16148,35 @@ module.exports = ({
                                     <th style="width:50%">Subtest</th>
                                     <th style="width:10%">Score</th>
                                     ${
-                                      appendixReducer[i].Abbreviation ===
-                                        'MMPI-2' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'MMPI-A' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'TSCC' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'D-KEFS'
+                                      appendixReducer[i].Abbreviation === 'MMPI-2' ||
+                                      appendixReducer[i].Abbreviation === 'MMPI-A' ||
+                                      appendixReducer[i].Abbreviation === 'TSCC' ||
+                                      appendixReducer[i].Abbreviation === 'D-KEFS'
                                         ? ''
                                         : `<th style="width:10%">% Rank</th>`
                                     }
                                     ${
-                                      appendixReducer[i].Abbreviation ===
-                                        'WJ-IV ACH' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'BRIEF' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'NEPSY-II' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'Vineland-II' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'CTONI-2' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'WISC-V' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'WAIS-IV' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'WASI-II' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'WJ-IV COG' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'WPPSI-IV' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'Beery VMI' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'MMPI-2' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'MMPI-A' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'PIY' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'TSCC' ||
-                                      appendixReducer[i].Abbreviation ===
-                                        'D-KEFS'
+                                      appendixReducer[i].Abbreviation === 'WJ-IV ACH' ||
+                                      appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                      appendixReducer[i].Abbreviation === 'NEPSY-II' ||
+                                      appendixReducer[i].Abbreviation === 'Vineland-II' ||
+                                      appendixReducer[i].Abbreviation === 'CTONI-2' ||
+                                      appendixReducer[i].Abbreviation === 'WISC-V' ||
+                                      appendixReducer[i].Abbreviation === 'WAIS-IV' ||
+                                      appendixReducer[i].Abbreviation === 'WASI-II' ||
+                                      appendixReducer[i].Abbreviation === 'WJ-IV COG' ||
+                                      appendixReducer[i].Abbreviation === 'WPPSI-IV' ||
+                                      appendixReducer[i].Abbreviation === 'Beery VMI' ||
+                                      appendixReducer[i].Abbreviation === 'MMPI-2' ||
+                                      appendixReducer[i].Abbreviation === 'MMPI-A' ||
+                                      appendixReducer[i].Abbreviation === 'PIY' ||
+                                      appendixReducer[i].Abbreviation === 'TSCC' ||
+                                      appendixReducer[i].Abbreviation === 'D-KEFS'
                                         ? ''
                                         : `<th style="width:10%">Gr. Eqv.</th>`
                                     }
                                     ${
-                                      appendixReducer[i].Abbreviation ===
-                                        'DAS-II' ||
+                                      appendixReducer[i].Abbreviation === 'DAS-II' ||
                                       appendixReducer[i].Abbreviation === 'PIY'
                                         ? ''
                                         : `<th style="width:20%">Classification</th>`
@@ -16669,69 +16185,45 @@ module.exports = ({
                                   ${p.SubTests.map(
                                     (subtest) =>
                                       `<tr class="table__row">
-                                        <td style="width:50%">${
-                                          subtest.name
-                                        }</td>
+                                        <td style="width:50%">${subtest.name}</td>
                                         <td style="width:10%"><strong>${appendixSubtestScoreVal(
                                           subtest.id,
                                         )}</strong></td>
                                         ${
-                                          appendixReducer[i].Abbreviation ===
-                                            'MMPI-2' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'MMPI-A' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'TSCC' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'D-KEFS'
+                                          appendixReducer[i].Abbreviation === 'MMPI-2' ||
+                                          appendixReducer[i].Abbreviation === 'MMPI-A' ||
+                                          appendixReducer[i].Abbreviation === 'TSCC' ||
+                                          appendixReducer[i].Abbreviation === 'D-KEFS'
                                             ? ''
                                             : `<td style="width:10%"><strong>${appendixSubtestRankVal(
                                                 subtest.id,
                                               )}</strong></td>`
                                         }
                                         ${
-                                          appendixReducer[i].Abbreviation ===
-                                            'WJ-IV ACH' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'BRIEF' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'NEPSY-II' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'Vineland-II' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'CTONI-2' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'WISC-V' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'WAIS-IV' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'WASI-II' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'WJ-IV COG' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'WPPSI-IV' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'Beery VMI' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'MMPI-2' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'MMPI-A' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'PIY' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'TSCC' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'D-KEFS'
+                                          appendixReducer[i].Abbreviation === 'WJ-IV ACH' ||
+                                          appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                          appendixReducer[i].Abbreviation === 'NEPSY-II' ||
+                                          appendixReducer[i].Abbreviation === 'Vineland-II' ||
+                                          appendixReducer[i].Abbreviation === 'CTONI-2' ||
+                                          appendixReducer[i].Abbreviation === 'WISC-V' ||
+                                          appendixReducer[i].Abbreviation === 'WAIS-IV' ||
+                                          appendixReducer[i].Abbreviation === 'WASI-II' ||
+                                          appendixReducer[i].Abbreviation === 'WJ-IV COG' ||
+                                          appendixReducer[i].Abbreviation === 'WPPSI-IV' ||
+                                          appendixReducer[i].Abbreviation === 'Beery VMI' ||
+                                          appendixReducer[i].Abbreviation === 'MMPI-2' ||
+                                          appendixReducer[i].Abbreviation === 'MMPI-A' ||
+                                          appendixReducer[i].Abbreviation === 'PIY' ||
+                                          appendixReducer[i].Abbreviation === 'TSCC' ||
+                                          appendixReducer[i].Abbreviation === 'D-KEFS'
                                             ? ''
                                             : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
                                                 subtest.id,
                                               )}</strong></td>`
                                         }
                                         ${
-                                          appendixReducer[i].Abbreviation ===
-                                            'DAS-II' ||
-                                          appendixReducer[i].Abbreviation ===
-                                            'PIY'
+                                          appendixReducer[i].Abbreviation === 'DAS-II' ||
+                                          appendixReducer[i].Abbreviation === 'PIY'
                                             ? ''
                                             : `<td style="width:20%"><strong>${appendixSubtestClassificationVal(
                                                 subtest.id,
@@ -16740,17 +16232,13 @@ module.exports = ({
                                       </tr>`,
                                   ).join('')}
                                   ${
-                                    appendixReducer[i].Abbreviation ===
-                                      'D-KEFS' &&
+                                    appendixReducer[i].Abbreviation === 'D-KEFS' &&
                                     (p.ParentScaleTitle === 'Verbal Fluency' ||
                                       p.ParentScaleTitle === 'Design Fluency' ||
-                                      p.ParentScaleTitle ===
-                                        'Color-Word Interference Test' ||
+                                      p.ParentScaleTitle === 'Color-Word Interference Test' ||
                                       p.ParentScaleTitle === 'Sorting Test' ||
-                                      p.ParentScaleTitle ===
-                                        'Twenty Questions' ||
-                                      p.ParentScaleTitle ===
-                                        'Word Context Test' ||
+                                      p.ParentScaleTitle === 'Twenty Questions' ||
+                                      p.ParentScaleTitle === 'Word Context Test' ||
                                       p.ParentScaleTitle === 'Tower Test' ||
                                       p.ParentScaleTitle === 'Proverb Test')
                                       ? `<tr class="table__row">
@@ -16785,16 +16273,11 @@ module.exports = ({
                                           <th style="width:10%">Score</th>
                                           <th style="width:10%">% Rank</th>
                                           ${
-                                            appendixReducer[i].Abbreviation ===
-                                              'WJ-IV ACH' ||
-                                            appendixReducer[i].Abbreviation ===
-                                              'BRIEF' ||
-                                            appendixReducer[i].Abbreviation ===
-                                              'Conners-3' ||
-                                            appendixReducer[i].Abbreviation ===
-                                              'RBANS' ||
-                                            appendixReducer[i].Abbreviation ===
-                                              'WRAML2'
+                                            appendixReducer[i].Abbreviation === 'WJ-IV ACH' ||
+                                            appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                            appendixReducer[i].Abbreviation === 'Conners-3' ||
+                                            appendixReducer[i].Abbreviation === 'RBANS' ||
+                                            appendixReducer[i].Abbreviation === 'WRAML2'
                                               ? ''
                                               : `<th style="width:10%">Gr. Eqv.</th>`
                                           }
@@ -16803,9 +16286,7 @@ module.exports = ({
                                         ${p.SubTests.map(
                                           (subtest) =>
                                             `<tr class="table__row">
-                                              <td style="width:50%">${
-                                                subtest.name
-                                              }</td>
+                                              <td style="width:50%">${subtest.name}</td>
                                               <td style="width:10%"><strong>${appendixSubtestScoreVal(
                                                 subtest.id,
                                               )}</strong></td>
@@ -16813,18 +16294,11 @@ module.exports = ({
                                                 subtest.id,
                                               )}</strong></td>
                                               ${
-                                                appendixReducer[i]
-                                                  .Abbreviation ===
-                                                  'WJ-IV ACH' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'BRIEF' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation ===
-                                                  'Conners-3' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'RBANS' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'WRAML2'
+                                                appendixReducer[i].Abbreviation === 'WJ-IV ACH' ||
+                                                appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                                appendixReducer[i].Abbreviation === 'Conners-3' ||
+                                                appendixReducer[i].Abbreviation === 'RBANS' ||
+                                                appendixReducer[i].Abbreviation === 'WRAML2'
                                                   ? ''
                                                   : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
                                                       subtest.id,
@@ -16879,20 +16353,12 @@ module.exports = ({
                                               <th style="width:10%">Score</th>
                                               <th style="width:10%">% Rank</th>
                                               ${
-                                                appendixReducer[i]
-                                                  .Abbreviation ===
-                                                  'WJ-IV ACH' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'BRIEF' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation ===
-                                                  'Conners-3' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'RBANS' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'WRAML2' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'BASC-3'
+                                                appendixReducer[i].Abbreviation === 'WJ-IV ACH' ||
+                                                appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                                appendixReducer[i].Abbreviation === 'Conners-3' ||
+                                                appendixReducer[i].Abbreviation === 'RBANS' ||
+                                                appendixReducer[i].Abbreviation === 'WRAML2' ||
+                                                appendixReducer[i].Abbreviation === 'BASC-3'
                                                   ? ''
                                                   : `<th style="width:10%">Gr. Eqv.</th>`
                                               }
@@ -16901,9 +16367,7 @@ module.exports = ({
                                             ${pst.SubTests.map(
                                               (subtest) =>
                                                 `<tr class="table__row">
-                                                  <td style="width:50%">${
-                                                    subtest.name
-                                                  }</td>
+                                                  <td style="width:50%">${subtest.name}</td>
                                                   <td style="width:10%"><strong>${appendixSubtestScoreVal(
                                                     subtest.id,
                                                   )}</strong></td>
@@ -16911,23 +16375,14 @@ module.exports = ({
                                                     subtest.id,
                                                   )}</strong></td>
                                                   ${
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
+                                                    appendixReducer[i].Abbreviation ===
                                                       'WJ-IV ACH' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
-                                                      'BRIEF' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
+                                                    appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                                    appendixReducer[i].Abbreviation ===
                                                       'Conners-3' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
-                                                      'RBANS' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
-                                                      'WRAML2' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation === 'BASC-3'
+                                                    appendixReducer[i].Abbreviation === 'RBANS' ||
+                                                    appendixReducer[i].Abbreviation === 'WRAML2' ||
+                                                    appendixReducer[i].Abbreviation === 'BASC-3'
                                                       ? ''
                                                       : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
                                                           subtest.id,
@@ -16963,20 +16418,12 @@ module.exports = ({
                                               <th style="width:10%">Score</th>
                                               <th style="width:10%">% Rank</th>
                                               ${
-                                                appendixReducer[i]
-                                                  .Abbreviation ===
-                                                  'WJ-IV ACH' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'BRIEF' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation ===
-                                                  'Conners-3' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'RBANS' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'WRAML2' ||
-                                                appendixReducer[i]
-                                                  .Abbreviation === 'BASC-3'
+                                                appendixReducer[i].Abbreviation === 'WJ-IV ACH' ||
+                                                appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                                appendixReducer[i].Abbreviation === 'Conners-3' ||
+                                                appendixReducer[i].Abbreviation === 'RBANS' ||
+                                                appendixReducer[i].Abbreviation === 'WRAML2' ||
+                                                appendixReducer[i].Abbreviation === 'BASC-3'
                                                   ? ''
                                                   : `<th style="width:10%">Gr. Eqv.</th>`
                                               }
@@ -16985,9 +16432,7 @@ module.exports = ({
                                             ${pst.SubTests.map(
                                               (subtest) =>
                                                 `<tr class="table__row">
-                                                  <td style="width:50%">${
-                                                    subtest.name
-                                                  }</td>
+                                                  <td style="width:50%">${subtest.name}</td>
                                                   <td style="width:10%"><strong>${appendixSubtestScoreVal(
                                                     subtest.id,
                                                   )}</strong></td>
@@ -16995,23 +16440,14 @@ module.exports = ({
                                                     subtest.id,
                                                   )}</strong></td>
                                                   ${
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
+                                                    appendixReducer[i].Abbreviation ===
                                                       'WJ-IV ACH' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
-                                                      'BRIEF' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
+                                                    appendixReducer[i].Abbreviation === 'BRIEF' ||
+                                                    appendixReducer[i].Abbreviation ===
                                                       'Conners-3' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
-                                                      'RBANS' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation ===
-                                                      'WRAML2' ||
-                                                    appendixReducer[i]
-                                                      .Abbreviation === 'BASC-3'
+                                                    appendixReducer[i].Abbreviation === 'RBANS' ||
+                                                    appendixReducer[i].Abbreviation === 'WRAML2' ||
+                                                    appendixReducer[i].Abbreviation === 'BASC-3'
                                                       ? ''
                                                       : `<td style="width:10%"><strong>${appendixSubtestGradeEquivalentVal(
                                                           subtest.id,
