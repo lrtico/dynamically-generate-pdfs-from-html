@@ -1,3 +1,4 @@
+// Backup of server/documents/index.js from server
 //export a function that returns all the necessary HTML and generates the PDF
 
 module.exports = ({
@@ -497,7 +498,76 @@ module.exports = ({
     MMPIA,
     Rorschach,
     TSCC,
+    // ParentScaleTitles
+    t1VerbalComprehension,
+    t2VisualSpatial,
+    t3FluidReasoning,
+    t4WorkingMemory,
+    t5ProcessingSpeed,
+    t17ComplimentarySubtests,
+    t18BriefValidityScales,
+    t19BriefBehavioralRegulationIndexBri,
+    t20BriefMetacognitionIndexMi,
+    t21BriefGlobalExecutiveCompositeGec,
+    t42DasiiEarlyYearsCore,
+    t43DasiiEarlyYearsDiagnostic,
+    t44DasiiSchoolAgeCore,
+    t45DasiiSchoolAgeDiagnostic,
+    t46DasiiDiagnosticSubtests,
+    t52VinelandiiCommunicationDomain,
+    t53VinelandiiDailyLivingSkillsDomain,
+    t54VinelandiiSocializationDomain,
+    t55VinelandiiMotorSkillsDomainOnlyAgesBirthThrough6,
+    t56VinelandiiMaladaptiveBehaviorDomainOptional,
     t59EarlyYearsCore,
+    t106WaisivVerbalComprehension,
+    t107WaisivPerceptualReasoning,
+    t108WaisivWorkingMemory,
+    t109WaisivProcessingSpeed,
+    t110PiyCognitiveImpairmentScale,
+    t111PiyImpulsivityAndDistractibilityScale,
+    t112PiyDelinquencyScale,
+    t113PiyFamilyDysfunctionScale,
+    t114PiyRealityDistortionScale,
+    t115PiySomaticConcernScale,
+    t116PiyPsychologicalDiscomfortScale,
+    t117PiySocialWithdrawalScale,
+    t118PiySocialSkillDeficitScale,
+    t119McmiivClinicalPersonalityPatterns,
+    t120McmiivSeverePersonalityPathology,
+    t121McmiivClinicalSyndromes,
+    t122McmiivSevereClinicalSyndromes,
+    t123McmiivModifyingIndices,
+    t124McmiivRandomResponseIndicators,
+    t125Mmpi2ClinicalScales,
+    t126Mmpi2ValidityScales,
+    t127MmpiaValidityScales,
+    t128NepsyiiAttentionAndExecutiveFunctioning,
+    t129NepsyiiLanguage,
+    t130NepsyiiMemoryAndLearning,
+    t131NepsyiiSensorimotor,
+    t132NepsyiiSocialPerception,
+    t133NepsyiiVisuospatialProcessing,
+    t134WjivcogComprehensionKnowledgeGc,
+    t135WjivcogFluidReasoningGf,
+    t136WjivcogShortTermWorkingMemoryGwm,
+    t137WjivcogCognitiveProcessingSpeedGs,
+    t138WjivcogAuditoryProcessingSpeedGa,
+    t139WjivcogLongTermRetrievalGlr,
+    t140WjivcogVisualProcessingGv,
+    t142TsccValidityScale,
+    t143TsccClinicalScale,
+    t144WjivachBasicReadingSkills,
+    t146WjivachReadingComprehensionExtended,
+    t147WjivachMathCalculationSkills,
+    t148WjivachMathReasoning,
+    t149WjivachWrittenExpression,
+    t150WjivachWritingRelatedSubtest,
+    t151Ctoni2Principals,
+    t152Ctoni2Composites,
+    t158WppsiivLanguage,
+    t160MmpiaClinical,
+    // Subtest scores
     t1SimilaritiesScore,
     t2VocabularyScore,
     t3InformationScore,
@@ -2604,6 +2674,223 @@ module.exports = ({
   testSelectedReducer,
   appendixReducer,
 }) => {
+  const parentScaleTitleIsVisibleVal = (id) => {
+    let val;
+    switch (id) {
+      case 1:
+        val = t1VerbalComprehension;
+        break;
+      case 2:
+        val = t2VisualSpatial;
+        break;
+      case 3:
+        val = t3FluidReasoning;
+        break;
+      case 4:
+        val = t4WorkingMemory;
+        break;
+      case 5:
+        val = t5ProcessingSpeed;
+        break;
+      case 17:
+        val = t17ComplimentarySubtests;
+        break;
+      case 18:
+        val = t18BriefValidityScales;
+        break;
+      case 19:
+        val = t19BriefBehavioralRegulationIndexBri;
+        break;
+      case 20:
+        val = t20BriefMetacognitionIndexMi;
+        break;
+      case 21:
+        val = t21BriefGlobalExecutiveCompositeGec;
+        break;
+      case 42:
+        val = t42DasiiEarlyYearsCore;
+        break;
+      case 43:
+        val = t43DasiiEarlyYearsDiagnostic;
+        break;
+      case 44:
+        val = t44DasiiSchoolAgeCore;
+        break;
+      case 45:
+        val = t45DasiiSchoolAgeDiagnostic;
+        break;
+      case 46:
+        val = t46DasiiDiagnosticSubtests;
+        break;
+      case 52:
+        val = t52VinelandiiCommunicationDomain;
+        break;
+      case 53:
+        val = t53VinelandiiDailyLivingSkillsDomain;
+        break;
+      case 54:
+        val = t54VinelandiiSocializationDomain;
+        break;
+      case 55:
+        val = t55VinelandiiMotorSkillsDomainOnlyAgesBirthThrough6;
+        break;
+      case 56:
+        val = t56VinelandiiMaladaptiveBehaviorDomainOptional;
+        break;
+      case 57:
+        val = t57WasiiiVerbalComprehension;
+        break;
+      case 58:
+        val = t58WasiiiPerceptualReasoning;
+        break;
+      case 59:
+        val = t59EarlyYearsCore;
+        break;
+      case 106:
+        val = t106WaisivVerbalComprehension;
+        break;
+      case 107:
+        val = t107WaisivPerceptualReasoning;
+        break;
+      case 108:
+        val = t108WaisivWorkingMemory;
+        break;
+      case 109:
+        val = t109WaisivProcessingSpeed;
+        break;
+      case 110:
+        val = t110PiyCognitiveImpairmentScale;
+        break;
+      case 111:
+        val = t111PiyImpulsivityAndDistractibilityScale;
+        break;
+      case 112:
+        val = t112PiyDelinquencyScale;
+        break;
+      case 113:
+        val = t113PiyFamilyDysfunctionScale;
+        break;
+      case 114:
+        val = t114PiyRealityDistortionScale;
+        break;
+      case 115:
+        val = t115PiySomaticConcernScale;
+        break;
+      case 116:
+        val = t116PiyPsychologicalDiscomfortScale;
+        break;
+      case 117:
+        val = t117PiySocialWithdrawalScale;
+        break;
+      case 118:
+        val = t118PiySocialSkillDeficitScale;
+        break;
+      case 119:
+        val = t119McmiivClinicalPersonalityPatterns;
+        break;
+      case 120:
+        val = t120McmiivSeverePersonalityPathology;
+        break;
+      case 121:
+        val = t121McmiivClinicalSyndromes;
+        break;
+      case 122:
+        val = t122McmiivSevereClinicalSyndromes;
+        break;
+      case 123:
+        val = t123McmiivModifyingIndices;
+        break;
+      case 124:
+        val = t124McmiivRandomResponseIndicators;
+        break;
+      case 125:
+        val = t125Mmpi2ClinicalScales;
+        break;
+      case 126:
+        val = t126Mmpi2ValidityScales;
+        break;
+      case 127:
+        val = t127MmpiaValidityScales;
+        break;
+      case 128:
+        val = t128NepsyiiAttentionAndExecutiveFunctioning;
+        break;
+      case 129:
+        val = t129NepsyiiLanguage;
+        break;
+      case 130:
+        val = t130NepsyiiMemoryAndLearning;
+        break;
+      case 131:
+        val = t131NepsyiiSensorimotor;
+        break;
+      case 132:
+        val = t132NepsyiiSocialPerception;
+        break;
+      case 133:
+        val = t133NepsyiiVisuospatialProcessing;
+        break;
+      case 134:
+        val = t134WjivcogComprehensionKnowledgeGc;
+        break;
+      case 135:
+        val = t135WjivcogFluidReasoningGf;
+        break;
+      case 136:
+        val = t137WjivcogCognitiveProcessingSpeedGs;
+        break;
+      case 137:
+        val = t136WjivcogShortTermWorkingMemoryGwm;
+        break;
+      case 138:
+        val = t138WjivcogAuditoryProcessingSpeedGa;
+        break;
+      case 139:
+        val = t139WjivcogLongTermRetrievalGlr;
+        break;
+      case 140:
+        val = t140WjivcogVisualProcessingGv;
+        break;
+      case 142:
+        val = t142TsccValidityScale;
+        break;
+      case 143:
+        val = t143TsccClinicalScale;
+        break;
+      case 144:
+        val = t144WjivachBasicReadingSkills;
+        break;
+      case 146:
+        val = t146WjivachReadingComprehensionExtended;
+        break;
+      case 147:
+        val = t147WjivachMathCalculationSkills;
+        break;
+      case 148:
+        val = t148WjivachMathReasoning;
+        break;
+      case 149:
+        val = t149WjivachWrittenExpression;
+        break;
+      case 150:
+        val = t150WjivachWritingRelatedSubtest;
+        break;
+      case 151:
+        val = t151Ctoni2Principals;
+        break;
+      case 152:
+        val = t152Ctoni2Composites;
+        break;
+      case 158:
+        val = t158WppsiivLanguage;
+        break;
+      case 160:
+        val = t160MmpiaClinical;
+        break;
+    }
+    return val;
+  };
+
   const subtestVal = (id) => {
     let val;
     switch (id) {
@@ -10989,6 +11276,9 @@ module.exports = ({
          <head>
             <meta charset="utf-8">
             <title>PDF Result Template</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
             <script>
               function subst() {
                 var vars={};
@@ -11006,7 +11296,7 @@ module.exports = ({
                 font-size: 62.5%;
               }
               html {
-                  font-family: "Lato", sans-serif;
+                  font-family: "Lato", "Calibri", "Corbel", "Franklin Gothic", sans-serif;
                   line-height: 1.15;
                   -ms-text-size-adjust: 100%;
                   -webkit-text-size-adjust: 100%;
@@ -11041,7 +11331,7 @@ module.exports = ({
                 margin: 0 0.5in;
               }
               .pdf-t main h1 {
-                font-size: 10pt;
+                font-size: 18pt;
                 font-weight: 700;
                 margin: 0 0 0.125in;
               }
@@ -15351,48 +15641,62 @@ module.exports = ({
                     t.ParentScaleTitles !== undefined
                       ? t.ParentScaleTitles.map(
                           (parentscaletitle) => `
-                          <div class="domain__test">
-                            <h5>${parentscaletitle.ParentScaleName}</h5>
-                          ${
-                            parentscaletitle.ParentScaleDescription !== null
-                              ? `<p>
-                                  ${parentScaleDescVal(parentscaletitle.Id)}
-                                </p>`
-                              : ''
-                          }
-                          <table class="test-table">
-                            <tr class="table__row table__header">
-                              <th style="width:25%">${testSelectedReducer[i].SubTestType}</th>
-                              <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
-                              <th style="width:60%">${
-                                appendixReducer[i].Abbreviation === 'DAS-II' ||
-                                appendixReducer[i].Abbreviation === 'PIY' ||
-                                (appendixReducer[i].Abbreviation === 'D-KEFS' &&
-                                  (parentscaletitle.ParentScaleName ===
-                                    'Color-Word Interference Test' ||
-                                    parentscaletitle.ParentScaleName === 'Twenty Questions' ||
-                                    parentscaletitle.ParentScaleName === 'Word Context Test' ||
-                                    parentscaletitle.ParentScaleName === 'Tower Test'))
-                                  ? ''
-                                  : `${testSelectedReducer[i].DescriptionType}`
-                              }</th>
-                            </tr>
-                            ${parentscaletitle.SubTests.map(
-                              (subtest) =>
-                                `<tr class="table__row">
-                                  <td>${subtest.Name}</td>
-                                  <td><strong>${subtestVal(subtest.Id)}</strong></td>
-                                  <td>
-                                    <div>${
-                                      t.Description === null
-                                        ? subTestDescriptionColVal(subtest.Id)
-                                        : subtest.Description
-                                    }</div>
-                                  </td>
-                                </tr>`,
-                            ).join('')}
-                          </table>
-                        </div>`,
+                            ${
+                              parentScaleTitleIsVisibleVal(parentscaletitle.Id) === true
+                                ? `<div class="domain__test">
+                                  <h5>${parentscaletitle.ParentScaleName}</h5>
+                                  ${
+                                    parentscaletitle.ParentScaleDescription !== null
+                                      ? `<p>
+                                          ${parentScaleDescVal(parentscaletitle.Id)}
+                                        </p>`
+                                      : ''
+                                  }
+                                  <table class="test-table">
+                                    <tr class="table__row table__header">
+                                      <th style="width:25%">${
+                                        testSelectedReducer[i].SubTestType
+                                      }</th>
+                                      <th style="width:15%">${testSelectedReducer[i].ScoreType}</th>
+                                      <th style="width:60%">${
+                                        appendixReducer[i].Abbreviation === 'DAS-II' ||
+                                        appendixReducer[i].Abbreviation === 'PIY' ||
+                                        (appendixReducer[i].Abbreviation === 'D-KEFS' &&
+                                          (parentscaletitle.ParentScaleName ===
+                                            'Color-Word Interference Test' ||
+                                            parentscaletitle.ParentScaleName ===
+                                              'Twenty Questions' ||
+                                            parentscaletitle.ParentScaleName ===
+                                              'Word Context Test' ||
+                                            parentscaletitle.ParentScaleName === 'Tower Test'))
+                                          ? ''
+                                          : `${testSelectedReducer[i].DescriptionType}`
+                                      }</th>
+                                    </tr>
+                                    ${parentscaletitle.SubTests.map(
+                                      (subtest) =>
+                                        `${
+                                          subtestVal(subtest.Id) !== undefined
+                                            ? `<tr class="table__row">
+                                                <td>${subtest.Name}</td>
+                                                <td><strong>${subtestVal(subtest.Id)}</strong></td>
+                                                <td>
+                                                  <div>${
+                                                    t.Description === null
+                                                      ? subTestDescriptionColVal(subtest.Id)
+                                                      : subtest.Description
+                                                  }</div>
+                                                </td>
+                                              </tr>`
+                                            : ''
+                                        }
+                                        `,
+                                    ).join('')}
+                                  </table>
+                                </div>`
+                                : ''
+                            }
+                          `,
                         ).join('')
                       : ''
                   }
@@ -15463,39 +15767,52 @@ module.exports = ({
                             ? t.ParentGroupSubScales.map(
                                 (t) =>
                                   `<div class="domain__test">
-                                  <h6>${t.ParentGroupSubScaleName}</h6>
-                                  ${t.ParentScaleTitles.map(
-                                    (t) => `
-                                      <h5>${t.ParentScaleName}</h5>
-                                      ${
-                                        t.ParentScaleDescription !== null
-                                          ? `<p>${t.ParentScaleDescription}</p>`
-                                          : ''
-                                      }
-                                      <table class="test-table">
-                                        <tr class="table__row table__header">
-                                          <th style="width:25%">${
-                                            testSelectedReducer[i].SubTestType
-                                          }</th>
-                                          <th style="width:15%">${
-                                            testSelectedReducer[i].ScoreType
-                                          }</th>
-                                          <th style="width:60%">${
-                                            testSelectedReducer[i].DescriptionType
-                                          }</th>
-                                        </tr>
-                                        ${t.SubTests.map(
-                                          (t) =>
-                                            `<tr class="table__row">
-                                              <td>${t.Name}</td>
-                                              <td><strong>${subtestVal(t.Id)}</strong></td>
-                                              <td>
-                                                <div>${t.Description}</div>
-                                              </td>
-                                            </tr>`,
-                                        ).join('')}
-                                      </table>`,
-                                  ).join('')}
+                                    <h6>${t.ParentGroupSubScaleName}</h6>
+                                    ${t.ParentScaleTitles.map(
+                                      (t) => `
+                                        ${
+                                          parentScaleTitleIsVisibleVal(t.Id) === true
+                                            ? `
+                                              <h5>${t.ParentScaleName}</h5>
+                                              ${
+                                                t.ParentScaleDescription !== null
+                                                  ? `<p>${t.ParentScaleDescription}</p>`
+                                                  : ''
+                                              }
+                                              <table class="test-table">
+                                                <tr class="table__row table__header">
+                                                  <th style="width:25%">${
+                                                    testSelectedReducer[i].SubTestType
+                                                  }</th>
+                                                  <th style="width:15%">${
+                                                    testSelectedReducer[i].ScoreType
+                                                  }</th>
+                                                  <th style="width:60%">${
+                                                    testSelectedReducer[i].DescriptionType
+                                                  }</th>
+                                                </tr>
+                                                ${t.SubTests.map(
+                                                  (t) =>
+                                                    `${
+                                                      subtestVal(t.Id) !== undefined
+                                                        ? `<tr class="table__row">
+                                                            <td>${t.Name}</td>
+                                                            <td><strong>${subtestVal(
+                                                              t.Id,
+                                                            )}</strong></td>
+                                                            <td>
+                                                              <div>${t.Description}</div>
+                                                            </td>
+                                                          </tr>`
+                                                        : ''
+                                                    }
+                                                    `,
+                                                ).join('')}
+                                              </table>`
+                                            : ''
+                                        }
+                                      `,
+                                    ).join('')}
                                 </div>`,
                               ).join('')
                             : ''
