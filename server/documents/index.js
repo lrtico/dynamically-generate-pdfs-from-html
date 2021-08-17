@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 // Backup of server/documents/index.js from server
 //export a function that returns all the necessary HTML and generates the PDF
 

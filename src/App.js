@@ -593,16 +593,52 @@ class App extends Component {
       t3FluidReasoning: false,
       t4WorkingMemory: true,
       t5ProcessingSpeed: false,
+      t6Ados2Communication: false,
+      t7Ados2ReciprocalSocialInteraction: false,
+      t8Ados2RestrictedAndRepetitiveBehaviors: false,
+      t9Ados2Communication: true,
+      t10Ados2ReciprocalSocialInteraction: true,
+      t11Ados2RestrictedAndRepetitiveBehaviors: false,
+      t12Ados2Communication: false,
+      t13Ados2ReciprocalSocialInteraction: false,
+      t14Ados2RestrictedAndRepetitiveBehaviors: false,
+      t15Ados2Communication: false,
+      t16Ados2ReciprocalSocialInteraction: true,
       t17ComplimentarySubtests: true,
       t18BriefValidityScales: true,
       t19BriefBehavioralRegulationIndexBri: true,
       t20BriefMetacognitionIndexMi: true,
       t21BriefGlobalExecutiveCompositeGec: true,
+      t22Cars2Cars2stItems: false,
+      t23Cars2Cars2hfItems: true,
+      t24Conners3ContentScales: true,
+      t25Conners3DsmSymptomScales: true,
+      t26Conners3Indices: false,
+      t27Conners3ScreenerItems: true,
+      t28Conners3CriticalItems: true,
+      t29Conners3ValidityScales: true,
+      t30Conners3ContentScales: false,
+      t31Conners3DsmSymptomScales: true,
+      t32Conners3Indices: false,
+      t33Conners3ScreenerItems: true,
+      t34Conners3CriticalItems: true,
+      t35Conners3ValidityScales: true,
+      t36Conners3ContentScales: true,
+      t37Conners3DsmSymptomScales: true,
+      t38Conners3Indices: true,
+      t39Conners3ScreenerItems: true,
+      t40Conners3CriticalItems: true,
+      t41Conners3ValidityScales: true,
       t42DasiiEarlyYearsCore: true,
       t43DasiiEarlyYearsDiagnostic: true,
       t44DasiiSchoolAgeCore: true,
       t45DasiiSchoolAgeDiagnostic: true,
       t46DasiiDiagnosticSubtests: true,
+      t47RbansImmediateMemory: false,
+      t48RbansVisuospatialConstructional: false,
+      t49RbansLanguage: false,
+      t50RbansAttention: true,
+      t51RbansDelayedMemory: true,
       t52VinelandiiCommunicationDomain: true,
       t53VinelandiiDailyLivingSkillsDomain: true,
       t54VinelandiiSocializationDomain: true,
@@ -611,6 +647,50 @@ class App extends Component {
       t57WasiiiVerbalComprehension: true,
       t58WasiiiPerceptualReasoning: true,
       t59EarlyYearsCore: true,
+      t60Wraml2VerbalMemoryIndex: true,
+      t61Wraml2VisualMemoryIndex: true,
+      t62Wraml2AttentionconcentrationIndex: false,
+      t63Wraml2OptionalSubtests: false,
+      t64Wraml2DelayRecallSubtests: false,
+      t65Wraml2RecognitionSubtests: true,
+      t66ValidityIndexes: false,
+      t67ClinicalScales: true,
+      t68AdaptiveScales: true,
+      t69ContentScales: true,
+      t70SchoolProblems: false,
+      t71InternalizingProblems: true,
+      t72Inattentionhyperactivity: true,
+      t73PersonalAdjustment: true,
+      t74SchoolProblems: false,
+      t75InternalizingProblems: true,
+      t76Inattentionhyperactivity: true,
+      t77EmotionalSymptomsIndex: true,
+      t78PersonalAdjustment: true,
+      t79InternalizingProblems: false,
+      t80Inattentionhyperactivity: true,
+      t81EmotionalSymptomsIndex: true,
+      t82PersonalAdjustment: true,
+      t85ValidityIndexes: true,
+      t86ClinicalScales: true,
+      t87AdaptiveScales: true,
+      t88ContentScales: true,
+      t89ExternalizingProblems: false,
+      t90InternalizingProblems: true,
+      t91AdaptiveSkills: true,
+      t92BehavioralSymptomsIndex: true,
+      t93ExternalizingProblems: false,
+      t94InternalizingProblems: true,
+      t95SchoolProblems: true,
+      t96AdaptiveSkills: true,
+      t97BehavioralSymptomsIndex: true,
+      t98ExternalizingProblems: false,
+      t99InternalizingProblems: true,
+      t100AdaptiveSkills: true,
+      t101BehavioralSymptomsIndex: true,
+      t102ExternalizingProblems: false,
+      t103InternalizingProblems: true,
+      t104AdaptiveSkills: true,
+      t105BehavioralSymptomsIndex: true,
       t106WaisivVerbalComprehension: true,
       t107WaisivPerceptualReasoning: true,
       t108WaisivWorkingMemory: true,
@@ -657,6 +737,7 @@ class App extends Component {
       t151Ctoni2Principals: true,
       t152Ctoni2Composites: true,
       t158WppsiivLanguage: true,
+      t159EmotionalSymptomsIndex: true,
       t160MmpiaClinical: true,
       // Subtest scores
       t1SimilaritiesScore: undefined,
@@ -675,6 +756,62 @@ class App extends Component {
       t14CodingScore: '2',
       t15SymbolSearchScore: '2',
       t16CancellationScore: '2',
+      t17Ados2FrequencyOfSpontaneousVocalizationDirectedToOthersA2Score: undefined,
+      t18Ados2PointingA7Score: '89',
+      t19Ados2GesturesA8Score: '28',
+      t20Ados2UnusualEyeContactB1Score: '12',
+      t21Ados2FacialExpressionsDirectedToOthersB3Score: undefined,
+      t22Ados2IntegrationOfGazeAndOtherBehaviorsDuringSocialOverturesB4Score: undefined,
+      t23Ados2SharedEnjoymentInInteractionB5Score: '98',
+      t24Ados2ShowingB9Score: undefined,
+      t25Ados2SpontaneousInitiationOfJointAttentionB10Score: undefined,
+      t26Ados2ResponseToJointAttentionB11Score: undefined,
+      t27Ados2QualityOfSocialOverturesB12Score: undefined,
+      t28Ados2IntonationOfVocalizationsOrVerbalizationsA3Score: '39',
+      t29Ados2StereotypedIdiosyncraticUseOfWordsOrPhrasesA5Score: '32',
+      t30Ados2UnusualSensoryInterestInPlayMaterialPersonD1Score: undefined,
+      t31Ados2HandAndFingerAndOtherComplexMannerismsD2Score: '31',
+      t32Ados2UnusuallyRepetitiveInterestsOrStereotypedBehaviorsD4Score: '29',
+      t33Ados2PointingA6Score: undefined,
+      t34Ados2DescriptiveConventionalInstrumentalOrInformationalGesturesA7Score: '92',
+      t35Ados2UnusualEyeContactB1Score: undefined,
+      t36Ados2FacialExpressionsDirectedToOthersB2Score: '28',
+      t37Ados2SharedEnjoymentInInteractionB3Score: undefined,
+      t38Ados2ShowingB5Score: '84',
+      t39Ados2SpontaneousInitiationOfJointAttentionB6Score: '44',
+      t40Ados2QualityOfSocialOverturesB8Score: '84',
+      t41Ados2AmountOfReciprocalSocialCommunicationB11Score: '77',
+      t42Ados2OverallQualityOfRapportB12Score: undefined,
+      t43Ados2StereotypedIdiosyncraticUseOfWordsOrPhrasesA4Score: undefined,
+      t44Ados2UnusualSensoryInterestInPlayMaterialPersonD1Score: '30',
+      t45Ados2HandAndFingerAndOtherComplexMannerismsD2Score: '10',
+      t46Ados2UnusuallyRepetitiveInterestsOrStereotypedBehaviorsScore: '82',
+      t47Ados2ReportingOfEventsA7Score: undefined,
+      t48Ados2ConversationA8Score: undefined,
+      t49Ados2DescriptiveConventionalInstrumentalOrInformationalGesturesA9Score: '13',
+      t50Ados2UnusualEyeContactB1Score: '81',
+      t51Ados2FacialExpressionsDirectedToExaminerB2Score: undefined,
+      t52Ados2SharedEnjoymentInInteractionB3Score: '20',
+      t53Ados2SharedEnjoymentInInteractionB4Score: '55',
+      t54Ados2QualityOfSocialOverturesB7Score: '19',
+      t55Ados2QualityOfSocialResponseB9Score: undefined,
+      t56Ados2AmountOfReciprocalSocialCommunicationB10Score: undefined,
+      t57Ados2OverallQualityOfRapportB11Score: undefined,
+      t58Ados2StereotypedIdiosyncraticUseOfWordsOrPhrasesA4Score: '80',
+      t59Ados2UnusualSensoryInterestInPlayMaterialPersonD1Score: undefined,
+      t60Ados2HandAndFingerAndOtherComplexMannerismsD2Score: '82',
+      t61Ados2UnusuallyRepetitiveInterestsOrStereotypedBehaviorsScore: '72',
+      t62Ados2StereotypedIdiosyncraticUseOfWordsOrPhrasesA4Score: undefined,
+      t63Ados2ConversationA8Score: undefined,
+      t64Ados2DescriptiveConventionalInstrumentalOrInformationalGesturesA9Score: '92',
+      t65Ados2EmphaticOrEmotionalGesturesA10Score: '81',
+      t66Ados2UnusualEyeContactB1Score: undefined,
+      t67Ados2FacialExpressionsDirectedToExaminerB2Score: undefined,
+      t68Ados2CommentsOnOthersEmotionsEmpathyB6Score: undefined,
+      t69Ados2ResponsibilityB8Score: '18',
+      t70Ados2QualityOfSocialOverturesB9Score: '87',
+      t71Ados2QualityOfSocialResponseB11Score: undefined,
+      t72Ados2AmountOfReciprocalSocialCommunicationB12Score: undefined,
       t30NelsonDennyStandardScore: '75',
       t30NelsonDennyPercentile: '75',
       t30NelsonDennyGradeEquivalent: '5th',
@@ -710,9 +847,9 @@ class App extends Component {
       t95PlanOrganizeScore: '88',
       t96OrganizationOfMaterialsScore: '88',
       t97MonitorScore: '88',
-      t98RelatingToPeopleScore: '49',
-      t99ImitationScore: '49',
-      t100EmotionalResponseScore: '49',
+      t98RelatingToPeopleScore: undefined,
+      t99ImitationScore: undefined,
+      t100EmotionalResponseScore: undefined,
       t101BodyUseScore: '49',
       t102ObjectUseScore: '49',
       t103AdaptionToChangeScore: '49',
@@ -725,17 +862,17 @@ class App extends Component {
       t110ActivityLevelScore: '49',
       t111LevelAndConsistencyOfIntellectualRestponseScore: '49',
       t112GeneralImpressionsScore: '49',
-      t113SocialEmotionalUnderstandingScore: '49',
-      t114EmotionalExpressionAndRegulationOfEmtotionsScore: '49',
-      t115RelatingToPeopleScore: '49',
+      t113SocialEmotionalUnderstandingScore: undefined,
+      t114EmotionalExpressionAndRegulationOfEmtotionsScore: undefined,
+      t115RelatingToPeopleScore: undefined,
       t116BodyUseScore: '49',
       t117ObjectUseInPlayScore: '49',
       t118VisualResponseScore: '49',
       t119ListeningResponseScore: '49',
       t646AdaptationToChangeRestrictedInterestsScore: '49',
-      t120InattentionScore: '23',
-      t121HyperactivityImpulsivityScore: '23',
-      t122LearningProblemsScore: '23',
+      t120InattentionScore: undefined,
+      t121HyperactivityImpulsivityScore: undefined,
+      t122LearningProblemsScore: undefined,
       t123ExecutiveFunctioningScore: '23',
       t124DefianceAggressionScore: '23',
       t125PeerRelationsScore: '23',
@@ -820,7 +957,7 @@ class App extends Component {
       t203RecallOfDigitsBackwardScore: '55',
       t204PhonologicalProcessingScore: '55',
       t205RapidNamingScore: '55',
-      t206TrailMakingTestScore: '71',
+      t206TrailMakingTestScore: undefined,
       t207VerbalFluencyTestScore: '71',
       t208DesignFluencyTestScore: '71',
       t209ColorWordInterferenceTestScore: '71',
@@ -864,14 +1001,14 @@ class App extends Component {
       t247VocabularyScore: '41',
       t248BlockDesignScore: '41',
       t249MatrixReasoningScore: '41',
-      t250ListeningComprehensionGradesPk12Score: '78',
-      t251EarlyReadingSkillsGradesPk3Score: '33',
+      t250ListeningComprehensionGradesPK12Score: '78',
+      t251EarlyReadingSkillsGradesPK3Score: '33',
       t252ReadingComprehensionGrades112Score: '81',
-      t253MathProblemSolvingGradesPk12Score: '90',
-      t254AlphabetWritingFluencyGradesPk3Score: '99',
-      t266StoryMemoryScore: '67',
+      t253MathProblemSolvingGradesPK12Score: '90',
+      t254AlphabetWritingFluencyGradesPK3Score: '99',
+      t266StoryMemoryScore: undefined,
       t267VerbalLearningScore: '67',
-      t268DesignMemoryScore: '67',
+      t268DesignMemoryScore: undefined,
       t269PictureMemoryScore: '67',
       t270FingerWindowsScore: '67',
       t271NumberLetterScore: '67',
@@ -889,7 +1026,7 @@ class App extends Component {
       t283FIndexScore: '52',
       t284LIndexScore: '52',
       t285VIndexScore: '52',
-      t286AlcoholAbuseScore: '52',
+      t286AlcoholAbuseScore: undefined,
       t288AttentionProblemsScore: '52',
       t289AttitudeToSchoolScore: '52',
       t287AnxietyScore: '52',
@@ -2632,329 +2769,412 @@ class App extends Component {
       t18ORIScore: '79',
       t18ApendixGort5ORIRank: '74',
       t18ApendixGort5ORIGradeEquivalent: '5th',
+      relevantBackgroundHistory:
+        'MotherName, motherAge, the stepmother, lives at motherAddress. Her home phone number is motherHomePhone, her cell phone is motherCellPhone, and her work phone is motherWorkPhone.motherName has worked motherWorkLength years for motherEmployer as a motherOccupation. Her primary language is motherPrimaryLang. Her secondary language is motherSecondaryLang.fatherName, fatherAge, the stepfather, lives at fatherAddress. His home phone number is fatherHomePhone, his cell phone is fatherCellPhone, and his work phone is fatherWorkPhone.fatherName has worked fatherWorkLength years for fatherEmployer as a fatherOccupation. His primary language is fatherPrimaryLang. His secondary language is fatherSecondaryLang.primaryCaregiverName, primaryCaregiverAge, the primaryCaregiverRelationship, lives at primaryCaregiverAddress. His home phone number is primaryCaregiverHomePhone, his cell phone is primaryCaregiverCellPhone, and his work phone is primaryCaregiverWorkPhone.',
+      resultsCurrentAssessment: 'Current assessment results',
+      summaryCurrentSituation: 'Summary of current situation',
+      dsmCodes: [
+        {
+          codeDescription: 'Major Neurocognitive Disorder Due to Traumatic Brain Injury',
+          codeSpecifier: 'Without behavioral disturbance',
+          codeValue: '294.1',
+          codeValueIcd10: 'F02.80',
+        },
+        {
+          codeDescription: 'Overweight or Obesity',
+          codeSpecifier: '',
+          codeValue: '278',
+          codeValueIcd10: 'E66.9',
+        },
+        {
+          codeDescription: 'Probable Major Vascular Neurocognitive Disorder',
+          codeSpecifier: 'With behavioral disturbance',
+          codeValue: '290.4',
+          codeValueIcd10: 'F01.51',
+        },
+        {
+          codeDescription: 'Probable Major Vascular Neurocognitive Disorder',
+          codeSpecifier: 'With behavioral disturbance',
+          codeValue: '290.4',
+          codeValueIcd10: 'F01.51',
+        },
+        {
+          codeDescription: 'Major Depressive Disorder',
+          codeSpecifier: 'Single episode, Severe',
+          codeValue: '296.23',
+          codeValueIcd10: 'F32.2',
+        },
+      ],
+      eduCodeIntellectualDisabilityId: true,
+      eduCodeHardOfHearingHh: true,
+      eduCodeDeafnessDeafHearingImpairmentHi: true,
+      eduCodeSpeechOrLanguageImpairmentSli: true,
+      eduCodeVisualImpairmentVi: true,
+      eduCodeEmotionalDisturbanceEd: true,
+      eduCodeOrthopedicImpairmentOi: true,
+      eduCodeOtherHealthImpairmentOhi: true,
+      eduCodeEstablishedMedicalDisabilityEmd: true,
+      eduCodeSpecificLearningDisabilitySld: true,
+      eduCodeDeafBlindnessDb: true,
+      eduCodeMultipleDisabilitiesMd: true,
+      eduCodeAutismAut: true,
+      eduCodeTraumaticBrainInjuryTbi: true,
+      recommendationAdhd: true,
+      recommendationAutism: false,
+      recommendationDementia: false,
+      recommendationDysthymia: false,
+      recommendationLearningDisabilityMathematics: false,
+      recommendationLearningDisabilityReading: false,
+      recommendationNeurocognitiveDisorder: false,
+      recommendationVisualProcessingChildrenAdults: false,
+      recommendationVisualProcessingChildren: false,
+      recommendationLearningDisabilityWritingChildrenAdults: false,
+      recommendationLearningDisabilityWritingChildren: false,
+      recommendationAuditoryProcessingWeaknessChildrenAdults: false,
+      recommendationAuditoryProcessingWeaknessChildren: false,
+      rAdhdRecommendationsFreehand:
+        'ADHD additional recommendation freehand the brown fox jumps over the lazy purple moon.',
+      rAutismRecommendationsFreehand: 'Autism additional recommendation freehand...',
+      rDementiaRecommendationsFreehand: undefined,
+      rDysthymiaRecommendationsFreehand: undefined,
+      rLearningdisabilitymathematicsRecommendationsFreehand: undefined,
+      rLearningdisabilityreadingRecommendationsFreehand: undefined,
+      rNeurocognitivedisorderRecommendationsFreehand: undefined,
+      rVisualprocessingweaknessforchildrenadultsRecommendationsFreehand: undefined,
+      rVisualprocessingweaknessforchildrenRecommendationsFreehand: undefined,
+      rLearningdisabilityinwritingdiagnosisforchildrenadultsRecommendationsFreehand: undefined,
+      rLearningdisabilityinwritingdiagnosisforchildrenRecommendationsFreehand: undefined,
+      rAuditoryprocessingweaknessforchildrenadultsRecommendationsFreehand: undefined,
+      rAuditoryprocessingweaknessforchildrenRecommendationsFreehand: undefined,
+      rTraumaPtsdRecommendationsFreehand: undefined,
+      rPsychosisRecommendationsFreehand: undefined,
+      rBehaviorchallengesRecommendationsFreehand: undefined,
+      rSportsconcussionRecommendationsFreehand: undefined,
+      rReactiveattachmentdisorderRecommendationsFreehand: undefined,
+      rTraumaticbraininjuryRecommendationsFreehand: undefined,
     },
     testSelectedReducer: [
-      // {
-      //   Id: 13,
-      //   Name: 'The Wechsler Individual Achievement Test 3',
-      //   Abbreviation: 'WIAT-III',
-      //   Descriptions:
-      //     'The Wechsler Individual Achievement Test – Third Edition (WIAT-III) is designed to measure the achievement of students who are in grades Prekindergarten (PK) through 12, or ages 4 years 0 months through 19 years 11 months. It consists of 16 subtests used to evaluate listening, speaking, reading, writing, and mathematics skills.',
-      //   DomainId: 1,
-      //   DomainName: 'Academic Achievement',
-      //   SubTestType: 'Subtest',
-      //   ScoreType: 'Score',
-      //   DescriptionType: 'Description',
-      //   CreatedDate: '2018-09-25T18:03:46.077',
-      //   ParentGroupScales: [],
-      //   TestIndexes: [],
-      //   SubTests: [],
-      //   TestSummaries: [
-      //     {
-      //       Id: 4,
-      //       Name: 'SUMMARY AT END OF ACH SECTION',
-      //       TestId: 13,
-      //       Descriptions:
-      //         "Overall, (client’s) performance on the WIAT-III provided a snapshot into (his/her) various academic abilities and strengths. (He/She) demonstrated well-developed <input type='text' id='txtWiat2AbilityScore' /> abilities. However, (he/she) also evidenced relative challenges with <input type='text' id='txtWiat2ChallengesScore' />. These challenges should continue to be monitored and evaluated so as to help (him/her) continue to perform at (his/her) best.",
-      //     },
-      //   ],
-      //   ParentScaleTitles: [
-      //     {
-      //       Id: 59,
-      //       ParentScaleName: 'Early Years Core',
-      //       ParentScaleDescription: null,
-      //       CreatedDate: null,
-      //       SubTests: [
-      //         {
-      //           Id: 250,
-      //           TestId: null,
-      //           Name: 'Listening Comprehension (Grades PK-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'This subtest contains two components:<ul>  <li>Receptive Vocabulary: Measures listening vocabulary. The student points to the picture that best illustrates the meaning of each word he or she hears.</li>  <li>Oral Discourse Comprehension: Measures the ability to make inferences about, and remember details from, oral sentences and discourse. The student listens to sentences and passages and orally responds to comprehension questions.</li></ul>',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 251,
-      //           TestId: null,
-      //           Name: 'Early Reading Skills (Grades PK-3)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'This subtest measures several areas deemed important for developing reading skills: naming letters, letter-sound correspondence (alphabetic principle), phonological awareness, and word reading comprehension. The student names letters of the alphabet, identifies and generates rhyming words, identifies words with the same beginning and ending sounds, blends sounds, matches sounds with letters and letter blends, and matches written words with pictures that illustrate their meaning.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 252,
-      //           TestId: null,
-      //           Name: 'Reading Comprehension (Grades 1-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures untimed reading comprehension of various types of text, including fictional stories, informational text, advertisements, and how-to passages. The student may read passages aloud or silently. After each passage, the student orally responds to literal and inferential comprehension questions that are read aloud by the examiner.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 253,
-      //           TestId: null,
-      //           Name: 'Math Problem Solving (Grades PK-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures untimed math problem-solving skills in the following domains: basic concepts, everyday applications, geometry, and algebra. The student provides oral and pointing responses.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 254,
-      //           TestId: null,
-      //           Name: 'Alphabet Writing Fluency (Grades PK-3)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures the ability to write letters of the alphabet within a 30-second time limit. The student may write letters in any order, in cursive or print, in uppercase or lowercase.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 255,
-      //           TestId: null,
-      //           Name: 'Sentence Composition (Grades 1-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'This subtest contains two components:<ul><li>  Sentence Combining: Measures sentence formulation skills and written syntactic maturity. The student combines two or three sentences into one sentence that preserves the meaning of the original sentences. </li>  <li>Sentence Building: Measures sentence formulation skills and written syntactic ability. For each item, the student is asked to write one sentence that uses a target word with appropriate context. </li></ul>',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 256,
-      //           TestId: null,
-      //           Name: 'Word Reading (Grades 1-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures speed and accuracy of decontextualized word recognition. The student reads aloud from a list of words that increase in difficulty.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 257,
-      //           TestId: null,
-      //           Name: 'Essay Composition (Grades 3-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures spontaneous, compositional writing skills within a 10-minute time limit.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 258,
-      //           TestId: null,
-      //           Name: 'Pseudoword Decoding (Grades 1-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures the ability to decode nonsense words. The student reads aloud from a list of pseudowords that increase in difficulty.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 259,
-      //           TestId: null,
-      //           Name: 'Numerical Operations (Grades K-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures untimed, written math calculation skills in the following domains: basic skills, basic operations with integers, geometry, algebra, and calculus.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 260,
-      //           TestId: null,
-      //           Name: 'Oral Expression (Grades PK-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'This subtest contains three components:<ul>  <li>Expressive Vocabulary: Measures speaking vocabulary and word retrieval ability. The student says the word that best corresponds to a given picture and definition</li>  <li>Oral Word Fluency: Measures efficiency of word retrieval (i.e., how easily he or she can produce words) and flexibility of thought processes. The student names as many things as possible belonging to a given category (i.e., animals, colors) within 60 seconds.</li>  <li>Sentence Repetition: Measures oral syntactic knowledge and short-term memory. The student listens to sentences that increase in length and complexity and repeats each sentence verbatim. </li></ul>',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 261,
-      //           TestId: null,
-      //           Name: 'Oral Reading Fluency (Grades 1-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures speed, accuracy, fluency, and prosody of contextualized oral reading. The student reads passages aloud, and then orally responds to comprehension questions after each passage.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 262,
-      //           TestId: null,
-      //           Name: 'Spelling (Grades K-12)',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures written spelling of letter sounds and single words. The student hears each letter sound within the context of a word, and each word within the context of a sentence, and then the student writes the target letter sound or word.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 263,
-      //           TestId: null,
-      //           Name: 'Math Fluency – Addition',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures the speed and accuracy of a student’s math (addition) calculations. The student solves written addition problems within a 60-second time limit.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 264,
-      //           TestId: null,
-      //           Name: 'Math Fluency – Subtraction',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures the speed and accuracy of a student’s math (subtraction) calculations. The student solves written subtraction problems within a 60-second time limit.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //         {
-      //           Id: 265,
-      //           TestId: null,
-      //           Name: 'Math Fluency – Multiplication',
-      //           Abbreviation: null,
-      //           Description:
-      //             'Measures the speed and accuracy of a student’s math (multiplication) calculations. The student solves written multiplication problems within a 60-second time limit.',
-      //           ParentScaleTitleId: 59,
-      //           CreatedDate: null,
-      //         },
-      //       ],
-      //       HasInput: false,
-      //     },
-      //   ],
-      //   TestModules: [],
-      //   ParentGroupSubScales: [],
-      //   TestScoringTableDetails: [
-      //     {
-      //       Id: 3,
-      //       Name: 'The Wechsler Individual Achievement Test – Third Edition',
-      //       Description: 'Descriptive Classifications of Score Ranges',
-      //       TestId: 13,
-      //       ScoreHeader: null,
-      //       TableHeaderRowTitles: {
-      //         Id: 17,
-      //         Col1: 'Standard Score Range',
-      //         Col2: 'Descriptive Category',
-      //         Col3: null,
-      //         Col4: null,
-      //         Col5: null,
-      //         Col6: null,
-      //         Description: null,
-      //         ScoringTableHeaderId: 3,
-      //         OrderNumber: 1,
-      //         IsHeader: true,
-      //         IsEditable: false,
-      //       },
-      //       TestScoringTableScores: [
-      //         {
-      //           Id: 18,
-      //           Col1: 'Above 145',
-      //           Col2: 'Very Superior',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 2,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //         {
-      //           Id: 19,
-      //           Col1: '131-145',
-      //           Col2: 'Superior',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 3,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //         {
-      //           Id: 20,
-      //           Col1: '116-130',
-      //           Col2: 'Above Average',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 4,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //         {
-      //           Id: 21,
-      //           Col1: '85-115',
-      //           Col2: 'Average',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 5,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //         {
-      //           Id: 22,
-      //           Col1: '70-84',
-      //           Col2: 'Below Average',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 6,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //         {
-      //           Id: 23,
-      //           Col1: '55-69',
-      //           Col2: 'Low',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 7,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //         {
-      //           Id: 24,
-      //           Col1: 'Below 55',
-      //           Col2: 'Very Low',
-      //           Col3: null,
-      //           Col4: null,
-      //           Col5: null,
-      //           Col6: null,
-      //           Description: null,
-      //           ScoringTableHeaderId: 3,
-      //           OrderNumber: 8,
-      //           IsHeader: false,
-      //           IsEditable: false,
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        Id: 13,
+        Name: 'The Wechsler Individual Achievement Test 3',
+        Abbreviation: 'WIAT-III',
+        Descriptions:
+          'The Wechsler Individual Achievement Test – Third Edition (WIAT-III) is designed to measure the achievement of students who are in grades Prekindergarten (PK) through 12, or ages 4 years 0 months through 19 years 11 months. It consists of 16 subtests used to evaluate listening, speaking, reading, writing, and mathematics skills.',
+        DomainId: 1,
+        DomainName: 'Academic Achievement',
+        SubTestType: 'Subtest',
+        ScoreType: 'Score',
+        DescriptionType: 'Description',
+        CreatedDate: '2018-09-25T18:03:46.077',
+        ParentGroupScales: [],
+        TestIndexes: [],
+        SubTests: [],
+        TestSummaries: [
+          {
+            Id: 4,
+            Name: 'SUMMARY AT END OF ACH SECTION',
+            TestId: 13,
+            Descriptions:
+              "Overall, (client’s) performance on the WIAT-III provided a snapshot into (his/her) various academic abilities and strengths. (He/She) demonstrated well-developed <input type='text' id='txtWiat2AbilityScore' /> abilities. However, (he/she) also evidenced relative challenges with <input type='text' id='txtWiat2ChallengesScore' />. These challenges should continue to be monitored and evaluated so as to help (him/her) continue to perform at (his/her) best.",
+          },
+        ],
+        ParentScaleTitles: [
+          {
+            Id: 59,
+            ParentScaleName: 'Early Years Core',
+            ParentScaleDescription: null,
+            CreatedDate: null,
+            SubTests: [
+              {
+                Id: 250,
+                TestId: null,
+                Name: 'Listening Comprehension (Grades PK-12)',
+                Abbreviation: null,
+                Description:
+                  'This subtest contains two components:<ul>  <li>Receptive Vocabulary: Measures listening vocabulary. The student points to the picture that best illustrates the meaning of each word he or she hears.</li>  <li>Oral Discourse Comprehension: Measures the ability to make inferences about, and remember details from, oral sentences and discourse. The student listens to sentences and passages and orally responds to comprehension questions.</li></ul>',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 251,
+                TestId: null,
+                Name: 'Early Reading Skills (Grades PK-3)',
+                Abbreviation: null,
+                Description:
+                  'This subtest measures several areas deemed important for developing reading skills: naming letters, letter-sound correspondence (alphabetic principle), phonological awareness, and word reading comprehension. The student names letters of the alphabet, identifies and generates rhyming words, identifies words with the same beginning and ending sounds, blends sounds, matches sounds with letters and letter blends, and matches written words with pictures that illustrate their meaning.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 252,
+                TestId: null,
+                Name: 'Reading Comprehension (Grades 1-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures untimed reading comprehension of various types of text, including fictional stories, informational text, advertisements, and how-to passages. The student may read passages aloud or silently. After each passage, the student orally responds to literal and inferential comprehension questions that are read aloud by the examiner.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 253,
+                TestId: null,
+                Name: 'Math Problem Solving (Grades PK-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures untimed math problem-solving skills in the following domains: basic concepts, everyday applications, geometry, and algebra. The student provides oral and pointing responses.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 254,
+                TestId: null,
+                Name: 'Alphabet Writing Fluency (Grades PK-3)',
+                Abbreviation: null,
+                Description:
+                  'Measures the ability to write letters of the alphabet within a 30-second time limit. The student may write letters in any order, in cursive or print, in uppercase or lowercase.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 255,
+                TestId: null,
+                Name: 'Sentence Composition (Grades 1-12)',
+                Abbreviation: null,
+                Description:
+                  'This subtest contains two components:<ul><li>  Sentence Combining: Measures sentence formulation skills and written syntactic maturity. The student combines two or three sentences into one sentence that preserves the meaning of the original sentences. </li>  <li>Sentence Building: Measures sentence formulation skills and written syntactic ability. For each item, the student is asked to write one sentence that uses a target word with appropriate context. </li></ul>',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 256,
+                TestId: null,
+                Name: 'Word Reading (Grades 1-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures speed and accuracy of decontextualized word recognition. The student reads aloud from a list of words that increase in difficulty.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 257,
+                TestId: null,
+                Name: 'Essay Composition (Grades 3-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures spontaneous, compositional writing skills within a 10-minute time limit.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 258,
+                TestId: null,
+                Name: 'Pseudoword Decoding (Grades 1-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures the ability to decode nonsense words. The student reads aloud from a list of pseudowords that increase in difficulty.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 259,
+                TestId: null,
+                Name: 'Numerical Operations (Grades K-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures untimed, written math calculation skills in the following domains: basic skills, basic operations with integers, geometry, algebra, and calculus.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 260,
+                TestId: null,
+                Name: 'Oral Expression (Grades PK-12)',
+                Abbreviation: null,
+                Description:
+                  'This subtest contains three components:<ul>  <li>Expressive Vocabulary: Measures speaking vocabulary and word retrieval ability. The student says the word that best corresponds to a given picture and definition</li>  <li>Oral Word Fluency: Measures efficiency of word retrieval (i.e., how easily he or she can produce words) and flexibility of thought processes. The student names as many things as possible belonging to a given category (i.e., animals, colors) within 60 seconds.</li>  <li>Sentence Repetition: Measures oral syntactic knowledge and short-term memory. The student listens to sentences that increase in length and complexity and repeats each sentence verbatim. </li></ul>',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 261,
+                TestId: null,
+                Name: 'Oral Reading Fluency (Grades 1-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures speed, accuracy, fluency, and prosody of contextualized oral reading. The student reads passages aloud, and then orally responds to comprehension questions after each passage.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 262,
+                TestId: null,
+                Name: 'Spelling (Grades K-12)',
+                Abbreviation: null,
+                Description:
+                  'Measures written spelling of letter sounds and single words. The student hears each letter sound within the context of a word, and each word within the context of a sentence, and then the student writes the target letter sound or word.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 263,
+                TestId: null,
+                Name: 'Math Fluency – Addition',
+                Abbreviation: null,
+                Description:
+                  'Measures the speed and accuracy of a student’s math (addition) calculations. The student solves written addition problems within a 60-second time limit.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 264,
+                TestId: null,
+                Name: 'Math Fluency – Subtraction',
+                Abbreviation: null,
+                Description:
+                  'Measures the speed and accuracy of a student’s math (subtraction) calculations. The student solves written subtraction problems within a 60-second time limit.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+              {
+                Id: 265,
+                TestId: null,
+                Name: 'Math Fluency – Multiplication',
+                Abbreviation: null,
+                Description:
+                  'Measures the speed and accuracy of a student’s math (multiplication) calculations. The student solves written multiplication problems within a 60-second time limit.',
+                ParentScaleTitleId: 59,
+                CreatedDate: null,
+              },
+            ],
+            HasInput: false,
+          },
+        ],
+        TestModules: [],
+        ParentGroupSubScales: [],
+        TestScoringTableDetails: [
+          {
+            Id: 3,
+            Name: 'The Wechsler Individual Achievement Test – Third Edition',
+            Description: 'Descriptive Classifications of Score Ranges',
+            TestId: 13,
+            ScoreHeader: null,
+            TableHeaderRowTitles: {
+              Id: 17,
+              Col1: 'Standard Score Range',
+              Col2: 'Descriptive Category',
+              Col3: null,
+              Col4: null,
+              Col5: null,
+              Col6: null,
+              Description: null,
+              ScoringTableHeaderId: 3,
+              OrderNumber: 1,
+              IsHeader: true,
+              IsEditable: false,
+            },
+            TestScoringTableScores: [
+              {
+                Id: 18,
+                Col1: 'Above 145',
+                Col2: 'Very Superior',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 2,
+                IsHeader: false,
+                IsEditable: false,
+              },
+              {
+                Id: 19,
+                Col1: '131-145',
+                Col2: 'Superior',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 3,
+                IsHeader: false,
+                IsEditable: false,
+              },
+              {
+                Id: 20,
+                Col1: '116-130',
+                Col2: 'Above Average',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 4,
+                IsHeader: false,
+                IsEditable: false,
+              },
+              {
+                Id: 21,
+                Col1: '85-115',
+                Col2: 'Average',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 5,
+                IsHeader: false,
+                IsEditable: false,
+              },
+              {
+                Id: 22,
+                Col1: '70-84',
+                Col2: 'Below Average',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 6,
+                IsHeader: false,
+                IsEditable: false,
+              },
+              {
+                Id: 23,
+                Col1: '55-69',
+                Col2: 'Low',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 7,
+                IsHeader: false,
+                IsEditable: false,
+              },
+              {
+                Id: 24,
+                Col1: 'Below 55',
+                Col2: 'Very Low',
+                Col3: null,
+                Col4: null,
+                Col5: null,
+                Col6: null,
+                Description: null,
+                ScoringTableHeaderId: 3,
+                OrderNumber: 8,
+                IsHeader: false,
+                IsEditable: false,
+              },
+            ],
+          },
+        ],
+      },
       // {
       //   Id: 23,
       //   Name: "Nelson-Denny Reading Test",
@@ -3557,16 +3777,16 @@ class App extends Component {
       // },
       // {
       //   Id: 5,
-      //   Name: "Conners 3",
-      //   Abbreviation: "Conners-3",
+      //   Name: 'Conners 3',
+      //   Abbreviation: 'Conners-3',
       //   Descriptions:
-      //     "Conners-3 is an assessment of Attention-Deficit/Hyperactivity Disorder (ADHD) and its most common comorbid problems and disorders in children and adolescents.",
+      //     'Conners-3 is an assessment of Attention-Deficit/Hyperactivity Disorder (ADHD) and its most common comorbid problems and disorders in children and adolescents.',
       //   DomainId: 2,
-      //   DomainName: "Attention & Executive Function",
-      //   SubTestType: "Scale",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Common Characteristics of High Scorers",
-      //   CreatedDate: "2018-09-24T11:02:34.883",
+      //   DomainName: 'Attention & Executive Function',
+      //   SubTestType: 'Scale',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Common Characteristics of High Scorers',
+      //   CreatedDate: '2018-09-24T11:02:34.883',
       //   ParentGroupScales: [],
       //   TestIndexes: [],
       //   SubTests: [],
@@ -3576,832 +3796,828 @@ class App extends Component {
       //   ParentGroupSubScales: [
       //     {
       //       Id: 6,
-      //       ParentGroupSubScaleName: "Parent",
+      //       ParentGroupSubScaleName: 'Parent',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 24,
-      //           ParentScaleName: "Content Scales",
+      //           ParentScaleName: 'Content Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 120,
       //               TestId: null,
-      //               Name: "Inattention",
+      //               Name: 'Inattention',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have poor concentration/attention or difficulty keeping his/her mind on work. May make careless mistakes. Maybe be easily distracted. May give up easily or be easily bored. May avoid schoolwork. May have difficulty starting and/or finishing tasks.",
+      //                 'May have poor concentration/attention or difficulty keeping his/her mind on work. May make careless mistakes. Maybe be easily distracted. May give up easily or be easily bored. May avoid schoolwork. May have difficulty starting and/or finishing tasks.',
       //               ParentScaleTitleId: 24,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 121,
       //               TestId: null,
-      //               Name: "Hyperactivity/Impulsivity",
+      //               Name: 'Hyperactivity/Impulsivity',
       //               Abbreviation: null,
       //               Description:
-      //                 "High activity levels. May be restless and/or impulsive. May have difficulty being quiet. May interrupt others or talk too much. May be easily excited.",
+      //                 'High activity levels. May be restless and/or impulsive. May have difficulty being quiet. May interrupt others or talk too much. May be easily excited.',
       //               ParentScaleTitleId: 24,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 122,
       //               TestId: null,
-      //               Name: "Learning Problems",
+      //               Name: 'Learning Problems',
       //               Abbreviation: null,
       //               Description:
-      //                 "Academic struggles (reading, spelling, and/or math). May have difficulty learning and/or remembering concepts. May need extra explanations or help.",
+      //                 'Academic struggles (reading, spelling, and/or math). May have difficulty learning and/or remembering concepts. May need extra explanations or help.',
       //               ParentScaleTitleId: 24,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 123,
       //               TestId: null,
-      //               Name: "Executive Functioning",
+      //               Name: 'Executive Functioning',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have difficulty starting or finishing projects. May complete projects at the last minute. May have poor planning, prioritizing, or organizational skills.",
+      //                 'May have difficulty starting or finishing projects. May complete projects at the last minute. May have poor planning, prioritizing, or organizational skills.',
       //               ParentScaleTitleId: 24,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 124,
       //               TestId: null,
-      //               Name: "Defiance/Aggression",
+      //               Name: 'Defiance/Aggression',
       //               Abbreviation: null,
       //               Description:
-      //                 "May be argumentative. May defy requests from adults. May have poor control of anger and may lose temper. May be physically and/or verbally aggressive. May show violent or destructive tendencies. May bully others. May be manipulative or cruel. May break rules and/or have legal issues.",
+      //                 'May be argumentative. May defy requests from adults. May have poor control of anger and may lose temper. May be physically and/or verbally aggressive. May show violent or destructive tendencies. May bully others. May be manipulative or cruel. May break rules and/or have legal issues.',
       //               ParentScaleTitleId: 24,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 125,
       //               TestId: null,
-      //               Name: "Peer Relations",
+      //               Name: 'Peer Relations',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have difficulty with friendships, poor social skills, and limited social connections. May appear to be unaccepted by the group.",
+      //                 'May have difficulty with friendships, poor social skills, and limited social connections. May appear to be unaccepted by the group.',
       //               ParentScaleTitleId: 24,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 25,
-      //           ParentScaleName: "DSM Symptom Scales",
+      //           ParentScaleName: 'DSM Symptom Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 126,
       //               TestId: null,
-      //               Name: "ADHD Inattentive",
+      //               Name: 'ADHD Inattentive',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for ADHD Inattentive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for ADHD Inattentive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 25,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 127,
       //               TestId: null,
-      //               Name: "ADHD Hyperactive-Impulsive",
+      //               Name: 'ADHD Hyperactive-Impulsive',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for ADHD Hyperactive-Impulsive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for ADHD Hyperactive-Impulsive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 25,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 128,
       //               TestId: null,
-      //               Name: "Conduct Disorder",
+      //               Name: 'Conduct Disorder',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for Conduct Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for Conduct Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 25,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 129,
       //               TestId: null,
-      //               Name: "Oppositional Defiant Disorder",
+      //               Name: 'Oppositional Defiant Disorder',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for Oppositional Defiant Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for Oppositional Defiant Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 25,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 26,
-      //           ParentScaleName: "Indices",
+      //           ParentScaleName: 'Indices',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 130,
       //               TestId: null,
-      //               Name: "Conners 3 ADHD Index",
+      //               Name: 'Conners 3 ADHD Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Features that are commonly seen in youth with inattention, hyperactivity, and/or impulsivity",
+      //                 'Features that are commonly seen in youth with inattention, hyperactivity, and/or impulsivity',
       //               ParentScaleTitleId: 26,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 131,
       //               TestId: null,
-      //               Name: "Conners 3 Global Index",
+      //               Name: 'Conners 3 Global Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Features of general psychological difficulty that may be expressed behaviorally, academically, socially, or emotionally",
+      //                 'Features of general psychological difficulty that may be expressed behaviorally, academically, socially, or emotionally',
       //               ParentScaleTitleId: 26,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 27,
-      //           ParentScaleName: "Screener Items",
+      //           ParentScaleName: 'Screener Items',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 132,
       //               TestId: null,
-      //               Name: "Anxiety",
+      //               Name: 'Anxiety',
       //               Abbreviation: null,
-      //               Description: "Items that relate to generalized worrying",
+      //               Description: 'Items that relate to generalized worrying',
       //               ParentScaleTitleId: 27,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 133,
       //               TestId: null,
-      //               Name: "Depression",
+      //               Name: 'Depression',
       //               Abbreviation: null,
-      //               Description:
-      //                 "Items that reflect key clinical presentations of depression",
+      //               Description: 'Items that reflect key clinical presentations of depression',
       //               ParentScaleTitleId: 27,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 28,
-      //           ParentScaleName: "Critical Items",
+      //           ParentScaleName: 'Critical Items',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 134,
       //               TestId: null,
-      //               Name: "Severe Conduct",
+      //               Name: 'Severe Conduct',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that represent severe misconduct (e.g., fire-setting, cruelty to animals, use of weapons) that require immediate investigation, and include behaviors that may predict future violence or harm to others.",
+      //                 'Items that represent severe misconduct (e.g., fire-setting, cruelty to animals, use of weapons) that require immediate investigation, and include behaviors that may predict future violence or harm to others.',
       //               ParentScaleTitleId: 28,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 29,
-      //           ParentScaleName: "Validity Scales",
+      //           ParentScaleName: 'Validity Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 135,
       //               TestId: null,
-      //               Name: "Positive Impression",
+      //               Name: 'Positive Impression',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items rated extremely positively, and are in most cases unrealistic. Often indicates an overly positive description of youth’s behavior, but can also be the result of:  <ul><li>Youth’s exemplary behavior in a particular setting</li>  <li>Youth being extremely well-behaved for a specific parent or teacher</li>  <li>Rater has a tendency to forget positive traits and remember negative ones</li>  <li>Rater is motivated to describe the youth as “problem-free,” for example, wanting to avoid stigmatizing labels or services</li>  <li>Rater completed the Conners 3 erroneously, such as comparing the youth to another who has more difficulty (e.g., a quiet student in a class of troublemakers or a youth whose sibling shows severe clinical symptoms) rather than thinking of the youth’s behavior independently of any other youth’s behavior</li><ul>",
+      //                 'Items rated extremely positively, and are in most cases unrealistic. Often indicates an overly positive description of youth’s behavior, but can also be the result of:  <ul><li>Youth’s exemplary behavior in a particular setting</li>  <li>Youth being extremely well-behaved for a specific parent or teacher</li>  <li>Rater has a tendency to forget positive traits and remember negative ones</li>  <li>Rater is motivated to describe the youth as “problem-free,” for example, wanting to avoid stigmatizing labels or services</li>  <li>Rater completed the Conners 3 erroneously, such as comparing the youth to another who has more difficulty (e.g., a quiet student in a class of troublemakers or a youth whose sibling shows severe clinical symptoms) rather than thinking of the youth’s behavior independently of any other youth’s behavior</li><ul>',
       //               ParentScaleTitleId: 29,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 136,
       //               TestId: null,
-      //               Name: "Negative Impression",
+      //               Name: 'Negative Impression',
       //               Abbreviation: null,
       //               Description:
-      //                 "A set of items that describe extremely negative behaviors that are unlikely to be true all the time. Often indicates an overly negative description of the youth’s behavior, but can also be the result of:<ul><li>  The youth really does misbehave most of the time, as seen in some severe clinical cases</li>  <li>There may be some variables that negatively impact the youth’s functioning in a particular setting (e.g., a student with a math disorder may show worse behavior in math class than in art class)</li>  <li>The rater may have very high standards that are difficult for the youth to meet</li>  <li>The rater may be highly motivated to describe the youth as problematic in order to obtain services or shift the youth to another placement</li>  <li>The rater may be erroneously comparing the youth to others who are older or who are exceptionally well-behaved. </li></ul>",
+      //                 'A set of items that describe extremely negative behaviors that are unlikely to be true all the time. Often indicates an overly negative description of the youth’s behavior, but can also be the result of:<ul><li>  The youth really does misbehave most of the time, as seen in some severe clinical cases</li>  <li>There may be some variables that negatively impact the youth’s functioning in a particular setting (e.g., a student with a math disorder may show worse behavior in math class than in art class)</li>  <li>The rater may have very high standards that are difficult for the youth to meet</li>  <li>The rater may be highly motivated to describe the youth as problematic in order to obtain services or shift the youth to another placement</li>  <li>The rater may be erroneously comparing the youth to others who are older or who are exceptionally well-behaved. </li></ul>',
       //               ParentScaleTitleId: 29,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 137,
       //               TestId: null,
-      //               Name: "Inconsistency Index",
+      //               Name: 'Inconsistency Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Based on responses to pairs of items that tend to be rated similarly. When there is inconsistency in responses to similar items, this suggests that scores may not accurately reflect the individual due to a careless or unusual response to some items. Random responding, variable attention, or comprehension difficulties can contribute to this.",
+      //                 'Based on responses to pairs of items that tend to be rated similarly. When there is inconsistency in responses to similar items, this suggests that scores may not accurately reflect the individual due to a careless or unusual response to some items. Random responding, variable attention, or comprehension difficulties can contribute to this.',
       //               ParentScaleTitleId: 29,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
+      //           HasInput: false,
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 7,
-      //       ParentGroupSubScaleName: "Teacher",
+      //       ParentGroupSubScaleName: 'Teacher',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 30,
-      //           ParentScaleName: "Content Scales",
+      //           ParentScaleName: 'Content Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 138,
       //               TestId: null,
-      //               Name: "Inattention",
+      //               Name: 'Inattention',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have poor concentration/attention or difficulty keeping his/her mind on work. May make careless mistakes. Maybe be easily distracted. May give up easily or be easily bored. May avoid schoolwork. May have difficulty starting and/or finishing tasks.",
+      //                 'May have poor concentration/attention or difficulty keeping his/her mind on work. May make careless mistakes. Maybe be easily distracted. May give up easily or be easily bored. May avoid schoolwork. May have difficulty starting and/or finishing tasks.',
       //               ParentScaleTitleId: 30,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 139,
       //               TestId: null,
-      //               Name: "Hyperactivity/Impulsivity",
+      //               Name: 'Hyperactivity/Impulsivity',
       //               Abbreviation: null,
       //               Description:
-      //                 "High activity levels. May be restless and/or impulsive. May have difficulty being quiet. May interrupt others or talk too much. May be easily excited.",
+      //                 'High activity levels. May be restless and/or impulsive. May have difficulty being quiet. May interrupt others or talk too much. May be easily excited.',
       //               ParentScaleTitleId: 30,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 141,
       //               TestId: null,
-      //               Name: "Learning Problems",
+      //               Name: 'Learning Problems',
       //               Abbreviation: null,
       //               Description:
-      //                 "Academic struggles (reading, spelling, and/or math). May have difficulty learning and/or remembering concepts. May need extra explanations or help.",
+      //                 'Academic struggles (reading, spelling, and/or math). May have difficulty learning and/or remembering concepts. May need extra explanations or help.',
       //               ParentScaleTitleId: 30,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 142,
       //               TestId: null,
-      //               Name: "Executive Functioning",
+      //               Name: 'Executive Functioning',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have difficulty starting or finishing projects. May complete projects at the last minute. May have poor planning, prioritizing, or organizational skills.",
+      //                 'May have difficulty starting or finishing projects. May complete projects at the last minute. May have poor planning, prioritizing, or organizational skills.',
       //               ParentScaleTitleId: 30,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 143,
       //               TestId: null,
-      //               Name: "Defiance/Aggression",
+      //               Name: 'Defiance/Aggression',
       //               Abbreviation: null,
       //               Description:
-      //                 "May be argumentative. May defy requests from adults. May have poor control of anger and may lose temper. May be physically and/or verbally aggressive. May show violent or destructive tendencies. May bully others. May be manipulative or cruel. May break rules and/or have legal issues.",
+      //                 'May be argumentative. May defy requests from adults. May have poor control of anger and may lose temper. May be physically and/or verbally aggressive. May show violent or destructive tendencies. May bully others. May be manipulative or cruel. May break rules and/or have legal issues.',
       //               ParentScaleTitleId: 30,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 144,
       //               TestId: null,
-      //               Name: "Peer Relations",
+      //               Name: 'Peer Relations',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have difficulty with friendships, poor social skills, and limited social connections. May appear to be unaccepted by the group.",
+      //                 'May have difficulty with friendships, poor social skills, and limited social connections. May appear to be unaccepted by the group.',
       //               ParentScaleTitleId: 30,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 31,
-      //           ParentScaleName: "DSM Symptom Scales",
+      //           ParentScaleName: 'DSM Symptom Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 145,
       //               TestId: null,
-      //               Name: "ADHD Inattentive",
+      //               Name: 'ADHD Inattentive',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for ADHD Inattentive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for ADHD Inattentive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 31,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 146,
       //               TestId: null,
-      //               Name: "ADHD Hyperactive-Impulsive",
+      //               Name: 'ADHD Hyperactive-Impulsive',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for ADHD Hyperactive-Impulsive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for ADHD Hyperactive-Impulsive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 31,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 147,
       //               TestId: null,
-      //               Name: "Conduct Disorder",
+      //               Name: 'Conduct Disorder',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for Conduct Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for Conduct Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 31,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 148,
       //               TestId: null,
-      //               Name: "Oppositional Defiant Disorder",
+      //               Name: 'Oppositional Defiant Disorder',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for Oppositional Defiant Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for Oppositional Defiant Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 31,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 32,
-      //           ParentScaleName: "Indices",
+      //           ParentScaleName: 'Indices',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 149,
       //               TestId: null,
-      //               Name: "Conners 3 ADHD Index",
+      //               Name: 'Conners 3 ADHD Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Features that are commonly seen in youth with inattention, hyperactivity, and/or impulsivity",
+      //                 'Features that are commonly seen in youth with inattention, hyperactivity, and/or impulsivity',
       //               ParentScaleTitleId: 32,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 150,
       //               TestId: null,
-      //               Name: "Conners 3 Global Index",
+      //               Name: 'Conners 3 Global Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Features of general psychological difficulty that may be expressed behaviorally, academically, socially, or emotionally",
+      //                 'Features of general psychological difficulty that may be expressed behaviorally, academically, socially, or emotionally',
       //               ParentScaleTitleId: 32,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 33,
-      //           ParentScaleName: "Screener Items",
+      //           ParentScaleName: 'Screener Items',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 151,
       //               TestId: null,
-      //               Name: "Anxiety",
+      //               Name: 'Anxiety',
       //               Abbreviation: null,
-      //               Description: "Items that relate to generalized worrying",
+      //               Description: 'Items that relate to generalized worrying',
       //               ParentScaleTitleId: 33,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 152,
       //               TestId: null,
-      //               Name: "Depression",
+      //               Name: 'Depression',
       //               Abbreviation: null,
-      //               Description:
-      //                 "Items that reflect key clinical presentations of depression",
+      //               Description: 'Items that reflect key clinical presentations of depression',
       //               ParentScaleTitleId: 33,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 34,
-      //           ParentScaleName: "Critical Items",
+      //           ParentScaleName: 'Critical Items',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 153,
       //               TestId: null,
-      //               Name: "Severe Conduct",
+      //               Name: 'Severe Conduct',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that represent severe misconduct (e.g., fire-setting, cruelty to animals, use of weapons) that require immediate investigation, and include behaviors that may predict future violence or harm to others.",
+      //                 'Items that represent severe misconduct (e.g., fire-setting, cruelty to animals, use of weapons) that require immediate investigation, and include behaviors that may predict future violence or harm to others.',
       //               ParentScaleTitleId: 34,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 35,
-      //           ParentScaleName: "Validity Scales",
+      //           ParentScaleName: 'Validity Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 154,
       //               TestId: null,
-      //               Name: "Positive Impression",
+      //               Name: 'Positive Impression',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items rated extremely positively, and are in most cases unrealistic. Often indicates an overly positive description of youth’s behavior, but can also be the result of:<ul>  <li>Youth’s exemplary behavior in a particular setting</li>  <li>Youth being extremely well-behaved for a specific parent or teacher</li>  <li>Rater has a tendency to forget positive traits and remember negative ones</li>  <li>Rater is motivated to describe the youth as “problem-free,” for example, wanting to avoid stigmatizing labels or services</li>  <li>Rater completed the Conners 3 erroneously, such as comparing the youth to another who has more difficulty (e.g., a quiet student in a class of troublemakers or a youth whose sibling shows severe clinical symptoms) rather than thinking of the youth’s behavior independently of any other youth’s behavior</li></ul>",
+      //                 'Items rated extremely positively, and are in most cases unrealistic. Often indicates an overly positive description of youth’s behavior, but can also be the result of:<ul>  <li>Youth’s exemplary behavior in a particular setting</li>  <li>Youth being extremely well-behaved for a specific parent or teacher</li>  <li>Rater has a tendency to forget positive traits and remember negative ones</li>  <li>Rater is motivated to describe the youth as “problem-free,” for example, wanting to avoid stigmatizing labels or services</li>  <li>Rater completed the Conners 3 erroneously, such as comparing the youth to another who has more difficulty (e.g., a quiet student in a class of troublemakers or a youth whose sibling shows severe clinical symptoms) rather than thinking of the youth’s behavior independently of any other youth’s behavior</li></ul>',
       //               ParentScaleTitleId: 35,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 155,
       //               TestId: null,
-      //               Name: "Negative Impression",
+      //               Name: 'Negative Impression',
       //               Abbreviation: null,
       //               Description:
-      //                 "A set of items that describe extremely negative behaviors that are unlikely to be true all the time. Often indicates an overly negative description of the youth’s behavior, but can also be the result of:<ul>  <li>The youth really does misbehave most of the time, as seen in some severe clinical cases</li>  <li>There may be some variables that negatively impact the youth’s functioning in a particular setting (e.g., a student with a math disorder may show worse behavior in math class than in art class)</li>  <li>The rater may have very high standards that are difficult for the youth to meet</li>  <li>The rater may be highly motivated to describe the youth as problematic in order to obtain services or shift the youth to another placement</li>  <li>The rater may be erroneously comparing the youth to others who are older or who are exceptionally well-behaved. </li></ul>",
+      //                 'A set of items that describe extremely negative behaviors that are unlikely to be true all the time. Often indicates an overly negative description of the youth’s behavior, but can also be the result of:<ul>  <li>The youth really does misbehave most of the time, as seen in some severe clinical cases</li>  <li>There may be some variables that negatively impact the youth’s functioning in a particular setting (e.g., a student with a math disorder may show worse behavior in math class than in art class)</li>  <li>The rater may have very high standards that are difficult for the youth to meet</li>  <li>The rater may be highly motivated to describe the youth as problematic in order to obtain services or shift the youth to another placement</li>  <li>The rater may be erroneously comparing the youth to others who are older or who are exceptionally well-behaved. </li></ul>',
       //               ParentScaleTitleId: 35,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 156,
       //               TestId: null,
-      //               Name: "Inconsistency Index",
+      //               Name: 'Inconsistency Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Based on responses to pairs of items that tend to be rated similarly. When there is inconsistency in responses to similar items, this suggests that scores may not accurately reflect the individual due to a careless or unusual response to some items. Random responding, variable attention, or comprehension difficulties can contribute to this.",
+      //                 'Based on responses to pairs of items that tend to be rated similarly. When there is inconsistency in responses to similar items, this suggests that scores may not accurately reflect the individual due to a careless or unusual response to some items. Random responding, variable attention, or comprehension difficulties can contribute to this.',
       //               ParentScaleTitleId: 35,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
+      //           HasInput: false,
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 8,
-      //       ParentGroupSubScaleName: "Self-Report",
+      //       ParentGroupSubScaleName: 'Self-Report',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 36,
-      //           ParentScaleName: "Content Scales",
+      //           ParentScaleName: 'Content Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 157,
       //               TestId: null,
-      //               Name: "Inattention",
+      //               Name: 'Inattention',
       //               Abbreviation: null,
       //               Description:
-      //                 "May have poor concentration/attention or difficulty keeping his/her mind on work. May make careless mistakes. Maybe be easily distracted. May give up easily or be easily bored. May avoid schoolwork. May have difficulty starting and/or finishing tasks.",
+      //                 'May have poor concentration/attention or difficulty keeping his/her mind on work. May make careless mistakes. Maybe be easily distracted. May give up easily or be easily bored. May avoid schoolwork. May have difficulty starting and/or finishing tasks.',
       //               ParentScaleTitleId: 36,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 158,
       //               TestId: null,
-      //               Name: "Hyperactivity/Impulsivity",
+      //               Name: 'Hyperactivity/Impulsivity',
       //               Abbreviation: null,
       //               Description:
-      //                 "High activity levels. May be restless and/or impulsive. May have difficulty being quiet. May interrupt others or talk too much. May be easily excited.",
+      //                 'High activity levels. May be restless and/or impulsive. May have difficulty being quiet. May interrupt others or talk too much. May be easily excited.',
       //               ParentScaleTitleId: 36,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 159,
       //               TestId: null,
-      //               Name: "Learning Problems",
+      //               Name: 'Learning Problems',
       //               Abbreviation: null,
       //               Description:
-      //                 "Academic struggles (reading, spelling, and/or math). May have difficulty learning and/or remembering concepts. May need extra explanations or help.",
+      //                 'Academic struggles (reading, spelling, and/or math). May have difficulty learning and/or remembering concepts. May need extra explanations or help.',
       //               ParentScaleTitleId: 36,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 160,
       //               TestId: null,
-      //               Name: "Defiance/Aggression",
+      //               Name: 'Defiance/Aggression',
       //               Abbreviation: null,
       //               Description:
-      //                 "May be argumentative. May defy requests from adults. May have poor control of anger and may lose temper. May be physically and/or verbally aggressive. May show violent or destructive tendencies. May bully others. May be manipulative or cruel. May break rules and/or have legal issues.",
+      //                 'May be argumentative. May defy requests from adults. May have poor control of anger and may lose temper. May be physically and/or verbally aggressive. May show violent or destructive tendencies. May bully others. May be manipulative or cruel. May break rules and/or have legal issues.',
       //               ParentScaleTitleId: 36,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 161,
       //               TestId: null,
-      //               Name: "Family Relations",
+      //               Name: 'Family Relations',
       //               Abbreviation: null,
       //               Description:
-      //                 "May feel that parents do not love or notice him/her. May feel unjustly criticized and/or punished at home.",
+      //                 'May feel that parents do not love or notice him/her. May feel unjustly criticized and/or punished at home.',
       //               ParentScaleTitleId: 36,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 37,
-      //           ParentScaleName: "DSM Symptom Scales",
+      //           ParentScaleName: 'DSM Symptom Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 162,
       //               TestId: null,
-      //               Name: "ADHD Inattentive",
+      //               Name: 'ADHD Inattentive',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for ADHD Inattentive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for ADHD Inattentive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 37,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 163,
       //               TestId: null,
-      //               Name: "ADHD Hyperactive-Impulsive",
+      //               Name: 'ADHD Hyperactive-Impulsive',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for ADHD Hyperactive-Impulsive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for ADHD Hyperactive-Impulsive type. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 37,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 164,
       //               TestId: null,
-      //               Name: "Conduct Disorder",
+      //               Name: 'Conduct Disorder',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for Conduct Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for Conduct Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 37,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 165,
       //               TestId: null,
-      //               Name: "Oppositional Defiant Disorder",
+      //               Name: 'Oppositional Defiant Disorder',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that approximate to DSM symptoms for Oppositional Defiant Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.",
+      //                 'Items that approximate to DSM symptoms for Oppositional Defiant Disorder. Additional criteria (e.g., age of onset, course, differential diagnosis, level of impairment, pervasiveness) must be met before a DSM diagnosis can be assigned.',
       //               ParentScaleTitleId: 37,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 38,
-      //           ParentScaleName: "Indices",
+      //           ParentScaleName: 'Indices',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 166,
       //               TestId: null,
-      //               Name: "Conners 3 ADHD Index",
+      //               Name: 'Conners 3 ADHD Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Features that are commonly seen in youth with inattention, hyperactivity, and/or impulsivity",
+      //                 'Features that are commonly seen in youth with inattention, hyperactivity, and/or impulsivity',
       //               ParentScaleTitleId: 38,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 39,
-      //           ParentScaleName: "Screener Items",
+      //           ParentScaleName: 'Screener Items',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 644,
       //               TestId: null,
-      //               Name: "Anxiety",
+      //               Name: 'Anxiety',
       //               Abbreviation: null,
-      //               Description: "Items that relate to generalized worrying",
+      //               Description: 'Items that relate to generalized worrying',
       //               ParentScaleTitleId: 39,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 167,
       //               TestId: null,
-      //               Name: "Depression",
+      //               Name: 'Depression',
       //               Abbreviation: null,
-      //               Description:
-      //                 "Items that reflect key clinical presentations of depression",
+      //               Description: 'Items that reflect key clinical presentations of depression',
       //               ParentScaleTitleId: 39,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 40,
-      //           ParentScaleName: "Critical Items",
+      //           ParentScaleName: 'Critical Items',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 168,
       //               TestId: null,
-      //               Name: "Severe Conduct",
+      //               Name: 'Severe Conduct',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items that represent severe misconduct (e.g., fire-setting, cruelty to animals, use of weapons) that require immediate investigation, and include behaviors that may predict future violence or harm to others.",
+      //                 'Items that represent severe misconduct (e.g., fire-setting, cruelty to animals, use of weapons) that require immediate investigation, and include behaviors that may predict future violence or harm to others.',
       //               ParentScaleTitleId: 40,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 41,
-      //           ParentScaleName: "Validity Scales",
+      //           ParentScaleName: 'Validity Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 169,
       //               TestId: null,
-      //               Name: "Positive Impression",
+      //               Name: 'Positive Impression',
       //               Abbreviation: null,
       //               Description:
-      //                 "Items rated extremely positively, and are in most cases unrealistic. Often indicates an overly positive description of youth’s behavior, but can also be the result of:<ul>  <li>Rater has a tendency to forget positive traits and remember negative ones</li>  <li>Rater completed the Conners 3 erroneously, such as comparing self to another who has more difficulty (e.g., a quiet student in a class of troublemakers or a youth whose sibling shows severe clinical symptoms) rather than thinking of behavior independently of any other youth’s behavior.</li>  <li>Youth may be trying to please the examiner or other adults by responding in a socially desirable manner</li>  <li>Youth may be in denial of symptoms, lack awareness of problems, or have secondary motivations (e.g., avoiding social stigma of a label or evading special school services)</li></ul>",
+      //                 'Items rated extremely positively, and are in most cases unrealistic. Often indicates an overly positive description of youth’s behavior, but can also be the result of:<ul>  <li>Rater has a tendency to forget positive traits and remember negative ones</li>  <li>Rater completed the Conners 3 erroneously, such as comparing self to another who has more difficulty (e.g., a quiet student in a class of troublemakers or a youth whose sibling shows severe clinical symptoms) rather than thinking of behavior independently of any other youth’s behavior.</li>  <li>Youth may be trying to please the examiner or other adults by responding in a socially desirable manner</li>  <li>Youth may be in denial of symptoms, lack awareness of problems, or have secondary motivations (e.g., avoiding social stigma of a label or evading special school services)</li></ul>',
       //               ParentScaleTitleId: 41,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 170,
       //               TestId: null,
-      //               Name: "Negative Impression",
+      //               Name: 'Negative Impression',
       //               Abbreviation: null,
       //               Description:
-      //                 "A set of items that describe extremely negative behaviors that are unlikely to be true all the time. Often indicates an overly negative description of the youth’s behavior, but can also be the result of:<ul>  <li>The youth really does misbehave most of the time, as seen in some severe clinical cases</li>  <li>There may be some variables that negatively impact the youth’s functioning in a particular setting (e.g., a student with a math disorder may show worse behavior in math class than in art class)</li>  <li>The rater may have very high standards that are difficult for the youth to meet</li>  <li>The rater may be highly motivated to describe the youth as problematic in order to obtain services or shift the youth to another placement</li>  <li>The rater may be erroneously comparing the youth to others who are older or who are exceptionally well-behaved. </li>  <li>May be seeking help, finding daily life to be a severe struggle and feeling that nobody is aware of his/her difficulties</li>  <li>Secondary motivations, such as obtaining special attention from teachers or parents.</li></ul>",
+      //                 'A set of items that describe extremely negative behaviors that are unlikely to be true all the time. Often indicates an overly negative description of the youth’s behavior, but can also be the result of:<ul>  <li>The youth really does misbehave most of the time, as seen in some severe clinical cases</li>  <li>There may be some variables that negatively impact the youth’s functioning in a particular setting (e.g., a student with a math disorder may show worse behavior in math class than in art class)</li>  <li>The rater may have very high standards that are difficult for the youth to meet</li>  <li>The rater may be highly motivated to describe the youth as problematic in order to obtain services or shift the youth to another placement</li>  <li>The rater may be erroneously comparing the youth to others who are older or who are exceptionally well-behaved. </li>  <li>May be seeking help, finding daily life to be a severe struggle and feeling that nobody is aware of his/her difficulties</li>  <li>Secondary motivations, such as obtaining special attention from teachers or parents.</li></ul>',
       //               ParentScaleTitleId: 41,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 171,
       //               TestId: null,
-      //               Name: "Inconsistency Index",
+      //               Name: 'Inconsistency Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "Based on responses to pairs of items that tend to be rated similarly. When there is inconsistency in responses to similar items, this suggests that scores may not accurately reflect the individual due to a careless or unusual response to some items. Random responding, variable attention, or comprehension difficulties can contribute to this.",
+      //                 'Based on responses to pairs of items that tend to be rated similarly. When there is inconsistency in responses to similar items, this suggests that scores may not accurately reflect the individual due to a careless or unusual response to some items. Random responding, variable attention, or comprehension difficulties can contribute to this.',
       //               ParentScaleTitleId: 41,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
-      //     }
+      //           HasInput: false,
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestScoringTableDetails: null
+      //   TestScoringTableDetails: null,
       // },
       // {
       //   Id: 8,
-      //   Name: "Delis-Kaplan Executive Function System",
-      //   Abbreviation: "D-KEFS",
+      //   Name: 'Delis-Kaplan Executive Function System',
+      //   Abbreviation: 'D-KEFS',
       //   Descriptions:
-      //     "Delis-Kaplan Executive Function System is a comprehensive assessment of higher-level cognitive functions—such as attention, language, and perception—in both children and adults (ages 8:0-89:0 years). The D-KEFS consists of nine tests that measure a wide spectrum of verbal and nonverbal executive functions. Each test is designed to be a standalone instrument that can be administered individually or along with other D-KEFS tests. The selection of tests to be administered depends on the assessment needs of the specific examinee or the time constraints on the examiner.",
+      //     'Delis-Kaplan Executive Function System is a comprehensive assessment of higher-level cognitive functions—such as attention, language, and perception—in both children and adults (ages 8:0-89:0 years). The D-KEFS consists of nine tests that measure a wide spectrum of verbal and nonverbal executive functions. Each test is designed to be a standalone instrument that can be administered individually or along with other D-KEFS tests. The selection of tests to be administered depends on the assessment needs of the specific examinee or the time constraints on the examiner.',
       //   DomainId: 2,
-      //   DomainName: "Attention & Executive Function",
-      //   SubTestType: "Subtest",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Description",
-      //   CreatedDate: "2018-09-24T12:00:11.3",
+      //   DomainName: 'Attention & Executive Function',
+      //   SubTestType: 'Subtest',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-24T12:00:11.3',
       //   ParentGroupScales: [],
       //   TestIndexes: [],
       //   SubTests: [
       //     {
       //       Id: 206,
       //       TestId: 8,
-      //       Name: "Trail Making Test",
+      //       Name: 'Trail Making Test',
       //       Abbreviation: null,
       //       Description:
-      //         "This test consists of five conditions. The primary executive-function task is the Number-Letter Switching condition, a visual-motor sequencing procedure, which is a measure of flexibility of thinking. The other four conditions allow the examiner to evaluate several key component processes needed to perform the switching task. These fundamental components include visual scanning, number sequencing, letter sequencing, and motor speed in drawing lines.",
+      //         'This test consists of five conditions. The primary executive-function task is the Number-Letter Switching condition, a visual-motor sequencing procedure, which is a measure of flexibility of thinking. The other four conditions allow the examiner to evaluate several key component processes needed to perform the switching task. These fundamental components include visual scanning, number sequencing, letter sequencing, and motor speed in drawing lines.',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 207,
       //       TestId: 8,
-      //       Name: "Verbal Fluency Test",
+      //       Name: 'Verbal Fluency Test',
       //       Abbreviation: null,
       //       Description:
-      //         "This test is composed of three conditions: <ul>  <li>Letter Fluency: the examinee is asked to say words that begin with a specified letter as quickly as possible in three trials of 60 seconds each<ul><li>Taps the individual’s ability to generate words fluently in an effortful, phonetic format</li></ul></li><li>Category Fluency: the examinee is asked to say words that belong to a designated semantic category as quickly as possible in two trials of 60 seconds each<ul><li>Taps the individual’s ability to generate words fluently from overlearned concepts</li></ul></li> <li>Category Switching: evaluates the examinee’s ability to alternate between saying words from two different semantic categories as quickly as possible for 60 seconds  <ul><li>Taps the individual’s ability to generate words fluently while simultaneously shifting between overlearned concepts</li></ul></li>",
+      //         'This test is composed of three conditions: <ul>  <li>Letter Fluency: the examinee is asked to say words that begin with a specified letter as quickly as possible in three trials of 60 seconds each<ul><li>Taps the individual’s ability to generate words fluently in an effortful, phonetic format</li></ul></li><li>Category Fluency: the examinee is asked to say words that belong to a designated semantic category as quickly as possible in two trials of 60 seconds each<ul><li>Taps the individual’s ability to generate words fluently from overlearned concepts</li></ul></li> <li>Category Switching: evaluates the examinee’s ability to alternate between saying words from two different semantic categories as quickly as possible for 60 seconds  <ul><li>Taps the individual’s ability to generate words fluently while simultaneously shifting between overlearned concepts</li></ul></li>',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 208,
       //       TestId: 8,
-      //       Name: "Design Fluency Test",
+      //       Name: 'Design Fluency Test',
       //       Abbreviation: null,
       //       Description:
-      //         "This test is composed of three conditions. For each condition, the examinee is presented rows of boxes each containing an array of dots that the examinee must connect, with four lines only, to make a different design.<ul>  <li>Condition 1: Filled dots  <ul><li>Each response box contains five filled dots, and the examinee is asked to draw as many designs as possible in 60 seconds, by connecting these dots</li>  <li>Provides a basic test of design fluency</li></ul></li>  <li>Condition 2: Empty Dots Only  <ul><li>Each response box contains five filled dots and five unfilled (empty) dots. The examinee is required to inhibit connecting the filled dots and to connect only the unfilled dots in 60 seconds</li>  <li>Measures both design fluency and response inhibition</li></ul></li>  <li>Condition 3: Switching  <ul><li>The examinee is again presented with response boxes that contain both filled and unfilled dots, and is asked to draw the designs by alternating connections between filled and unfilled dots </li>  <li>Taps both design fluency and cognitive flexibility </li></ul></li></ul>",
+      //         'This test is composed of three conditions. For each condition, the examinee is presented rows of boxes each containing an array of dots that the examinee must connect, with four lines only, to make a different design.<ul>  <li>Condition 1: Filled dots  <ul><li>Each response box contains five filled dots, and the examinee is asked to draw as many designs as possible in 60 seconds, by connecting these dots</li>  <li>Provides a basic test of design fluency</li></ul></li>  <li>Condition 2: Empty Dots Only  <ul><li>Each response box contains five filled dots and five unfilled (empty) dots. The examinee is required to inhibit connecting the filled dots and to connect only the unfilled dots in 60 seconds</li>  <li>Measures both design fluency and response inhibition</li></ul></li>  <li>Condition 3: Switching  <ul><li>The examinee is again presented with response boxes that contain both filled and unfilled dots, and is asked to draw the designs by alternating connections between filled and unfilled dots </li>  <li>Taps both design fluency and cognitive flexibility </li></ul></li></ul>',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 209,
       //       TestId: 8,
-      //       Name: "Color-Word Interference Test",
+      //       Name: 'Color-Word Interference Test',
       //       Abbreviation: null,
       //       Description:
-      //         "This test measures the examinee’s ability to inhibit a more automatic verbal response (reading) in order to generate a conflicting response of naming a dissonant ink color. Another condition requires the examinee to switch back and forth between naming the dissonant ink colors and reading the conflicting words. This condition is a measure of both inhibition and cognitive flexibility.",
+      //         'This test measures the examinee’s ability to inhibit a more automatic verbal response (reading) in order to generate a conflicting response of naming a dissonant ink color. Another condition requires the examinee to switch back and forth between naming the dissonant ink colors and reading the conflicting words. This condition is a measure of both inhibition and cognitive flexibility.',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 210,
       //       TestId: 8,
-      //       Name: "Sorting Test",
+      //       Name: 'Sorting Test',
       //       Abbreviation: null,
       //       Description:
-      //         "This tests consists of two conditions:  <ul><li>Free Sorting: the examinee is presented six mixed-up cards that display both perceptual features and printed words. The examinee is asked to sort the cards into two groups, with three cards per group, according to as many different concepts or rules as possible, and to describe the concepts employed to generate each sort. Each of the two card sets has a maximum of eight target sorts: three sorts based on verbal-semantic information from the printed words and five based on visual-spatial features or patterns on the cards. This provides a window into their ability to initiate problem-solving behavior</li>  <li>Sort Recognition: the examiner sorts the same sets of cards into two groups, with three cards per group, according to eight target sorts. After each sort is made by the examiner, the examinee attempts to identify and describe the correct rules or concepts used to generate the sort. This provides a window into their conceptual-reasoning skills. </li></ul>",
+      //         'This tests consists of two conditions:  <ul><li>Free Sorting: the examinee is presented six mixed-up cards that display both perceptual features and printed words. The examinee is asked to sort the cards into two groups, with three cards per group, according to as many different concepts or rules as possible, and to describe the concepts employed to generate each sort. Each of the two card sets has a maximum of eight target sorts: three sorts based on verbal-semantic information from the printed words and five based on visual-spatial features or patterns on the cards. This provides a window into their ability to initiate problem-solving behavior</li>  <li>Sort Recognition: the examiner sorts the same sets of cards into two groups, with three cards per group, according to eight target sorts. After each sort is made by the examiner, the examinee attempts to identify and describe the correct rules or concepts used to generate the sort. This provides a window into their conceptual-reasoning skills. </li></ul>',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 211,
       //       TestId: 8,
-      //       Name: "Twenty Questions Test",
+      //       Name: 'Twenty Questions Test',
       //       Abbreviation: null,
       //       Description:
-      //         "On this test, the examinee is presented with a stimulus page depicting pictures of 30 common objects. The examinee tried to ask the fewest number of yes/no questions in order to identify the unknown target object. Executive functions tapped by this test include the individual’s ability to identify the various categories and subcategories represented in the 30 objects and to formulate abstract, yes/no questions that eliminate the maximum number of objects regardless of the examiner’s answer.",
+      //         'On this test, the examinee is presented with a stimulus page depicting pictures of 30 common objects. The examinee tried to ask the fewest number of yes/no questions in order to identify the unknown target object. Executive functions tapped by this test include the individual’s ability to identify the various categories and subcategories represented in the 30 objects and to formulate abstract, yes/no questions that eliminate the maximum number of objects regardless of the examiner’s answer.',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 212,
       //       TestId: 8,
-      //       Name: "Word Context Test",
+      //       Name: 'Word Context Test',
       //       Abbreviation: null,
       //       Description:
-      //         "The examinee’s main task in this test is to discover the meaning of made-up or mystery words based on clues given in sentences. For each mystery word, the examinee is shown five sentences (clues) that help him or her to decode the meaning of the word. With each new clue-sentence for the word, previously presented sentences are also displayed. The first sentence for each word provides only vague or general clues about the mystery word’s meaning. Each subsequent clue sentence provides progressively more detailed information. The examinee tries to decode the mystery word with as few clue sentences as possible and is asked to continue reporting the correct response to the remaining clue sentences of each item. This test is a means of evaluating executive functions in the verbal modality and assessing skills such as deductive reasoning, integration of multiple bits of information, hypothesis testing, and flexibility of thinking.",
+      //         'The examinee’s main task in this test is to discover the meaning of made-up or mystery words based on clues given in sentences. For each mystery word, the examinee is shown five sentences (clues) that help him or her to decode the meaning of the word. With each new clue-sentence for the word, previously presented sentences are also displayed. The first sentence for each word provides only vague or general clues about the mystery word’s meaning. Each subsequent clue sentence provides progressively more detailed information. The examinee tries to decode the mystery word with as few clue sentences as possible and is asked to continue reporting the correct response to the remaining clue sentences of each item. This test is a means of evaluating executive functions in the verbal modality and assessing skills such as deductive reasoning, integration of multiple bits of information, hypothesis testing, and flexibility of thinking.',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 213,
       //       TestId: 8,
-      //       Name: "Tower Test",
+      //       Name: 'Tower Test',
       //       Abbreviation: null,
       //       Description:
-      //         "The materials for this test include five disks that vary is size from small to large and a board with three vertical pegs. Each item begins by the examiner’s placing from two to five disks on the pegs in a predetermined starting position and displaying a picture of the tower to be built (i.e., the ending position). The examinee’s task is to move the disks across the three pegs to build the target tower in the fewest number of moves possible. In constructing the target towers, the examinee must follow two rules: (a) to move only one disk at a time and (b) never to place a larger disk over a smaller disk. Process measures include first-move completion time, total number of moves, item-completion time, final achievement (correct or incorrect tower), and number of rule violations. This test measures spatial planning, rule learning, inhibition of impulsive responding, inhibition of perseverative responding, and establishing and maintaining the instructional set.",
+      //         'The materials for this test include five disks that vary is size from small to large and a board with three vertical pegs. Each item begins by the examiner’s placing from two to five disks on the pegs in a predetermined starting position and displaying a picture of the tower to be built (i.e., the ending position). The examinee’s task is to move the disks across the three pegs to build the target tower in the fewest number of moves possible. In constructing the target towers, the examinee must follow two rules: (a) to move only one disk at a time and (b) never to place a larger disk over a smaller disk. Process measures include first-move completion time, total number of moves, item-completion time, final achievement (correct or incorrect tower), and number of rule violations. This test measures spatial planning, rule learning, inhibition of impulsive responding, inhibition of perseverative responding, and establishing and maintaining the instructional set.',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
+      //       CreatedDate: null,
       //     },
       //     {
       //       Id: 214,
       //       TestId: 8,
-      //       Name: "Proverb Test",
+      //       Name: 'Proverb Test',
       //       Abbreviation: null,
       //       Description:
-      //         "In this test, proverbs are used as a means of assessing the nature of an individual’s verbal abstraction skills. The test consists of eight sayings that are presented in two conditions: Free Inquiry and Multiple Choice. For the Free Inquiry condition, the proverbs are read individually to examinees, who attempt to interpret them orally without assistance or cues. For the Multiple Choice condition, the same eight proverbs are presented individually along with four alternative interpretations from which the examinee must select the best one. The set of multiple-choice response alternatives for each proverb consists of (a) a correct abstract interpretation; (b) a correct concrete interpretation; (c) an incorrect, phonemically similar response, and (d) an unrelated saying. This task is designed for adolescents and adults aged 16-89.",
+      //         'In this test, proverbs are used as a means of assessing the nature of an individual’s verbal abstraction skills. The test consists of eight sayings that are presented in two conditions: Free Inquiry and Multiple Choice. For the Free Inquiry condition, the proverbs are read individually to examinees, who attempt to interpret them orally without assistance or cues. For the Multiple Choice condition, the same eight proverbs are presented individually along with four alternative interpretations from which the examinee must select the best one. The set of multiple-choice response alternatives for each proverb consists of (a) a correct abstract interpretation; (b) a correct concrete interpretation; (c) an incorrect, phonemically similar response, and (d) an unrelated saying. This task is designed for adolescents and adults aged 16-89.',
       //       ParentScaleTitleId: null,
-      //       CreatedDate: null
-      //     }
+      //       CreatedDate: null,
+      //     },
       //   ],
       //   TestSummaries: [],
       //   ParentScaleTitles: [],
       //   TestModules: [],
       //   ParentGroupSubScales: [],
-      //   TestScoringTableDetails: null
+      //   TestScoringTableDetails: null,
       // },
       // {
       //   Id: 10,
-      //   Name:
-      //     "Repeatable Battery for the Assessment of Neuropsychological Status",
-      //   Abbreviation: "RBANS",
+      //   Name: 'Repeatable Battery for the Assessment of Neuropsychological Status',
+      //   Abbreviation: 'RBANS',
       //   Descriptions:
-      //     "The Repeatable Battery for the Assessment of Neuropsychological Status measures attention, language, visuospatial/constructional abilities, and immediate and delayed memory.",
+      //     'The Repeatable Battery for the Assessment of Neuropsychological Status measures attention, language, visuospatial/constructional abilities, and immediate and delayed memory.',
       //   DomainId: 2,
-      //   DomainName: "Attention & Executive Function",
-      //   SubTestType: "Subtest",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Description",
-      //   CreatedDate: "2018-09-25T13:38:35.09",
+      //   DomainName: 'Attention & Executive Function',
+      //   SubTestType: 'Subtest',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-25T13:38:35.09',
       //   ParentGroupScales: [],
       //   TestIndexes: [],
       //   SubTests: [],
@@ -4411,183 +4627,183 @@ class App extends Component {
       //   ParentGroupSubScales: [
       //     {
       //       Id: 9,
-      //       ParentGroupSubScaleName: "INDEX",
+      //       ParentGroupSubScaleName: 'INDEX',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 47,
-      //           ParentScaleName: "Immediate Memory",
+      //           ParentScaleName: 'Immediate Memory',
       //           ParentScaleDescription:
-      //             "measures initial encoding and learning of complex and simple verbal information. Indicates the examinee’s ability to remember information immediately after it is presented.",
+      //             'measures initial encoding and learning of complex and simple verbal information. Indicates the examinee’s ability to remember information immediately after it is presented.',
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 221,
       //               TestId: null,
-      //               Name: "List Learning",
+      //               Name: 'List Learning',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures rote verbal memory functioning. A list of 10 semantically unrelated words is orally presented, and the examinee is asked to recall as many words as he or she can. This process is repeated over 4 learning trials.",
+      //                 'Measures rote verbal memory functioning. A list of 10 semantically unrelated words is orally presented, and the examinee is asked to recall as many words as he or she can. This process is repeated over 4 learning trials.',
       //               ParentScaleTitleId: 47,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 222,
       //               TestId: null,
-      //               Name: "Story Memory",
+      //               Name: 'Story Memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures memory for conceptually related, meaningful verbal information. A short story is orally presented, and the examinee is asked to retell the story from memory. The same story is presented a second time, and the examinee is again asked to retell the story from memory.",
+      //                 'Measures memory for conceptually related, meaningful verbal information. A short story is orally presented, and the examinee is asked to retell the story from memory. The same story is presented a second time, and the examinee is again asked to retell the story from memory.',
       //               ParentScaleTitleId: 47,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 48,
-      //           ParentScaleName: "Visuospatial Constructional",
+      //           ParentScaleName: 'Visuospatial Constructional',
       //           ParentScaleDescription:
-      //             "measures basic visuospatial perception and the ability to copy a design from a model. Indicates examinee’s ability to perceive spatial relations and to construct a spatially accurate copy of a drawing.",
+      //             'measures basic visuospatial perception and the ability to copy a design from a model. Indicates examinee’s ability to perceive spatial relations and to construct a spatially accurate copy of a drawing.',
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 223,
       //               TestId: null,
-      //               Name: "Figure Copy",
+      //               Name: 'Figure Copy',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures visuospatial reasoning, attention to visual details, motor programming, organization, and fine-motor ability. The examinee is shown a multipart geometric drawing and is asked to make an exact copy while the drawing remains on display.",
+      //                 'Measures visuospatial reasoning, attention to visual details, motor programming, organization, and fine-motor ability. The examinee is shown a multipart geometric drawing and is asked to make an exact copy while the drawing remains on display.',
       //               ParentScaleTitleId: 48,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 224,
       //               TestId: null,
-      //               Name: "Line Orientation",
+      //               Name: 'Line Orientation',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures the ability to correctly identify spatial orientation of lines in two-dimensions. The examinee is presented with a drawing that consists of 13 equal lines radiating out from a single point to form a semicircular fan-shaped pattern. All lines are numbered (1-13). Below this drawing are two lines that match two of the lines from the array above. The examinee is asked to identify which two lines they match. Ten trials are given, with different sets of test lines on each trial.",
+      //                 'Measures the ability to correctly identify spatial orientation of lines in two-dimensions. The examinee is presented with a drawing that consists of 13 equal lines radiating out from a single point to form a semicircular fan-shaped pattern. All lines are numbered (1-13). Below this drawing are two lines that match two of the lines from the array above. The examinee is asked to identify which two lines they match. Ten trials are given, with different sets of test lines on each trial.',
       //               ParentScaleTitleId: 48,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 49,
-      //           ParentScaleName: "Language",
+      //           ParentScaleName: 'Language',
       //           ParentScaleDescription:
-      //             "measures expressive language functioning. Indicates the examinee’s ability to respond verbally to either naming or retrieving learned material.",
+      //             'measures expressive language functioning. Indicates the examinee’s ability to respond verbally to either naming or retrieving learned material.',
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 225,
       //               TestId: null,
-      //               Name: "Picture Naming",
+      //               Name: 'Picture Naming',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures confrontation naming skills. The examinee is presented with a series of pictured objects and is asked to name each one. A semantic cue is provided only if an object is obviously misperceived.",
+      //                 'Measures confrontation naming skills. The examinee is presented with a series of pictured objects and is asked to name each one. A semantic cue is provided only if an object is obviously misperceived.',
       //               ParentScaleTitleId: 49,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 226,
       //               TestId: null,
-      //               Name: "Semantic Fluency",
+      //               Name: 'Semantic Fluency',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures the examinee’s ability to retrieve and express words using a semantic prompt. The examinee is given one minute to name as many exemplars as possible from a given semantic category (fruits and vegetables on Form A, animals found in a zoo on Form B).",
+      //                 'Measures the examinee’s ability to retrieve and express words using a semantic prompt. The examinee is given one minute to name as many exemplars as possible from a given semantic category (fruits and vegetables on Form A, animals found in a zoo on Form B).',
       //               ParentScaleTitleId: 49,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 50,
-      //           ParentScaleName: "Attention",
+      //           ParentScaleName: 'Attention',
       //           ParentScaleDescription:
-      //             "measures simple auditory registration, visual scanning, and processing speed. Indicates the examinee’s capacity to remember and manipulate both visually and orally presented information in short-term memory storage.",
+      //             'measures simple auditory registration, visual scanning, and processing speed. Indicates the examinee’s capacity to remember and manipulate both visually and orally presented information in short-term memory storage.',
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 227,
       //               TestId: null,
-      //               Name: "Digit Span",
+      //               Name: 'Digit Span',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures auditory registration and brief focused attention.  The examiner reads a string of digits and asks the examinee to repeat the digits in the same order. The length of the digit string increases by one on each trial.",
+      //                 'Measures auditory registration and brief focused attention.  The examiner reads a string of digits and asks the examinee to repeat the digits in the same order. The length of the digit string increases by one on each trial.',
       //               ParentScaleTitleId: 50,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 228,
       //               TestId: null,
-      //               Name: "Coding",
+      //               Name: 'Coding',
       //               Abbreviation: null,
       //               Description:
-      //                 "Is a measure of brief, focused, visual attentions, visual scanning, and processing speed. The examinee is presented a page filled with rows of boxes with a number from 1-9 above each box (in random sequence), and a blank space below the number. At the top of the page is a key with a unique, simple, geometric shape beneath each of the numbers, 1 through 9. Using the key, the examinee is asked to fill in the number corresponding to each shape, for as many boxes as the examinee can complete in 90 seconds.",
+      //                 'Is a measure of brief, focused, visual attentions, visual scanning, and processing speed. The examinee is presented a page filled with rows of boxes with a number from 1-9 above each box (in random sequence), and a blank space below the number. At the top of the page is a key with a unique, simple, geometric shape beneath each of the numbers, 1 through 9. Using the key, the examinee is asked to fill in the number corresponding to each shape, for as many boxes as the examinee can complete in 90 seconds.',
       //               ParentScaleTitleId: 50,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 51,
-      //           ParentScaleName: "Delayed Memory",
+      //           ParentScaleName: 'Delayed Memory',
       //           ParentScaleDescription:
-      //             "measures of delayed recall and recognition for verbal and visual information. Indicates the examinee’s anterograde memory capacity.",
+      //             'measures of delayed recall and recognition for verbal and visual information. Indicates the examinee’s anterograde memory capacity.',
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 229,
       //               TestId: null,
-      //               Name: "List Recall",
+      //               Name: 'List Recall',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures delayed recall for unrelated verbal information, and long-term verbal memory encoding and retrieval. The examinee is asked to recall the list of 10 words learned in the List Learning subtest.",
+      //                 'Measures delayed recall for unrelated verbal information, and long-term verbal memory encoding and retrieval. The examinee is asked to recall the list of 10 words learned in the List Learning subtest.',
       //               ParentScaleTitleId: 51,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 230,
       //               TestId: null,
-      //               Name: "List Recognition",
+      //               Name: 'List Recognition',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures delayed recognition memory for unrelated verbal information, and long-term verbal memory encoding and retrieval. The examinee is read 20 words (10 targets, 10 distractors) and asked to indicate whether each word was on the word list.",
+      //                 'Measures delayed recognition memory for unrelated verbal information, and long-term verbal memory encoding and retrieval. The examinee is read 20 words (10 targets, 10 distractors) and asked to indicate whether each word was on the word list.',
       //               ParentScaleTitleId: 51,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 231,
       //               TestId: null,
-      //               Name: "Story Recall",
+      //               Name: 'Story Recall',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measured delayed recall for conceptually related verbal information, and long-term verbal memory encoding and retrieval for related information. The examinee is asked to retell the story they learned earlier.",
+      //                 'Measured delayed recall for conceptually related verbal information, and long-term verbal memory encoding and retrieval for related information. The examinee is asked to retell the story they learned earlier.',
       //               ParentScaleTitleId: 51,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 232,
       //               TestId: null,
-      //               Name: "Figure Recall",
+      //               Name: 'Figure Recall',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measured delayed free recall for conceptually related visuospatial and detail information. The examinee is asked to draw the figure shown earlier from memory.",
+      //                 'Measured delayed free recall for conceptually related visuospatial and detail information. The examinee is asked to draw the figure shown earlier from memory.',
       //               ParentScaleTitleId: 51,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
-      //     }
+      //           HasInput: false,
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestScoringTableDetails: null
+      //   TestScoringTableDetails: null,
       // },
       // {
       //   Id: 24,
@@ -5247,16 +5463,16 @@ class App extends Component {
       // },
       // {
       //   Id: 2,
-      //   Name: "The Autism Diagnostic Observation Schedule - Second Edition",
-      //   Abbreviation: "ADOS-2",
+      //   Name: 'The Autism Diagnostic Observation Schedule - Second Edition',
+      //   Abbreviation: 'ADOS-2',
       //   Descriptions:
-      //     "The Autism Diagnostic Observation Schedule - Second Edition is a semi-structured, standardized assessment of communication, social interaction, play/imaginative use of materials, and restricted and repetitive behaviors for individuals who have been referred because of possible autism spectrum disorders (ASD).",
+      //     'The Autism Diagnostic Observation Schedule - Second Edition is a semi-structured, standardized assessment of communication, social interaction, play/imaginative use of materials, and restricted and repetitive behaviors for individuals who have been referred because of possible autism spectrum disorders (ASD).',
       //   DomainId: 4,
-      //   DomainName: "Autism",
-      //   SubTestType: "Subtest",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Description",
-      //   CreatedDate: "2018-09-09T20:43:10.213",
+      //   DomainName: 'Autism',
+      //   SubTestType: 'Subtest',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-09T20:43:10.213',
       //   ParentGroupScales: [],
       //   TestIndexes: [],
       //   SubTests: [],
@@ -5265,793 +5481,767 @@ class App extends Component {
       //   TestModules: [
       //     {
       //       Id: 1,
-      //       Name: "Module 1",
+      //       Name: 'Module 1',
       //       Descriptions:
-      //         "is intended for children who do not consistently use phrase speech (i.e., the flexible use of non-echoed, three-word utterances that sometimes involve a verb and that are spontaneous, meaningful word combinations). Therefore, children receiving this module have speech abilities ranging from no speech at all up to and including the use of simple phrases. Module 1 is most appropriate for children aged 31 months and older.",
+      //         'is intended for children who do not consistently use phrase speech (i.e., the flexible use of non-echoed, three-word utterances that sometimes involve a verb and that are spontaneous, meaningful word combinations). Therefore, children receiving this module have speech abilities ranging from no speech at all up to and including the use of simple phrases. Module 1 is most appropriate for children aged 31 months and older.',
       //       ParentGroupScales: [
       //         {
       //           Id: 2,
-      //           ParentGroupScaleName: "Social Affect (SA)",
+      //           ParentGroupScaleName: 'Social Affect (SA)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 6,
-      //               ParentScaleName: "Communication",
+      //               ParentScaleName: 'Communication',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 17,
       //                   TestId: null,
-      //                   Name:
-      //                     "Frequency of Spontaneous Vocalization Directed to Others (A-2)",
+      //                   Name: 'Frequency of Spontaneous Vocalization Directed to Others (A-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the amount of spontaneous socially directed vocalizations.",
+      //                     'The focus of this item is on the amount of spontaneous socially directed vocalizations.',
       //                   ParentScaleTitleId: 6,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 18,
       //                   TestId: null,
-      //                   Name: "Pointing (A-7)",
+      //                   Name: 'Pointing (A-7)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on socially purposeful, visually directed pointing, which includes pointing for the purpose of requesting and/or for shared attention.",
+      //                     'The focus of this item is on socially purposeful, visually directed pointing, which includes pointing for the purpose of requesting and/or for shared attention.',
       //                   ParentScaleTitleId: 6,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 19,
       //                   TestId: null,
-      //                   Name: "Gestures (A-8)",
+      //                   Name: 'Gestures (A-8)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This item pertains to the use of any kind of gesture other than pointing. Gestures may be conventional or idiosyncratic, but they must be communicative and cannot involve moving someone else’s body or touching/holding an object. Mannerisms are not included.",
+      //                     'This item pertains to the use of any kind of gesture other than pointing. Gestures may be conventional or idiosyncratic, but they must be communicative and cannot involve moving someone else’s body or touching/holding an object. Mannerisms are not included.',
       //                   ParentScaleTitleId: 6,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 7,
-      //               ParentScaleName: "Reciprocal Social Interaction",
+      //               ParentScaleName: 'Reciprocal Social Interaction',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 20,
       //                   TestId: null,
-      //                   Name: "Unusual Eye Contact (B-1)",
+      //                   Name: 'Unusual Eye Contact (B-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.",
+      //                     'The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 21,
       //                   TestId: null,
-      //                   Name: "Facial Expressions Directed to Others (B-3)",
+      //                   Name: 'Facial Expressions Directed to Others (B-3)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on whether the child’s facial expressions are directed to another person for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects or that are undirected are not evaluated here.",
+      //                     'The focus of this item is on whether the child’s facial expressions are directed to another person for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects or that are undirected are not evaluated here.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 22,
       //                   TestId: null,
-      //                   Name:
-      //                     "Integration of Gaze and Other Behaviors During Social Overtures (B-4)",
+      //                   Name: 'Integration of Gaze and Other Behaviors During Social Overtures (B-4)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the quality of the child’s attempts to initiate interaction, particularly the integration of gaze with other behaviors, not the frequency of initiations.",
+      //                     'The focus of this item is on the quality of the child’s attempts to initiate interaction, particularly the integration of gaze with other behaviors, not the frequency of initiations.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 23,
       //                   TestId: null,
-      //                   Name: "Shared Enjoyment in Interaction (B-5)",
+      //                   Name: 'Shared Enjoyment in Interaction (B-5)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s directed pleasure during any of the activities or presses. It does not indicate his or her general emotional state during the evaluation and applies to the child’s ability to indicate pleasure to the examiner, not just to interact or respond.",
+      //                     'The focus of this item is on the child’s directed pleasure during any of the activities or presses. It does not indicate his or her general emotional state during the evaluation and applies to the child’s ability to indicate pleasure to the examiner, not just to interact or respond.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 24,
       //                   TestId: null,
-      //                   Name: "Showing (B-9)",
+      //                   Name: 'Showing (B-9)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "Showing is defined as deliberately orienting or placing an object where it can be seen by another person with no identifiable purpose of getting help or participating in a routine. This must be accompanied by eye contact, but vocalization is not required.",
+      //                     'Showing is defined as deliberately orienting or placing an object where it can be seen by another person with no identifiable purpose of getting help or participating in a routine. This must be accompanied by eye contact, but vocalization is not required.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 25,
       //                   TestId: null,
-      //                   Name:
-      //                     "Spontaneous Initiation of Joint Attention (B-10)",
+      //                   Name: 'Spontaneous Initiation of Joint Attention (B-10)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s attempts to draw another person’s attention to objects that neither of them is touching and are clearly out of reach. This does not include such attempts if they are for the purpose of requesting.",
+      //                     'The focus of this item is on the child’s attempts to draw another person’s attention to objects that neither of them is touching and are clearly out of reach. This does not include such attempts if they are for the purpose of requesting.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 26,
       //                   TestId: null,
-      //                   Name: "Response to Joint Attention (B-11)",
+      //                   Name: 'Response to Joint Attention (B-11)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s response to the examiner’s use of gaze and/or pointing to direct the child’s attention to a distant object.",
+      //                     'The focus of this item is on the child’s response to the examiner’s use of gaze and/or pointing to direct the child’s attention to a distant object.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 27,
       //                   TestId: null,
-      //                   Name: "Quality of Social Overtures (B-12)",
+      //                   Name: 'Quality of Social Overtures (B-12)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction, not on the frequency of such attempts.",
+      //                     'This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction, not on the frequency of such attempts.',
       //                   ParentScaleTitleId: 7,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 3,
-      //           ParentGroupScaleName:
-      //             "Restricted and Repetitive Behavior (RRB)",
+      //           ParentGroupScaleName: 'Restricted and Repetitive Behavior (RRB)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 8,
-      //               ParentScaleName: "Restricted and Repetitive Behaviors",
+      //               ParentScaleName: 'Restricted and Repetitive Behaviors',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 28,
       //                   TestId: null,
-      //                   Name:
-      //                     "Intonation of Vocalizations or Verbalizations (A-3)",
+      //                   Name: 'Intonation of Vocalizations or Verbalizations (A-3)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a general item that applies to all vocalizations or verbalizations, including crying and whining.",
+      //                     'This is a general item that applies to all vocalizations or verbalizations, including crying and whining.',
       //                   ParentScaleTitleId: 8,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 29,
       //                   TestId: null,
-      //                   Name:
-      //                     "Stereotyped/Idiosyncratic Use of Words or Phrases (A-5)",
+      //                   Name: 'Stereotyped/Idiosyncratic Use of Words or Phrases (A-5)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.",
+      //                     'The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.',
       //                   ParentScaleTitleId: 8,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 30,
       //                   TestId: null,
-      //                   Name:
-      //                     "Unusual Sensory Interest in Play Material/Person (D-1)",
+      //                   Name: 'Unusual Sensory Interest in Play Material/Person (D-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s interest in or unusual behaviors associated with sensory aspects of toys or surroundings (e.g., sniffing, repetitive feeling of texture, licking, mouthing, or biting, unusually strong interest in the repetition of certain sounds, unusual or prolonged visual examination).",
+      //                     'The focus of this item is on the child’s interest in or unusual behaviors associated with sensory aspects of toys or surroundings (e.g., sniffing, repetitive feeling of texture, licking, mouthing, or biting, unusually strong interest in the repetition of certain sounds, unusual or prolonged visual examination).',
       //                   ParentScaleTitleId: 8,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 31,
       //                   TestId: null,
-      //                   Name:
-      //                     "Hand and Finger and Other Complex Mannerisms (D-2)",
+      //                   Name: 'Hand and Finger and Other Complex Mannerisms (D-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on unusual and/or repetitive movements or posturing of the hands and fingers, arms, or body. This does not include repetitive clapping, finger tapping, nail biting, hair twisting, and thumb sucking.",
+      //                     'The focus of this item is on unusual and/or repetitive movements or posturing of the hands and fingers, arms, or body. This does not include repetitive clapping, finger tapping, nail biting, hair twisting, and thumb sucking.',
       //                   ParentScaleTitleId: 8,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 32,
       //                   TestId: null,
-      //                   Name:
-      //                     "Unusually Repetitive Interests or Stereotyped Behaviors (D-4)",
+      //                   Name: 'Unusually Repetitive Interests or Stereotyped Behaviors (D-4)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on any unusually repetitive interests or stereotyped behaviors, including preoccupation with unusual activities or objects, repetitive nonfunctional use of toys, repetitive actions, and insistence on having the parent/caregiver or examiner act in a specific way.",
+      //                     'The focus of this item is on any unusually repetitive interests or stereotyped behaviors, including preoccupation with unusual activities or objects, repetitive nonfunctional use of toys, repetitive actions, and insistence on having the parent/caregiver or examiner act in a specific way.',
       //                   ParentScaleTitleId: 8,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
-      //         }
-      //       ]
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 2,
-      //       Name: "Module 2",
+      //       Name: 'Module 2',
       //       Descriptions:
-      //         "is intended for children of any age who use phrase speech (i.e., the flexible use of non-echoed, three-word utterances that sometimes involve a verb and that are spontaneous, meaningful word combinations) but who are not yet verbally fluent (i.e., producing a range of flexible sentence types, providing language beyond the immediate context, and describing logical connections within a sentence).",
+      //         'is intended for children of any age who use phrase speech (i.e., the flexible use of non-echoed, three-word utterances that sometimes involve a verb and that are spontaneous, meaningful word combinations) but who are not yet verbally fluent (i.e., producing a range of flexible sentence types, providing language beyond the immediate context, and describing logical connections within a sentence).',
       //       ParentGroupScales: [
       //         {
       //           Id: 4,
-      //           ParentGroupScaleName: "Social Affect (SA)",
+      //           ParentGroupScaleName: 'Social Affect (SA)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 9,
-      //               ParentScaleName: "Communication",
+      //               ParentScaleName: 'Communication',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 33,
       //                   TestId: null,
-      //                   Name: "Pointing (A-6)",
+      //                   Name: 'Pointing (A-6)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on social purposeful, visually directed pointing primarily to express interest (rather than to request).",
+      //                     'The focus of this item is on social purposeful, visually directed pointing primarily to express interest (rather than to request).',
       //                   ParentScaleTitleId: 9,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 34,
       //                   TestId: null,
-      //                   Name:
-      //                     "Descriptive, Conventional, Instrumental, or Informational Gestures (A-7)",
+      //                   Name: 'Descriptive, Conventional, Instrumental, or Informational Gestures (A-7)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on descriptive gestures that enact or represent an object or event (such as acting out rinsing a toothbrush or showing how a roller coaster curves through the air).",
+      //                     'The focus of this item is on descriptive gestures that enact or represent an object or event (such as acting out rinsing a toothbrush or showing how a roller coaster curves through the air).',
       //                   ParentScaleTitleId: 9,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 10,
-      //               ParentScaleName: "Reciprocal Social Interaction",
+      //               ParentScaleName: 'Reciprocal Social Interaction',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 35,
       //                   TestId: null,
-      //                   Name: "Unusual Eye Contact (B-1)",
+      //                   Name: 'Unusual Eye Contact (B-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.",
+      //                     'The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 36,
       //                   TestId: null,
-      //                   Name: "Facial Expressions Directed to Others (B-2)",
+      //                   Name: 'Facial Expressions Directed to Others (B-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on whether the child’s facial expressions are directed to another person for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects or that are undirected are not evaluated here.",
+      //                     'The focus of this item is on whether the child’s facial expressions are directed to another person for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects or that are undirected are not evaluated here.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 37,
       //                   TestId: null,
-      //                   Name: "Shared Enjoyment in Interaction (B-3)",
+      //                   Name: 'Shared Enjoyment in Interaction (B-3)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s directed pleasure during any of the activities or presses. It does not indicate his or her general emotional state during the evaluation and applies to the child’s ability to indicate pleasure to the examiner, not just to interact or respond.",
+      //                     'The focus of this item is on the child’s directed pleasure during any of the activities or presses. It does not indicate his or her general emotional state during the evaluation and applies to the child’s ability to indicate pleasure to the examiner, not just to interact or respond.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 38,
       //                   TestId: null,
-      //                   Name: "Showing (B-5)",
+      //                   Name: 'Showing (B-5)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "Showing is defined as deliberately orienting or placing an object where it can be seen by another person with no identifiable purpose of getting help or participating in a routine. This must be accompanied by eye contact, but vocalization is not required.",
+      //                     'Showing is defined as deliberately orienting or placing an object where it can be seen by another person with no identifiable purpose of getting help or participating in a routine. This must be accompanied by eye contact, but vocalization is not required.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 39,
       //                   TestId: null,
-      //                   Name: "Spontaneous Initiation of Joint Attention (B-6)",
+      //                   Name: 'Spontaneous Initiation of Joint Attention (B-6)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s attempts to draw another person’s attention to objects that neither of them is touching and are clearly out of reach. This does not include such attempts if they are for the purpose of requesting.",
+      //                     'The focus of this item is on the child’s attempts to draw another person’s attention to objects that neither of them is touching and are clearly out of reach. This does not include such attempts if they are for the purpose of requesting.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 40,
       //                   TestId: null,
-      //                   Name: "Quality of Social Overtures (B-8)",
+      //                   Name: 'Quality of Social Overtures (B-8)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction with the examiner, not on the frequency of such attempts.",
+      //                     'This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction with the examiner, not on the frequency of such attempts.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 41,
       //                   TestId: null,
-      //                   Name:
-      //                     "Amount of Reciprocal Social Communication (B-11)",
+      //                   Name: 'Amount of Reciprocal Social Communication (B-11)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the frequency with which reciprocal interchanges occur during the course of the ADOS-2 evaluation, using any mode of communication. Frequency here is defined both by absolute number of occurrences and distribution across a range of contexts.",
+      //                     'The focus of this item is on the frequency with which reciprocal interchanges occur during the course of the ADOS-2 evaluation, using any mode of communication. Frequency here is defined both by absolute number of occurrences and distribution across a range of contexts.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 42,
       //                   TestId: null,
-      //                   Name: "Overall Quality of Rapport (B-12)",
+      //                   Name: 'Overall Quality of Rapport (B-12)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This item is a summary rating that reflects the examiner’s overall judgment of the rapport established with the child during the ADOS-2 evaluation. It particularly concerns the degree to which the examiner had to modify his or her own behavior to maintain the interaction successfully.",
+      //                     'This item is a summary rating that reflects the examiner’s overall judgment of the rapport established with the child during the ADOS-2 evaluation. It particularly concerns the degree to which the examiner had to modify his or her own behavior to maintain the interaction successfully.',
       //                   ParentScaleTitleId: 10,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 5,
-      //           ParentGroupScaleName:
-      //             "Restricted and Repetitive Behavior (RRB)",
+      //           ParentGroupScaleName: 'Restricted and Repetitive Behavior (RRB)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 11,
-      //               ParentScaleName: "Restricted and Repetitive Behaviors",
+      //               ParentScaleName: 'Restricted and Repetitive Behaviors',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 43,
       //                   TestId: null,
-      //                   Name:
-      //                     "Stereotyped/Idiosyncratic Use of Words or Phrases (A-4)",
+      //                   Name: 'Stereotyped/Idiosyncratic Use of Words or Phrases (A-4)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.",
+      //                     'The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.',
       //                   ParentScaleTitleId: 11,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 44,
       //                   TestId: null,
-      //                   Name:
-      //                     "Unusual Sensory Interest in Play Material/Person (D-1)",
+      //                   Name: 'Unusual Sensory Interest in Play Material/Person (D-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s interest in or unusual behaviors associated with sensory aspects of toys or surroundings (e.g., sniffing, repetitive feeling of texture, licking, mouthing, or biting, unusually strong interest in the repetition of certain sounds, unusual or prolonged visual examination).",
+      //                     'The focus of this item is on the child’s interest in or unusual behaviors associated with sensory aspects of toys or surroundings (e.g., sniffing, repetitive feeling of texture, licking, mouthing, or biting, unusually strong interest in the repetition of certain sounds, unusual or prolonged visual examination).',
       //                   ParentScaleTitleId: 11,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 45,
       //                   TestId: null,
-      //                   Name:
-      //                     "Hand and Finger and Other Complex Mannerisms (D-2)",
+      //                   Name: 'Hand and Finger and Other Complex Mannerisms (D-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on unusual and/or repetitive movements or posturing of the hands and fingers, arms, or body. This does not include repetitive clapping, finger tapping, nail biting, hair twisting, and thumb sucking.",
+      //                     'The focus of this item is on unusual and/or repetitive movements or posturing of the hands and fingers, arms, or body. This does not include repetitive clapping, finger tapping, nail biting, hair twisting, and thumb sucking.',
       //                   ParentScaleTitleId: 11,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 46,
       //                   TestId: null,
-      //                   Name:
-      //                     "Unusually Repetitive Interests or Stereotyped Behaviors",
+      //                   Name: 'Unusually Repetitive Interests or Stereotyped Behaviors',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on any unusually repetitive interests or stereotyped behaviors, including preoccupation with unusual activities or objects, repetitive nonfunctional use of toys, repetitive actions, and insistence on having the parent/caregiver or examiner act in a specific way.",
+      //                     'The focus of this item is on any unusually repetitive interests or stereotyped behaviors, including preoccupation with unusual activities or objects, repetitive nonfunctional use of toys, repetitive actions, and insistence on having the parent/caregiver or examiner act in a specific way.',
       //                   ParentScaleTitleId: 11,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
-      //         }
-      //       ]
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 3,
-      //       Name: "Module 3",
+      //       Name: 'Module 3',
       //       Descriptions:
-      //         "is intended for individuals who are verbally fluent. Verbal fluency is broadly defined in this context as language development equivalent to (or higher than) the expressive language skills of a typical 4-year-old child: producing a range of flexible sentence types and grammatical forms, using language to provide information about events out of the immediate context, and producing some logical connections within sentences (e.g., using but or though), although the individual may make some grammatical errors. Module 3 is best suited for verbally fluent children and adolescents for whom playing with action figure-type toys is age appropriate (usually under 16 years of age).",
+      //         'is intended for individuals who are verbally fluent. Verbal fluency is broadly defined in this context as language development equivalent to (or higher than) the expressive language skills of a typical 4-year-old child: producing a range of flexible sentence types and grammatical forms, using language to provide information about events out of the immediate context, and producing some logical connections within sentences (e.g., using but or though), although the individual may make some grammatical errors. Module 3 is best suited for verbally fluent children and adolescents for whom playing with action figure-type toys is age appropriate (usually under 16 years of age).',
       //       ParentGroupScales: [
       //         {
       //           Id: 6,
-      //           ParentGroupScaleName: "Social Affect (SA)",
+      //           ParentGroupScaleName: 'Social Affect (SA)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 12,
-      //               ParentScaleName: "Communication",
+      //               ParentScaleName: 'Communication',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 47,
       //                   TestId: null,
-      //                   Name: "Reporting of Events (A-7)",
+      //                   Name: 'Reporting of Events (A-7)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the participant’s ability to select an event spontaneously or in response to the examiner’s general questioning and to describe it in a comprehensible fashion without requiring specific probes. This should involve a sequential description of an event outside the immediate environment.",
+      //                     'The focus of this item is on the participant’s ability to select an event spontaneously or in response to the examiner’s general questioning and to describe it in a comprehensible fashion without requiring specific probes. This should involve a sequential description of an event outside the immediate environment.',
       //                   ParentScaleTitleId: 12,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 48,
       //                   TestId: null,
-      //                   Name: "Conversation (A-8)",
+      //                   Name: 'Conversation (A-8)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the to-and-fro use of words and phrases in social conversation.",
+      //                     'This is a summary item that focuses on the to-and-fro use of words and phrases in social conversation.',
       //                   ParentScaleTitleId: 12,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 49,
       //                   TestId: null,
-      //                   Name:
-      //                     "Descriptive, Conventional, Instrumental, or Informational Gestures (A-9)",
+      //                   Name: 'Descriptive, Conventional, Instrumental, or Informational Gestures (A-9)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on descriptive gestures that enact or represent an object or event (such as acting out rinsing a toothbrush or showing how a roller coaster curves through the air).",
+      //                     'The focus of this item is on descriptive gestures that enact or represent an object or event (such as acting out rinsing a toothbrush or showing how a roller coaster curves through the air).',
       //                   ParentScaleTitleId: 12,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 13,
-      //               ParentScaleName: "Reciprocal Social Interaction",
+      //               ParentScaleName: 'Reciprocal Social Interaction',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 50,
       //                   TestId: null,
-      //                   Name: "Unusual Eye Contact (B-1)",
+      //                   Name: 'Unusual Eye Contact (B-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.",
+      //                     'The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 51,
       //                   TestId: null,
-      //                   Name: "Facial Expressions Directed to Examiner (B-2)",
+      //                   Name: 'Facial Expressions Directed to Examiner (B-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on whether the child’s facial expressions are directed to the examiner for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects, other people in the room, or that are undirected are not evaluated here.",
+      //                     'The focus of this item is on whether the child’s facial expressions are directed to the examiner for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects, other people in the room, or that are undirected are not evaluated here.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 52,
       //                   TestId: null,
-      //                   Name: "Shared Enjoyment in Interaction (B-3)",
+      //                   Name: 'Shared Enjoyment in Interaction (B-3)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s directed pleasure during any of the activities or presses. It does not indicate his or her general emotional state during the evaluation and applies to the child’s ability to indicate pleasure to the examiner, not just to interact or respond.",
+      //                     'The focus of this item is on the child’s directed pleasure during any of the activities or presses. It does not indicate his or her general emotional state during the evaluation and applies to the child’s ability to indicate pleasure to the examiner, not just to interact or respond.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 53,
       //                   TestId: null,
-      //                   Name: "Shared Enjoyment in Interaction (B-4)",
+      //                   Name: 'Shared Enjoyment in Interaction (B-4)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the participant’s directed pleasure during any of the tasks or conversation. This item is not used to indicate his or her general emotional state during the ADOS-2 evaluation. The rating applies to the participant’s ability to indicate pleasure to the examiner, not just to interact or respond.",
+      //                     'The focus of this item is on the participant’s directed pleasure during any of the tasks or conversation. This item is not used to indicate his or her general emotional state during the ADOS-2 evaluation. The rating applies to the participant’s ability to indicate pleasure to the examiner, not just to interact or respond.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 54,
       //                   TestId: null,
-      //                   Name: "Quality of Social Overtures (B-7)",
+      //                   Name: 'Quality of Social Overtures (B-7)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction with the examiner, not on the frequency of such attempts. Special attention is given to the form of the overture and its appropriateness to the social context.",
+      //                     'This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction with the examiner, not on the frequency of such attempts. Special attention is given to the form of the overture and its appropriateness to the social context.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 55,
       //                   TestId: null,
-      //                   Name: "Quality of Social Response (B-9)",
+      //                   Name: 'Quality of Social Response (B-9)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the participant’s social responses throughout the ADOS-2 evaluation.",
+      //                     'This is a summary item that focuses on the participant’s social responses throughout the ADOS-2 evaluation.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 56,
       //                   TestId: null,
-      //                   Name:
-      //                     "Amount of Reciprocal Social Communication (B-10)",
+      //                   Name: 'Amount of Reciprocal Social Communication (B-10)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the frequency with which reciprocal interchanges occur during the course of the ADOS-2 evaluation, using any mode of communication. Frequency here is defined both by absolute number of occurrences and distribution across a range of contexts.",
+      //                     'The focus of this item is on the frequency with which reciprocal interchanges occur during the course of the ADOS-2 evaluation, using any mode of communication. Frequency here is defined both by absolute number of occurrences and distribution across a range of contexts.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 57,
       //                   TestId: null,
-      //                   Name: "Overall Quality of Rapport (B-11)",
+      //                   Name: 'Overall Quality of Rapport (B-11)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This item is a summary rating that reflects the examiner’s overall judgment of the rapport established with the child during the ADOS-2 evaluation. It particularly concerns the degree to which the examiner had to modify his or her own behavior to maintain the interaction successfully.",
+      //                     'This item is a summary rating that reflects the examiner’s overall judgment of the rapport established with the child during the ADOS-2 evaluation. It particularly concerns the degree to which the examiner had to modify his or her own behavior to maintain the interaction successfully.',
       //                   ParentScaleTitleId: 13,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 7,
-      //           ParentGroupScaleName:
-      //             "Restricted and Repetitive Behavior (RRB)",
+      //           ParentGroupScaleName: 'Restricted and Repetitive Behavior (RRB)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 14,
-      //               ParentScaleName: "Restricted and Repetitive Behaviors",
+      //               ParentScaleName: 'Restricted and Repetitive Behaviors',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 58,
       //                   TestId: null,
-      //                   Name:
-      //                     "Stereotyped/Idiosyncratic Use of Words or Phrases (A-4)",
+      //                   Name: 'Stereotyped/Idiosyncratic Use of Words or Phrases (A-4)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.",
+      //                     'The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.',
       //                   ParentScaleTitleId: 14,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 59,
       //                   TestId: null,
-      //                   Name:
-      //                     "Unusual Sensory Interest in Play Material/Person (D-1)",
+      //                   Name: 'Unusual Sensory Interest in Play Material/Person (D-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the child’s interest in or unusual behaviors associated with sensory aspects of toys or surroundings (e.g., sniffing, repetitive feeling of texture, licking, mouthing, or biting, unusually strong interest in the repetition of certain sounds, unusual or prolonged visual examination).",
+      //                     'The focus of this item is on the child’s interest in or unusual behaviors associated with sensory aspects of toys or surroundings (e.g., sniffing, repetitive feeling of texture, licking, mouthing, or biting, unusually strong interest in the repetition of certain sounds, unusual or prolonged visual examination).',
       //                   ParentScaleTitleId: 14,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 60,
       //                   TestId: null,
-      //                   Name:
-      //                     "Hand and Finger and Other Complex Mannerisms (D-2)",
+      //                   Name: 'Hand and Finger and Other Complex Mannerisms (D-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on unusual and/or repetitive movements or posturing of the hands and fingers, arms, or body. This does not include repetitive clapping, finger tapping, nail biting, hair twisting, and thumb sucking.",
+      //                     'The focus of this item is on unusual and/or repetitive movements or posturing of the hands and fingers, arms, or body. This does not include repetitive clapping, finger tapping, nail biting, hair twisting, and thumb sucking.',
       //                   ParentScaleTitleId: 14,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 61,
       //                   TestId: null,
-      //                   Name:
-      //                     "Unusually Repetitive Interests or Stereotyped Behaviors",
+      //                   Name: 'Unusually Repetitive Interests or Stereotyped Behaviors',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on any unusually repetitive interests or stereotyped behaviors, including preoccupation with unusual activities or objects, repetitive nonfunctional use of toys, repetitive actions, and insistence on having the parent/caregiver or examiner act in a specific way.",
+      //                     'The focus of this item is on any unusually repetitive interests or stereotyped behaviors, including preoccupation with unusual activities or objects, repetitive nonfunctional use of toys, repetitive actions, and insistence on having the parent/caregiver or examiner act in a specific way.',
       //                   ParentScaleTitleId: 14,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
-      //         }
-      //       ]
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 4,
-      //       Name: "Module 4",
+      //       Name: 'Module 4',
       //       Descriptions:
-      //         "is intended for individuals who are verbally fluent Verbal fluency is broadly defined in this context as language development equivalent to (or higher than) the expressive language skills of a typical 4-year-old child: producing a range of flexible sentence types and grammatical forms, using language to provide information about events out of the immediate context, and producing some logical connections within sentences (e.g., using but or though), although the individual may make some grammatical errors. Module 4 is best suited for verbally fluent older adolescent and adults.",
+      //         'is intended for individuals who are verbally fluent Verbal fluency is broadly defined in this context as language development equivalent to (or higher than) the expressive language skills of a typical 4-year-old child: producing a range of flexible sentence types and grammatical forms, using language to provide information about events out of the immediate context, and producing some logical connections within sentences (e.g., using but or though), although the individual may make some grammatical errors. Module 4 is best suited for verbally fluent older adolescent and adults.',
       //       ParentGroupScales: [
       //         {
       //           Id: 8,
-      //           ParentGroupScaleName: "Social Affect (SA)",
+      //           ParentGroupScaleName: 'Social Affect (SA)',
       //           Description: null,
       //           ParentGroupSubScales: [],
       //           ParentScaleTitles: [
       //             {
       //               Id: 15,
-      //               ParentScaleName: "Communication",
+      //               ParentScaleName: 'Communication',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 62,
       //                   TestId: null,
-      //                   Name:
-      //                     "Stereotyped/Idiosyncratic Use of Words or Phrases (A-4)",
+      //                   Name: 'Stereotyped/Idiosyncratic Use of Words or Phrases (A-4)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.",
+      //                     'The focus of this item is on the stereotyped or idiosyncratic quality of the phrasing, unusual use of words or formation of utterances, and/or their arbitrary association with a particular meaning.',
       //                   ParentScaleTitleId: 15,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 63,
       //                   TestId: null,
-      //                   Name: "Conversation (A-8)",
+      //                   Name: 'Conversation (A-8)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the to-and-fro use of words and phrases in social conversation.",
+      //                     'This is a summary item that focuses on the to-and-fro use of words and phrases in social conversation.',
       //                   ParentScaleTitleId: 15,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 64,
       //                   TestId: null,
-      //                   Name:
-      //                     "Descriptive, Conventional, Instrumental, or Informational Gestures (A-9)",
+      //                   Name: 'Descriptive, Conventional, Instrumental, or Informational Gestures (A-9)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on descriptive gestures that enact or represent an object or event (such as acting out rinsing a toothbrush or showing how a roller coaster curves through the air).",
+      //                     'The focus of this item is on descriptive gestures that enact or represent an object or event (such as acting out rinsing a toothbrush or showing how a roller coaster curves through the air).',
       //                   ParentScaleTitleId: 15,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 65,
       //                   TestId: null,
-      //                   Name: "Emphatic or Emotional Gestures (A-10)",
+      //                   Name: 'Emphatic or Emotional Gestures (A-10)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on emphatic (i.e., natural, rhythmic “beats” that often accompany speech) or emotional gestures (e.g., hand to mouth or hands up for “wow”).",
+      //                     'The focus of this item is on emphatic (i.e., natural, rhythmic “beats” that often accompany speech) or emotional gestures (e.g., hand to mouth or hands up for “wow”).',
       //                   ParentScaleTitleId: 15,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 16,
-      //               ParentScaleName: "Reciprocal Social Interaction",
+      //               ParentScaleName: 'Reciprocal Social Interaction',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 66,
       //                   TestId: null,
-      //                   Name: "Unusual Eye Contact (B-1)",
+      //                   Name: 'Unusual Eye Contact (B-1)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.",
+      //                     'The focus of this item is on clear, flexible, socially modulated, and appropriate gaze that is used for a variety of purposes. This is in contrast to gaze that is limited in flexibility, appropriateness, or contexts.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 67,
       //                   TestId: null,
-      //                   Name: "Facial Expressions Directed to Examiner (B-2)",
+      //                   Name: 'Facial Expressions Directed to Examiner (B-2)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on whether the child’s facial expressions are directed to the examiner for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects or other people in the room, or that are undirected, are not evaluated here.",
+      //                     'The focus of this item is on whether the child’s facial expressions are directed to the examiner for the purpose of communicating affective (e.g., enjoyment, frustration) or cognitive (e.g., puzzlement, skepticism) sates. Facial expressions that are directed to objects or other people in the room, or that are undirected, are not evaluated here.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 68,
       //                   TestId: null,
-      //                   Name: "Comments on Others’ Emotions/Empathy (B-6)",
+      //                   Name: 'Comments on Others’ Emotions/Empathy (B-6)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the participant’s communication of his or her recognition, understanding, and/or response to the feelings of other people or characters, real or conveyed in stories or other tasks.",
+      //                     'The focus of this item is on the participant’s communication of his or her recognition, understanding, and/or response to the feelings of other people or characters, real or conveyed in stories or other tasks.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 69,
       //                   TestId: null,
-      //                   Name: "Responsibility (B-8)",
+      //                   Name: 'Responsibility (B-8)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This item focuses on the participant’s references to and descriptions of being responsible for his or her own actions in typical daily living situations, in responding to normal social mores and expectations (from getting a haircut to finding a job) in an active, independent way.",
+      //                     'This item focuses on the participant’s references to and descriptions of being responsible for his or her own actions in typical daily living situations, in responding to normal social mores and expectations (from getting a haircut to finding a job) in an active, independent way.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 70,
       //                   TestId: null,
-      //                   Name: "Quality of Social Overtures (B-9)",
+      //                   Name: 'Quality of Social Overtures (B-9)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction with the examiner, not on the frequency of such attempts.",
+      //                     'This is a summary item that focuses on the quality of the child’s attempts to initiate social interaction with the examiner, not on the frequency of such attempts.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 71,
       //                   TestId: null,
-      //                   Name: "Quality of Social Response (B-11)",
+      //                   Name: 'Quality of Social Response (B-11)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This is a summary item that focuses on the participant’s social responses throughout the ADOS-2 evaluation.",
+      //                     'This is a summary item that focuses on the participant’s social responses throughout the ADOS-2 evaluation.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 72,
       //                   TestId: null,
-      //                   Name:
-      //                     "Amount of Reciprocal Social Communication (B-12)",
+      //                   Name: 'Amount of Reciprocal Social Communication (B-12)',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "The focus of this item is on the frequency with which reciprocal interchanges occur during the course of the ADOS-2 evaluation, using any mode of communication. Frequency here is defined both by absolute number of occurrences and distribution across a range of contexts.",
+      //                     'The focus of this item is on the frequency with which reciprocal interchanges occur during the course of the ADOS-2 evaluation, using any mode of communication. Frequency here is defined both by absolute number of occurrences and distribution across a range of contexts.',
       //                   ParentScaleTitleId: 16,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
-      //         }
-      //       ]
-      //     }
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
+      //       ],
+      //     },
       //   ],
       //   ParentGroupSubScales: [],
-      //   TestScoringTableDetails: null
+      //   TestScoringTableDetails: null,
       // },
       // {
       //   Id: 4,
-      //   Name: "Childhood Autism Rating Scale - 2",
-      //   Abbreviation: "CARS-2",
+      //   Name: 'Childhood Autism Rating Scale - 2',
+      //   Abbreviation: 'CARS-2',
       //   Descriptions:
-      //     "<p>The Childhood Autism Rating Scale - 2 identifies individuals with autism, based on direct observation. It discriminates between autism and severe cognitive deficits. This new edition is also more responsive to those on the high-functioning end of the spectrum. The Standard Version Rating Booklet and the High-Functioning Version Rating Booklet each address 15 functional areas. </p>  <p>A questionnaire for Parents or Caregivers is also included. The CARS2-QPC is an unscored form completed by the parent or caregiver of the individual being assessed. Its purpose is to give the clinician more information on which to base CARS2-ST or CARS2-HF ratings. The areas covered by the CARS2-QPC include the individuals early development; social, emotional, and communication skills; repetitive behaviors; play and routines; and unusual sensory interests.</p>",
+      //     '<p>The Childhood Autism Rating Scale - 2 identifies individuals with autism, based on direct observation. It discriminates between autism and severe cognitive deficits. This new edition is also more responsive to those on the high-functioning end of the spectrum. The Standard Version Rating Booklet and the High-Functioning Version Rating Booklet each address 15 functional areas. </p>  <p>A questionnaire for Parents or Caregivers is also included. The CARS2-QPC is an unscored form completed by the parent or caregiver of the individual being assessed. Its purpose is to give the clinician more information on which to base CARS2-ST or CARS2-HF ratings. The areas covered by the CARS2-QPC include the individuals early development; social, emotional, and communication skills; repetitive behaviors; play and routines; and unusual sensory interests.</p>',
       //   DomainId: 4,
-      //   DomainName: "Autism",
-      //   SubTestType: "Item",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Description",
-      //   CreatedDate: "2018-09-22T19:24:26.873",
+      //   DomainName: 'Autism',
+      //   SubTestType: 'Item',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-22T19:24:26.873',
       //   ParentGroupScales: [],
       //   TestIndexes: [],
       //   SubTests: [],
@@ -6061,268 +6251,268 @@ class App extends Component {
       //   ParentGroupSubScales: [
       //     {
       //       Id: 3,
-      //       ParentGroupSubScaleName: "CARS2-ST",
+      //       ParentGroupSubScaleName: 'CARS2-ST',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 22,
-      //           ParentScaleName: "CARS-2-ST ITEMS",
+      //           ParentScaleName: 'CARS-2-ST ITEMS',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 98,
       //               TestId: null,
-      //               Name: "Relating to People",
+      //               Name: 'Relating to People',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of how the child behaves in a variety of situations involving interaction with other people",
+      //                 'This is a rating of how the child behaves in a variety of situations involving interaction with other people',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 99,
       //               TestId: null,
-      //               Name: "Imitation",
+      //               Name: 'Imitation',
       //               Abbreviation: null,
       //               Description:
-      //                 "This rating is based on how the child imitates both verbal and nonverbal acts. Behavior to be imitated should clearly be within the child’s abilities.",
+      //                 'This rating is based on how the child imitates both verbal and nonverbal acts. Behavior to be imitated should clearly be within the child’s abilities.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 100,
       //               TestId: null,
-      //               Name: "Emotional Response",
+      //               Name: 'Emotional Response',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of how the child reacts to both pleasant and unpleasant situations. It involves a determination of whether the child’s emotions or feelings seem appropriate to the situation.  This items in concerned with the appropriateness of both the type of response and the intensity of the response.",
+      //                 'This is a rating of how the child reacts to both pleasant and unpleasant situations. It involves a determination of whether the child’s emotions or feelings seem appropriate to the situation.  This items in concerned with the appropriateness of both the type of response and the intensity of the response.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 101,
       //               TestId: null,
-      //               Name: "Body Use",
+      //               Name: 'Body Use',
       //               Abbreviation: null,
       //               Description:
-      //                 "This area represents a rating of both coordination and appropriateness of body movements. It includes such deviations as posturing, spinning, tapping, rocking, toe-walking, and self-directed aggression.",
+      //                 'This area represents a rating of both coordination and appropriateness of body movements. It includes such deviations as posturing, spinning, tapping, rocking, toe-walking, and self-directed aggression.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 102,
       //               TestId: null,
-      //               Name: "Object Use",
+      //               Name: 'Object Use',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of both the child’s interest in toys or other objects, and his or her uses of them.",
+      //                 'This is a rating of both the child’s interest in toys or other objects, and his or her uses of them.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 103,
       //               TestId: null,
-      //               Name: "Adaption to Change",
+      //               Name: 'Adaption to Change',
       //               Abbreviation: null,
       //               Description:
-      //                 "This item concerns difficulties in changing established routines or patterns and in changing from one activity to another.",
+      //                 'This item concerns difficulties in changing established routines or patterns and in changing from one activity to another.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 104,
       //               TestId: null,
-      //               Name: "Visual Response",
+      //               Name: 'Visual Response',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of unusual visual attention patterns found in many individuals on the autism spectrum. This rating includes the child’s response when he or she is required to look at objects or material.",
+      //                 'This is a rating of unusual visual attention patterns found in many individuals on the autism spectrum. This rating includes the child’s response when he or she is required to look at objects or material.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 105,
       //               TestId: null,
-      //               Name: "Listening Response",
+      //               Name: 'Listening Response',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of unusual listening behavior or unusual responses to sounds. It involves the child’s reaction to both human voices and other types of sound. This item is also concerned with the child’s interest in various sounds.",
+      //                 'This is a rating of unusual listening behavior or unusual responses to sounds. It involves the child’s reaction to both human voices and other types of sound. This item is also concerned with the child’s interest in various sounds.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 106,
       //               TestId: null,
-      //               Name: "Taste, Smell, and Touch Response and Use",
+      //               Name: 'Taste, Smell, and Touch Response and Use',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of the child’s response to stimulation of the taste, smell, and touch senses (including pain). It is also a rating of whether the child makes appropriate use of these sense modalities. In contrast to the “distance” senses of hearing and vision rated in the previous two areas, this is a rating of the “near” senses.",
+      //                 'This is a rating of the child’s response to stimulation of the taste, smell, and touch senses (including pain). It is also a rating of whether the child makes appropriate use of these sense modalities. In contrast to the “distance” senses of hearing and vision rated in the previous two areas, this is a rating of the “near” senses.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 107,
       //               TestId: null,
-      //               Name: "Fear or Nervousness",
+      //               Name: 'Fear or Nervousness',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of unusual or unexplainable fears. However, it also includes rating the absence of fear under conditions where a typically developing child at the same developmental level would be likely to show fear or nervousness",
+      //                 'This is a rating of unusual or unexplainable fears. However, it also includes rating the absence of fear under conditions where a typically developing child at the same developmental level would be likely to show fear or nervousness',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 108,
       //               TestId: null,
-      //               Name: "Verbal Communication",
+      //               Name: 'Verbal Communication',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of all facets of the child’s use of speech and language assess not only the presence or absence of speech but also the peculiarity, bizarreness, or inappropriateness of all elements of the child’s utterances when speech is present. Thus, when speech of any sort is present, assess the child’s vocabulary and sentence structure; the tonal quality, volume or loudness, and rhythm of utterances; and the situation appropriateness of the content of meaning of the child’s speech.",
+      //                 'This is a rating of all facets of the child’s use of speech and language assess not only the presence or absence of speech but also the peculiarity, bizarreness, or inappropriateness of all elements of the child’s utterances when speech is present. Thus, when speech of any sort is present, assess the child’s vocabulary and sentence structure; the tonal quality, volume or loudness, and rhythm of utterances; and the situation appropriateness of the content of meaning of the child’s speech.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 109,
       //               TestId: null,
-      //               Name: "Nonverbal Communication",
+      //               Name: 'Nonverbal Communication',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of the child’s nonverbal communication through the use of facial expression, posture, gesture, and body movement. It also includes the child’s response to the nonverbal communication of others. If the child has reasonably good verbal communication skills, there may be less of nonverbal communication; however, a child with impairments of verbal communication may or may not have developed a nonverbal means of communication.",
+      //                 'This is a rating of the child’s nonverbal communication through the use of facial expression, posture, gesture, and body movement. It also includes the child’s response to the nonverbal communication of others. If the child has reasonably good verbal communication skills, there may be less of nonverbal communication; however, a child with impairments of verbal communication may or may not have developed a nonverbal means of communication.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 110,
       //               TestId: null,
-      //               Name: "Activity Level",
+      //               Name: 'Activity Level',
       //               Abbreviation: null,
       //               Description:
-      //                 "This rating refers to how much the child moves about in both restricted and unrestricted situations. Either overactivity or lethargy are part of this rating.",
+      //                 'This rating refers to how much the child moves about in both restricted and unrestricted situations. Either overactivity or lethargy are part of this rating.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 111,
       //               TestId: null,
-      //               Name: "Level and Consistency of Intellectual Response",
+      //               Name: 'Level and Consistency of Intellectual Response',
       //               Abbreviation: null,
       //               Description:
-      //                 "This rating is concerned both with the child’s general level of intellectual functioning and with the consistency or evenness of functioning from one type of skill to another. Some fluctuations in mental functioning occur in many typical children or in those with other problems besides autism. However, this area is intended to identify extremely unusual or “peak” skills.",
+      //                 'This rating is concerned both with the child’s general level of intellectual functioning and with the consistency or evenness of functioning from one type of skill to another. Some fluctuations in mental functioning occur in many typical children or in those with other problems besides autism. However, this area is intended to identify extremely unusual or “peak” skills.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 112,
       //               TestId: null,
-      //               Name: "General Impressions",
+      //               Name: 'General Impressions',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is intended to be an overall rating of autism based on your subjective impression of the degree to which the child has autism as defined by the other 14 items. This rating should be made without recourse to averaging the other ratings. In making this rating, you should take into account all available information concerning the child, including information from such sources as the case history, parent interviews, or past records.",
+      //                 'This is intended to be an overall rating of autism based on your subjective impression of the degree to which the child has autism as defined by the other 14 items. This rating should be made without recourse to averaging the other ratings. In making this rating, you should take into account all available information concerning the child, including information from such sources as the case history, parent interviews, or past records.',
       //               ParentScaleTitleId: 22,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
+      //           HasInput: false,
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 5,
-      //       ParentGroupSubScaleName: "CARS2-HF",
+      //       ParentGroupSubScaleName: 'CARS2-HF',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 23,
-      //           ParentScaleName: "CARS-2-HF ITEMS",
+      //           ParentScaleName: 'CARS-2-HF ITEMS',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 113,
       //               TestId: null,
-      //               Name: "Social-Emotional Understanding",
+      //               Name: 'Social-Emotional Understanding',
       //               Abbreviation: null,
       //               Description:
-      //                 "Social-emotional understanding addresses an individual’s cognitive understanding of others’ communication, behaviors, and differing perspectives. The dimensions of social understanding that are included in this item are the ability to read the nonverbal cues of others and the ability to take another person’s perspective. This item does not reflect whether someone has friends or is in a relationship. Rather it deals with an individual’s ability to perceive and articulate how another person may feel or what his or her perspective may be in a situation.",
+      //                 'Social-emotional understanding addresses an individual’s cognitive understanding of others’ communication, behaviors, and differing perspectives. The dimensions of social understanding that are included in this item are the ability to read the nonverbal cues of others and the ability to take another person’s perspective. This item does not reflect whether someone has friends or is in a relationship. Rather it deals with an individual’s ability to perceive and articulate how another person may feel or what his or her perspective may be in a situation.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 114,
       //               TestId: null,
-      //               Name: "Emotional Expression and Regulation of Emotions",
+      //               Name: 'Emotional Expression and Regulation of Emotions',
       //               Abbreviation: null,
       //               Description:
-      //                 "This rating is based on the individual’s ability to express and regulate his or her own emotions.",
+      //                 'This rating is based on the individual’s ability to express and regulate his or her own emotions.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 115,
       //               TestId: null,
-      //               Name: "Relating to People",
+      //               Name: 'Relating to People',
       //               Abbreviation: null,
       //               Description:
-      //                 "This is a rating of how the individual behaves in a variety of situations involving interaction with other people. This item is related to the first two items, which also rate aspects of social relationships. This item differs in that it is confined to dimensions related to direct interpersonal interactions, and the person’s initiation of interactions and reaction to another individual. The two dimensions that are rated on this item are the individual’s initiation of interactions and the reciprocal nature of the interactions.",
+      //                 'This is a rating of how the individual behaves in a variety of situations involving interaction with other people. This item is related to the first two items, which also rate aspects of social relationships. This item differs in that it is confined to dimensions related to direct interpersonal interactions, and the person’s initiation of interactions and reaction to another individual. The two dimensions that are rated on this item are the individual’s initiation of interactions and the reciprocal nature of the interactions.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 116,
       //               TestId: null,
-      //               Name: "Body Use",
+      //               Name: 'Body Use',
       //               Abbreviation: null,
       //               Description:
-      //                 "This area represents both coordination and appropriateness of body movements. Subtle forms of fine and gross motor coordination are rated here, as well as deviations such as posturing, spinning, tapping and rocking, toe-walking, and self-directed aggression.",
+      //                 'This area represents both coordination and appropriateness of body movements. Subtle forms of fine and gross motor coordination are rated here, as well as deviations such as posturing, spinning, tapping and rocking, toe-walking, and self-directed aggression.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 117,
       //               TestId: null,
-      //               Name: "Object Use in Play",
+      //               Name: 'Object Use in Play',
       //               Abbreviation: null,
       //               Description:
-      //                 "This rating includes the person’s interest in and use of toys or other objects. In addition to the traditional issues related to repetitive play with part of objects, the focus of this item also includes the degree to which the individual engages in imaginative symbolic play and the degree to which toy figures are used as agents.",
+      //                 'This rating includes the person’s interest in and use of toys or other objects. In addition to the traditional issues related to repetitive play with part of objects, the focus of this item also includes the degree to which the individual engages in imaginative symbolic play and the degree to which toy figures are used as agents.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 646,
       //               TestId: null,
-      //               Name: "Adaptation to Change/Restricted Interests",
+      //               Name: 'Adaptation to Change/Restricted Interests',
       //               Abbreviation: null,
       //               Description:
-      //                 "This area concerns difficulty in changing established routines or patterns, difficulties in changing from one activity to another, and restricted special interests.",
+      //                 'This area concerns difficulty in changing established routines or patterns, difficulties in changing from one activity to another, and restricted special interests.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 118,
       //               TestId: null,
-      //               Name: "Visual Response",
+      //               Name: 'Visual Response',
       //               Abbreviation: null,
       //               Description:
-      //                 "This item covers the use of vision in three areas; visual fascinations, the ease with which the individual can shift visual attention, and the degree to which the individual’s eye contact is integrated with actions and communication.",
+      //                 'This item covers the use of vision in three areas; visual fascinations, the ease with which the individual can shift visual attention, and the degree to which the individual’s eye contact is integrated with actions and communication.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 119,
       //               TestId: null,
-      //               Name: "Listening Response",
+      //               Name: 'Listening Response',
       //               Abbreviation: null,
       //               Description:
-      //                 "This rating is based on the person’s unusual responses to sounds and how the listening response is coordinated with the use of other senses.",
+      //                 'This rating is based on the person’s unusual responses to sounds and how the listening response is coordinated with the use of other senses.',
       //               ParentScaleTitleId: 23,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
-      //     }
+      //           HasInput: false,
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestScoringTableDetails: null
+      //   TestScoringTableDetails: null,
       // },
       // {
       //   Id: 9,
@@ -6472,368 +6662,368 @@ class App extends Component {
       //     }
       //   ]
       // },
-      {
-        Id: 1,
-        Name: 'Wechsler Intelligence Scale for Children – Fifth Edition',
-        Abbreviation: 'WISC-V',
-        Descriptions:
-          'Wechsler Intelligence Scale for Children – Fifth Edition is a test of intellectual abilities, which assesses both cognitive strengths and weaknesses in children aged 6 years 0 months through 16 years 11 months (6:0-16:11).',
-        DomainId: 5,
-        DomainName: 'Intelligence',
-        SubTestType: 'Subtest',
-        ScoreType: 'Score',
-        DescriptionType: 'Description',
-        CreatedDate: '2018-09-08T16:53:28.24',
-        ParentGroupScales: [
-          {
-            Id: 1,
-            ParentGroupScaleName: 'Intellectual Functioning',
-            Description: null,
-            ParentGroupSubScales: [
-              {
-                Id: 1,
-                ParentGroupSubScaleName: 'Full Scale',
-                ParentGroupScaleId: 1,
-                ParentScaleTitles: [
-                  {
-                    Id: 1,
-                    ParentScaleName: 'Verbal Comprehension',
-                    ParentScaleDescription: null,
-                    CreatedDate: null,
-                    SubTests: [
-                      {
-                        Id: 1,
-                        TestId: null,
-                        Name: 'Similarities',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest is designed to measure verbal concept formation and abstract reasoning. It also involves crystallized intelligence, word knowledge, cognitive flexibility, auditory comprehension, long-term memory, associative and categorical thinking, distinction between nonessential and essential features, and verbal expression.',
-                        ParentScaleTitleId: 1,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 2,
-                        TestId: null,
-                        Name: 'Vocabulary',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest is designed to measure word knowledge and verbal concept formation. It also measures crystallized intelligence, fund of knowledge, learning ability, verbal expression, long-term memory, and degree of vocabulary development.',
-                        ParentScaleTitleId: 1,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 3,
-                        TestId: null,
-                        Name: 'Information',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest is designed to measure a child’s ability to acquire, retain, and retrieve general factual knowledge. It involves crystallized intelligence, long-term memory, and the ability to retain and retrieve knowledge from the environment and/or formal instruction.',
-                        ParentScaleTitleId: 1,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 4,
-                        TestId: null,
-                        Name: 'Comprehension',
-                        Abbreviation: null,
-                        Description:
-                          'It is designed to measure verbal reasoning and conceptualization, verbal comprehension and expression, the ability to evaluate and use past experience, and the ability to demonstrate practical knowledge and judgement. It also involved crystallized intelligence, knowledge of conventional standards of behavior, social judgement, long-term memory and common sense.',
-                        ParentScaleTitleId: 1,
-                        CreatedDate: null,
-                      },
-                    ],
-                    HasInput: false,
-                  },
-                  {
-                    Id: 2,
-                    ParentScaleName: 'Visual Spatial',
-                    ParentScaleDescription: null,
-                    CreatedDate: null,
-                    SubTests: [
-                      {
-                        Id: 5,
-                        TestId: null,
-                        Name: 'Block Design',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest is designed to measure verbal concept formation and abstract reasoning. It also involves crystallized intelligence, word knowledge, cognitive flexibility, auditory comprehension, long-term memory, associative and categorical thinking, distinction between nonessential and essential features, and verbal expression.',
-                        ParentScaleTitleId: 2,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 6,
-                        TestId: null,
-                        Name: 'Vocabulary',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest is designed to measure the ability to analyze and synthesize abstract visual stimuli. It also involved nonverbal concept formation and reasoning, broad visual intelligence, visual perception and organization, simultaneous processing, visual-motor coordination, learning, and the ability to separate figure-ground in visual stimuli.',
-                        ParentScaleTitleId: 2,
-                        CreatedDate: null,
-                      },
-                    ],
-                    HasInput: false,
-                  },
-                  {
-                    Id: 5,
-                    ParentScaleName: 'Processing Speed',
-                    ParentScaleDescription: null,
-                    CreatedDate: null,
-                    SubTests: [
-                      {
-                        Id: 14,
-                        TestId: null,
-                        Name: 'Coding',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest measures processing speed, short-term visual memory, procedural and incidental learning ability, psychomotor speed, visual perception, visual-motor coordination, visual scanning ability, cognitive flexibility, attention, concentration, and motivation.',
-                        ParentScaleTitleId: 5,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 15,
-                        TestId: null,
-                        Name: 'Symbol Search',
-                        Abbreviation: null,
-                        Description:
-                          'It involves visual-perceptual and decision-making speed, short-term visual memory, visual-motor coordination, inhibitory control, visual discrimination, psychomotor speed, sustained attention and concentration.',
-                        ParentScaleTitleId: 5,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 16,
-                        TestId: null,
-                        Name: 'Cancellation',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest measures rate of test taking, speed of visual-perceptual processing and decision making, visual scanning ability, and visual-perceptual recognition and discrimination.',
-                        ParentScaleTitleId: 5,
-                        CreatedDate: null,
-                      },
-                    ],
-                    HasInput: false,
-                  },
-                ],
-              },
-              {
-                Id: 2,
-                ParentGroupSubScaleName: 'General Abilities',
-                ParentGroupScaleId: 1,
-                ParentScaleTitles: [
-                  {
-                    Id: 3,
-                    ParentScaleName: 'Fluid Reasoning',
-                    ParentScaleDescription: null,
-                    CreatedDate: null,
-                    SubTests: [
-                      {
-                        Id: 7,
-                        TestId: null,
-                        Name: 'Matrix Reasoning',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest is designed to measure fluid intelligence, broad visual intelligence, classification and spatial ability, knowledge of part-whole relationships, and simultaneous processing.',
-                        ParentScaleTitleId: 3,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 8,
-                        TestId: null,
-                        Name: 'Figure Weights',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest measures quantitative fluid reasoning and induction, as well as emphasized inductive or deductive logic.',
-                        ParentScaleTitleId: 3,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 9,
-                        TestId: null,
-                        Name: 'Picture Concepts',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest measures fluid and inductive reasoning, visual-perceptual recognition and processing, and conceptual thinking. It also requires visual scanning, working memory, and abstract reasoning.',
-                        ParentScaleTitleId: 3,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 10,
-                        TestId: null,
-                        Name: 'Arithmetic',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest involves mental manipulation, concentration, brief focused attention, working memory, short- and long-term memory, numerical reasoning ability, applied computational ability, and mental alertness. Additionally, it requires sequential processing; fluid, quantitative, and logical reasoning; and quantitative knowledge.',
-                        ParentScaleTitleId: 3,
-                        CreatedDate: null,
-                      },
-                    ],
-                    HasInput: false,
-                  },
-                  {
-                    Id: 4,
-                    ParentScaleName: 'Working Memory',
-                    ParentScaleDescription: null,
-                    CreatedDate: null,
-                    SubTests: [
-                      {
-                        Id: 11,
-                        TestId: null,
-                        Name: 'Digit Span',
-                        Abbreviation: null,
-                        Description:
-                          'Requires cognitive flexibility, mental alertness, brief focused attention, auditory discrimination, and auditory rehearsal.<ul><li>Forward task – measures auditory rehearsal and temporary storage capacity in working memory.</li> <li>Backward task – involves working memory, transformation of information, mental manipulation, and may involve visuospatial imaging.</li>  <li>Sequencing task – measures working memory, mental manipulation, and complex sequencing.</li></ul>',
-                        ParentScaleTitleId: 4,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 12,
-                        TestId: null,
-                        Name: 'Picture Span',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest measures visual working memory and working memory capacity through the use of semantically meaningful stimuli.',
-                        ParentScaleTitleId: 4,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 13,
-                        TestId: null,
-                        Name: 'Letter- Number Sequencing',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest involves auditory discrimination, brief focused attention, concentration, registration, and auditory rehearsal. It also measures sequential processing, the ability to compare stimuli based on quantity or alphabetic principles, working memory capacity, and mental manipulation.',
-                        ParentScaleTitleId: 4,
-                        CreatedDate: null,
-                      },
-                    ],
-                    HasInput: false,
-                  },
-                  {
-                    Id: 17,
-                    ParentScaleName: 'Complimentary Subtests',
-                    ParentScaleDescription: null,
-                    CreatedDate: null,
-                    SubTests: [
-                      {
-                        Id: 73,
-                        TestId: null,
-                        Name: 'Naming Speed Literacy',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest specifically measures the automaticity of visual-verbal associations, which should be well developed in school-age children. This subtest was not designed as a measure of intelligence but to enable clinicians to identify difficulties in cognitive processes associated with academic learning.',
-                        ParentScaleTitleId: 17,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 74,
-                        TestId: null,
-                        Name: 'Naming Speed Quality',
-                        Abbreviation: null,
-                        Description:
-                          'The subtest has tasks similar to the experimental literature that show greater sensitivity to mathematics skills and specific learning disorder-mathematics than do the traditional rapid automatized naming tasks that are more closely associated with reading – and writing – related variables.',
-                        ParentScaleTitleId: 17,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 75,
-                        TestId: null,
-                        Name: 'Immediate Symbol Translation',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest has tasks similar to Immediate Symbol Translation measure verbal-visual associative memory or paired associates learning, storage, and retrieval fluency and accuracy, and immediate recall. This subtest was not designed as a measure of intelligence but as a measure of cognitive processes that may be interfering with academic learning.',
-                        ParentScaleTitleId: 17,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 76,
-                        TestId: null,
-                        Name: 'Delayed Symbol Translation',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest is a cued memory paradigm. Tasks similar to Delayed Symbol Translation measure verbal-visual associative memory or paired associates learning, storage and retrieval fluency and accuracy, and delayed recall. This subtest is not designed as a measure of intelligence but as a measure of cognitive process related to learning difficulties.',
-                        ParentScaleTitleId: 17,
-                        CreatedDate: null,
-                      },
-                      {
-                        Id: 77,
-                        TestId: null,
-                        Name: 'Recognition Symbol Translation',
-                        Abbreviation: null,
-                        Description:
-                          'This subtest measure verbal-visual associative memory or paired associates learning, storage and retrieval fluency and accuracy, and delayed recognition. It is not a measure of intelligence but a measure of cognitive process related to learning.',
-                        ParentScaleTitleId: 17,
-                        CreatedDate: null,
-                      },
-                    ],
-                    HasInput: false,
-                  },
-                ],
-              },
-            ],
-            ParentScaleTitles: [],
-          },
-        ],
-        TestIndexes: [
-          {
-            Id: 1,
-            IndexName: 'Full Scale IQ',
-            IndexDescription:
-              'is a composite score that represents general intellectual functioning and is calculated from all of the subtests within the five main indices: Verbal Comprehension, Visual Spatial, Fluid Reasoning, Working Memory and Processing Speed',
-            TestId: 1,
-            CreatedDate: '2018-09-08T00:00:00',
-            SubTests: [],
-            IndexConditions: [
-              {
-                Id: 1,
-                Condition: 'If FSIQ is meaningful',
-                ConditionDescription:
-                  '`Overall, (client) demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of <input type="text" id="txtFSIQScore" /> (<input type="text" id="txtFSIQPercentile" /> percentile), which falls within in the  <input type="text" id="txtFSIQRange" /> range when compared to (his/her) same-aged peers.`',
-                isTrue: true,
-                Score: null,
-                ScorePercentile: null,
-                ScoreRange: null,
-                IndexId: null,
-              },
-              {
-                Id: 2,
-                Condition: 'If FSIQ is NOT meaningful',
-                ConditionDescription:
-                  'Overall, (client) demonstrated an inconsistent performance on the WISC-V. As a result, (his/her) Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the five Composite areas that constitute (his/her) Full-Scale score (FSIQ). Therefore, in order to better understand (his/her) cognitive strengths and weaknesses, a more in-depth look at all of (client’s) individual subtest scores is warranted.',
-                isTrue: false,
-                Score: null,
-                ScorePercentile: null,
-                ScoreRange: null,
-                IndexId: null,
-              },
-            ],
-            HasInput: false,
-          },
-          {
-            Id: 2,
-            IndexName: 'General Ability Index',
-            IndexDescription:
-              'is a composite score that provides an estimate of general intellectual ability, with reduced emphasis on working memory and processing speed relative to the FSIQ.',
-            TestId: 1,
-            CreatedDate: '2018-09-08T00:00:00',
-            SubTests: [],
-            IndexConditions: [],
-            HasInput: true,
-          },
-        ],
-        SubTests: [],
-        TestSummaries: [
-          {
-            Id: 1,
-            Name: 'SUMMARY AT END OF COG SECTION',
-            TestId: 1,
-            Descriptions:
-              "Overall, (client’s) performance on the WISC-V provided a snapshot into (his/her) various cognitive abilities and strengths. (He/She) demonstrated well-developed <input type='text' id='txtFSIQAbilities' /> abilities. However, (he/she) also evidenced relative challenges with <input type='text' id='txtFSIQRelatedChallengues' /> These challenges should continue to be monitored and evaluated so as to help (him/her) continue to perform at (his/her) best.",
-          },
-        ],
-        ParentScaleTitles: [],
-        TestModules: [],
-        ParentGroupSubScales: [],
-        TestScoringTableDetails: null,
-      },
+      // {
+      //   Id: 1,
+      //   Name: 'Wechsler Intelligence Scale for Children – Fifth Edition',
+      //   Abbreviation: 'WISC-V',
+      //   Descriptions:
+      //     'Wechsler Intelligence Scale for Children – Fifth Edition is a test of intellectual abilities, which assesses both cognitive strengths and weaknesses in children aged 6 years 0 months through 16 years 11 months (6:0-16:11).',
+      //   DomainId: 5,
+      //   DomainName: 'Intelligence',
+      //   SubTestType: 'Subtest',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-08T16:53:28.24',
+      //   ParentGroupScales: [
+      //     {
+      //       Id: 1,
+      //       ParentGroupScaleName: 'Intellectual Functioning',
+      //       Description: null,
+      //       ParentGroupSubScales: [
+      //         {
+      //           Id: 1,
+      //           ParentGroupSubScaleName: 'Full Scale',
+      //           ParentGroupScaleId: 1,
+      //           ParentScaleTitles: [
+      //             {
+      //               Id: 1,
+      //               ParentScaleName: 'Verbal Comprehension',
+      //               ParentScaleDescription: null,
+      //               CreatedDate: null,
+      //               SubTests: [
+      //                 {
+      //                   Id: 1,
+      //                   TestId: null,
+      //                   Name: 'Similarities',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest is designed to measure verbal concept formation and abstract reasoning. It also involves crystallized intelligence, word knowledge, cognitive flexibility, auditory comprehension, long-term memory, associative and categorical thinking, distinction between nonessential and essential features, and verbal expression.',
+      //                   ParentScaleTitleId: 1,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 2,
+      //                   TestId: null,
+      //                   Name: 'Vocabulary',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest is designed to measure word knowledge and verbal concept formation. It also measures crystallized intelligence, fund of knowledge, learning ability, verbal expression, long-term memory, and degree of vocabulary development.',
+      //                   ParentScaleTitleId: 1,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 3,
+      //                   TestId: null,
+      //                   Name: 'Information',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest is designed to measure a child’s ability to acquire, retain, and retrieve general factual knowledge. It involves crystallized intelligence, long-term memory, and the ability to retain and retrieve knowledge from the environment and/or formal instruction.',
+      //                   ParentScaleTitleId: 1,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 4,
+      //                   TestId: null,
+      //                   Name: 'Comprehension',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'It is designed to measure verbal reasoning and conceptualization, verbal comprehension and expression, the ability to evaluate and use past experience, and the ability to demonstrate practical knowledge and judgement. It also involved crystallized intelligence, knowledge of conventional standards of behavior, social judgement, long-term memory and common sense.',
+      //                   ParentScaleTitleId: 1,
+      //                   CreatedDate: null,
+      //                 },
+      //               ],
+      //               HasInput: false,
+      //             },
+      //             {
+      //               Id: 2,
+      //               ParentScaleName: 'Visual Spatial',
+      //               ParentScaleDescription: null,
+      //               CreatedDate: null,
+      //               SubTests: [
+      //                 {
+      //                   Id: 5,
+      //                   TestId: null,
+      //                   Name: 'Block Design',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest is designed to measure verbal concept formation and abstract reasoning. It also involves crystallized intelligence, word knowledge, cognitive flexibility, auditory comprehension, long-term memory, associative and categorical thinking, distinction between nonessential and essential features, and verbal expression.',
+      //                   ParentScaleTitleId: 2,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 6,
+      //                   TestId: null,
+      //                   Name: 'Vocabulary',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest is designed to measure the ability to analyze and synthesize abstract visual stimuli. It also involved nonverbal concept formation and reasoning, broad visual intelligence, visual perception and organization, simultaneous processing, visual-motor coordination, learning, and the ability to separate figure-ground in visual stimuli.',
+      //                   ParentScaleTitleId: 2,
+      //                   CreatedDate: null,
+      //                 },
+      //               ],
+      //               HasInput: false,
+      //             },
+      //             {
+      //               Id: 5,
+      //               ParentScaleName: 'Processing Speed',
+      //               ParentScaleDescription: null,
+      //               CreatedDate: null,
+      //               SubTests: [
+      //                 {
+      //                   Id: 14,
+      //                   TestId: null,
+      //                   Name: 'Coding',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest measures processing speed, short-term visual memory, procedural and incidental learning ability, psychomotor speed, visual perception, visual-motor coordination, visual scanning ability, cognitive flexibility, attention, concentration, and motivation.',
+      //                   ParentScaleTitleId: 5,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 15,
+      //                   TestId: null,
+      //                   Name: 'Symbol Search',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'It involves visual-perceptual and decision-making speed, short-term visual memory, visual-motor coordination, inhibitory control, visual discrimination, psychomotor speed, sustained attention and concentration.',
+      //                   ParentScaleTitleId: 5,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 16,
+      //                   TestId: null,
+      //                   Name: 'Cancellation',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest measures rate of test taking, speed of visual-perceptual processing and decision making, visual scanning ability, and visual-perceptual recognition and discrimination.',
+      //                   ParentScaleTitleId: 5,
+      //                   CreatedDate: null,
+      //                 },
+      //               ],
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
+      //         {
+      //           Id: 2,
+      //           ParentGroupSubScaleName: 'General Abilities',
+      //           ParentGroupScaleId: 1,
+      //           ParentScaleTitles: [
+      //             {
+      //               Id: 3,
+      //               ParentScaleName: 'Fluid Reasoning',
+      //               ParentScaleDescription: null,
+      //               CreatedDate: null,
+      //               SubTests: [
+      //                 {
+      //                   Id: 7,
+      //                   TestId: null,
+      //                   Name: 'Matrix Reasoning',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest is designed to measure fluid intelligence, broad visual intelligence, classification and spatial ability, knowledge of part-whole relationships, and simultaneous processing.',
+      //                   ParentScaleTitleId: 3,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 8,
+      //                   TestId: null,
+      //                   Name: 'Figure Weights',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest measures quantitative fluid reasoning and induction, as well as emphasized inductive or deductive logic.',
+      //                   ParentScaleTitleId: 3,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 9,
+      //                   TestId: null,
+      //                   Name: 'Picture Concepts',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest measures fluid and inductive reasoning, visual-perceptual recognition and processing, and conceptual thinking. It also requires visual scanning, working memory, and abstract reasoning.',
+      //                   ParentScaleTitleId: 3,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 10,
+      //                   TestId: null,
+      //                   Name: 'Arithmetic',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest involves mental manipulation, concentration, brief focused attention, working memory, short- and long-term memory, numerical reasoning ability, applied computational ability, and mental alertness. Additionally, it requires sequential processing; fluid, quantitative, and logical reasoning; and quantitative knowledge.',
+      //                   ParentScaleTitleId: 3,
+      //                   CreatedDate: null,
+      //                 },
+      //               ],
+      //               HasInput: false,
+      //             },
+      //             {
+      //               Id: 4,
+      //               ParentScaleName: 'Working Memory',
+      //               ParentScaleDescription: null,
+      //               CreatedDate: null,
+      //               SubTests: [
+      //                 {
+      //                   Id: 11,
+      //                   TestId: null,
+      //                   Name: 'Digit Span',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'Requires cognitive flexibility, mental alertness, brief focused attention, auditory discrimination, and auditory rehearsal.<ul><li>Forward task – measures auditory rehearsal and temporary storage capacity in working memory.</li> <li>Backward task – involves working memory, transformation of information, mental manipulation, and may involve visuospatial imaging.</li>  <li>Sequencing task – measures working memory, mental manipulation, and complex sequencing.</li></ul>',
+      //                   ParentScaleTitleId: 4,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 12,
+      //                   TestId: null,
+      //                   Name: 'Picture Span',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest measures visual working memory and working memory capacity through the use of semantically meaningful stimuli.',
+      //                   ParentScaleTitleId: 4,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 13,
+      //                   TestId: null,
+      //                   Name: 'Letter- Number Sequencing',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest involves auditory discrimination, brief focused attention, concentration, registration, and auditory rehearsal. It also measures sequential processing, the ability to compare stimuli based on quantity or alphabetic principles, working memory capacity, and mental manipulation.',
+      //                   ParentScaleTitleId: 4,
+      //                   CreatedDate: null,
+      //                 },
+      //               ],
+      //               HasInput: false,
+      //             },
+      //             {
+      //               Id: 17,
+      //               ParentScaleName: 'Complimentary Subtests',
+      //               ParentScaleDescription: null,
+      //               CreatedDate: null,
+      //               SubTests: [
+      //                 {
+      //                   Id: 73,
+      //                   TestId: null,
+      //                   Name: 'Naming Speed Literacy',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest specifically measures the automaticity of visual-verbal associations, which should be well developed in school-age children. This subtest was not designed as a measure of intelligence but to enable clinicians to identify difficulties in cognitive processes associated with academic learning.',
+      //                   ParentScaleTitleId: 17,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 74,
+      //                   TestId: null,
+      //                   Name: 'Naming Speed Quality',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'The subtest has tasks similar to the experimental literature that show greater sensitivity to mathematics skills and specific learning disorder-mathematics than do the traditional rapid automatized naming tasks that are more closely associated with reading – and writing – related variables.',
+      //                   ParentScaleTitleId: 17,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 75,
+      //                   TestId: null,
+      //                   Name: 'Immediate Symbol Translation',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest has tasks similar to Immediate Symbol Translation measure verbal-visual associative memory or paired associates learning, storage, and retrieval fluency and accuracy, and immediate recall. This subtest was not designed as a measure of intelligence but as a measure of cognitive processes that may be interfering with academic learning.',
+      //                   ParentScaleTitleId: 17,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 76,
+      //                   TestId: null,
+      //                   Name: 'Delayed Symbol Translation',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest is a cued memory paradigm. Tasks similar to Delayed Symbol Translation measure verbal-visual associative memory or paired associates learning, storage and retrieval fluency and accuracy, and delayed recall. This subtest is not designed as a measure of intelligence but as a measure of cognitive process related to learning difficulties.',
+      //                   ParentScaleTitleId: 17,
+      //                   CreatedDate: null,
+      //                 },
+      //                 {
+      //                   Id: 77,
+      //                   TestId: null,
+      //                   Name: 'Recognition Symbol Translation',
+      //                   Abbreviation: null,
+      //                   Description:
+      //                     'This subtest measure verbal-visual associative memory or paired associates learning, storage and retrieval fluency and accuracy, and delayed recognition. It is not a measure of intelligence but a measure of cognitive process related to learning.',
+      //                   ParentScaleTitleId: 17,
+      //                   CreatedDate: null,
+      //                 },
+      //               ],
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
+      //       ],
+      //       ParentScaleTitles: [],
+      //     },
+      //   ],
+      //   TestIndexes: [
+      //     {
+      //       Id: 1,
+      //       IndexName: 'Full Scale IQ',
+      //       IndexDescription:
+      //         'is a composite score that represents general intellectual functioning and is calculated from all of the subtests within the five main indices: Verbal Comprehension, Visual Spatial, Fluid Reasoning, Working Memory and Processing Speed',
+      //       TestId: 1,
+      //       CreatedDate: '2018-09-08T00:00:00',
+      //       SubTests: [],
+      //       IndexConditions: [
+      //         {
+      //           Id: 1,
+      //           Condition: 'If FSIQ is meaningful',
+      //           ConditionDescription:
+      //             '`Overall, (client) demonstrated a consistent performance on the WISC-V and received a Full-Scale IQ (FSIQ) score of <input type="text" id="txtFSIQScore" /> (<input type="text" id="txtFSIQPercentile" /> percentile), which falls within in the  <input type="text" id="txtFSIQRange" /> range when compared to (his/her) same-aged peers.`',
+      //           isTrue: true,
+      //           Score: null,
+      //           ScorePercentile: null,
+      //           ScoreRange: null,
+      //           IndexId: null,
+      //         },
+      //         {
+      //           Id: 2,
+      //           Condition: 'If FSIQ is NOT meaningful',
+      //           ConditionDescription:
+      //             'Overall, (client) demonstrated an inconsistent performance on the WISC-V. As a result, (his/her) Full-Scale score cannot be interpreted meaningfully due to the significant discrepancies between the five Composite areas that constitute (his/her) Full-Scale score (FSIQ). Therefore, in order to better understand (his/her) cognitive strengths and weaknesses, a more in-depth look at all of (client’s) individual subtest scores is warranted.',
+      //           isTrue: false,
+      //           Score: null,
+      //           ScorePercentile: null,
+      //           ScoreRange: null,
+      //           IndexId: null,
+      //         },
+      //       ],
+      //       HasInput: false,
+      //     },
+      //     {
+      //       Id: 2,
+      //       IndexName: 'General Ability Index',
+      //       IndexDescription:
+      //         'is a composite score that provides an estimate of general intellectual ability, with reduced emphasis on working memory and processing speed relative to the FSIQ.',
+      //       TestId: 1,
+      //       CreatedDate: '2018-09-08T00:00:00',
+      //       SubTests: [],
+      //       IndexConditions: [],
+      //       HasInput: true,
+      //     },
+      //   ],
+      //   SubTests: [],
+      //   TestSummaries: [
+      //     {
+      //       Id: 1,
+      //       Name: 'SUMMARY AT END OF COG SECTION',
+      //       TestId: 1,
+      //       Descriptions:
+      //         "Overall, (client’s) performance on the WISC-V provided a snapshot into (his/her) various cognitive abilities and strengths. (He/She) demonstrated well-developed <input type='text' id='txtFSIQAbilities' /> abilities. However, (he/she) also evidenced relative challenges with <input type='text' id='txtFSIQRelatedChallengues' /> These challenges should continue to be monitored and evaluated so as to help (him/her) continue to perform at (his/her) best.",
+      //     },
+      //   ],
+      //   ParentScaleTitles: [],
+      //   TestModules: [],
+      //   ParentGroupSubScales: [],
+      //   TestScoringTableDetails: null,
+      // },
       // {
       //   Id: 6,
       //   Name: "The Comprehensive Test of Nonverbal Intelligence Second Edition",
@@ -8537,16 +8727,16 @@ class App extends Component {
       // },
       // {
       //   Id: 14,
-      //   Name: "Wide Range Assessment of Memory and Learning 2",
-      //   Abbreviation: "WRAML2",
+      //   Name: 'Wide Range Assessment of Memory and Learning 2',
+      //   Abbreviation: 'WRAML2',
       //   Descriptions:
-      //     "Wide Range Assessment of Memory and Learning 2 is an individually administered test battery designed to assess memory ability in individuals ages 5-90 years.",
+      //     'Wide Range Assessment of Memory and Learning 2 is an individually administered test battery designed to assess memory ability in individuals ages 5-90 years.',
       //   DomainId: 6,
-      //   DomainName: "Learning and Memory",
-      //   SubTestType: "Subtest",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Description",
-      //   CreatedDate: "2018-09-25T18:18:03.433",
+      //   DomainName: 'Learning and Memory',
+      //   SubTestType: 'Subtest',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-25T18:18:03.433',
       //   ParentGroupScales: [],
       //   TestIndexes: [],
       //   SubTests: [],
@@ -8556,245 +8746,244 @@ class App extends Component {
       //   ParentGroupSubScales: [
       //     {
       //       Id: 10,
-      //       ParentGroupSubScaleName: "Core Subtests and Indexes",
+      //       ParentGroupSubScaleName: 'Core Subtests and Indexes',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 60,
-      //           ParentScaleName: "Verbal Memory Index",
+      //           ParentScaleName: 'Verbal Memory Index',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 266,
       //               TestId: null,
-      //               Name: "Story Memory",
+      //               Name: 'Story Memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of contextualized or meaningful verbal information. Given the need to remember extended, meaningful verbal information in everyday life (e.g., conversations, lectures, reading comprehension), performance on this subtest may be particularly important.",
+      //                 'Provides a measure of contextualized or meaningful verbal information. Given the need to remember extended, meaningful verbal information in everyday life (e.g., conversations, lectures, reading comprehension), performance on this subtest may be particularly important.',
       //               ParentScaleTitleId: 60,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 267,
       //               TestId: null,
-      //               Name: "Verbal Learning",
+      //               Name: 'Verbal Learning',
       //               Abbreviation: null,
       //               Description:
-      //                 "Evaluates how well the individual actively learns and is able to recall initially unrelated verbal information with practice opportunities. A list of common nouns is repeated across four trials so that the Examiner can evaluate her ability to learn incrementally and then recall rote verbal information (e.g., remembering a grocery list, remembering the U.S. presidents of the 19th century).",
+      //                 'Evaluates how well the individual actively learns and is able to recall initially unrelated verbal information with practice opportunities. A list of common nouns is repeated across four trials so that the Examiner can evaluate her ability to learn incrementally and then recall rote verbal information (e.g., remembering a grocery list, remembering the U.S. presidents of the 19th century).',
       //               ParentScaleTitleId: 60,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 61,
-      //           ParentScaleName: "Visual Memory Index",
+      //           ParentScaleName: 'Visual Memory Index',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 268,
       //               TestId: null,
-      //               Name: "Design Memory",
+      //               Name: 'Design Memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of memory of visual material that is minimally meaningful. Five cards, each with an array of geometric shapes, are exposed and then after a brief delay the client is asked to draw what is remembered. Copying rote information from a chalkboard or remembering the shapes and locations of newly learned countries on a map are examples of everyday tasks tapping this type of visual memory. For this task, performance also is affected by attention, efficient scanning strategies, spatial skills, and executive skills.",
+      //                 'Provides a measure of memory of visual material that is minimally meaningful. Five cards, each with an array of geometric shapes, are exposed and then after a brief delay the client is asked to draw what is remembered. Copying rote information from a chalkboard or remembering the shapes and locations of newly learned countries on a map are examples of everyday tasks tapping this type of visual memory. For this task, performance also is affected by attention, efficient scanning strategies, spatial skills, and executive skills.',
       //               ParentScaleTitleId: 61,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 269,
       //               TestId: null,
-      //               Name: "Picture Memory",
+      //               Name: 'Picture Memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of nonverbal immediate memory for contextualized information or meaningful information. Performance on this subtest may be noted in situations such as remembering where people sat around a table during a meeting earlier in the day or recalling the content of a photograph in a newspaper article that was read previously.  Good search strategies and sustained attention are important skills for this subtest.",
+      //                 'Provides a measure of nonverbal immediate memory for contextualized information or meaningful information. Performance on this subtest may be noted in situations such as remembering where people sat around a table during a meeting earlier in the day or recalling the content of a photograph in a newspaper article that was read previously.  Good search strategies and sustained attention are important skills for this subtest.',
       //               ParentScaleTitleId: 61,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 62,
-      //           ParentScaleName: "Attention-Concentration Index",
+      //           ParentScaleName: 'Attention-Concentration Index',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 270,
       //               TestId: null,
-      //               Name: "Finger Windows",
+      //               Name: 'Finger Windows',
       //               Abbreviation: null,
       //               Description:
-      //                 "A measure of nonverbal, rote sequential recall. Although the Finger Windows subtest is a measure of visual rote recall, it also is heavily dependent on brief episodes of directed attention. An individual performing well on this subtest also may perform well learning an internal map to a new location or remembering sequential information from construction diagrams.",
+      //                 'A measure of nonverbal, rote sequential recall. Although the Finger Windows subtest is a measure of visual rote recall, it also is heavily dependent on brief episodes of directed attention. An individual performing well on this subtest also may perform well learning an internal map to a new location or remembering sequential information from construction diagrams.',
       //               ParentScaleTitleId: 62,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 271,
       //               TestId: null,
-      //               Name: "Number/Letter",
+      //               Name: 'Number/Letter',
       //               Abbreviation: null,
       //               Description:
-      //                 "A measure of auditory, rote sequential recall. Although the Number Letter subtest is a measure of auditory rote recall, it is heavily dependent on brief episodes of directed attention. An individual performing well on this subtest also should perform well recording phone numbers, class assignments, or sporting team scores accurately.",
+      //                 'A measure of auditory, rote sequential recall. Although the Number Letter subtest is a measure of auditory rote recall, it is heavily dependent on brief episodes of directed attention. An individual performing well on this subtest also should perform well recording phone numbers, class assignments, or sporting team scores accurately.',
       //               ParentScaleTitleId: 62,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
+      //           HasInput: false,
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 11,
-      //       ParentGroupSubScaleName:
-      //         "Optional, Delay Recall, and Recognition Subtests",
+      //       ParentGroupSubScaleName: 'Optional, Delay Recall, and Recognition Subtests',
       //       ParentGroupScaleId: null,
       //       ParentScaleTitles: [
       //         {
       //           Id: 63,
-      //           ParentScaleName: "Optional Subtests",
+      //           ParentScaleName: 'Optional Subtests',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 272,
       //               TestId: null,
-      //               Name: "Sentence Memory",
+      //               Name: 'Sentence Memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Requires the individual to repeat dictated single sentences of increasing length. This subtest evaluates immediate verbal memory skills similar to those needed to follow novel verbal directions or to relay a brief phone message accurately.",
+      //                 'Requires the individual to repeat dictated single sentences of increasing length. This subtest evaluates immediate verbal memory skills similar to those needed to follow novel verbal directions or to relay a brief phone message accurately.',
       //               ParentScaleTitleId: 63,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 273,
       //               TestId: null,
-      //               Name: "Sound Symbol",
+      //               Name: 'Sound Symbol',
       //               Abbreviation: null,
       //               Description:
-      //                 "A paired-associate task requiring the learner to recall sounds associated with various abstract figures. It is a cross-modal task (i.e., verbal-visual), and one that taps important aspects involved in the acquisition of the mechanics of reading or “word-calling.”",
+      //                 'A paired-associate task requiring the learner to recall sounds associated with various abstract figures. It is a cross-modal task (i.e., verbal-visual), and one that taps important aspects involved in the acquisition of the mechanics of reading or “word-calling.”',
       //               ParentScaleTitleId: 63,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 274,
       //               TestId: null,
-      //               Name: "Verbal Working Memory",
+      //               Name: 'Verbal Working Memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures how well an individual retains information that is manipulated while it is in the short-term memory buffer. On this subtest, the client listens to a list of nouns that are both animals and nonanimals and, immediately thereafter, must recall the words in a specified reorganized order. Two levels of difficulty are utilized. An individual performing well on this subtest also should perform well on tasks making heavy demands on verbal working memory, such as comprehending meanings in an extended reading passage, or listening to a radio sports broadcast and being able to figure out who won last night’s games as pairs of team nicknames are announced followed by their final scores.",
+      //                 'Measures how well an individual retains information that is manipulated while it is in the short-term memory buffer. On this subtest, the client listens to a list of nouns that are both animals and nonanimals and, immediately thereafter, must recall the words in a specified reorganized order. Two levels of difficulty are utilized. An individual performing well on this subtest also should perform well on tasks making heavy demands on verbal working memory, such as comprehending meanings in an extended reading passage, or listening to a radio sports broadcast and being able to figure out who won last night’s games as pairs of team nicknames are announced followed by their final scores.',
       //               ParentScaleTitleId: 63,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 275,
       //               TestId: null,
-      //               Name: "Symbolic Working memory",
+      //               Name: 'Symbolic Working memory',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures how well a person actively operates on and retains symbolic information (e.g., numbers, letters) prior to recall. On this subtest, the client first listens to a random list of numbers and then to a random list of numbers and letters. After each section, numbers are recalled in appropriate numerical order and then numbers and letters are recalled in numerical and alphabetical order. Although memory and attention are important for this task, executive skills also are important in finding an appropriate learning strategy. Rote sequential memory may be needed for solving some math problems or in learning irregularly spelled words.",
+      //                 'Measures how well a person actively operates on and retains symbolic information (e.g., numbers, letters) prior to recall. On this subtest, the client first listens to a random list of numbers and then to a random list of numbers and letters. After each section, numbers are recalled in appropriate numerical order and then numbers and letters are recalled in numerical and alphabetical order. Although memory and attention are important for this task, executive skills also are important in finding an appropriate learning strategy. Rote sequential memory may be needed for solving some math problems or in learning irregularly spelled words.',
       //               ParentScaleTitleId: 63,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 64,
-      //           ParentScaleName: "Delay Recall Subtests",
+      //           ParentScaleName: 'Delay Recall Subtests',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 276,
       //               TestId: null,
-      //               Name: "Story Memory Delay Recall",
+      //               Name: 'Story Memory Delay Recall',
       //               Abbreviation: null,
       //               Description:
-      //                 "Measures the examinees ability to remember presented stories after a delay interval of approximately 15 minutes",
+      //                 'Measures the examinees ability to remember presented stories after a delay interval of approximately 15 minutes',
       //               ParentScaleTitleId: 64,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 277,
       //               TestId: null,
-      //               Name: "Verbal Learning Delay Recall",
+      //               Name: 'Verbal Learning Delay Recall',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of memory retrieval after the initial learning of new verbal information (approximately 15 minutes after initial learning).",
+      //                 'Provides a measure of memory retrieval after the initial learning of new verbal information (approximately 15 minutes after initial learning).',
       //               ParentScaleTitleId: 64,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 278,
       //               TestId: null,
-      //               Name: "Sound Symbol Delay Recall",
+      //               Name: 'Sound Symbol Delay Recall',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of memory retrieval after the initial learning of new sound symbol information (approximately 15 minutes after initial learning).",
+      //                 'Provides a measure of memory retrieval after the initial learning of new sound symbol information (approximately 15 minutes after initial learning).',
       //               ParentScaleTitleId: 64,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 65,
-      //           ParentScaleName: "Recognition Subtests",
+      //           ParentScaleName: 'Recognition Subtests',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 279,
       //               TestId: null,
-      //               Name: "Story Memory Recognition",
+      //               Name: 'Story Memory Recognition',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of recognition memory. A multiple choice format with questions from each story is used, providing an interesting comparison between free recall (i.e., in the immediate recall and the delayed recall Story Memory formats) and recognition.",
+      //                 'Provides a measure of recognition memory. A multiple choice format with questions from each story is used, providing an interesting comparison between free recall (i.e., in the immediate recall and the delayed recall Story Memory formats) and recognition.',
       //               ParentScaleTitleId: 65,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 280,
       //               TestId: null,
-      //               Name: "Verbal Learning Recognition",
+      //               Name: 'Verbal Learning Recognition',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of recognition recall of verbal information presented previously (15 - 20 minutes prior).",
+      //                 'Provides a measure of recognition recall of verbal information presented previously (15 - 20 minutes prior).',
       //               ParentScaleTitleId: 65,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 281,
       //               TestId: null,
-      //               Name: "Design Memory Recognition",
+      //               Name: 'Design Memory Recognition',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of recognition recall of visual information that was viewed approximately 20 minutes earlier. The individual is asked to look at and distinguish between designs that were and were not presented earlier in the testing session. Attention to visual detail and executive skills are involved in this task.",
+      //                 'Provides a measure of recognition recall of visual information that was viewed approximately 20 minutes earlier. The individual is asked to look at and distinguish between designs that were and were not presented earlier in the testing session. Attention to visual detail and executive skills are involved in this task.',
       //               ParentScaleTitleId: 65,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 282,
       //               TestId: null,
-      //               Name: "Picture Memory Recognition",
+      //               Name: 'Picture Memory Recognition',
       //               Abbreviation: null,
       //               Description:
-      //                 "Provides a measure of recognition of meaningful visual information or contextualized visual information, such as that found in pictures, in scenes, or in the environment. An example would be correctly recognizing a place in a new city where one has been recently.",
+      //                 'Provides a measure of recognition of meaningful visual information or contextualized visual information, such as that found in pictures, in scenes, or in the environment. An example would be correctly recognizing a place in a new city where one has been recently.',
       //               ParentScaleTitleId: 65,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
-      //     }
+      //           HasInput: false,
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestScoringTableDetails: null
+      //   TestScoringTableDetails: null,
       // },
       // {
       //   Id: 18,
@@ -10311,2231 +10500,2229 @@ class App extends Component {
       // },
       // {
       //   Id: 15,
-      //   Name: "Behavior Assessment System for Children",
-      //   Abbreviation: "BASC-3",
+      //   Name: 'Behavior Assessment System for Children',
+      //   Abbreviation: 'BASC-3',
       //   Descriptions:
-      //     "The Behavior Assessment System for Children is a multimethod, multidimensional system used to evaluate the behavior and self-perceptions of children and young adults ages 2 through 25 years.",
+      //     'The Behavior Assessment System for Children is a multimethod, multidimensional system used to evaluate the behavior and self-perceptions of children and young adults ages 2 through 25 years.',
       //   DomainId: 8,
-      //   DomainName: "Social-Emotional",
-      //   SubTestType: "Scale",
-      //   ScoreType: "Score",
-      //   DescriptionType: "Description",
-      //   CreatedDate: "2018-09-27T09:41:51.087",
+      //   DomainName: 'Social-Emotional',
+      //   SubTestType: 'Scale',
+      //   ScoreType: 'Score',
+      //   DescriptionType: 'Description',
+      //   CreatedDate: '2018-09-27T09:41:51.087',
       //   ParentGroupScales: [
       //     {
       //       Id: 9,
-      //       ParentGroupScaleName: "Self-Report of Personality",
+      //       ParentGroupScaleName: 'Self-Report of Personality',
       //       Description:
-      //         "this personality inventory consists of statements that respondents answer in one of two ways. Some of the items require a true or false response, while others use a four-point scale of frequency, ranging from Never to Almost Always. It has three age-level forms: child (ages 8-11), adolescent (ages 12-21), and young adults attending a postsecondary school (ages 18-25).",
+      //         'this personality inventory consists of statements that respondents answer in one of two ways. Some of the items require a true or false response, while others use a four-point scale of frequency, ranging from Never to Almost Always. It has three age-level forms: child (ages 8-11), adolescent (ages 12-21), and young adults attending a postsecondary school (ages 18-25).',
       //       ParentGroupSubScales: [],
       //       ParentScaleTitles: [
       //         {
       //           Id: 66,
-      //           ParentScaleName: "Validity Indexes",
+      //           ParentScaleName: 'Validity Indexes',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 283,
       //               TestId: null,
-      //               Name: "F Index",
+      //               Name: 'F Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "This index assesses the possibility that a child rated him- or herself in an inordinately negative fashion or, in fact, has severe diverse problems requiring immediate attention. It may also be considered a “faking bad” index because individuals, in an effort to look severely disturbed, may choose items that reflect an abnormally high number of symptoms.",
+      //                 'This index assesses the possibility that a child rated him- or herself in an inordinately negative fashion or, in fact, has severe diverse problems requiring immediate attention. It may also be considered a “faking bad” index because individuals, in an effort to look severely disturbed, may choose items that reflect an abnormally high number of symptoms.',
       //               ParentScaleTitleId: 66,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 284,
       //               TestId: null,
-      //               Name: "L Index",
+      //               Name: 'L Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "This index is designed to detect a response set that may be characterized as one of social desirability or “faking good.” A high score may simply reflect a high degree of psychological naivete and below-average insight into one’s own behavior and feelings. Alternatively, a high score may indicate that the individual is defensive or unwilling to share information about him or herself. It may also detect responses that tend to present an idealized view of the self; some people may choose item responses that correspond to the image they wish others had of them and not to how they really are.",
+      //                 'This index is designed to detect a response set that may be characterized as one of social desirability or “faking good.” A high score may simply reflect a high degree of psychological naivete and below-average insight into one’s own behavior and feelings. Alternatively, a high score may indicate that the individual is defensive or unwilling to share information about him or herself. It may also detect responses that tend to present an idealized view of the self; some people may choose item responses that correspond to the image they wish others had of them and not to how they really are.',
       //               ParentScaleTitleId: 66,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 285,
       //               TestId: null,
-      //               Name: "V Index",
+      //               Name: 'V Index',
       //               Abbreviation: null,
       //               Description:
-      //                 "This index consists of nonsensical items that may be marked because of carelessness or a failure to understand the questions due to limited reading skills or cooperation with assessment procedures.",
+      //                 'This index consists of nonsensical items that may be marked because of carelessness or a failure to understand the questions due to limited reading skills or cooperation with assessment procedures.',
       //               ParentScaleTitleId: 66,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 67,
-      //           ParentScaleName: "Clinical Scales",
+      //           ParentScaleName: 'Clinical Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 286,
       //               TestId: null,
-      //               Name: "Alcohol Abuse",
+      //               Name: 'Alcohol Abuse',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the tendency to use alcohol in ways that could lead to alcohol abuse.",
+      //                 'This scale assesses the tendency to use alcohol in ways that could lead to alcohol abuse.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 287,
       //               TestId: null,
-      //               Name: "Anxiety",
+      //               Name: 'Anxiety',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feels a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                 'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feels a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 288,
       //               TestId: null,
-      //               Name: "Attention Problems",
+      //               Name: 'Attention Problems',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                 'This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 289,
       //               TestId: null,
-      //               Name: "Attitude to School",
+      //               Name: 'Attitude to School',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale surveys the respondent’s general opinion of the utility of school, along with his or her level of comfort with school-related matters.",
+      //                 'This scale surveys the respondent’s general opinion of the utility of school, along with his or her level of comfort with school-related matters.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 290,
       //               TestId: null,
-      //               Name: "Attitude to Teachers",
+      //               Name: 'Attitude to Teachers',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the individual’s perception of teachers as being uncaring, unfair, or unmotivated to help their students. Scores may fluctuate in reaction to recent occurrences of conflict with (or special assistance from) a teacher or school administrator.",
+      //                 'This scale assesses the individual’s perception of teachers as being uncaring, unfair, or unmotivated to help their students. Scores may fluctuate in reaction to recent occurrences of conflict with (or special assistance from) a teacher or school administrator.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 291,
       //               TestId: null,
-      //               Name: "Atypicality",
+      //               Name: 'Atypicality',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.",
+      //                 'This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 292,
       //               TestId: null,
-      //               Name: "Depression",
+      //               Name: 'Depression',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                 'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 293,
       //               TestId: null,
-      //               Name: "Hyperactivity",
+      //               Name: 'Hyperactivity',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.",
+      //                 'This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 294,
       //               TestId: null,
-      //               Name: "Locus of Control",
+      //               Name: 'Locus of Control',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.",
+      //                 'This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 295,
       //               TestId: null,
-      //               Name: "School Maladjustment",
+      //               Name: 'School Maladjustment',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the perceived difficulties associated with attending postsecondary institutions. Such difficulties might include boredom, feeling overwhelmed by school demands, feeling pressured to go to school, and generally lacking motivation to attend classes and do well academically. This scale is designed to show the student’s coping methods in making the challenging transition from secondary to postsecondary school.",
+      //                 'This scale assesses the perceived difficulties associated with attending postsecondary institutions. Such difficulties might include boredom, feeling overwhelmed by school demands, feeling pressured to go to school, and generally lacking motivation to attend classes and do well academically. This scale is designed to show the student’s coping methods in making the challenging transition from secondary to postsecondary school.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 296,
       //               TestId: null,
-      //               Name: "Sensation Seeking",
+      //               Name: 'Sensation Seeking',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the respondent’s seeking of varied, novel, complex, and intense sensations and experiences, and the willingness to take physical, social, legal, and financial risks for the sake of such experience. This is assessed through investigating both the desire to engage in thrilling or potentially hazardous activities and a preference for excitement associated with risk-taking.",
+      //                 'This scale assesses the respondent’s seeking of varied, novel, complex, and intense sensations and experiences, and the willingness to take physical, social, legal, and financial risks for the sake of such experience. This is assessed through investigating both the desire to engage in thrilling or potentially hazardous activities and a preference for excitement associated with risk-taking.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 297,
       //               TestId: null,
-      //               Name: "Sense of Inadequacy",
+      //               Name: 'Sense of Inadequacy',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                 'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 298,
       //               TestId: null,
-      //               Name: "Social Stress",
+      //               Name: 'Social Stress',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                 'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 299,
       //               TestId: null,
-      //               Name: "Somatization",
+      //               Name: 'Somatization',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the tendency to complain about relatively minor physical problems as an expression of psychological difficulties. It evaluates the level and nature of a series of health-related problems, fears, and concerns. The various physical complaints noted may be experienced as real or imaginary but typically are psychogenic if more than a few items are marked.",
+      //                 'This scale assesses the tendency to complain about relatively minor physical problems as an expression of psychological difficulties. It evaluates the level and nature of a series of health-related problems, fears, and concerns. The various physical complaints noted may be experienced as real or imaginary but typically are psychogenic if more than a few items are marked.',
       //               ParentScaleTitleId: 67,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 68,
-      //           ParentScaleName: "Adaptive Scales",
+      //           ParentScaleName: 'Adaptive Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 300,
       //               TestId: null,
-      //               Name: "Interpersonal Relations",
+      //               Name: 'Interpersonal Relations',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.",
+      //                 'This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.',
       //               ParentScaleTitleId: 68,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 301,
       //               TestId: null,
-      //               Name: "Relations with Parents",
+      //               Name: 'Relations with Parents',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.",
+      //                 'This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.',
       //               ParentScaleTitleId: 68,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 302,
       //               TestId: null,
-      //               Name: "Self-Esteem",
+      //               Name: 'Self-Esteem',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                 'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //               ParentScaleTitleId: 68,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 303,
       //               TestId: null,
-      //               Name: "Self-Reliance",
+      //               Name: 'Self-Reliance',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                 'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //               ParentScaleTitleId: 68,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
+      //           HasInput: false,
       //         },
       //         {
       //           Id: 69,
-      //           ParentScaleName: "Content Scales",
+      //           ParentScaleName: 'Content Scales',
       //           ParentScaleDescription: null,
       //           CreatedDate: null,
       //           SubTests: [
       //             {
       //               Id: 304,
       //               TestId: null,
-      //               Name: "Anger Control",
+      //               Name: 'Anger Control',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale gauges the tendency to become irritated and/or angry quickly and impulsively, coupled with an inability to regulate affect and self-control.",
+      //                 'This scale gauges the tendency to become irritated and/or angry quickly and impulsively, coupled with an inability to regulate affect and self-control.',
       //               ParentScaleTitleId: 69,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 305,
       //               TestId: null,
-      //               Name: "Ego Strength",
+      //               Name: 'Ego Strength',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale gauges the expression of a strong self-identity and overall emotional competence, including feelings of self-awareness. Self-acceptance, and positive perception of one’s social support network.",
+      //                 'This scale gauges the expression of a strong self-identity and overall emotional competence, including feelings of self-awareness. Self-acceptance, and positive perception of one’s social support network.',
       //               ParentScaleTitleId: 69,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 306,
       //               TestId: null,
-      //               Name: "Mania",
+      //               Name: 'Mania',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale gauges the tendency toward extended periods of heightened arousal, excessive activity (at times obsessive in focus), and rapid idea generation in the absence of normal fatigue.",
+      //                 'This scale gauges the tendency toward extended periods of heightened arousal, excessive activity (at times obsessive in focus), and rapid idea generation in the absence of normal fatigue.',
       //               ParentScaleTitleId: 69,
-      //               CreatedDate: null
+      //               CreatedDate: null,
       //             },
       //             {
       //               Id: 307,
       //               TestId: null,
-      //               Name: "Test Anxiety",
+      //               Name: 'Test Anxiety',
       //               Abbreviation: null,
       //               Description:
-      //                 "This scale gauges the propensity for irrational worry over fear of taking routine school tests of aptitude or academic skills, regardless of one’s degree of study preparation or confidence in knowledge of the test content.",
+      //                 'This scale gauges the propensity for irrational worry over fear of taking routine school tests of aptitude or academic skills, regardless of one’s degree of study preparation or confidence in knowledge of the test content.',
       //               ParentScaleTitleId: 69,
-      //               CreatedDate: null
-      //             }
+      //               CreatedDate: null,
+      //             },
       //           ],
-      //           HasInput: false
-      //         }
-      //       ]
+      //           HasInput: false,
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 10,
-      //       ParentGroupScaleName: "SRP Composite Scales",
+      //       ParentGroupScaleName: 'SRP Composite Scales',
       //       Description: null,
       //       ParentGroupSubScales: [
       //         {
       //           Id: 12,
-      //           ParentGroupSubScaleName: "SRP-C",
+      //           ParentGroupSubScaleName: 'SRP-C',
       //           ParentGroupScaleId: 10,
       //           ParentScaleTitles: [
       //             {
       //               Id: 70,
-      //               ParentScaleName: "School Problems",
-      //               ParentScaleDescription:
-      //                 "a broad measure of adaptation to school.",
+      //               ParentScaleName: 'School Problems',
+      //               ParentScaleDescription: 'a broad measure of adaptation to school.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 308,
       //                   TestId: null,
-      //                   Name: "Attitude to School",
+      //                   Name: 'Attitude to School',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale surveys the respondent’s general opinion of the utility of school, along with his or her level of comfort with school-related matters.",
+      //                     'This scale surveys the respondent’s general opinion of the utility of school, along with his or her level of comfort with school-related matters.',
       //                   ParentScaleTitleId: 70,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 309,
       //                   TestId: null,
-      //                   Name: "Attitude to Teachers",
+      //                   Name: 'Attitude to Teachers',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the individual’s perception of teachers as being uncaring, unfair, or unmotivated to help their students. Scores may fluctuate in reaction to recent occurrences of conflict with (or special assistance from) a teacher or school administrator.",
+      //                     'This scale assesses the individual’s perception of teachers as being uncaring, unfair, or unmotivated to help their students. Scores may fluctuate in reaction to recent occurrences of conflict with (or special assistance from) a teacher or school administrator.',
       //                   ParentScaleTitleId: 70,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 71,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a broad measure of inwardly directed distress that reflects internalizing problems a child may experience.",
+      //                 'a broad measure of inwardly directed distress that reflects internalizing problems a child may experience.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 310,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.",
+      //                     'This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.',
       //                   ParentScaleTitleId: 71,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 311,
       //                   TestId: null,
-      //                   Name: "Locus of Control",
+      //                   Name: 'Locus of Control',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.",
+      //                     'This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.',
       //                   ParentScaleTitleId: 71,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 312,
       //                   TestId: null,
-      //                   Name: "Social Stress",
+      //                   Name: 'Social Stress',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                     'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //                   ParentScaleTitleId: 71,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 313,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //                   ParentScaleTitleId: 71,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 314,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                     'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //                   ParentScaleTitleId: 71,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 315,
       //                   TestId: null,
-      //                   Name: "Sense of Inadequacy",
+      //                   Name: 'Sense of Inadequacy',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                     'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //                   ParentScaleTitleId: 71,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 72,
-      //               ParentScaleName: "Inattention/Hyperactivity",
+      //               ParentScaleName: 'Inattention/Hyperactivity',
       //               ParentScaleDescription:
-      //                 "an aggregated score containing scales most directly associated with ADHD symptomatology.",
+      //                 'an aggregated score containing scales most directly associated with ADHD symptomatology.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 316,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 72,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 317,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.",
+      //                     'This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.',
       //                   ParentScaleTitleId: 72,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 159,
-      //               ParentScaleName: "Emotional Symptoms Index",
+      //               ParentScaleName: 'Emotional Symptoms Index',
       //               ParentScaleDescription:
-      //                 "a global indicator of serious emotional disturbance, particularly internalized disorders.",
+      //                 'a global indicator of serious emotional disturbance, particularly internalized disorders.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 662,
       //                   TestId: null,
-      //                   Name: "Social Stress",
+      //                   Name: 'Social Stress',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                     'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //                   ParentScaleTitleId: 159,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 664,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //                   ParentScaleTitleId: 159,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 665,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                     'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //                   ParentScaleTitleId: 159,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 666,
       //                   TestId: null,
-      //                   Name: "Sense of Inadequacy",
+      //                   Name: 'Sense of Inadequacy',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                     'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //                   ParentScaleTitleId: 159,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 667,
       //                   TestId: null,
-      //                   Name: "Self-Esteem",
+      //                   Name: 'Self-Esteem',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                     'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //                   ParentScaleTitleId: 159,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 668,
       //                   TestId: null,
-      //                   Name: "Self-Reliance",
+      //                   Name: 'Self-Reliance',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                     'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //                   ParentScaleTitleId: 159,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 73,
-      //               ParentScaleName: "Personal Adjustment",
+      //               ParentScaleName: 'Personal Adjustment',
       //               ParentScaleDescription:
-      //                 "a composite measuring level of adjustment related to interpersonal relationships, self-acceptance, identity development, ego strength, quality of one’s support system and coping skills, peer relationships, tendency towards withdrawal and introversion, tendency to repress uncomfortable feelings and thoughts, and positive outlets for relieving stress.",
+      //                 'a composite measuring level of adjustment related to interpersonal relationships, self-acceptance, identity development, ego strength, quality of one’s support system and coping skills, peer relationships, tendency towards withdrawal and introversion, tendency to repress uncomfortable feelings and thoughts, and positive outlets for relieving stress.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 324,
       //                   TestId: null,
-      //                   Name: "Interpersonal Relations",
+      //                   Name: 'Interpersonal Relations',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.",
+      //                     'This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.',
       //                   ParentScaleTitleId: 73,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 325,
       //                   TestId: null,
-      //                   Name: "Relations with Parents",
+      //                   Name: 'Relations with Parents',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.",
+      //                     'This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.',
       //                   ParentScaleTitleId: 73,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 326,
       //                   TestId: null,
-      //                   Name: "Self-Esteem",
+      //                   Name: 'Self-Esteem',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                     'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //                   ParentScaleTitleId: 73,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 327,
       //                   TestId: null,
-      //                   Name: "Self-Reliance",
+      //                   Name: 'Self-Reliance',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                     'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //                   ParentScaleTitleId: 73,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 13,
-      //           ParentGroupSubScaleName: "SRP-A",
+      //           ParentGroupSubScaleName: 'SRP-A',
       //           ParentGroupScaleId: 10,
       //           ParentScaleTitles: [
       //             {
       //               Id: 74,
-      //               ParentScaleName: "School Problems",
-      //               ParentScaleDescription:
-      //                 "a broad measure of adaptation to school.",
+      //               ParentScaleName: 'School Problems',
+      //               ParentScaleDescription: 'a broad measure of adaptation to school.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 328,
       //                   TestId: null,
-      //                   Name: "Attitude to School",
+      //                   Name: 'Attitude to School',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale surveys the respondent’s general opinion of the utility of school, along with his or her level of comfort with school-related matters.",
+      //                     'This scale surveys the respondent’s general opinion of the utility of school, along with his or her level of comfort with school-related matters.',
       //                   ParentScaleTitleId: 74,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 329,
       //                   TestId: null,
-      //                   Name: "Attitude to Teachers",
+      //                   Name: 'Attitude to Teachers',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the individual’s perception of teachers as being uncaring, unfair, or unmotivated to help their students. Scores may fluctuate in reaction to recent occurrences of conflict with (or special assistance from) a teacher or school administrator.",
+      //                     'This scale assesses the individual’s perception of teachers as being uncaring, unfair, or unmotivated to help their students. Scores may fluctuate in reaction to recent occurrences of conflict with (or special assistance from) a teacher or school administrator.',
       //                   ParentScaleTitleId: 74,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 330,
       //                   TestId: null,
-      //                   Name: "Sensation Seeking",
+      //                   Name: 'Sensation Seeking',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the respondent’s seeking of varied, novel, complex, and intense sensations and experiences, and the willingness to take physical, social, legal, and financial risks for the sake of such experience. This is assessed through investigating both the desire to engage in thrilling or potentially hazardous activities and a preference for excitement associated with risk-taking.",
+      //                     'This scale assesses the respondent’s seeking of varied, novel, complex, and intense sensations and experiences, and the willingness to take physical, social, legal, and financial risks for the sake of such experience. This is assessed through investigating both the desire to engage in thrilling or potentially hazardous activities and a preference for excitement associated with risk-taking.',
       //                   ParentScaleTitleId: 74,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 75,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a broad measure of inwardly directed distress that reflects internalizing problems a child may experience.",
+      //                 'a broad measure of inwardly directed distress that reflects internalizing problems a child may experience.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 331,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.",
+      //                     'This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 332,
       //                   TestId: null,
-      //                   Name: "Locus of Control",
+      //                   Name: 'Locus of Control',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.",
+      //                     'This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 333,
       //                   TestId: null,
-      //                   Name: "Social Stress",
+      //                   Name: 'Social Stress',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                     'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 334,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 335,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                     'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 336,
       //                   TestId: null,
-      //                   Name: "Sense of Inadequacy",
+      //                   Name: 'Sense of Inadequacy',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                     'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 337,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to complain about relatively minor physical problems as an expression of psychological difficulties. It evaluates the level and nature of a series of health-related problems, fears, and concerns. The various physical complaints noted may be experienced as real or imaginary but typically are psychogenic if more than a few items are marked.",
+      //                     'This scale assesses the tendency to complain about relatively minor physical problems as an expression of psychological difficulties. It evaluates the level and nature of a series of health-related problems, fears, and concerns. The various physical complaints noted may be experienced as real or imaginary but typically are psychogenic if more than a few items are marked.',
       //                   ParentScaleTitleId: 75,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 76,
-      //               ParentScaleName: "Inattention/Hyperactivity",
+      //               ParentScaleName: 'Inattention/Hyperactivity',
       //               ParentScaleDescription:
-      //                 "an aggregated score containing scales most directly associated with ADHD symptomatology.",
+      //                 'an aggregated score containing scales most directly associated with ADHD symptomatology.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 338,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 76,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 339,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.",
+      //                     'This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.',
       //                   ParentScaleTitleId: 76,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 77,
-      //               ParentScaleName: "Emotional Symptoms Index",
+      //               ParentScaleName: 'Emotional Symptoms Index',
       //               ParentScaleDescription:
-      //                 "a global indicator of serious emotional disturbance, particularly internalized disorders.",
+      //                 'a global indicator of serious emotional disturbance, particularly internalized disorders.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 340,
       //                   TestId: null,
-      //                   Name: "Social Stress",
+      //                   Name: 'Social Stress',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                     'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //                   ParentScaleTitleId: 77,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 341,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //                   ParentScaleTitleId: 77,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 342,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                     'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //                   ParentScaleTitleId: 77,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 343,
       //                   TestId: null,
-      //                   Name: "Sense of Inadequacy",
+      //                   Name: 'Sense of Inadequacy',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                     'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //                   ParentScaleTitleId: 77,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 344,
       //                   TestId: null,
-      //                   Name: "Self-Esteem",
+      //                   Name: 'Self-Esteem',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                     'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //                   ParentScaleTitleId: 77,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 345,
       //                   TestId: null,
-      //                   Name: "Self-Reliance",
+      //                   Name: 'Self-Reliance',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                     'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //                   ParentScaleTitleId: 77,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 78,
-      //               ParentScaleName: "Personal Adjustment",
+      //               ParentScaleName: 'Personal Adjustment',
       //               ParentScaleDescription:
-      //                 "a composite measuring level of adjustment related to interpersonal relationships, self-acceptance, identity development, ego strength, quality of one’s support system and coping skills, peer relationships, tendency towards withdrawal and introversion, tendency to repress uncomfortable feelings and thoughts, and positive outlets for relieving stress.",
+      //                 'a composite measuring level of adjustment related to interpersonal relationships, self-acceptance, identity development, ego strength, quality of one’s support system and coping skills, peer relationships, tendency towards withdrawal and introversion, tendency to repress uncomfortable feelings and thoughts, and positive outlets for relieving stress.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 346,
       //                   TestId: null,
-      //                   Name: "Interpersonal Relations",
+      //                   Name: 'Interpersonal Relations',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.",
+      //                     'This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.',
       //                   ParentScaleTitleId: 78,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 347,
       //                   TestId: null,
-      //                   Name: "Relations with Parents",
+      //                   Name: 'Relations with Parents',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.",
+      //                     'This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.',
       //                   ParentScaleTitleId: 78,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 348,
       //                   TestId: null,
-      //                   Name: "Self-Esteem",
+      //                   Name: 'Self-Esteem',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                     'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //                   ParentScaleTitleId: 78,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 349,
       //                   TestId: null,
-      //                   Name: "Self-Reliance",
+      //                   Name: 'Self-Reliance',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                     'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //                   ParentScaleTitleId: 78,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 14,
-      //           ParentGroupSubScaleName: "SRP-COL",
+      //           ParentGroupSubScaleName: 'SRP-COL',
       //           ParentGroupScaleId: 10,
       //           ParentScaleTitles: [
       //             {
       //               Id: 79,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a broad measure of inwardly directed distress that reflects internalizing problems a child may experience.",
+      //                 'a broad measure of inwardly directed distress that reflects internalizing problems a child may experience.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 350,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.",
+      //                     'This scale evaluates unusual thoughts and perceptions (e.g., seeing or hearing things that are not there, feeling that one is being watched or targeted) that are commonly associated with severe forms of psychopathology such as schizophrenia.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 351,
       //                   TestId: null,
-      //                   Name: "Locus of Control",
+      //                   Name: 'Locus of Control',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.",
+      //                     'This scale assesses an individual’s perception of his or her level of control over external events. Low scores on this scale indicate the perception of having internal control over events, whereas a high score indicates the belief of being controlled by others or by fate or some other abstract force. These external; forces typically include authority figures such as parents or teachers.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 352,
       //                   TestId: null,
-      //                   Name: "Social Stress",
+      //                   Name: 'Social Stress',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                     'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 353,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 354,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                     'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 355,
       //                   TestId: null,
-      //                   Name: "Sense of Inadequacy",
+      //                   Name: 'Sense of Inadequacy',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                     'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 356,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to complain about relatively minor physical problems as an expression of psychological difficulties. It evaluates the level and nature of a series of health-related problems, fears, and concerns. The various physical complaints noted may be experienced as real or imaginary but typically are psychogenic if more than a few items are marked.",
+      //                     'This scale assesses the tendency to complain about relatively minor physical problems as an expression of psychological difficulties. It evaluates the level and nature of a series of health-related problems, fears, and concerns. The various physical complaints noted may be experienced as real or imaginary but typically are psychogenic if more than a few items are marked.',
       //                   ParentScaleTitleId: 79,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 80,
-      //               ParentScaleName: "Inattention/Hyperactivity",
+      //               ParentScaleName: 'Inattention/Hyperactivity',
       //               ParentScaleDescription:
-      //                 "an aggregated score containing scales most directly associated with ADHD symptomatology.",
+      //                 'an aggregated score containing scales most directly associated with ADHD symptomatology.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 357,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale was designed for use in diagnosing the presence or absence of the core symptoms of attention-deficit/hyperactivity disorder (ADHD). The scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 80,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 358,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.",
+      //                     'This scale focuses primarily on the excessive activity level associated with ADHD disorders. It assesses behaviors such as having trouble standing still, talking while others are talking, and being too noisy.',
       //                   ParentScaleTitleId: 80,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 81,
-      //               ParentScaleName: "Emotional Symptoms Index",
+      //               ParentScaleName: 'Emotional Symptoms Index',
       //               ParentScaleDescription:
-      //                 "a global indicator of serious emotional disturbance, particularly internalized disorders.",
+      //                 'a global indicator of serious emotional disturbance, particularly internalized disorders.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 359,
       //                   TestId: null,
-      //                   Name: "Social Stress",
+      //                   Name: 'Social Stress',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.",
+      //                     'This scale assesses the level of stress children experience in relation to their interactions with peers and others. Feelings of tension, pressure, and a lack of coping resources (especially outlets through close friends and social contact) are evident in social stress.',
       //                   ParentScaleTitleId: 81,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 360,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual. High scorers on this scale may feel a sense of dread and may be troubled by obsessive, intrusive, and bothersome thoughts. At clinically significant score levels, these thoughts may produce confusion in the decision-making process.',
       //                   ParentScaleTitleId: 81,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 361,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.",
+      //                     'This scale assesses traditional symptoms of depression, including feelings of loneliness, sadness, and an inability to enjoy life. A sense of hopelessness, pessimism, and dread underlies many of the items.',
       //                   ParentScaleTitleId: 81,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 362,
       //                   TestId: null,
-      //                   Name: "Sense of Inadequacy",
+      //                   Name: 'Sense of Inadequacy',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.",
+      //                     'This scale assesses perceptions of low achievement expectations, a tendency not to persevere, and a perception of being unsuccessful (primarily in academic endeavors). The person may feel inadequate to meet expectations set by either him- or herself or by others. This scale is related to the concept of level of aspiration, in that a child who sets or accepts unrealistically high goals would be likely to score high on this scale.',
       //                   ParentScaleTitleId: 81,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 363,
       //                   TestId: null,
-      //                   Name: "Self-Esteem",
+      //                   Name: 'Self-Esteem',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                     'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //                   ParentScaleTitleId: 81,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 364,
       //                   TestId: null,
-      //                   Name: "Self-Reliance",
+      //                   Name: 'Self-Reliance',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                     'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //                   ParentScaleTitleId: 81,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 82,
-      //               ParentScaleName: "Personal Adjustment",
+      //               ParentScaleName: 'Personal Adjustment',
       //               ParentScaleDescription:
-      //                 "a composite measuring level of adjustment related to interpersonal relationships, self-acceptance, identity development, ego strength, quality of one’s support system and coping skills, peer relationships, tendency towards withdrawal and introversion, tendency to repress uncomfortable feelings and thoughts, and positive outlets for relieving stress.",
+      //                 'a composite measuring level of adjustment related to interpersonal relationships, self-acceptance, identity development, ego strength, quality of one’s support system and coping skills, peer relationships, tendency towards withdrawal and introversion, tendency to repress uncomfortable feelings and thoughts, and positive outlets for relieving stress.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 365,
       //                   TestId: null,
-      //                   Name: "Interpersonal Relations",
+      //                   Name: 'Interpersonal Relations',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.",
+      //                     'This scale assesses the individual’s reports of success in relating to others and the degree of enjoyment derived from this interaction.',
       //                   ParentScaleTitleId: 82,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 366,
       //                   TestId: null,
-      //                   Name: "Relations with Parents",
+      //                   Name: 'Relations with Parents',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.",
+      //                     'This scale surveys the individual’s perception of being important in the family, the status of the child-parent relationship, and the child’s perception of the degree of parental trust and concern.',
       //                   ParentScaleTitleId: 82,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 367,
       //                   TestId: null,
-      //                   Name: "Self-Esteem",
+      //                   Name: 'Self-Esteem',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.",
+      //                     'This scale assesses a child’s and young adult’s self-satisfaction, with reference to both physical and more global characteristics. Those who score high on this scale are often seen by others as warm, open, venturesome, and self-assured. They typically have good peer relations, a positive sense of their identity, and appropriate levels of ego strength. Those who score low on this scale tend to reveal a pervasive sense of dissatisfaction with the self. Shyness and a feeling of tension are often evident.',
       //                   ParentScaleTitleId: 82,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 368,
       //                   TestId: null,
-      //                   Name: "Self-Reliance",
+      //                   Name: 'Self-Reliance',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.",
+      //                     'This scale assesses self-confidence and assurance in one’s ability to make decisions. It is a strong measure of personal adjustment. High scorers tend to take on responsibility and to face life’s challenges. They tend not to be fearful of their emotions but to be well controlled by internal systems.',
       //                   ParentScaleTitleId: 82,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 83,
-      //               ParentScaleName: "Parent Rating Scales",
+      //               ParentScaleName: 'Parent Rating Scales',
       //               ParentScaleDescription:
-      //                 "a comprehensive measure of a child’s adaptive and problem behaviors in community and home settings. The PRS has three forms with items targeted at three age levels: preschool (ages 2-5), child (ages 5-11), and adolescent (ages 12-21). The forms contain descriptors of behaviors that the respondent rates on a four-point scale of frequency, ranging from Never to Almost Always.",
+      //                 'a comprehensive measure of a child’s adaptive and problem behaviors in community and home settings. The PRS has three forms with items targeted at three age levels: preschool (ages 2-5), child (ages 5-11), and adolescent (ages 12-21). The forms contain descriptors of behaviors that the respondent rates on a four-point scale of frequency, ranging from Never to Almost Always.',
       //               CreatedDate: null,
       //               SubTests: [],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 84,
-      //               ParentScaleName: "Teacher Rating Scales",
+      //               ParentScaleName: 'Teacher Rating Scales',
       //               ParentScaleDescription:
-      //                 "a comprehensive measure of both adaptive and problem behaviors in the school setting. It is designed for use by teachers or others who fill a similar role, such as teacher assistants or preschool caregivers. The TRS has three forms with items targeted at three age levels: preschool (ages 2-5), child (ages 5-11), and adolescent (ages 12-21). The forms contain descriptors of behaviors that the respondent rates on a four-point scale of frequency, ranging from Never to Almost Always.",
+      //                 'a comprehensive measure of both adaptive and problem behaviors in the school setting. It is designed for use by teachers or others who fill a similar role, such as teacher assistants or preschool caregivers. The TRS has three forms with items targeted at three age levels: preschool (ages 2-5), child (ages 5-11), and adolescent (ages 12-21). The forms contain descriptors of behaviors that the respondent rates on a four-point scale of frequency, ranging from Never to Almost Always.',
       //               CreatedDate: null,
       //               SubTests: [],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 85,
-      //               ParentScaleName: "Validity Indexes",
+      //               ParentScaleName: 'Validity Indexes',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 369,
       //                   TestId: null,
-      //                   Name: "F Index",
+      //                   Name: 'F Index',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This index assesses the possibility that a teacher or parent rated a child in an inordinately negative fashion. High scores on this index either indicate that extraordinarily maladaptive behavior is present or suggest that the teacher or parents rated the child’s performance more severely than is warranted.",
+      //                     'This index assesses the possibility that a teacher or parent rated a child in an inordinately negative fashion. High scores on this index either indicate that extraordinarily maladaptive behavior is present or suggest that the teacher or parents rated the child’s performance more severely than is warranted.',
       //                   ParentScaleTitleId: 85,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 86,
-      //               ParentScaleName: "Clinical Scales",
+      //               ParentScaleName: 'Clinical Scales',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 370,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 371,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 372,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 373,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).",
+      //                     'This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 374,
       //                   TestId: null,
-      //                   Name: "Conduct Problems",
+      //                   Name: 'Conduct Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures socially deviant and disruptive behaviors that are characteristic of such DSM-5 disorders as oppositional defiant disorder (ODD) and conduct disorder (CD). These behaviors include general rule-breaking, cheating in school, stealing, lying, and deception",
+      //                     'This scale measures socially deviant and disruptive behaviors that are characteristic of such DSM-5 disorders as oppositional defiant disorder (ODD) and conduct disorder (CD). These behaviors include general rule-breaking, cheating in school, stealing, lying, and deception',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 375,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 376,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 377,
       //                   TestId: null,
-      //                   Name: "Learning Problems",
+      //                   Name: 'Learning Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale was developed to gather information from teachers that may be valuable in screening for academic problems or determining the presence of learning disabilities. The scale samples a variety of academic domains, including reading, mathematics, and spelling as well as more general examples of school performance (e.g., failing grades, lessons going too fast, critical thinking skills).",
+      //                     'This scale was developed to gather information from teachers that may be valuable in screening for academic problems or determining the presence of learning disabilities. The scale samples a variety of academic domains, including reading, mathematics, and spelling as well as more general examples of school performance (e.g., failing grades, lessons going too fast, critical thinking skills).',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 378,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.",
+      //                     'This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 379,
       //                   TestId: null,
-      //                   Name: "Withdrawal",
+      //                   Name: 'Withdrawal',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.",
+      //                     'This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.',
       //                   ParentScaleTitleId: 86,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 87,
-      //               ParentScaleName: "Adaptive Scales",
+      //               ParentScaleName: 'Adaptive Scales',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 380,
       //                   TestId: null,
-      //                   Name: "Activities of Daily Living",
+      //                   Name: 'Activities of Daily Living',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale is intended to screen for adaptive-behavior deficits and to alert the examiner to additional differential diagnostic considerations associated with lower levels of cognitive functioning. Items assess behaviors related to acting in a safe manner, performing simple daily tasks, and organizing tasks.",
+      //                     'This scale is intended to screen for adaptive-behavior deficits and to alert the examiner to additional differential diagnostic considerations associated with lower levels of cognitive functioning. Items assess behaviors related to acting in a safe manner, performing simple daily tasks, and organizing tasks.',
       //                   ParentScaleTitleId: 87,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 381,
       //                   TestId: null,
-      //                   Name: "Adaptability",
+      //                   Name: 'Adaptability',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.",
+      //                     'This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.',
       //                   ParentScaleTitleId: 87,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 382,
       //                   TestId: null,
-      //                   Name: "Functional Communication",
+      //                   Name: 'Functional Communication',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.",
+      //                     'This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.',
       //                   ParentScaleTitleId: 87,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 383,
       //                   TestId: null,
-      //                   Name: "Leadership",
+      //                   Name: 'Leadership',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses additional competencies related to good community and school adaptation. Items include behaviors associated with decision making, getting others to work together, creativity, and working well under pressure.",
+      //                     'This scale assesses additional competencies related to good community and school adaptation. Items include behaviors associated with decision making, getting others to work together, creativity, and working well under pressure.',
       //                   ParentScaleTitleId: 87,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 384,
       //                   TestId: null,
-      //                   Name: "Social Skills",
+      //                   Name: 'Social Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”",
+      //                     'This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”',
       //                   ParentScaleTitleId: 87,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 385,
       //                   TestId: null,
-      //                   Name: "Study Skills",
+      //                   Name: 'Study Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses metamemory, learning strategies, the ability to analyze a problem before solving it, note-taking, motivation to achieve, and organizational skills (e.g., completing homework, trying to do well, turning in work on time).",
+      //                     'This scale assesses metamemory, learning strategies, the ability to analyze a problem before solving it, note-taking, motivation to achieve, and organizational skills (e.g., completing homework, trying to do well, turning in work on time).',
       //                   ParentScaleTitleId: 87,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 88,
-      //               ParentScaleName: "Content Scales",
+      //               ParentScaleName: 'Content Scales',
       //               ParentScaleDescription: null,
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 386,
       //                   TestId: null,
-      //                   Name: "Anger Control",
+      //                   Name: 'Anger Control',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale is intended to assess how well a child or adolescent can keep his or her anger-related emotions under control. High scorers tend to exhibit a quick escalation of emotions, poor conflict management skills, an inability to control anger, and general unhappiness.",
+      //                     'This scale is intended to assess how well a child or adolescent can keep his or her anger-related emotions under control. High scorers tend to exhibit a quick escalation of emotions, poor conflict management skills, an inability to control anger, and general unhappiness.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 387,
       //                   TestId: null,
-      //                   Name: "Bullying",
+      //                   Name: 'Bullying',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale provides an indication of whether a child or adolescent engages in behaviors that are perceived as threatening or intimidating by others. Specific behaviors on the scale include teasing, making threats towards others, manipulating others, and minimizing others.",
+      //                     'This scale provides an indication of whether a child or adolescent engages in behaviors that are perceived as threatening or intimidating by others. Specific behaviors on the scale include teasing, making threats towards others, manipulating others, and minimizing others.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 388,
       //                   TestId: null,
-      //                   Name: "Developmental Social Disorders",
+      //                   Name: 'Developmental Social Disorders',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale provides a global indication of deficits in social skills, communication, interests, and activities. Behaviors included on this scale center on one’s ability to adjust to change, awareness of others and the present situation, ability to communicate and express emotions clearly, and unusual or repetitive movements or actions.",
+      //                     'This scale provides a global indication of deficits in social skills, communication, interests, and activities. Behaviors included on this scale center on one’s ability to adjust to change, awareness of others and the present situation, ability to communicate and express emotions clearly, and unusual or repetitive movements or actions.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 389,
       //                   TestId: null,
-      //                   Name: "Emotional Self-Control",
+      //                   Name: 'Emotional Self-Control',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the ability to regulate one’s affect and emotions in response to environmental changes. It may reflect the influence of a variety of negative emotions, including sadness, frustration, and stress or fear.",
+      //                     'This scale measures the ability to regulate one’s affect and emotions in response to environmental changes. It may reflect the influence of a variety of negative emotions, including sadness, frustration, and stress or fear.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 390,
       //                   TestId: null,
-      //                   Name: "Executive Functioning",
+      //                   Name: 'Executive Functioning',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale provides an overall indication of one’s ability to exercise control over his or her behavior. Items on this scale assess a variety of behaviors associated with organization and planning, using a step-by-step approach to solving problems, attentional focus, remaining under control, and overall decision-making ability.",
+      //                     'This scale provides an overall indication of one’s ability to exercise control over his or her behavior. Items on this scale assess a variety of behaviors associated with organization and planning, using a step-by-step approach to solving problems, attentional focus, remaining under control, and overall decision-making ability.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 391,
       //                   TestId: null,
-      //                   Name: "Negative Emotionality",
+      //                   Name: 'Negative Emotionality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale describes a child or adolescent’s propensity to react in an overly negative way to changes in everyday activities or routines. Items on this scale capture behaviors associated with becoming quickly upset or frustrated, being overly negative or pessimistic, and being argumentative.",
+      //                     'This scale describes a child or adolescent’s propensity to react in an overly negative way to changes in everyday activities or routines. Items on this scale capture behaviors associated with becoming quickly upset or frustrated, being overly negative or pessimistic, and being argumentative.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 392,
       //                   TestId: null,
-      //                   Name: "Resiliency",
+      //                   Name: 'Resiliency',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures an ability to overcome adversity. Behaviors included on this scale highlight adjusting or coping with change, quickly recovering from setbacks, and demonstrating problem-solving ability.",
+      //                     'This scale measures an ability to overcome adversity. Behaviors included on this scale highlight adjusting or coping with change, quickly recovering from setbacks, and demonstrating problem-solving ability.',
       //                   ParentScaleTitleId: 88,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
-      //         }
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
       //       ],
-      //       ParentScaleTitles: []
+      //       ParentScaleTitles: [],
       //     },
       //     {
       //       Id: 11,
-      //       ParentGroupScaleName: "Composite Scales",
+      //       ParentGroupScaleName: 'Composite Scales',
       //       Description: null,
       //       ParentGroupSubScales: [
       //         {
       //           Id: 15,
-      //           ParentGroupSubScaleName: "TRS-P",
+      //           ParentGroupSubScaleName: 'TRS-P',
       //           ParentGroupScaleId: 11,
       //           ParentScaleTitles: [
       //             {
       //               Id: 89,
-      //               ParentScaleName: "Externalizing Problems",
+      //               ParentScaleName: 'Externalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of the disruptive nature of the child’s behaviors.",
+      //                 'a composite of the disruptive nature of the child’s behaviors.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 393,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 89,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 394,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 89,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 90,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.",
+      //                 'a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 395,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.',
       //                   ParentScaleTitleId: 90,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 396,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 90,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 397,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.",
+      //                     'This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.',
       //                   ParentScaleTitleId: 90,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 91,
-      //               ParentScaleName: "Adaptive Skills",
+      //               ParentScaleName: 'Adaptive Skills',
       //               ParentScaleDescription:
-      //                 "summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills",
+      //                 'summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 398,
       //                   TestId: null,
-      //                   Name: "Adaptability",
+      //                   Name: 'Adaptability',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.",
+      //                     'This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.',
       //                   ParentScaleTitleId: 91,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 399,
       //                   TestId: null,
-      //                   Name: "Social Skills",
+      //                   Name: 'Social Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”",
+      //                     'This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”',
       //                   ParentScaleTitleId: 91,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 400,
       //                   TestId: null,
-      //                   Name: "Functional Communication",
+      //                   Name: 'Functional Communication',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.",
+      //                     'This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.',
       //                   ParentScaleTitleId: 91,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 92,
-      //               ParentScaleName: "Behavioral Symptoms Index",
+      //               ParentScaleName: 'Behavioral Symptoms Index',
       //               ParentScaleDescription:
-      //                 "reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition.",
+      //                 'reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 401,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 92,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 402,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 92,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 403,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 92,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 404,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 92,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 405,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).",
+      //                     'This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).',
       //                   ParentScaleTitleId: 92,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 406,
       //                   TestId: null,
-      //                   Name: "Withdrawal",
+      //                   Name: 'Withdrawal',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.",
+      //                     'This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.',
       //                   ParentScaleTitleId: 92,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 16,
-      //           ParentGroupSubScaleName: "TRS-C / TRS-A",
+      //           ParentGroupSubScaleName: 'TRS-C / TRS-A',
       //           ParentGroupScaleId: 11,
       //           ParentScaleTitles: [
       //             {
       //               Id: 93,
-      //               ParentScaleName: "Externalizing Problems",
+      //               ParentScaleName: 'Externalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of the disruptive nature of the child’s behaviors.",
+      //                 'a composite of the disruptive nature of the child’s behaviors.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 407,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 93,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 408,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 93,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 409,
       //                   TestId: null,
-      //                   Name: "Conduct Problems",
+      //                   Name: 'Conduct Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures socially deviant and disruptive behaviors that are characteristic of such DSM-5 disorders as oppositional defiant disorder (ODD) and conduct disorder (CD). These behaviors include general rule-breaking, cheating in school, stealing, lying, and deception",
+      //                     'This scale measures socially deviant and disruptive behaviors that are characteristic of such DSM-5 disorders as oppositional defiant disorder (ODD) and conduct disorder (CD). These behaviors include general rule-breaking, cheating in school, stealing, lying, and deception',
       //                   ParentScaleTitleId: 93,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 94,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.",
+      //                 'a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 410,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.',
       //                   ParentScaleTitleId: 94,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 411,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 94,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 412,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.",
+      //                     'This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.',
       //                   ParentScaleTitleId: 94,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 95,
-      //               ParentScaleName: "School Problems",
+      //               ParentScaleName: 'School Problems',
       //               ParentScaleDescription:
-      //                 "reflects academic difficulties, including problems of motivation, attention, and learning and cognition.",
+      //                 'reflects academic difficulties, including problems of motivation, attention, and learning and cognition.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 413,
       //                   TestId: null,
-      //                   Name: "Learning Problems",
+      //                   Name: 'Learning Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale was developed to gather information from teachers that may be valuable in screening for academic problems or determining the presence of learning disabilities. The scale samples a variety of academic domains, including reading, mathematics, and spelling as well as more general examples of school performance (e.g., failing grades, lessons going too fast, critical thinking skills).",
+      //                     'This scale was developed to gather information from teachers that may be valuable in screening for academic problems or determining the presence of learning disabilities. The scale samples a variety of academic domains, including reading, mathematics, and spelling as well as more general examples of school performance (e.g., failing grades, lessons going too fast, critical thinking skills).',
       //                   ParentScaleTitleId: 95,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 414,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 95,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 96,
-      //               ParentScaleName: "Adaptive Skills",
+      //               ParentScaleName: 'Adaptive Skills',
       //               ParentScaleDescription:
-      //                 "summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills",
+      //                 'summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 415,
       //                   TestId: null,
-      //                   Name: "Adaptability",
+      //                   Name: 'Adaptability',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.",
+      //                     'This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.',
       //                   ParentScaleTitleId: 96,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 416,
       //                   TestId: null,
-      //                   Name: "Social Skills",
+      //                   Name: 'Social Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”",
+      //                     'This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”',
       //                   ParentScaleTitleId: 96,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 417,
       //                   TestId: null,
-      //                   Name: "Functional Communication",
+      //                   Name: 'Functional Communication',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.",
+      //                     'This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.',
       //                   ParentScaleTitleId: 96,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 418,
       //                   TestId: null,
-      //                   Name: "Leadership",
+      //                   Name: 'Leadership',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses additional competencies related to good community and school adaptation. Items include behaviors associated with decision making, getting others to work together, creativity, and working well under pressure.",
+      //                     'This scale assesses additional competencies related to good community and school adaptation. Items include behaviors associated with decision making, getting others to work together, creativity, and working well under pressure.',
       //                   ParentScaleTitleId: 96,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 419,
       //                   TestId: null,
-      //                   Name: "Study Skills",
+      //                   Name: 'Study Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses metamemory, learning strategies, the ability to analyze a problem before solving it, note-taking, motivation to achieve, and organizational skills (e.g., completing homework, trying to do well, turning in work on time).",
+      //                     'This scale assesses metamemory, learning strategies, the ability to analyze a problem before solving it, note-taking, motivation to achieve, and organizational skills (e.g., completing homework, trying to do well, turning in work on time).',
       //                   ParentScaleTitleId: 96,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 97,
-      //               ParentScaleName: "Behavioral Symptoms Index",
+      //               ParentScaleName: 'Behavioral Symptoms Index',
       //               ParentScaleDescription:
-      //                 "reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition.",
+      //                 'reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 420,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 97,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 421,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 97,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 422,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 97,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 423,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 97,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 424,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).",
+      //                     'This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).',
       //                   ParentScaleTitleId: 97,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 425,
       //                   TestId: null,
-      //                   Name: "Withdrawal",
+      //                   Name: 'Withdrawal',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.",
+      //                     'This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.',
       //                   ParentScaleTitleId: 97,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 17,
-      //           ParentGroupSubScaleName: "PRS-P",
+      //           ParentGroupSubScaleName: 'PRS-P',
       //           ParentGroupScaleId: 11,
       //           ParentScaleTitles: [
       //             {
       //               Id: 98,
-      //               ParentScaleName: "Externalizing Problems",
+      //               ParentScaleName: 'Externalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of the disruptive nature of the child’s behaviors.",
+      //                 'a composite of the disruptive nature of the child’s behaviors.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 426,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 98,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 427,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 98,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 99,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.",
+      //                 'a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 428,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.',
       //                   ParentScaleTitleId: 99,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 429,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 99,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 430,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.",
+      //                     'This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.',
       //                   ParentScaleTitleId: 99,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 100,
-      //               ParentScaleName: "Adaptive Skills",
+      //               ParentScaleName: 'Adaptive Skills',
       //               ParentScaleDescription:
-      //                 "summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills",
+      //                 'summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 431,
       //                   TestId: null,
-      //                   Name: "Adaptability",
+      //                   Name: 'Adaptability',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.",
+      //                     'This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.',
       //                   ParentScaleTitleId: 100,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 432,
       //                   TestId: null,
-      //                   Name: "Social Skills",
+      //                   Name: 'Social Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”",
+      //                     'This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”',
       //                   ParentScaleTitleId: 100,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 433,
       //                   TestId: null,
-      //                   Name: "Functional Communication",
+      //                   Name: 'Functional Communication',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.",
+      //                     'This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.',
       //                   ParentScaleTitleId: 100,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 434,
       //                   TestId: null,
-      //                   Name: "Activities of Daily Living",
+      //                   Name: 'Activities of Daily Living',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale is intended to screen for adaptive-behavior deficits and to alert the examiner to additional differential diagnostic considerations associated with lower levels of cognitive functioning. Items assess behaviors related to acting in a safe manner, performing simple daily tasks, and organizing tasks.",
+      //                     'This scale is intended to screen for adaptive-behavior deficits and to alert the examiner to additional differential diagnostic considerations associated with lower levels of cognitive functioning. Items assess behaviors related to acting in a safe manner, performing simple daily tasks, and organizing tasks.',
       //                   ParentScaleTitleId: 100,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 101,
-      //               ParentScaleName: "Behavioral Symptoms Index",
+      //               ParentScaleName: 'Behavioral Symptoms Index',
       //               ParentScaleDescription:
-      //                 "reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition.",
+      //                 'reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 435,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 101,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 436,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 101,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 437,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 101,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 438,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 101,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 439,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).",
+      //                     'This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).',
       //                   ParentScaleTitleId: 101,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 440,
       //                   TestId: null,
-      //                   Name: "Withdrawal",
+      //                   Name: 'Withdrawal',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.",
+      //                     'This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.',
       //                   ParentScaleTitleId: 101,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
+      //               HasInput: false,
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 18,
-      //           ParentGroupSubScaleName: "PRS-C / PRS-A",
+      //           ParentGroupSubScaleName: 'PRS-C / PRS-A',
       //           ParentGroupScaleId: 11,
       //           ParentScaleTitles: [
       //             {
       //               Id: 102,
-      //               ParentScaleName: "Externalizing Problems",
+      //               ParentScaleName: 'Externalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of the disruptive nature of the child’s behaviors.",
+      //                 'a composite of the disruptive nature of the child’s behaviors.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 441,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 102,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 442,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 102,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 443,
       //                   TestId: null,
-      //                   Name: "Conduct Problems",
+      //                   Name: 'Conduct Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures socially deviant and disruptive behaviors that are characteristic of such DSM-5 disorders as oppositional defiant disorder (ODD) and conduct disorder (CD). These behaviors include general rule-breaking, cheating in school, stealing, lying, and deception",
+      //                     'This scale measures socially deviant and disruptive behaviors that are characteristic of such DSM-5 disorders as oppositional defiant disorder (ODD) and conduct disorder (CD). These behaviors include general rule-breaking, cheating in school, stealing, lying, and deception',
       //                   ParentScaleTitleId: 102,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 103,
-      //               ParentScaleName: "Internalizing Problems",
+      //               ParentScaleName: 'Internalizing Problems',
       //               ParentScaleDescription:
-      //                 "a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.",
+      //                 'a composite of scales that reflect a child’s tendency to monitor their own actions to excess and to be compliant. Behaviors associated with these scales are typically not disruptive, but peer relationships could be adversely affected by their presence.',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 444,
       //                   TestId: null,
-      //                   Name: "Anxiety",
+      //                   Name: 'Anxiety',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.",
+      //                     'This scale assesses generalized fears, nervousness, and worries that are typically irrational and poorly defined in the mind of the individual.',
       //                   ParentScaleTitleId: 103,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 445,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 103,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 446,
       //                   TestId: null,
-      //                   Name: "Somatization",
+      //                   Name: 'Somatization',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.",
+      //                     'This scale assesses the tendency to be overly sensitive and complain about relatively minor physical problems or ailments, and to over-report the occurrence of various physical complaints. Consistent with somatic symptom disorder, as characterized in the DSM-5, such complaints typically cannot be attribute to a physical cause or to generally poor physical health. Often these complaints have persisted for extended time periods (months to years). Scale items are a sampling of behaviors that include fears about being sick and complaints about symptoms and health. Many of the items center on the child’s complaints, encouraging the rater to attend to the child’s verbal report rather than interpret the child’s behavior.',
       //                   ParentScaleTitleId: 103,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 104,
-      //               ParentScaleName: "Adaptive Skills",
+      //               ParentScaleName: 'Adaptive Skills',
       //               ParentScaleDescription:
-      //                 "summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills",
+      //                 'summarizes appropriate emotional expression and control, daily living skills inside and outside the home, and communication skills, as well as prosocial, organizational, study, and other adaptive skills',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 447,
       //                   TestId: null,
-      //                   Name: "Adaptability",
+      //                   Name: 'Adaptability',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.",
+      //                     'This scale assesses the ability to adjust to changes in routine or plans, transition, and recover after a setback.',
       //                   ParentScaleTitleId: 104,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 448,
       //                   TestId: null,
-      //                   Name: "Social Skills",
+      //                   Name: 'Social Skills',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”",
+      //                     'This scale emphasizes the interpersonal aspects of social adaptation, including behaviors such as complimenting others, encouraging other, offering assistance, and saying “please” and “thank you.”',
       //                   ParentScaleTitleId: 104,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 449,
       //                   TestId: null,
-      //                   Name: "Functional Communication",
+      //                   Name: 'Functional Communication',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.",
+      //                     'This scale assesses the child’s ability to express ideas and communicate in ways that others can easily understand.',
       //                   ParentScaleTitleId: 104,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 450,
       //                   TestId: null,
-      //                   Name: "Activities of Daily Living",
+      //                   Name: 'Activities of Daily Living',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale is intended to screen for adaptive-behavior deficits and to alert the examiner to additional differential diagnostic considerations associated with lower levels of cognitive functioning. Items assess behaviors related to acting in a safe manner, performing simple daily tasks, and organizing tasks.",
+      //                     'This scale is intended to screen for adaptive-behavior deficits and to alert the examiner to additional differential diagnostic considerations associated with lower levels of cognitive functioning. Items assess behaviors related to acting in a safe manner, performing simple daily tasks, and organizing tasks.',
       //                   ParentScaleTitleId: 104,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
+      //               HasInput: false,
       //             },
       //             {
       //               Id: 105,
-      //               ParentScaleName: "Behavioral Symptoms Index",
+      //               ParentScaleName: 'Behavioral Symptoms Index',
       //               ParentScaleDescription:
-      //                 "reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition",
+      //                 'reflects the overall level of problem behavior. Reasonably estimates the general level of functioning or presence of impairment for an individual with a disability or diagnosed condition',
       //               CreatedDate: null,
       //               SubTests: [
       //                 {
       //                   Id: 451,
       //                   TestId: null,
-      //                   Name: "Hyperactivity",
+      //                   Name: 'Hyperactivity',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.",
+      //                     'This scale assesses the hyperactivity and impulsivity aspects of ADHD. Item behaviors focusing on hyperactivity include fiddling with things, interrupting others, being overactive, and having poor self-control. Items related to impulsivity include acting without thinking and being unable to wait for one’s turn in a group activity.',
       //                   ParentScaleTitleId: 105,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 452,
       //                   TestId: null,
-      //                   Name: "Aggression",
+      //                   Name: 'Aggression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.",
+      //                     'This scale assesses the tendency to act in a hostile manner (either verbal or physical) that is threatening to others.',
       //                   ParentScaleTitleId: 105,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 453,
       //                   TestId: null,
-      //                   Name: "Depression",
+      //                   Name: 'Depression',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.",
+      //                     'This scale assesses traditional symptoms of depression, including sudden changes in mood, negativity, and sadness.',
       //                   ParentScaleTitleId: 105,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 454,
       //                   TestId: null,
-      //                   Name: "Attention Problems",
+      //                   Name: 'Attention Problems',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.",
+      //                     'This scale measures the inability to maintain attention and the tendency to be easily distracted from tasks requiring attention.',
       //                   ParentScaleTitleId: 105,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 455,
       //                   TestId: null,
-      //                   Name: "Atypicality",
+      //                   Name: 'Atypicality',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).",
+      //                     'This scale measures a child’s tendency to behave in ways that are considered odd or strange. Many of the atypicality items center on a child’s disconnection from or unawareness of his or her normal surroundings (e.g., being unaware of others, saying things that make no sense, acting like others aren’t there). Other items represent specific unusual behaviors (e.g., picking at things, banging head, babbling to self).',
       //                   ParentScaleTitleId: 105,
-      //                   CreatedDate: null
+      //                   CreatedDate: null,
       //                 },
       //                 {
       //                   Id: 456,
       //                   TestId: null,
-      //                   Name: "Withdrawal",
+      //                   Name: 'Withdrawal',
       //                   Abbreviation: null,
       //                   Description:
-      //                     "This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.",
+      //                     'This scale measures a child’s tendency to avoid social contact and to lack interest in making contact in social settings. Items include behaviors associated with shyness, initiating friendships, and preferring to be alone.',
       //                   ParentScaleTitleId: 105,
-      //                   CreatedDate: null
-      //                 }
+      //                   CreatedDate: null,
+      //                 },
       //               ],
-      //               HasInput: false
-      //             }
-      //           ]
-      //         }
+      //               HasInput: false,
+      //             },
+      //           ],
+      //         },
       //       ],
-      //       ParentScaleTitles: []
-      //     }
+      //       ParentScaleTitles: [],
+      //     },
       //   ],
       //   TestIndexes: [],
       //   SubTests: [],
@@ -12543,224 +12730,105 @@ class App extends Component {
       //   ParentScaleTitles: [],
       //   TestModules: [],
       //   ParentGroupSubScales: [],
-      //   TestScoringTableDetails: null
-      // }
+      //   TestScoringTableDetails: null,
+      // },
     ],
-    relevantBackgroundHistory:
-      'MotherName, motherAge, the stepmother, lives at motherAddress. Her home phone number is motherHomePhone, her cell phone is motherCellPhone, and her work phone is motherWorkPhone.motherName has worked motherWorkLength years for motherEmployer as a motherOccupation. Her primary language is motherPrimaryLang. Her secondary language is motherSecondaryLang.fatherName, fatherAge, the stepfather, lives at fatherAddress. His home phone number is fatherHomePhone, his cell phone is fatherCellPhone, and his work phone is fatherWorkPhone.fatherName has worked fatherWorkLength years for fatherEmployer as a fatherOccupation. His primary language is fatherPrimaryLang. His secondary language is fatherSecondaryLang.primaryCaregiverName, primaryCaregiverAge, the primaryCaregiverRelationship, lives at primaryCaregiverAddress. His home phone number is primaryCaregiverHomePhone, his cell phone is primaryCaregiverCellPhone, and his work phone is primaryCaregiverWorkPhone.',
-    resultsCurrentAssessment: 'Current assessment results',
-    summaryCurrentSituation: 'Summary of current situation',
-    dsmCodes: [
+    appendixReducer: [
       {
-        codeValue: '299',
-      },
-      {
-        codeValue: '294.1',
-      },
-      {
-        codeValue: '309.81',
-      },
-      {
-        codeValue: 'V15.81',
-      },
-      {
-        codeValue: '302.84',
-      },
-    ],
-    eduCodeIntellectualDisabilityId: true,
-    eduCodeHardOfHearingHh: true,
-    eduCodeDeafnessDeafHearingImpairmentHi: true,
-    eduCodeSpeechOrLanguageImpairmentSli: true,
-    eduCodeVisualImpairmentVi: true,
-    eduCodeEmotionalDisturbanceEd: true,
-    eduCodeOrthopedicImpairmentOi: true,
-    eduCodeOtherHealthImpairmentOhi: true,
-    eduCodeEstablishedMedicalDisabilityEmd: true,
-    eduCodeSpecificLearningDisabilitySld: true,
-    eduCodeDeafBlindnessDb: true,
-    eduCodeMultipleDisabilitiesMd: true,
-    eduCodeAutismAut: true,
-    eduCodeTraumaticBrainInjuryTbi: true,
-    recommendationAdhd: true,
-    recommendationAutism: false,
-    recommendationDementia: false,
-    recommendationDysthymia: false,
-    recommendationLearningDisabilityMathematics: false,
-    recommendationLearningDisabilityReading: false,
-    recommendationNeurocognitiveDisorder: false,
-    recommendationVisualProcessingChildrenAdults: false,
-    recommendationVisualProcessingChildren: false,
-    recommendationLearningDisabilityWritingChildrenAdults: false,
-    recommendationLearningDisabilityWritingChildren: false,
-    recommendationAuditoryProcessingWeaknessChildrenAdults: false,
-    recommendationAuditoryProcessingWeaknessChildren: false,
-    recommendations: [
-      {
-        id: 1,
-        name: 'ADHD',
-        selected: true,
-        recommendation: [
+        Abbreviation: 'WIAT-III',
+        Id: 13,
+        ParentScale: [
           {
-            id: 'adhd1',
-            text: 'Similarly, CLIENT NAME would greatly benefit from continuing to learn and utilizing organizational techniques (i.e., making lists, brainstorming verbally, breaking down large tasks into smaller components) to help CLIENT NAME better manage CLIENT NAME work-related tasks.',
-            subtext: [],
+            Id: 164,
+            ParentScaleTitle: 'Listening',
+            SubTests: [
+              {
+                id: 672,
+                name: 'Listening Comprehension (Grades PK-12)',
+              },
+              {
+                id: 673,
+                name: 'Oral Expression (Grades PK-12)',
+              },
+            ],
           },
           {
-            id: 'adhd2',
-            text: 'CLIENT NAME may benefit from seeking out and utilizing individual therapeutic supports to help develop effective coping strategies to manage CLIENT NAME symptoms of anxiety and inattention, as well as build CLIENT NAME self-esteem.',
-            subtext: [],
+            Id: 165,
+            ParentScaleTitle: 'Reading',
+            SubTests: [
+              {
+                id: 674,
+                name: 'Early Reading Skills (Grades PK-3)',
+              },
+              {
+                id: 675,
+                name: 'Reading Comprehension (Grades 1-12)',
+              },
+              {
+                id: 676,
+                name: 'Word Reading (Grades 1-12)',
+              },
+              {
+                id: 677,
+                name: 'Pseudoword Decoding (Grades 1-12)',
+              },
+              {
+                id: 678,
+                name: 'Oral Reading Fluency (Grades 1-12)',
+              },
+            ],
           },
           {
-            id: 'adhd3',
-            text: 'CLIENT NAME may also benefit from participating in Neurofeedback to help CLIENT NAME better regulate CLIENT NAME symptoms of anxiety, agitation, and inattention. Neurofeedback is considered a natural treatment for improving attention and self-regulation for individuals who want to take a medication free approach to treatment or to enhance the effects of other treatments they are already receiving. With neurofeedback we are enhancing awareness of internal states by allowing the brain to witness its own EEG activity.  The goal is to allow the nervous system to calm down and reset itself onto a better path. It also addresses and better regulates symptoms of inattention and anxiety.',
-            subtext: [],
+            Id: 166,
+            ParentScaleTitle: 'Written Language',
+            SubTests: [
+              {
+                id: 679,
+                name: 'Spelling (Grades K-12)',
+              },
+              {
+                id: 680,
+                name: 'Alphabet Writing Fluency (Grades PK-3)',
+              },
+              {
+                id: 681,
+                name: 'Sentence Composition (Grades 1-12)',
+              },
+              {
+                id: 682,
+                name: 'Essay Composition (Grades 3-12)',
+              },
+            ],
           },
           {
-            id: 'adhd4',
-            text: 'It is recommended that CLIENT NAME receive 50% extended testing time on tests and examinations to help CLIENT NAME illustrate CLIENT NAME knowledge base to the best of CLIENT NAME ability. Extended time would allow CLIENT NAME to take breaks, check CLIENT NAME work, access the full scope of the material presented to CLIENT NAME, and provide CLIENT NAME with the needed time to process the testing material.',
-            subtext: [],
-          },
-          {
-            id: 'adhd5',
-            text: 'CLIENT NAME is encouraged to utilize a schedule/planner daily to help CLIENT NAME keep track of important due dates and appointments.',
-            subtext: [],
-          },
-          {
-            id: 'adhd6',
-            text: 'Utilize a homework routine to help accomplish  nightly tasks. Example: Allow at most one hour after school to decompress before starting homework. Utilize an alarm to signal when the hour is up so not to lose track of time. To help stay motivated, reward CLIENT NAME during breaks by watching a preferred, short TV show or spending 15-30 minutes in a preferred activity.',
-            subtext: [],
-          },
-          {
-            id: 'adhd7',
-            text: "CLIENT NAME's functional impairments also require that CLIENT NAME be allowed to take examinations in a distraction reduced environment.",
-            subtext: [],
-          },
-          {
-            id: 'adhd8',
-            text: 'Given that CLIENT NAME’s symptoms continue to negatively affect CLIENT NAME performance at work, CLIENT NAME may also benefit from a psychiatric consultation to assess whether medication may be an appropriate intervention at this time.',
-            subtext: [],
-          },
-          {
-            id: 'adhd9',
-            text: 'CLIENT NAME would benefit from a medication consultation to determine if psychiatric medication would be appropriate at this time to help CLIENT NAME better manage CLIENT NAME symptoms of inattention, anxiety, and agitation.',
-            subtext: [],
-          },
-          {
-            id: 'adhd10',
-            text: 'CLIENT NAME is encouraged to sit closer to teacher/speaker, also require that CLIENT NAME be allowed to take examinations in a distraction reduced environment to help guard against lapses in CLIENT NAME attention and concentration.',
-            subtext: [],
-          },
-          {
-            id: 'adhd11',
-            text: 'In addressing ADHD symptoms in preschool, children with ADHD commonly have a great need to touch and move. Giving them something to do with their hands and bodies while sitting in class can help them self-regulate, focus, and function better in the classroom. Teachers are encouraged to experiment with sensory strategies and tools, such as the following <ul><li>Velcro adhered to the underside of chair or desk— somewhere that CLIENT NAME can easily reach and discretely rub it to keep CLIENT NAME hands busy.</li><li>Seating options such as a rocking chair,exercise ball, or wiggle cushions.</li><li>Fidget toys (also called sensory toys). Consider looking for resources from companies such as Therapy Shoppe (www.therapyshoppe.com).</li></ul>',
-            subtext: [],
-          },
-          {
-            id: 'adhd12',
-            text: 'CLIENT NAME would also benefit from having an end of the day study hall at school to help complete work.',
-            subtext: [],
+            Id: 167,
+            ParentScaleTitle: 'Mathematics',
+            SubTests: [
+              {
+                id: 683,
+                name: 'Numerical Operations (Grades K-12))',
+              },
+              {
+                id: 684,
+                name: 'Math Problem Solving (Grades PK-12)',
+              },
+              {
+                id: 685,
+                name: 'Math Fluency – Addition',
+              },
+              {
+                id: 686,
+                name: 'Math Fluency – Subtraction',
+              },
+              {
+                id: 687,
+                name: 'Math Fluency – Multiplication',
+              },
+            ],
           },
         ],
+        TestName: 'The Wechsler Individual Achievement Test 3',
       },
-    ],
-    adhdRecommendationsFreehand:
-      'ADHD additional recommendation the brown fox jumps over the lazy purple moon with great conviction and joy.',
-    appendixReducer: [
-      // {
-      //   Abbreviation: 'WIAT-III',
-      //   Id: 13,
-      //   ParentScale: [
-      //     {
-      //       Id: 164,
-      //       ParentScaleTitle: 'Listening',
-      //       SubTests: [
-      //         {
-      //           id: 672,
-      //           name: 'Listening Comprehension (Grades PK-12)',
-      //         },
-      //         {
-      //           id: 673,
-      //           name: 'Oral Expression (Grades PK-12)',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       Id: 165,
-      //       ParentScaleTitle: 'Reading',
-      //       SubTests: [
-      //         {
-      //           id: 674,
-      //           name: 'Early Reading Skills (Grades PK-3)',
-      //         },
-      //         {
-      //           id: 675,
-      //           name: 'Reading Comprehension (Grades 1-12)',
-      //         },
-      //         {
-      //           id: 676,
-      //           name: 'Word Reading (Grades 1-12)',
-      //         },
-      //         {
-      //           id: 677,
-      //           name: 'Pseudoword Decoding (Grades 1-12)',
-      //         },
-      //         {
-      //           id: 678,
-      //           name: 'Oral Reading Fluency (Grades 1-12)',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       Id: 166,
-      //       ParentScaleTitle: 'Written Language',
-      //       SubTests: [
-      //         {
-      //           id: 679,
-      //           name: 'Spelling (Grades K-12)',
-      //         },
-      //         {
-      //           id: 680,
-      //           name: 'Alphabet Writing Fluency (Grades PK-3)',
-      //         },
-      //         {
-      //           id: 681,
-      //           name: 'Sentence Composition (Grades 1-12)',
-      //         },
-      //         {
-      //           id: 682,
-      //           name: 'Essay Composition (Grades 3-12)',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       Id: 167,
-      //       ParentScaleTitle: 'Mathematics',
-      //       SubTests: [
-      //         {
-      //           id: 683,
-      //           name: 'Numerical Operations (Grades K-12))',
-      //         },
-      //         {
-      //           id: 684,
-      //           name: 'Math Problem Solving (Grades PK-12)',
-      //         },
-      //         {
-      //           id: 685,
-      //           name: 'Math Fluency – Addition',
-      //         },
-      //         {
-      //           id: 686,
-      //           name: 'Math Fluency – Subtraction',
-      //         },
-      //         {
-      //           id: 687,
-      //           name: 'Math Fluency – Multiplication',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   TestName: 'The Wechsler Individual Achievement Test 3',
-      // },
       // {
       //   Abbreviation: "Nelson-Denny",
       //   Id: 23,
@@ -13011,437 +13079,436 @@ class App extends Component {
       //   TestName: "Behavior Rating Inventory of Executive Function"
       // }
       // {
-      //   Abbreviation: "Conners-3",
+      //   Abbreviation: 'Conners-3',
       //   Id: 120,
       //   ParentGroupSubScales: [
       //     {
       //       Id: 6,
-      //       ParentGroupSubScaleName: "Parent",
+      //       ParentGroupSubScaleName: 'Parent',
       //       ParentScale: [
       //         {
       //           Id: 24,
-      //           ParentScaleTitle: "Content Scales",
+      //           ParentScaleTitle: 'Content Scales',
       //           SubTests: [
       //             {
       //               id: 120,
-      //               name: "Inattention"
+      //               name: 'Inattention',
       //             },
       //             {
       //               id: 121,
-      //               name: "Hyperactivity/Impulsivity"
+      //               name: 'Hyperactivity/Impulsivity',
       //             },
       //             {
       //               id: 122,
-      //               name: "Learning Problems"
+      //               name: 'Learning Problems',
       //             },
       //             {
       //               id: 123,
-      //               name: "Executive Functioning"
+      //               name: 'Executive Functioning',
       //             },
       //             {
       //               id: 124,
-      //               name: "Defiance/Aggression"
+      //               name: 'Defiance/Aggression',
       //             },
       //             {
       //               id: 125,
-      //               name: "Peer Relations"
-      //             }
-      //           ]
+      //               name: 'Peer Relations',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 25,
-      //           ParentScaleTitle: "DSM Symptom Scales",
+      //           ParentScaleTitle: 'DSM Symptom Scales',
       //           SubTests: [
       //             {
       //               id: 126,
-      //               name: "ADHD Inattentive"
+      //               name: 'ADHD Inattentive',
       //             },
       //             {
       //               id: 127,
-      //               name: "ADHD Hyperactive-Impulsive"
+      //               name: 'ADHD Hyperactive-Impulsive',
       //             },
       //             {
       //               id: 128,
-      //               name: "Conduct Disorder"
+      //               name: 'Conduct Disorder',
       //             },
       //             {
       //               id: 129,
-      //               name: "Oppositional Defiant Disorder"
-      //             }
-      //           ]
+      //               name: 'Oppositional Defiant Disorder',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 26,
-      //           ParentScaleTitle: "Indices",
+      //           ParentScaleTitle: 'Indices',
       //           SubTests: [
       //             {
       //               id: 130,
-      //               name: "Conners 3 ADHD Index"
+      //               name: 'Conners 3 ADHD Index',
       //             },
       //             {
       //               id: 131,
-      //               name: "Conners 3 Global Index"
-      //             }
-      //           ]
+      //               name: 'Conners 3 Global Index',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 27,
-      //           ParentScaleTitle: "Screener Items",
+      //           ParentScaleTitle: 'Screener Items',
       //           SubTests: [
       //             {
       //               id: 132,
-      //               name: "Anxiety"
+      //               name: 'Anxiety',
       //             },
       //             {
       //               id: 133,
-      //               name: "Depression"
-      //             }
-      //           ]
+      //               name: 'Depression',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 28,
-      //           ParentScaleTitle: "Critical Items",
+      //           ParentScaleTitle: 'Critical Items',
       //           SubTests: [
       //             {
       //               id: 134,
-      //               name: "Severe Conduct"
-      //             }
-      //           ]
+      //               name: 'Severe Conduct',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 29,
-      //           ParentScaleTitle: "Validity Scales",
+      //           ParentScaleTitle: 'Validity Scales',
       //           SubTests: [
       //             {
       //               id: 135,
-      //               name: "Positive Impression"
+      //               name: 'Positive Impression',
       //             },
       //             {
       //               id: 136,
-      //               name: "Negative Impression"
+      //               name: 'Negative Impression',
       //             },
       //             {
       //               id: 137,
-      //               name: "Inconsistency Index"
-      //             }
-      //           ]
-      //         }
-      //       ]
+      //               name: 'Inconsistency Index',
+      //             },
+      //           ],
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 7,
-      //       ParentGroupSubScaleName: "Teacher",
+      //       ParentGroupSubScaleName: 'Teacher',
       //       ParentScale: [
       //         {
       //           Id: 30,
-      //           ParentScaleTitle: "Content Scales",
+      //           ParentScaleTitle: 'Content Scales',
       //           SubTests: [
       //             {
       //               id: 138,
-      //               name: "Inattention"
+      //               name: 'Inattention',
       //             },
       //             {
       //               id: 139,
-      //               name: "Hyperactivity/Impulsivity"
+      //               name: 'Hyperactivity/Impulsivity',
       //             },
       //             {
       //               id: 141,
-      //               name: "Learning Problems"
+      //               name: 'Learning Problems',
       //             },
       //             {
       //               id: 142,
-      //               name: "Executive Functioning"
+      //               name: 'Executive Functioning',
       //             },
       //             {
       //               id: 143,
-      //               name: "Defiance/Aggression"
+      //               name: 'Defiance/Aggression',
       //             },
       //             {
       //               id: 144,
-      //               name: "Peer Relations"
-      //             }
-      //           ]
+      //               name: 'Peer Relations',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 31,
-      //           ParentScaleTitle: "DSM Symptom Scales",
+      //           ParentScaleTitle: 'DSM Symptom Scales',
       //           SubTests: [
       //             {
       //               id: 145,
-      //               name: "ADHD Inattentive"
+      //               name: 'ADHD Inattentive',
       //             },
       //             {
       //               id: 146,
-      //               name: "ADHD Hyperactive-Impulsive"
+      //               name: 'ADHD Hyperactive-Impulsive',
       //             },
       //             {
       //               id: 147,
-      //               name: "Conduct Disorder"
+      //               name: 'Conduct Disorder',
       //             },
       //             {
       //               id: 148,
-      //               name: "Oppositional Defiant Disorder"
-      //             }
-      //           ]
+      //               name: 'Oppositional Defiant Disorder',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 32,
-      //           ParentScaleTitle: "Indices",
+      //           ParentScaleTitle: 'Indices',
       //           SubTests: [
       //             {
       //               id: 149,
-      //               name: "Conners 3 ADHD Index"
+      //               name: 'Conners 3 ADHD Index',
       //             },
       //             {
       //               id: 150,
-      //               name: "Conners 3 Global Index"
-      //             }
-      //           ]
+      //               name: 'Conners 3 Global Index',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 33,
-      //           ParentScaleTitle: "Screener Items",
+      //           ParentScaleTitle: 'Screener Items',
       //           SubTests: [
       //             {
       //               id: 151,
-      //               name: "Anxiety"
+      //               name: 'Anxiety',
       //             },
       //             {
       //               id: 152,
-      //               name: "Depression"
-      //             }
-      //           ]
+      //               name: 'Depression',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 34,
-      //           ParentScaleTitle: "Critical Items",
+      //           ParentScaleTitle: 'Critical Items',
       //           SubTests: [
       //             {
       //               id: 153,
-      //               name: "Severe Conduct"
-      //             }
-      //           ]
+      //               name: 'Severe Conduct',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 35,
-      //           ParentScaleTitle: "Validity Scales",
+      //           ParentScaleTitle: 'Validity Scales',
       //           SubTests: [
       //             {
       //               id: 154,
-      //               name: "Positive Impression"
+      //               name: 'Positive Impression',
       //             },
       //             {
       //               id: 155,
-      //               name: "Negative Impression"
+      //               name: 'Negative Impression',
       //             },
       //             {
       //               id: 156,
-      //               name: "Inconsistency Index"
-      //             }
-      //           ]
-      //         }
-      //       ]
+      //               name: 'Inconsistency Index',
+      //             },
+      //           ],
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 8,
-      //       ParentGroupSubScaleName: "Self-Report",
+      //       ParentGroupSubScaleName: 'Self-Report',
       //       ParentScale: [
       //         {
       //           Id: 36,
-      //           ParentScaleTitle: "Content Scales",
+      //           ParentScaleTitle: 'Content Scales',
       //           SubTests: [
       //             {
       //               id: 157,
-      //               name: "Inattention"
+      //               name: 'Inattention',
       //             },
       //             {
       //               id: 158,
-      //               name: "Hyperactivity/Impulsivity"
+      //               name: 'Hyperactivity/Impulsivity',
       //             },
       //             {
       //               id: 159,
-      //               name: "Learning Problems"
+      //               name: 'Learning Problems',
       //             },
       //             {
       //               id: 160,
-      //               name: "Defiance/Aggression"
+      //               name: 'Defiance/Aggression',
       //             },
       //             {
       //               id: 161,
-      //               name: "Peer Relations"
-      //             }
-      //           ]
+      //               name: 'Peer Relations',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 37,
-      //           ParentScaleTitle: "DSM Symptom Scales",
+      //           ParentScaleTitle: 'DSM Symptom Scales',
       //           SubTests: [
       //             {
       //               id: 162,
-      //               name: "ADHD Inattentive"
+      //               name: 'ADHD Inattentive',
       //             },
       //             {
       //               id: 163,
-      //               name: "ADHD Hyperactive-Impulsive"
+      //               name: 'ADHD Hyperactive-Impulsive',
       //             },
       //             {
       //               id: 164,
-      //               name: "Conduct Disorder"
+      //               name: 'Conduct Disorder',
       //             },
       //             {
       //               id: 165,
-      //               name: "Oppositional Defiant Disorder"
-      //             }
-      //           ]
+      //               name: 'Oppositional Defiant Disorder',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 38,
-      //           ParentScaleTitle: "Indices",
+      //           ParentScaleTitle: 'Indices',
       //           SubTests: [
       //             {
       //               id: 166,
-      //               name: "Conners 3 ADHD Index"
-      //             }
-      //           ]
+      //               name: 'Conners 3 ADHD Index',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 39,
-      //           ParentScaleTitle: "Screener Items",
+      //           ParentScaleTitle: 'Screener Items',
       //           SubTests: [
       //             {
       //               id: 644,
-      //               name: "Anxiety"
+      //               name: 'Anxiety',
       //             },
       //             {
       //               id: 167,
-      //               name: "Depression"
-      //             }
-      //           ]
+      //               name: 'Depression',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 40,
-      //           ParentScaleTitle: "Critical Items",
+      //           ParentScaleTitle: 'Critical Items',
       //           SubTests: [
       //             {
       //               id: 168,
-      //               name: "Severe Conduct"
-      //             }
-      //           ]
+      //               name: 'Severe Conduct',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 41,
-      //           ParentScaleTitle: "Validity Scales",
+      //           ParentScaleTitle: 'Validity Scales',
       //           SubTests: [
       //             {
       //               id: 169,
-      //               name: "Positive Impression"
+      //               name: 'Positive Impression',
       //             },
       //             {
       //               id: 170,
-      //               name: "Negative Impression"
+      //               name: 'Negative Impression',
       //             },
       //             {
       //               id: 171,
-      //               name: "Inconsistency Index"
-      //             }
-      //           ]
-      //         }
-      //       ]
-      //     }
+      //               name: 'Inconsistency Index',
+      //             },
+      //           ],
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestName: "Conners 3"
+      //   TestName: 'Conners 3',
       // },
       // {
-      //   Abbreviation: "RBANS",
+      //   Abbreviation: 'RBANS',
       //   Id: 2,
       //   ParentGroupSubScales: [
       //     {
       //       Id: 9,
-      //       ParentGroupSubScaleName: "INDEX",
+      //       ParentGroupSubScaleName: 'INDEX',
       //       ParentScale: [
       //         {
       //           Id: 47,
-      //           ParentScaleTitle: "Immediate Memory",
+      //           ParentScaleTitle: 'Immediate Memory',
       //           SubTests: [
       //             {
       //               id: 221,
-      //               name: "List Learning"
+      //               name: 'List Learning',
       //             },
       //             {
       //               id: 222,
-      //               name: "Story Memory"
-      //             }
-      //           ]
+      //               name: 'Story Memory',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 48,
-      //           ParentScaleTitle: "Visuospatial Constructional",
+      //           ParentScaleTitle: 'Visuospatial Constructional',
       //           SubTests: [
       //             {
       //               id: 223,
-      //               name: "Figure Copy"
+      //               name: 'Figure Copy',
       //             },
       //             {
       //               id: 224,
-      //               name: "Line Orientation"
-      //             }
-      //           ]
+      //               name: 'Line Orientation',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 49,
-      //           ParentScaleTitle: "Language",
+      //           ParentScaleTitle: 'Language',
       //           SubTests: [
       //             {
       //               id: 225,
-      //               name: "Picture Naming"
+      //               name: 'Picture Naming',
       //             },
       //             {
       //               id: 226,
-      //               name: "Semantic Fluency"
-      //             }
-      //           ]
+      //               name: 'Semantic Fluency',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 50,
-      //           ParentScaleTitle: "Attention",
+      //           ParentScaleTitle: 'Attention',
       //           SubTests: [
       //             {
       //               id: 227,
-      //               name: "Digit Span"
+      //               name: 'Digit Span',
       //             },
       //             {
       //               id: 228,
-      //               name: "Coding"
-      //             }
-      //           ]
+      //               name: 'Coding',
+      //             },
+      //           ],
       //         },
       //         {
       //           Id: 51,
-      //           ParentScaleTitle: "Delayed Memory",
+      //           ParentScaleTitle: 'Delayed Memory',
       //           SubTests: [
       //             {
       //               id: 229,
-      //               name: "List Recall"
+      //               name: 'List Recall',
       //             },
       //             {
       //               id: 230,
-      //               name: "List Recognition"
+      //               name: 'List Recognition',
       //             },
       //             {
       //               id: 231,
-      //               name: "Story Recall"
+      //               name: 'Story Recall',
       //             },
       //             {
       //               id: 232,
-      //               name: "Figure Recall"
-      //             }
-      //           ]
-      //         }
-      //       ]
-      //     }
+      //               name: 'Figure Recall',
+      //             },
+      //           ],
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestName:
-      //     "Repeatable Battery for the Assessment of Neuropsychological Status"
+      //   TestName: 'Repeatable Battery for the Assessment of Neuropsychological Status',
       // },
       // {
       //   Abbreviation: "NEPSY-II",
@@ -13792,159 +13859,159 @@ class App extends Component {
       //     }
       //   ]
       // },
-      {
-        Abbreviation: 'WISC-V',
-        Id: 1,
-        TestName: 'Wechsler Intelligence Scale for Children – Fifth Edition',
-        ParentScale: [
-          {
-            Id: 1,
-            ParentScaleTitle: 'VERBAL  COMPREHENSION INDEX (VCI)',
-            SubTests: [
-              {
-                id: 1,
-                name: 'Similarities',
-              },
-              {
-                id: 2,
-                name: 'Vocabulary',
-              },
-              {
-                id: 3,
-                name: 'Information',
-              },
-              {
-                id: 4,
-                name: 'Comprehension',
-              },
-            ],
-          },
-          {
-            Id: 2,
-            ParentScaleTitle: 'VISUAL SPATIAL INDEX (VSI)',
-            SubTests: [
-              {
-                id: 5,
-                name: 'Block Design',
-              },
-              {
-                id: 6,
-                name: 'Vocabulary',
-              },
-            ],
-          },
-          {
-            Id: 3,
-            ParentScaleTitle: 'FLUID REASONING INDEX (FRI)',
-            SubTests: [
-              {
-                id: 7,
-                name: 'Matrix Reasoning',
-              },
-              {
-                id: 8,
-                name: 'Figure Weights',
-              },
-              {
-                id: 9,
-                name: 'Picture Concepts',
-              },
-              {
-                id: 10,
-                name: 'Arithmetic',
-              },
-            ],
-          },
-          {
-            Id: 4,
-            ParentScaleTitle: 'WORKING MEMORY INDEX (WMI)',
-            SubTests: [
-              {
-                id: 11,
-                name: 'Digit Span',
-              },
-              {
-                id: 12,
-                name: 'Picture Span',
-              },
-              {
-                id: 13,
-                name: 'Letter- Number Sequencing',
-              },
-            ],
-          },
-          {
-            Id: 5,
-            ParentScaleTitle: 'PROCESSING SPEED INDEX (PSI)',
-            SubTests: [
-              {
-                id: 14,
-                name: 'Coding',
-              },
-              {
-                id: 15,
-                name: 'Symbol Search',
-              },
-              {
-                id: 16,
-                name: 'Cancellation',
-              },
-            ],
-          },
-          {
-            Id: 17,
-            ParentScaleTitle: 'Complimentary Subtests',
-            SubTests: [
-              {
-                id: 73,
-                name: 'Naming Speed Literacy',
-              },
-              {
-                id: 74,
-                name: 'Naming Speed Quality',
-              },
-              {
-                id: 75,
-                name: 'Immediate Symbol Translation',
-              },
-              {
-                id: 76,
-                name: 'Delayed Symbol Translation',
-              },
-              {
-                id: 77,
-                name: 'Recognition Symbol Translation',
-              },
-            ],
-          },
-        ],
-        TestIndexes: [
-          {
-            Id: 1,
-            IndexName: 'Full Scale IQ',
-          },
-          {
-            Id: 2,
-            IndexName: 'VISUAL SPATIAL INDEX (VSI)',
-          },
-          {
-            Id: 3,
-            IndexName: 'VERBAL  COMPREHENSION INDEX (VCI)',
-          },
-          {
-            Id: 4,
-            IndexName: 'FLUID REASONING INDEX (FRI)',
-          },
-          {
-            Id: 5,
-            IndexName: 'WORKING MEMORY INDEX (WMI)',
-          },
-          {
-            Id: 6,
-            IndexName: 'PROCESSING SPEED INDEX (PSI)',
-          },
-        ],
-      },
+      // {
+      //   Abbreviation: 'WISC-V',
+      //   Id: 1,
+      //   TestName: 'Wechsler Intelligence Scale for Children – Fifth Edition',
+      //   ParentScale: [
+      //     {
+      //       Id: 1,
+      //       ParentScaleTitle: 'VERBAL  COMPREHENSION INDEX (VCI)',
+      //       SubTests: [
+      //         {
+      //           id: 1,
+      //           name: 'Similarities',
+      //         },
+      //         {
+      //           id: 2,
+      //           name: 'Vocabulary',
+      //         },
+      //         {
+      //           id: 3,
+      //           name: 'Information',
+      //         },
+      //         {
+      //           id: 4,
+      //           name: 'Comprehension',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       Id: 2,
+      //       ParentScaleTitle: 'VISUAL SPATIAL INDEX (VSI)',
+      //       SubTests: [
+      //         {
+      //           id: 5,
+      //           name: 'Block Design',
+      //         },
+      //         {
+      //           id: 6,
+      //           name: 'Vocabulary',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       Id: 3,
+      //       ParentScaleTitle: 'FLUID REASONING INDEX (FRI)',
+      //       SubTests: [
+      //         {
+      //           id: 7,
+      //           name: 'Matrix Reasoning',
+      //         },
+      //         {
+      //           id: 8,
+      //           name: 'Figure Weights',
+      //         },
+      //         {
+      //           id: 9,
+      //           name: 'Picture Concepts',
+      //         },
+      //         {
+      //           id: 10,
+      //           name: 'Arithmetic',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       Id: 4,
+      //       ParentScaleTitle: 'WORKING MEMORY INDEX (WMI)',
+      //       SubTests: [
+      //         {
+      //           id: 11,
+      //           name: 'Digit Span',
+      //         },
+      //         {
+      //           id: 12,
+      //           name: 'Picture Span',
+      //         },
+      //         {
+      //           id: 13,
+      //           name: 'Letter- Number Sequencing',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       Id: 5,
+      //       ParentScaleTitle: 'PROCESSING SPEED INDEX (PSI)',
+      //       SubTests: [
+      //         {
+      //           id: 14,
+      //           name: 'Coding',
+      //         },
+      //         {
+      //           id: 15,
+      //           name: 'Symbol Search',
+      //         },
+      //         {
+      //           id: 16,
+      //           name: 'Cancellation',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       Id: 17,
+      //       ParentScaleTitle: 'Complimentary Subtests',
+      //       SubTests: [
+      //         {
+      //           id: 73,
+      //           name: 'Naming Speed Literacy',
+      //         },
+      //         {
+      //           id: 74,
+      //           name: 'Naming Speed Quality',
+      //         },
+      //         {
+      //           id: 75,
+      //           name: 'Immediate Symbol Translation',
+      //         },
+      //         {
+      //           id: 76,
+      //           name: 'Delayed Symbol Translation',
+      //         },
+      //         {
+      //           id: 77,
+      //           name: 'Recognition Symbol Translation',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   TestIndexes: [
+      //     {
+      //       Id: 1,
+      //       IndexName: 'Full Scale IQ',
+      //     },
+      //     {
+      //       Id: 2,
+      //       IndexName: 'VISUAL SPATIAL INDEX (VSI)',
+      //     },
+      //     {
+      //       Id: 3,
+      //       IndexName: 'VERBAL  COMPREHENSION INDEX (VCI)',
+      //     },
+      //     {
+      //       Id: 4,
+      //       IndexName: 'FLUID REASONING INDEX (FRI)',
+      //     },
+      //     {
+      //       Id: 5,
+      //       IndexName: 'WORKING MEMORY INDEX (WMI)',
+      //     },
+      //     {
+      //       Id: 6,
+      //       IndexName: 'PROCESSING SPEED INDEX (PSI)',
+      //     },
+      //   ],
+      // },
       // {
       //   Abbreviation: "DAS-II",
       //   Id: 743,
@@ -14265,77 +14332,76 @@ class App extends Component {
       //   TestName: "Test of Memory Malingering"
       // },
       // {
-      //   Abbreviation: "WRAML2",
+      //   Abbreviation: 'WRAML2',
       //   Id: 14,
       //   ParentGroupSubScales: [
       //     {
       //       Id: 10,
-      //       ParentGroupSubScaleName: "Core Subtests and Indexes",
+      //       ParentGroupSubScaleName: 'Core Subtests and Indexes',
       //       ParentScale: [
       //         {
       //           Id: 60,
-      //           ParentScaleTitle: "Verbal Memory Index",
+      //           ParentScaleTitle: 'Verbal Memory Index',
       //           SubTests: [
-      //             { name: "Story Memory", id: 266 },
-      //             { name: "Verbal Learning", id: 267 }
-      //           ]
+      //             { name: 'Story Memory', id: 266 },
+      //             { name: 'Verbal Learning', id: 267 },
+      //           ],
       //         },
       //         {
       //           Id: 61,
-      //           ParentScaleTitle: "Visual Memory Index",
+      //           ParentScaleTitle: 'Visual Memory Index',
       //           SubTests: [
-      //             { name: "Design Memory", id: 268 },
-      //             { name: "Picture Memory", id: 269 }
-      //           ]
+      //             { name: 'Design Memory', id: 268 },
+      //             { name: 'Picture Memory', id: 269 },
+      //           ],
       //         },
       //         {
       //           Id: 62,
-      //           ParentScaleTitle: "Attention-Concentration Index",
+      //           ParentScaleTitle: 'Attention-Concentration Index',
       //           SubTests: [
-      //             { name: "Finger Windows", id: 270 },
-      //             { name: "Number/Letter", id: 271 }
-      //           ]
-      //         }
-      //       ]
+      //             { name: 'Finger Windows', id: 270 },
+      //             { name: 'Number/Letter', id: 271 },
+      //           ],
+      //         },
+      //       ],
       //     },
       //     {
       //       Id: 11,
-      //       ParentGroupSubScaleName:
-      //         "Optional, Delay Recall, and Recognition Subtests",
+      //       ParentGroupSubScaleName: 'Optional, Delay Recall, and Recognition Subtests',
       //       ParentScale: [
       //         {
       //           Id: 63,
-      //           ParentScaleTitle: "Optional Subtests",
+      //           ParentScaleTitle: 'Optional Subtests',
       //           SubTests: [
-      //             { name: "Sentence Memory", id: 272 },
-      //             { name: "Sound Symbol", id: 273 },
-      //             { name: "Verbal Working Memory", id: 274 },
-      //             { name: "Symbolic Working memory", id: 275 }
-      //           ]
+      //             { name: 'Sentence Memory', id: 272 },
+      //             { name: 'Sound Symbol', id: 273 },
+      //             { name: 'Verbal Working Memory', id: 274 },
+      //             { name: 'Symbolic Working memory', id: 275 },
+      //           ],
       //         },
       //         {
       //           Id: 64,
-      //           ParentScaleTitle: "Delay Recall Subtests",
+      //           ParentScaleTitle: 'Delay Recall Subtests',
       //           SubTests: [
-      //             { name: "Story Memory Delay Recall", id: 276 },
-      //             { name: "Verbal Learning Delay Recall", id: 277 },
-      //             { name: "Sound Symbol Delay Recall", id: 278 }
-      //           ]
+      //             { name: 'Story Memory Delay Recall', id: 276 },
+      //             { name: 'Verbal Learning Delay Recall', id: 277 },
+      //             { name: 'Sound Symbol Delay Recall', id: 278 },
+      //           ],
       //         },
       //         {
       //           Id: 65,
-      //           ParentScaleTitle: "Recognition Subtests",
+      //           ParentScaleTitle: 'Recognition Subtests',
       //           SubTests: [
-      //             { name: "Story Memory Recognition", id: 279 },
-      //             { name: "Verbal Learning Recognition", id: 280 },
-      //             { name: "Design Memory Recognition", id: 281 },
-      //             { name: "Picture Memory Recognition", id: 282 }
-      //           ]
-      //         }
-      //       ]
-      //     }
+      //             { name: 'Story Memory Recognition', id: 279 },
+      //             { name: 'Verbal Learning Recognition', id: 280 },
+      //             { name: 'Design Memory Recognition', id: 281 },
+      //             { name: 'Picture Memory Recognition', id: 282 },
+      //           ],
+      //         },
+      //       ],
+      //     },
       //   ],
-      //   TestName: "Wide Range Assessment of Memory and Learning 2"
+      //   TestName: 'Wide Range Assessment of Memory and Learning 2',
       // },
       // {
       //   Abbreviation: "Beery VMI",
@@ -14579,31 +14645,31 @@ class App extends Component {
       //   ]
       // },
       // {
-      //   Abbreviation: "TSCC",
+      //   Abbreviation: 'TSCC',
       //   Id: 30,
-      //   TestName: "Trauma Symptom Checklist for Children",
+      //   TestName: 'Trauma Symptom Checklist for Children',
       //   ParentScale: [
       //     {
       //       Id: 142,
-      //       ParentScaleTitle: "Validity Scale",
+      //       ParentScaleTitle: 'Validity Scale',
       //       SubTests: [
-      //         { name: "Underresponse (UND)", id: 608 },
-      //         { name: "Hyperresponse (HYP)", id: 609 }
-      //       ]
+      //         { name: 'Underresponse (UND)', id: 608 },
+      //         { name: 'Hyperresponse (HYP)', id: 609 },
+      //       ],
       //     },
       //     {
       //       Id: 143,
-      //       ParentScaleTitle: "Clinical Scale",
+      //       ParentScaleTitle: 'Clinical Scale',
       //       SubTests: [
-      //         { name: "Anxiety (ANX)", id: 610 },
-      //         { name: "Depression (DEP)", id: 611 },
-      //         { name: "Anger (ANG)", id: 612 },
-      //         { name: "Posttraumatic Stress (PTS)", id: 613 },
-      //         { name: "Dissociation (DIS)", id: 614 },
-      //         { name: "Sexual Concerns (SC)", id: 615 }
-      //       ]
-      //     }
-      //   ]
+      //         { name: 'Anxiety (ANX)', id: 610 },
+      //         { name: 'Depression (DEP)', id: 611 },
+      //         { name: 'Anger (ANG)', id: 612 },
+      //         { name: 'Posttraumatic Stress (PTS)', id: 613 },
+      //         { name: 'Dissociation (DIS)', id: 614 },
+      //         { name: 'Sexual Concerns (SC)', id: 615 },
+      //       ],
+      //     },
+      //   ],
       // },
       // {
       //   Abbreviation: 'BASC-3',
@@ -15100,6 +15166,297 @@ class App extends Component {
       //     },
       //   ],
       // },
+    ],
+    recommendations: [
+      {
+        id: 1,
+        name: 'ADHD',
+        selected: true,
+        recommendation: [
+          {
+            id: 'adhd1',
+            text: 'Similarly, CLIENT NAME would greatly benefit from continuing to learn and utilizing organizational techniques (i.e., making lists, brainstorming verbally, breaking down large tasks into smaller components) to help CLIENT NAME better manage CLIENT NAME work-related tasks.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'adhd2',
+            text: 'CLIENT NAME may benefit from seeking out and utilizing individual therapeutic supports to help develop effective coping strategies to manage CLIENT NAME symptoms of anxiety and inattention, as well as build CLIENT NAME self-esteem.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'adhd3',
+            text: 'CLIENT NAME may also benefit from participating in Neurofeedback to help CLIENT NAME better regulate CLIENT NAME symptoms of anxiety, agitation, and inattention. Neurofeedback is considered a natural treatment for improving attention and self-regulation for individuals who want to take a medication free approach to treatment or to enhance the effects of other treatments they are already receiving. With neurofeedback we are enhancing awareness of internal states by allowing the brain to witness its own EEG activity.  The goal is to allow the nervous system to calm down and reset itself onto a better path. It also addresses and better regulates symptoms of inattention and anxiety.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'adhd4',
+            text: 'It is recommended that CLIENT NAME receive 50% extended testing time on tests and examinations to help CLIENT NAME illustrate CLIENT NAME knowledge base to the best of CLIENT NAME ability. Extended time would allow CLIENT NAME to take breaks, check CLIENT NAME work, access the full scope of the material presented to CLIENT NAME, and provide CLIENT NAME with the needed time to process the testing material.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'adhd5',
+            text: 'CLIENT NAME is encouraged to utilize a schedule/planner daily to help CLIENT NAME keep track of important due dates and appointments.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd6',
+            text: 'Utilize a homework routine to help accomplish  nightly tasks. Example: Allow at most one hour after school to decompress before starting homework. Utilize an alarm to signal when the hour is up so not to lose track of time. To help stay motivated, reward CLIENT NAME during breaks by watching a preferred, short TV show or spending 15-30 minutes in a preferred activity.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd7',
+            text: "CLIENT NAME's functional impairments also require that CLIENT NAME be allowed to take examinations in a distraction reduced environment.",
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd8',
+            text: 'Given that CLIENT NAME’s symptoms continue to negatively affect CLIENT NAME performance at work, CLIENT NAME may also benefit from a psychiatric consultation to assess whether medication may be an appropriate intervention at this time.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd9',
+            text: 'CLIENT NAME would benefit from a medication consultation to determine if psychiatric medication would be appropriate at this time to help CLIENT NAME better manage CLIENT NAME symptoms of inattention, anxiety, and agitation.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd10',
+            text: 'CLIENT NAME is encouraged to sit closer to teacher/speaker, also require that CLIENT NAME be allowed to take examinations in a distraction reduced environment to help guard against lapses in CLIENT NAME attention and concentration.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd11',
+            text: 'In addressing ADHD symptoms in preschool, children with ADHD commonly have a great need to touch and move. Giving them something to do with their hands and bodies while sitting in class can help them self-regulate, focus, and function better in the classroom. Teachers are encouraged to experiment with sensory strategies and tools, such as the following <ul><li>Velcro adhered to the underside of chair or desk— somewhere that CLIENT NAME can easily reach and discretely rub it to keep CLIENT NAME hands busy.</li><li>Seating options such as a rocking chair,exercise ball, or wiggle cushions.</li><li>Fidget toys (also called sensory toys). Consider looking for resources from companies such as Therapy Shoppe (www.therapyshoppe.com).</li></ul>',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'adhd12',
+            text: 'CLIENT NAME would also benefit from having an end of the day study hall at school to help complete work.',
+            subtext: [],
+            selected: false,
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: 'Autism',
+        selected: true,
+        recommendation: [
+          {
+            id: 'autism1',
+            text: 'CLIENT NAME’s parents should share the results of this evaluation with GENDER current educators and the following recommendations should be incorporated into GENDER academic environment.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'autism2',
+            text: 'Similarly, CLIENT NAME would also benefit from continuing to engage and participate in speech and language services, occupational therapy, as well social skills classes/groups (both in and out of school). Additionally, GENDER would also greatly benefit from A.B.A. therapy to help support GENDER needs outside of the classroom environment.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'autism3',
+            text: 'CLIENT NAME would benefit from the following Educational and Academic supports and environments:',
+            subtext: [
+              {
+                id: 'autism3a',
+                text: 'GENDER requires a school that is familiar with and can work with individuals presenting on the Autism Spectrum.',
+                selected: true,
+              },
+              {
+                id: 'autism3b',
+                text: 'CLIENT NAME’s diagnoses of Autism Spectrum Disorder and ADHD, Combined Type make it difficult for GENDER to attend in over-stimulating environments. Therefore, a small class size is recommended to help CLIENT NAME sustain attention, as there will be less extraneous stimuli in the room to distract GENDER. A classroom that has reduced noise will help CLIENT NAME successfully complete GENDER tasks. A small class size will also allow CLIENT NAME to receive the attention GENDER needs to succeed.',
+                selected: true,
+              },
+              {
+                id: 'autism3c',
+                text: 'When being asked a question or given a directive, CLIENT NAME will need extra time to process, respond, and act accordingly. It is also imperative to ensure that CLIENT NAME is not perseverating or fixating on preferred items during delivery of directions and commands.',
+                selected: true,
+              },
+              {
+                id: 'autism3d',
+                text: 'As academic work increases in difficulty, CLIENT NAME will also benefit from being provided 50% extended time on tests and in-class activities.',
+                selected: true,
+              },
+              {
+                id: 'autism3e',
+                text: 'CLIENT NAME’s attention and behavioral difficulties require significant levels of external structure and support. In the class, CLIENT NAME should be provided with predictable routines and clear-cut instructions and expectations. Teachers should speak slowly and repeat instructions as needed. Frequent monitoring should be done to ensure that GENDER remains on task.',
+                selected: true,
+              },
+              {
+                id: 'autism3f',
+                text: 'Multi-step directions/requests and lengthy assignments should be broken down as well.',
+                selected: true,
+              },
+              {
+                id: 'autism3g',
+                text: 'CLIENT NAME will often need directions and prompts repeated to GENDER, as well as having possible answer choices provided to GENDER.',
+                selected: true,
+              },
+              {
+                id: 'autism3h',
+                text: 'GENDER will also be more successful when verbal directives are paired with visual images to help cue GENDER to listen and ensure GENDER attention. When GENDER is not able to follow directions and comply, it is imperative to make sure GENDER understands what is being asked of GENDER.',
+                selected: false,
+              },
+              {
+                id: 'autism3i',
+                text: 'Preferential seating near the teacher and in the front of the classroom to help monitor difficulties with attention as well as processing difficulties.',
+                selected: false,
+              },
+              {
+                id: 'autism3j',
+                text: 'Teachers and caretakers working with CLIENT NAME should utilize short-term rewards (rather than longer, delayed rewards) as well as frequent, sensory breaks to help GENDER stay engaged, motivated and on-task with GENDER activities.',
+                selected: false,
+              },
+              {
+                id: 'autism3k',
+                text: 'CLIENT NAME should be provided with frequent breaks during classroom instruction for GENDER to fully comprehend the information and to increase GENDER overall compliance.',
+                selected: false,
+              },
+              {
+                id: 'autism3l',
+                text: 'Learning activities that increase motivation and arousal will facilitate sustaining attention (e.g., interactive and hands-on), rather than desk work. CLIENT NAME appears to be more of a visual and hands on learner, therefore GENDER will be more likely to comprehend the information when auditory information is supplemented with visual-based instruction.',
+                selected: false,
+              },
+              {
+                id: 'autism3m',
+                text: 'Teachers should assist in helping CLIENT NAME to make and maintain friendships in the classroom. Praise and encouragement should be used to reinforce appropriate social skills.',
+                selected: false,
+              },
+              {
+                id: 'autism3n',
+                text: 'Utilizing similar language and prompts both at home and at school to help support CLIENT NAME when GENDER perseverates and demonstrates difficulties with cognitive flexibility.',
+                selected: false,
+              },
+              {
+                id: 'autism3o',
+                text: 'Consistency and reliability should be implemented as much as possible (i.e., same seat every day, predictable and logical flow/routine during the day).',
+                selected: false,
+              },
+              {
+                id: 'autism3p',
+                text: 'Use of a timer as well to help with transitions between activities.',
+                selected: false,
+              },
+              {
+                id: 'autism3q',
+                text: 'Schedule changes and transitions should be discussed ahead of time (as frequently as possible) to help CLIENT NAME shift activities and maintain a sense of control.',
+                selected: false,
+              },
+              {
+                id: 'autism3r',
+                text: 'It would be beneficial for CLIENT’s PARENTS to schedule an IEP meeting, to revise CLIENT NAME’s previous IEP to reflect GENDER diagnosis of Autism Spectrum Disorder. It is important for the educational staff to be aware of CLIENT NAME’s difficulties socially, as well as GENDER difficulties sustaining attention. Because of GENDER tendency to be very verbal, others may not readily recognize that CLIENT NAME has significant difficulty understanding and interpreting social cues.',
+                selected: false,
+              },
+            ],
+            selected: true,
+          },
+          {
+            id: 'autism4',
+            text: 'CLIENT NAME will be successful when the environment has consistent structure and expectations. As a result, both home and school environments should help create a similar sense of structure.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'autism5',
+            text: 'Due to CLIENT NAME’s rigidity, parents should provide a structured environment at home that encourages success and models effective coping strategies.',
+            subtext: [],
+            selected: true,
+          },
+          {
+            id: 'autism6',
+            text: 'CLIENT NAME would benefit from increasing GENDER understanding of social relationships and GENDER insight into how to make and maintain peer relationships. This training may best be implemented in a group setting where CLIENT NAME has an opportunity to practice skills under the supervision of a trained facilitator.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'autism7',
+            text: 'CLIENT NAME would benefit from participation in a social skills group targeted toward teaching more complex social skills, such as understanding the pragmatics of social communication, perspective taking, and initiating and maintaining conversations about non-preferred topics. An individual therapist would also be helpful to review the specific social skills in a one to one setting.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'autism8',
+            text: 'PARENTS/CARETAKER NAME should model and rehearse with CLIENT NAME appropriate social skills, to help GENDER use the skills when away from home.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'autism9',
+            text: 'CLIENT NAME would benefit from opportunities to practice GENDER social skills in informal settings, such as outings with peers. Outings should be time limited (no more than 1-2 hours) and involve 1-2 peers to start. Activities should be selected in advance and should be activities that CLIENT NAME enjoys and that promote social engagement.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'autism10',
+            text: 'It is recommended that CLIENT NAME be involved in activities that foster GENDER social development, to further increase GENDER social skills. Enrolling CLIENT NAME in activities that GENDER enjoys would help GENDER social development and may help to increase GENDER overall self-esteem.',
+            subtext: [],
+            selected: false,
+          },
+          {
+            id: 'autism11',
+            text: 'Lastly, CLIENT NAME and GENDER family may also find additional support and resources at the following websites:',
+            subtext: [
+              {
+                id: 'autism11a',
+                text: "National Resource Center on ADHD: <a href='https://chadd.org/'>https://chadd.org/</a>",
+                selected: true,
+              },
+              {
+                id: 'autism11b',
+                text: "Autism speaks: <a href='https://www.autismspeaks.org'>https://www.autismspeaks.org</a>",
+                selected: true,
+              },
+              {
+                id: 'autism11c',
+                text: "Michelle Winner’s Social Thinking program emphasizes how to be a part of the group, how to have conversations (topics other than the individual’s special interests), and perspective taking. <a href='https://www.socialthinking.com'>https://www.socialthinking.com</a>",
+                selected: true,
+              },
+              {
+                id: 'autism11d',
+                text: "<a href='https://www.danielwendler.com/'>https://www.danielwendler.com/</a> for tips and a resource guide to improving social skills",
+                selected: true,
+              },
+              {
+                id: 'autism11e',
+                text: "<a href='https://nationalautismassociation.org/'>https://nationalautismassociation.org/</a>",
+                selected: true,
+              },
+              {
+                id: 'autism11f',
+                text: "Autism Society of America: <a href='https://www.autism-society.org'>https://www.autism-society.org/</a>",
+                selected: false,
+              },
+              {
+                id: 'autism11g',
+                text: "<a href='https://autismnow.org/'>https://autismnow.org/</a>",
+                selected: false,
+              },
+              {
+                id: 'autism11h',
+                text: "<a href='http://www.autismlearn101.com'>http://www.autismlearn101.com</a> for online activities",
+                selected: false,
+              },
+              {
+                id: 'autism11i',
+                text: "Let’s Face It: <a href='http://www.web.uvic.ca/~letsface/letsfaceit'>http://www.web.uvic.ca/~letsface/letsfaceit</a> - teaches facial and emotional recognition",
+                selected: false,
+              },
+            ],
+            selected: false,
+          },
+        ],
+      },
     ],
   };
 
